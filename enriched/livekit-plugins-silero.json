@@ -1,0 +1,16 @@
+{
+  "name": "livekit-plugins-silero",
+  "summary": "Agent Framework Plugin for Silero",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "livekit-plugins-silero::chunk_0",
+      "text": "Silero VAD plugin for LiveKit Agents\n\nSupport for VAD-based turn detection.\n\nSee [https://docs.livekit.io/agents/build/turns/vad/](https://docs.livekit.io/agents/build/turns/vad/) for more information.\n\nInstallation\n\nThis plugin contains model files that would need to be downloaded prior to use.",
+      "word_count": 31
+    }
+  ]
+}

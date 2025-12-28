@@ -1,0 +1,16 @@
+{
+  "name": "leather",
+  "summary": "Python charting for 80% of humans.",
+  "language": "python",
+  "tags": [
+    "math",
+    "visualization"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "leather::chunk_0",
+      "text": ".. image:: https://img.shields.io/pypi/dw/leather.svg\n\n.. image:: https://img.shields.io/pypi/v/leather.svg\n\n.. image:: https://img.shields.io/pypi/l/leather.svg\n\n.. image:: https://img.shields.io/pypi/pyversions/leather.svg\n\nLeather is the Python charting library for those who need charts *now* and don't care if they're perfect.\n\nLeather isn't picky. It's rough. It gets dirty. It looks sexy just hanging on the back of a chair. Leather doesn't need your accessories. Leather is how Snake Plissken would make charts.\n\nGet it?\n\nImportant links:\n\n* Documentation:    https://leather.rtfd.io\n* Repository:       https://github.com/wireservice/leather\n* Issues:           https://github.com/wireservice/leather/issues",
+      "word_count": 75
+    }
+  ]
+}

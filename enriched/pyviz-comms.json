@@ -1,0 +1,15 @@
+{
+  "name": "pyviz-comms",
+  "summary": "A JupyterLab extension for rendering HoloViz content.",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pyviz-comms::chunk_0",
+      "text": "pyviz_comms\n\nOffers a simple bidirectional communication architecture between Python and JavaScript,\nwith support for Jupyter comms in both the classic notebook and Jupyterlab.\nAvailable for use by any [PyViz](https://pyviz.org) tool, but currently primarily used by\n[HoloViz](https://holoviz.org) tools.\n\nThere are two installable components in this repository: a Python\ncomponent used by various HoloViz tools and an extension to enable\nJupyterlab support. For JupyterLab 3.0 and above the extension is automatically\nbundled with the `pyviz_comms` Python package.\n\nInstalling the Jupyterlab extension\n\nJupyterlab users will need to install the Jupyterlab pyviz extension. Starting with JupyterLab 3.0 and above the extension will be automatically installed when installing `pyviz_comms` with `pip` using:\n\nor using `conda` with:\n\nFor older versions of JupyterLab you must separately install:\n\nCompatibility\n\nThe [Holoviz](https://github.com/holoviz/holoviz) libraries are generally version independent of\n[JupyterLab](https://github.com/jupyterlab/jupyterlab) and the `jupyterlab_pyviz` extension\nhas been supported since holoviews 1.10.0 and the first release of `pyviz_comms`.\n\nOur goal is that `jupyterlab_pyviz` minor releases (using the [SemVer](https://semver.org/) pattern) are\nmade to follow JupyterLab minor release bumps and micro releases are for new `jupyterlab_pyviz` features\nor bug fix releases. We've been previously inconsistent with having the extension release minor version bumps\ntrack that of JupyterLab, so users seeking to find extension releases that are compatible with their JupyterLab\ninstallation may refer to the below table.\n\nCompatible JupyterLab and jupyterlab_pyviz versions\n\nJupyterLab\n----------\n0.33.x\n0.34.x\n0.35.x\n1.0.x\n2.0.x\n3.x\n4.x\n\nDeveloping the Jupyterlab extension\n\nNote: You will need NodeJS to build the extension package.\n\nThe `jlpm` command is JupyterLab's pinned version of\n[yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use\n`yarn` or `npm` in lieu of `jlpm` below.\n\nYou can watch the source directory and run JupyterLab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.\n\nWith the watch command running, every saved change will immediately be built locally and available in your running JupyterLab. Refresh JupyterLab to load the change in your browser (you may need to wait several seconds for the extension to be rebuilt).\n\nBy default, the `jlpm run build` command generates the source maps for this extension to make it easier to debug using the browser dev tools. To also generate source maps for the JupyterLab core extensions, you can run the following command:",
+      "word_count": 377
+    }
+  ]
+}

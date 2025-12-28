@@ -1,0 +1,17 @@
+{
+  "name": "django-forge-ai",
+  "summary": "A comprehensive AI toolbox for Django - seamless integration of LLM functionalities, RAG systems, and AI agents",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "django-forge-ai::chunk_0",
+      "text": "DjangoForgeAI\n\nA comprehensive, plug-and-play toolkit that seamlessly integrates modern AI/LLM functionalities directly into your Django projects. DjangoForgeAI provides \"batteries-included\" solutions for common AI engineering tasks, including AI-powered admin fields, native RAG system integration, and configurable AI agents, all manageable through the Django admin interface.\n\nDemos\n\n**Demo 1**: [Watch on YouTube](https://youtu.be/Xa9G_AY5_ic)\n\n**Demo 2**: [Watch on YouTube](https://youtu.be/bmWhTSAQr5A)\n\nFeatures\n\n1. AI-Powered Admin & Model Fields\n\n- **AICharField / AITextField**: Custom model fields that can automatically generate summaries or content from other fields in the model using an LLM.\n- **AIAdminMixin**: A mixin for ModelAdmin classes that adds a \"Generate with AI\" button next to specified text fields.\n- **AIModeratedField**: A field that automatically runs AI-powered content moderation upon save.\n\n2. Native RAG System Integration\n\n- **Knowledge Base Management**: Upload documents, define data sources (e.g., website URLs), and manage vector stores through the Django admin.\n- **Vector DB Connectors**: Pluggable backends for popular vector databases (ChromaDB, Qdrant, PGVector).\n- **SemanticSearchMixin**: A mixin for QuerySets that enables semantic search against your RAG knowledge base.\n\n3. Configurable AI Agents & Automation\n\n- **Agent Management Dashboard**: Define agents (persona, tools, goals) and assign them to specific tasks through the admin.\n- **AgentTaskQueue**: Integration with Celery to execute agent tasks in the background and log their progress.\n\nInstallation\n\nOr install from source:\n\nQuick Start\n\n1. Add to INSTALLED_APPS\n\n2. Configure Settings\n\n3. Run Migrations\n\n4. Use AI-Powered Fields\n\n5. Use AIAdminMixin\n\n6. Set Up RAG System\n\n1. Create a Knowledge Base in the Django admin\n2. Upload documents or add URLs\n3. Generate embeddings (admin action)\n4. Use semantic search:\n\n7. Create AI Agents\n\n1. Create an Agent Configuration in the Django admin\n2. Define persona, goals, and tools\n3. Create tasks and execute them (async with Celery)\n\nConfiguration\n\nLLM Providers\n\nDjangoForgeAI supports multiple LLM providers:\n\n- **OpenAI**: Set `DJANGO_FORGE_AI_LLM_PROVIDER = \"openai\"` and provide `DJANGO_FORGE_AI_OPENAI_API_KEY`\n- **Anthropic**: Set `DJANGO_FORGE_AI_LLM_PROVIDER = \"anthropic\"` and provide `DJANGO_FORGE_AI_ANTHROPIC_API_KEY`\n\nVector Databases\n\n- **ChromaDB**: Default, file-based storage\n- **Qdrant**: Requires Qdrant server running\n- **PGVector**: Requires PostgreSQL with pgvector extension\n\nCelery Integration\n\nFor async task execution, configure Celery:\n\nRequirements\n\n- Python >= 3.8\n- Django >= 3.2\n- OpenAI API key or Anthropic API key\n- (Optional) Celery for async tasks\n- (Optional) Vector database (ChromaDB, Qdrant, or PostgreSQL with pgvector)\n\nLicense\n\nMIT License\n\nContributing\n\nContributions are welcome! Please feel free to submit a Pull Request.\n\nSupport\n\nFor issues and questions, please open an issue on GitHub.",
+      "word_count": 403
+    }
+  ]
+}

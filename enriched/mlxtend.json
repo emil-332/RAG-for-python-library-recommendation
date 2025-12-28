@@ -1,0 +1,16 @@
+{
+  "name": "mlxtend",
+  "summary": "Machine Learning Library Extensions",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "mlxtend::chunk_0",
+      "text": "Links\n\nInstalling mlxtend\n\nPyPI\n\nTo install mlxtend, just execute  \n\nAlternatively, you could download the package manually from the Python Package Index [https://pypi.python.org/pypi/mlxtend](https://pypi.python.org/pypi/mlxtend), unzip it, navigate into the package, and use the command:\n\nConda\nIf you use conda, to install mlxtend just execute\n\nDev Version\n\nThe mlxtend version on PyPI may always be one step behind; you can install the latest development version from the GitHub repository by executing\n\nOr, you can fork the GitHub repository from https://github.com/rasbt/mlxtend and install mlxtend from your local drive via\n\nExamples\n\n---\n\nIf you use mlxtend as part of your workflow in a scientific publication, please consider citing the mlxtend repository with the following DOI:\n\n- Raschka, Sebastian (2018) MLxtend: Providing machine learning and data science utilities and extensions to Python's scientific computing stack.\nJ Open Source Softw 3(24).\n\n---\n\nLicense\n\n- This project is released under a permissive new BSD open source license ([LICENSE-BSD3.txt](https://github.com/rasbt/mlxtend/blob/master/LICENSE-BSD3.txt)) and commercially usable. There is no warranty; not even for merchantability or fitness for a particular purpose.\n- In addition, you may use, copy, modify and redistribute all artistic creative works (figures and images) included in this distribution under the directory\naccording to the terms and conditions of the Creative Commons Attribution 4.0 International License.  See the file [LICENSE-CC-BY.txt](https://github.com/rasbt/mlxtend/blob/master/LICENSE-CC-BY.txt) for details. (Computer-generated graphics such as the plots produced by matplotlib fall under the BSD license mentioned above).\n\nContact\n\nThe best way to ask questions is via the [GitHub Discussions channel](https://github.com/rasbt/mlxtend/discussions). In case you encounter usage bugs, please don't hesitate to use the [GitHub's issue tracker](https://github.com/rasbt/mlxtend/issues) directly.",
+      "word_count": 256
+    }
+  ]
+}

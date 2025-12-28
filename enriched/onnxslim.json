@@ -1,0 +1,16 @@
+{
+  "name": "onnxslim",
+  "summary": "OnnxSlim: A Toolkit to Help Optimize Onnx Model",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "onnxslim::chunk_0",
+      "text": "OnnxSlim\n\nOnnxSlim can help you slim your onnx model, with less operators, but same accuracy, better inference speed.\n\n-  2025/11/29: Top 1% on PyPI\n-  2025/01/28: Achieved 1M downloads\n\nBenchmark\n\nInstallation\n\nUsing Prebuilt\n\nInstall From Source\n\nInstall From Local\n\nHow to use\n\nBash\n\nInscript\n\nFor more usage, see onnxslim -h or refer to our [examples](./examples)\n\nProjects using OnnxSlim\n\nReferences\n\n> - [onnx-graphsurgeon](https://github.com/NVIDIA/TensorRT/tree/main/tools/onnx-graphsurgeon)\n> - [Polygraphy](https://github.com/NVIDIA/TensorRT/tree/main/tools/Polygraphy/polygraphy)\n> - [onnx-simplifier](https://github.com/daquexian/onnx-simplifier)\n> - [tabulate](https://github.com/astanin/python-tabulate)\n> - [onnxruntime](https://github.com/microsoft/onnxruntime)\n\nContact\n\nDiscord: https://discord.gg/nRw2Fd3VUS QQ Group: `873569894`",
+      "word_count": 80
+    }
+  ]
+}

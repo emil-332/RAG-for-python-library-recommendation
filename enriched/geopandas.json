@@ -1,0 +1,15 @@
+{
+  "name": "geopandas",
+  "summary": "Geographic pandas extensions",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "geopandas::chunk_0",
+      "text": "GeoPandas is a project to add support for geographic data to\n`pandas`_ objects.\n\nThe goal of GeoPandas is to make working with geospatial data in\npython easier. It combines the capabilities of `pandas`_ and `shapely`_,\nproviding geospatial operations in pandas and a high-level interface\nto multiple geometries to shapely. GeoPandas enables you to easily do\noperations in python that would otherwise require a spatial database\nsuch as PostGIS.\n\n.. _pandas: https://pandas.pydata.org\n.. _shapely: https://shapely.readthedocs.io/en/latest/",
+      "word_count": 74
+    }
+  ]
+}

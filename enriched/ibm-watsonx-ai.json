@@ -1,0 +1,17 @@
+{
+  "name": "ibm-watsonx-ai",
+  "summary": "IBM watsonx.ai API Client",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ibm-watsonx-ai::chunk_0",
+      "text": "Welcome to `ibm-watsonx-ai`\n******************************************\n\n``ibm-watsonx-ai`` is a library that allows to work with watsonx.ai service on [IBM Cloud](https://console.bluemix.net/catalog/services/machine-learning) and\nIBM Cloud for Data. Train, test and deploy your models as APIs for application development, share with colleagues using this python library.\n\n[Package documentation](https://ibm.github.io/watsonx-ai-python-sdk)\n==========================================",
+      "word_count": 44
+    }
+  ]
+}

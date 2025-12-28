@@ -1,0 +1,17 @@
+{
+  "name": "rio-tiler",
+  "summary": "User friendly Rasterio plugin to read raster datasets.",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "rio-tiler::chunk_0",
+      "text": "rio-tiler\n\n  \n\n  User friendly Rasterio plugin to read raster datasets.\n\n  \n\n  \n  \n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n  \n\n---\n\n**Documentation**: https://cogeotiff.github.io/rio-tiler/\n\n**Source Code**: https://github.com/cogeotiff/rio-tiler\n\n---\n\nDescription\n\n`rio-tiler` was initially designed to create [slippy map\ntiles](https://en.wikipedia.org/wiki/Tiled_web_map) from large raster data\nsources and render these tiles dynamically on a web map. Since `rio-tiler` v2.0, we added many more helper methods to read\ndata and metadata from any raster source supported by Rasterio/GDAL.\nThis includes local and remote files via HTTP, AWS S3, Google Cloud Storage,\netc.\n\nAt the low level, `rio-tiler` is *just* a wrapper around the [rasterio](https://github.com/rasterio/rasterio) and [GDAL](https://github.com/osgeo/gdal) libraries.\n\nFeatures\n\n- Read any dataset supported by GDAL/Rasterio\n\n- User friendly `tile`, `part`, `feature`, `point` reading methods\n\n- Enable property assignment (e.g nodata) on data reading\n\n- [STAC](https://github.com/radiantearth/stac-spec) support\n\n- [Xarray](https://xarray.dev) support **(>=4.0)**\n\n- Non-Geo Image support **(>=4.0)**\n\n- [Mosaic](https://cogeotiff.github.io/rio-tiler/mosaic/) (merging or stacking)\n\n- Native support for multiple TileMatrixSet via [morecantile](https://developmentseed.org/morecantile/)\n\nInstall\n\nYou can install `rio-tiler` using pip\n\nor install from source:\n\nPlugins\n\n[**rio-tiler-pds**][rio-tiler-pds]\n\n`rio-tiler` v1 included several helpers for reading popular public datasets (e.g. Sentinel 2, Sentinel 1, Landsat 8, CBERS) from cloud providers. This functionality is now in a [separate plugin][rio-tiler-pds], enabling easier access to more public datasets.\n\n[**rio-tiler-mvt**][rio-tiler-mvt]\n\nCreate Mapbox Vector Tiles from raster sources\n\nImplementations\n\n[**titiler**][titiler]: A lightweight Cloud Optimized GeoTIFF dynamic tile server.\n\n[**cogeo-mosaic**][cogeo-mosaic]: Create mosaics of Cloud Optimized GeoTIFF based on the [mosaicJSON][mosaicjson_spec] specification.\n\nContribution & Development\n\nSee [CONTRIBUTING.md](https://github.com/cogeotiff/rio-tiler/blob/main/CONTRIBUTING.md)\n\nAuthors\n\nThe `rio-tiler` project was begun at Mapbox and was transferred to the `cogeotiff` Github organization in January 2019.\n\nSee [AUTHORS.txt](https://github.com/cogeotiff/rio-tiler/blob/main/AUTHORS.txt) for a listing of individual contributors.\n\nChanges\n\nSee [CHANGES.md](https://github.com/cogeotiff/rio-tiler/blob/main/CHANGES.md).\n\nLicense\n\nSee [LICENSE](https://github.com/cogeotiff/rio-tiler/blob/main/LICENSE)",
+      "word_count": 258
+    }
+  ]
+}

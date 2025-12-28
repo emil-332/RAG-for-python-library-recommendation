@@ -1,0 +1,15 @@
+{
+  "name": "transforms3d",
+  "summary": "Functions for 3D coordinate transformations",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "transforms3d::chunk_0",
+      "text": "############\nTransforms3d\n############\n\nCode to convert between various geometric transformations.\n\n* Composing rotations / zooms / shears / translations into affine matrix;\n* Decomposing affine matrix into rotations / zooms / shears / translations;\n* Conversions between different representations of rotations, including:\n\n  * 3x3 Rotation matrices;\n  * Euler angles;\n  * quaternions.\n\nWe have tried to document the algorithms carefully and write clear code in the\nhope that this code can be a teaching reference.  We document the math behind\nsome of the algorithms using `sympy `_ in\n``transforms3d/derivations``.  We would be very pleased if y'all would like to\nadd your own algorithms and derivations - please get a copy of the code from\nalgorithmically.  Feel free to use the github issue tracker and pull request\nsystem to ask for advice and support.\n\n*************\nDocumentation\n*************\n\nDocumentation for latest released version at\n\n****\nCode\n****\n\nSee https://github.com/matthew-brett/transforms3d\n\nReleased under the BSD two-clause license - see the file ``LICENSE`` in the\nsource distribution.\n\nMuch of the code comes from `transformations.py\n`_ by Christoph\nGohlke, also released under the BSD license.\n\nWe use Github actions to test the code automatically under Pythons 3.7 through\n3.10.\n\nWe depend on numpy >= 1.15.  You may be able to make it work on an earlier\nnumpy if you really needed that.\n\nThe latest released version is at https://pypi.python.org/pypi/transforms3d\n\n*******\nSupport\n*******\n\nPlease put up issues on the `transforms3d issue tracker\n`_.",
+      "word_count": 235
+    }
+  ]
+}

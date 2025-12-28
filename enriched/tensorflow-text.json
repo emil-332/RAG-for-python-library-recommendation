@@ -1,0 +1,16 @@
+{
+  "name": "tensorflow-text",
+  "summary": "TF.Text is a TensorFlow library of text related ops, modules, and subgraphs.",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tensorflow-text::chunk_0",
+      "text": "TF.Text is a TensorFlow library of text related ops, modules, and subgraphs. The\nlibrary can perform the preprocessing regularly required by text-based models,\nand includes other features useful for sequence modeling not provided by core\nTensorFlow.\n\nSee the README on GitHub for further documentation.",
+      "word_count": 44
+    }
+  ]
+}

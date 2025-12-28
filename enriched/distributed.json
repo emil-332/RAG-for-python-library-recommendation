@@ -1,0 +1,15 @@
+{
+  "name": "distributed",
+  "summary": "Distributed scheduler for Dask",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "distributed::chunk_0",
+      "text": "Distributed\n===========\n\nTest Status\n\nA library for distributed computation.  See documentation_ for more details.\n\n.. _documentation: https://distributed.dask.org\n\n   :target: https://github.com/dask/distributed/actions?query=workflow%3ATests+branch%3Amain\n\n   :target: https://dask.github.io/distributed/test_report.html\n   :alt: Longitudinal test report (full version)\n\n   :target: https://dask.github.io/distributed/test_short_report.html\n   :alt: Longitudinal test report (short version)\n\n   :target: https://codecov.io/gh/dask/distributed/branch/main\n   :alt: Coverage status\n\n   :target: https://distributed.dask.org\n   :alt: Documentation Status\n.. |Discourse| image:: https://img.shields.io/discourse/users?logo=discourse&server=https%3A%2F%2Fdask.discourse.group\n   :alt: Discuss Dask-related things and ask for help\n   :target: https://dask.discourse.group\n.. |Version Status| image:: https://img.shields.io/pypi/v/distributed.svg\n   :target: https://pypi.python.org/pypi/distributed/\n\n   :target: https://www.numfocus.org/",
+      "word_count": 68
+    }
+  ]
+}

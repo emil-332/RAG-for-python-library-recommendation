@@ -1,0 +1,16 @@
+{
+  "name": "mizani",
+  "summary": "Scales for Python",
+  "language": "python",
+  "tags": [
+    "math",
+    "visualization"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "mizani::chunk_0",
+      "text": "Mizani\n\n(https://pypi.python.org/pypi/mizani)\n(https://pypi.python.org/pypi/mizani)\n(https://github.com/has2k1/mizani/actions?query=branch%3Amain+workflow%3A%22build%22)\n(https://mizani.readthedocs.io/en/latest/)\n(https://codecov.io/github/has2k1/mizani?branch=main)\n\nMizani is a scales package for graphics. It is written in Python and is\nbased on Hadley Wickham's [Scales](https://github.com/r-lib/scales).\nSee the [documentation](https://mizani.readthedocs.io/en/latest/)\nfor how to use it in a graphics system.\n\nInstallation\n\nOfficial Release\n\nDevelopment version",
+      "word_count": 42
+    }
+  ]
+}

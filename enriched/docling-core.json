@@ -1,0 +1,18 @@
+{
+  "name": "docling-core",
+  "summary": "A python library to define and validate data types in Docling.",
+  "language": "python",
+  "tags": [
+    "data",
+    "dev",
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "docling-core::chunk_0",
+      "text": "Docling Core\n\n(https://pypi.org/project/docling-core/)\n\n(https://github.com/astral-sh/uv)\n(https://github.com/psf/black)\n(https://pycqa.github.io/isort/)\n(https://mypy-lang.org/)\n(https://pydantic.dev)\n(https://github.com/pre-commit/pre-commit)\n(https://opensource.org/licenses/MIT)\n\nDocling Core is a library that defines core data types and transformations in [Docling](https://github.com/docling-project/docling).\n\nInstallation\n\nTo use Docling Core, simply install `docling-core` from your package manager, e.g. pip:\n\nDevelopment setup\n\nTo develop for Docling Core, you need Python 3.9 through 3.14 and the `uv` package. You can then install it from your local clone's root directory:\n\nTo run the pytest suite, execute:\n\nMain features\n\nDocling Core provides the foundational DoclingDocument data model and API, as well as\nadditional APIs for tasks like serialization and chunking, which are key to developing\ngenerative AI applications using Docling.\n\nDoclingDocument\n\nDocling Core defines the DoclingDocument as a Pydantic model, allowing for advanced\ndata model control, customizability, and interoperability.\n\nIn addition to specifying the schema, it provides a handy API for building documents,\nas well as for basic operations, e.g. exporting to various formats, like Markdown, HTML,\nand others.\n\n More details:\n- [Architecture docs](https://docling-project.github.io/docling/concepts/architecture/)\n- [DoclingDocument docs](https://docling-project.github.io/docling/concepts/docling_document/)\n\nSerialization\n\nDifferent users can have varying requirements when it comes to serialization.\nTo address this, the Serialization API introduces a design that allows easy extension,\nwhile providing feature-rich built-in implementations (on which the respective\nDoclingDocument helpers are actually based).\n\n More details:\n- [Serialization docs](https://docling-project.github.io/docling/concepts/serialization/)\n- [Serialization example](https://docling-project.github.io/docling/examples/serialization/)\n\nChunking\n\nSimilarly to above, the Chunking API provides built-in chunking capabilities as well as\na design that enables easy extension, this way tackling customization requirements of\ndifferent use cases.\n\n More details:\n\nContributing\n\nPlease read [Contributing to Docling Core](./CONTRIBUTING.md) for details.\n\nReferences\n\nIf you use Docling Core in your projects, please consider citing the following:\n\nLicense\n\nThe Docling Core codebase is under MIT license.\nFor individual model usage, please refer to the model licenses found in the original packages.",
+      "word_count": 287
+    }
+  ]
+}

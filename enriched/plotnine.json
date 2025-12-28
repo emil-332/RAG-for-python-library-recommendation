@@ -1,0 +1,18 @@
+{
+  "name": "plotnine",
+  "summary": "A Grammar of Graphics for Python",
+  "language": "python",
+  "tags": [
+    "dev",
+    "math",
+    "visualization",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "plotnine::chunk_0",
+      "text": "plotnine \n\n(https://pypi.python.org/pypi/plotnine)\n(https://pypi.python.org/pypi/plotnine)\n\n(https://github.com/has2k1/plotnine/actions?query=branch%3Amain+workflow%3A%22build%22)\n(https://codecov.io/github/has2k1/plotnine?branch=main)\n\nplotnine is an implementation of a *grammar of graphics* in Python\nbased on [ggplot2](https://github.com/tidyverse/ggplot2).\nThe grammar allows you to compose plots by explicitly mapping variables in a\ndataframe to the visual characteristics (position, color, size etc.) of objects that make up the plot.\n\nPlotting with a *grammar of graphics* is powerful. Custom (and otherwise\ncomplex) plots are easy to think about and build incrementally, while the\nsimple plots remain simple to create.\n\nTo learn more about how to use plotnine, check out the\n[documentation](https://plotnine.org). Since plotnine\nhas an API similar to ggplot2, where it lacks in coverage the\n[ggplot2 documentation](http://ggplot2.tidyverse.org/reference/index.html)\nmay be helpful.\n\nExample\n\nBuilding a complex plot piece by piece.\n\n1. Scatter plot\n\n   \n\n   \n\n2. Scatter plot colored according some variable\n\n   \n\n   \n\n3. Scatter plot colored according some variable and\n   smoothed with a linear model with confidence intervals.\n\n   \n\n   \n\n4. Scatter plot colored according some variable,\n   smoothed with a linear model with confidence intervals and\n   plotted on separate panels.\n\n   \n\n   \n\n5. Adjust the themes\n\n   I) Make it playful\n\n   \n\n   \n\n   II) Or professional\n\nInstallation\n\nOfficial release\n\nDevelopment version\n\nContributing\n\nOur documentation could use some examples, but we are looking for something\na little bit special. We have two criteria:\n\n1. Simple looking plots that otherwise require a trick or two.\n2. Plots that are part of a data analytic narrative. That is, they provide\n   some form of clarity showing off the `geom`, `stat`, ... at their\n   differential best.\n\nIf you come up with something that meets those criteria, we would love to\nsee it. See [plotnine-examples](https://github.com/has2k1/plotnine-examples).\n\nIf you discover a bug checkout the [issues](https://github.com/has2k1/plotnine/issues)\nif it has not been reported, yet please file an issue.\n\nAnd if you can fix a bug, your contribution is welcome.\n\nTesting\n-------\n\nPlotnine has tests that generate images which are compared to baseline images known\nto be correct. To generate images that are consistent across all systems you have\nto install matplotlib from source. You can do that with ``pip`` using the command.\n\nOtherwise there may be small differences in the text rendering that throw off the\nimage comparisons.",
+      "word_count": 345
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "folium",
+  "summary": "Make beautiful maps with Leaflet.js & Python",
+  "language": "python",
+  "tags": [
+    "math",
+    "visualization"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "folium::chunk_0",
+      "text": "PyPI\n\n.. |PyPI| image:: https://img.shields.io/pypi/v/folium.svg\n\n   :alt: DOI\n\n :target: https://mybinder.org/v2/gh/python-visualization/folium/main?filepath=examples\n\nfolium\n======\n\n.. image:: https://github.com/python-visualization/folium/blob/main/docs/_static/folium_logo.png\n   :height: 100px\n\nPython Data, Leaflet.js Maps\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n`folium` builds on the data wrangling strengths of the Python ecosystem and the\nmapping strengths of the Leaflet.js library. Manipulate your data in Python,\nthen visualize it in a Leaflet map via `folium`.\n\nInstallation\n------------\n\n.. code:: bash\n\nor\n\n.. code:: bash\n\nDocumentation\n-------------\n\nContributing\n------------\n\nWe love contributions!  folium is open source, built on open source,\nand we'd love to have you hang out in our community.\n\nSee `our complete contributor's guide `_ for more info.\n\nChangelog\n---------\n\n- Release notes of v0.16.0 and higher: https://github.com/python-visualization/folium/releases\n- Older `changelog `_\n\nPackages and plugins\n--------------------\n\nPackages:\n\nPlugins:",
+      "word_count": 118
+    }
+  ]
+}

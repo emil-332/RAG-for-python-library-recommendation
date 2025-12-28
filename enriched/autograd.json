@@ -1,0 +1,16 @@
+{
+  "name": "autograd",
+  "summary": "Efficiently computes derivatives of NumPy code.",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "autograd::chunk_0",
+      "text": "Autograd  [\n\nAutograd can automatically differentiate native Python and Numpy code. It can\nhandle a large subset of Python's features, including loops, ifs, recursion and\nclosures, and it can even take derivatives of derivatives of derivatives. It\nsupports reverse-mode differentiation (a.k.a. backpropagation), which means it\ncan efficiently take gradients of scalar-valued functions with respect to\narray-valued arguments, as well as forward-mode differentiation, and the two can\nbe composed arbitrarily. The main intended application of Autograd is\ngradient-based optimization. For more information, check out the\n[tutorial](docs/tutorial.md) and the [examples directory](examples/).\n\nExample use:\n\nWe can continue to differentiate as many times as we like, and use numpy's\nvectorization of scalar-valued functions across many different input values:\n\nSee the [tanh example file](examples/tanh.py) for the code.\n\nDocumentation\n\nYou can find a tutorial [here.](docs/tutorial.md)\n\nEnd-to-end examples\n\n* [Simple neural net](examples/neural_net.py)\n* [Convolutional neural net](examples/convnet.py)\n* [Recurrent neural net](examples/rnn.py)\n* [LSTM](examples/lstm.py)\n* [Neural Turing Machine](https://github.com/DoctorTeeth/diffmem/blob/512aadeefd6dbafc1bdd253a64b6be192a435dc3/ntm/ntm.py)\n* [Backpropagating through a fluid simulation](examples/fluidsim/fluidsim.py)\n\n* [Variational inference in Bayesian neural network](examples/bayesian_neural_net.py)\n* [Gaussian process regression](examples/gaussian_process.py)\n* [Sampyl, a pure Python MCMC package with HMC and NUTS](https://github.com/mcleonard/sampyl)\n\nHow to install\n\nInstall Autograd using Pip:\n\nSome features require SciPy, which you can install separately or as an\noptional dependency along with Autograd:\n\nAuthors and maintainers\n\nAutograd was written by [Dougal Maclaurin](https://dougalmaclaurin.com),\n[David Duvenaud](https://www.cs.toronto.edu/~duvenaud/),\n[Matt Johnson](http://people.csail.mit.edu/mattjj/),\n[Jamie Townsend](https://github.com/j-towns)\nand many other contributors. The package is currently being maintained by\n[Agriya Khetarpal](https://github.com/agriyakhetarpal),\n[Fabian Joswig](https://github.com/fjosw) and\n[Jamie Townsend](https://github.com/j-towns).\nPlease feel free to submit any bugs or\nfeature requests. We'd also love to hear about your experiences with Autograd\nin general. Drop us an email!\n\nWe want to thank Jasper Snoek and the rest of the HIPS group (led by Prof. Ryan\nP. Adams) for helpful contributions and advice; Barak Pearlmutter for\nfoundational work on automatic differentiation and for guidance on our\nimplementation; and Analog Devices Inc. (Lyric Labs) and Samsung Advanced Institute\nof Technology for their generous support.",
+      "word_count": 314
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "formulaic",
+  "summary": "An implementation of Wilkinson formulas.",
+  "language": "python",
+  "tags": [
+    "data",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "formulaic::chunk_0",
+      "text": "(https://pypi.org/project/formulaic/)\n\n(https://github.com/matthewwardrop/formulaic/actions?query=workflow%3A%22Run+Tox+Tests%22)\n(https://matthewwardrop.github.io/formulaic/)\n(https://codecov.io/gh/matthewwardrop/formulaic)\n(https://github.com/psf/black)\n\nFormulaic is a high-performance implementation of Wilkinson formulas for Python.\n\nIt provides:\n\n- high-performance dataframe to model-matrix conversions.\n- support for reusing the encoding choices made during conversion of one data-set on other datasets.\n- extensible formula parsing.\n- extensible data input/output plugins, with implementations for:\n  - input:\n  - output:\n- support for symbolic differentiation of formulas (and hence model matrices).\n- and much more.\n\nExample code\n\n`y = `\n\n  \n  \n  \n  \n\n`X = `\n\n  \n  \n  \n  \n\nNote that the above can be short-handed to:\n\nBenchmarks\n\nFormulaic typically outperforms R for both dense and sparse model matrices, and vastly outperforms `patsy` (the existing implementation for Python) for dense matrices (`patsy` does not support sparse model matrix output).\n\nFor more details, see [here](benchmarks/README.md).\n\nRelated projects and prior art\n\n- The work that started it all: Wilkinson, G. N., and C. E. Rogers. Symbolic description of factorial models for analysis of variance. J. Royal Statistics Society 22, pp. 392–399, 1973.\n\nUsed by\n\nBelow are some of the projects that use Formulaic:\n\n- Add your project here!",
+      "word_count": 175
+    }
+  ]
+}

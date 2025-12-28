@@ -1,0 +1,16 @@
+{
+  "name": "nvidia-cusparselt-cu12",
+  "summary": "NVIDIA cuSPARSELt",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "nvidia-cusparselt-cu12::chunk_0",
+      "text": "###################################################################################\ncuSPARSELt: A High-Performance CUDA Library for Sparse Matrix-Matrix Multiplication\n###################################################################################\n\n**NVIDIA cuSPARSELt** is a high-performance CUDA library dedicated to general matrix-matrix operations in which at least one operand is a structured sparse matrix with 50\\% sparsity ratio:\n\n.. math::\n\n   D = Activation(\\alpha op(A) \\cdot op(B) + \\beta op(C) + bias)\n\nwhere :math:`op(A)/op(B)` refers to in-place operations such as transpose/non-transpose, and :math:`alpha, beta` are scalars or vectors.\n\nThe *cuSPARSELt APIs* allow flexibility in the algorithm/operation selection, epilogue, and matrix characteristics, including memory layout, alignment, and data types.\n\n**Download:** `developer.nvidia.com/cusparselt/downloads `_\n\n**Provide Feedback:** `Math-Libs-Feedback@nvidia.com `_\n\n**Examples**:\n`cuSPARSELt Example 1 `_,\n`cuSPARSELt Example 2 `_\n\n**Blog post**:\n\n- `Exploiting NVIDIA Ampere Structured Sparsity with cuSPARSELt `_\n- `Structured Sparsity in the NVIDIA Ampere Architecture and Applications in Search Engines `__\n- `Making the Most of Structured Sparsity in the NVIDIA Ampere Architecture `__\n\n================================================================================\nKey Features\n================================================================================\n\n* *NVIDIA Sparse MMA tensor core* support\n* Mixed-precision computation support:\n\n* Matrix pruning and compression functionalities\n* Activation functions, bias vector, and output scaling\n* Batched computation (multiple matrices in a single run)\n* GEMM Split-K mode\n* Auto-tuning functionality (see `cusparseLtMatmulSearch()`)\n* NVTX ranging and Logging functionalities\n\n================================================================================\nSupport\n================================================================================\n\n* *Supported SM Architectures*: `SM 8.0`, `SM 8.6`, `SM 8.7`, `SM 8.9`, `SM 9.0`, `SM 10.0`, `SM 10.1` (for CTK 12), `SM 11.0` (for CTK 13), `SM 12.0`, `SM 12.1`\n* *Supported CPU architectures and operating systems*:\n\n+------------+--------------------+\nOS\n+============+====================+\n`Windows`\n+------------+--------------------+\n`Linux`\n+------------+--------------------+\n\n================================================================================\nDocumentation\n================================================================================\n\nPlease refer to https://docs.nvidia.com/cuda/cusparselt/index.html for the cuSPARSELt documentation.\n\n================================================================================\nInstallation\n================================================================================\n\nThe cuSPARSELt wheel can be installed as follows:\n\n.. code-block:: bash\n\nwhere XX is the CUDA major version.",
+      "word_count": 273
+    }
+  ]
+}

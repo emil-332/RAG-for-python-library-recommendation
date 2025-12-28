@@ -1,0 +1,16 @@
+{
+  "name": "canopen",
+  "summary": "CANopen stack implementation",
+  "language": "python",
+  "tags": [
+    "dev",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "canopen::chunk_0",
+      "text": "CANopen for Python\n==================\n\nA Python implementation of the CANopen_ standard.\nThe aim of the project is to support the most common parts of the CiA 301\nstandard in a simple Pythonic interface. It is mainly targeted for testing and\nautomation tasks rather than a standard compliant master implementation.\n\nThe library supports Python 3.8 or newer.\n\nFeatures\n--------\n\nThe library is mainly meant to be used as a master.\n\n* NMT master\n* SDO client\n* PDO producer/consumer\n* SYNC producer\n* EMCY consumer\n* TIME producer\n* LSS master\n* Object Dictionary from EDS\n* 402 profile support\n\nIncomplete support for creating slave nodes also exists.\n\n* SDO server\n* PDO producer/consumer\n* NMT slave\n* EMCY producer\n* Object Dictionary from EDS\n\nInstallation\n------------\n\nInstall from PyPI_ using ``pip``::\n\nInstall from latest ``master`` on GitHub::\n\nIf you want to be able to change the code while using it, clone it then install\nit in `develop mode`_::\n\nUnit tests can be run using the pytest_ framework::\n\nYou can also use ``unittest`` standard library module::\n\nDocumentation\n-------------\n\nDocumentation can be found on Read the Docs:\n\nIt can also be generated from a local clone using Sphinx_::\n\nHardware support\n----------------\n\nThis library supports multiple hardware and drivers through the python-can_ package.\nSee `the list of supported devices `_.\n\nIt is also possible to integrate this library with a custom backend.\n\nQuick start\n-----------\n\nHere are some quick examples of what you can do:\n\nThe PDOs can be access by three forms:\n\n**1st:** :code:`node.tpdo[n]` or :code:`node.rpdo[n]`\n\n**2nd:** :code:`node.pdo.tx[n]` or :code:`node.pdo.rx[n]`\n\n**3rd:** :code:`node.pdo[0x1A00]` or :code:`node.pdo[0x1600]`\n\nThe :code:`n` is the PDO index (normally 1 to 4). The second form of access is for backward compatibility.\n\n.. code-block:: python\n\nDebugging\n---------\n\nIf you need to see what's going on in better detail, you can increase the\nlogging_ level:\n\n.. code-block:: python\n\n.. _PyPI: https://pypi.org/project/canopen/\n.. _CANopen: https://www.can-cia.org/canopen/\n.. _python-can: https://python-can.readthedocs.org/en/stable/\n.. _Sphinx: http://www.sphinx-doc.org/\n.. _develop mode: https://packaging.python.org/distributing/#working-in-development-mode\n.. _logging: https://docs.python.org/3/library/logging.html\n.. _pytest: https://docs.pytest.org/",
+      "word_count": 328
+    }
+  ]
+}

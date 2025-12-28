@@ -1,0 +1,16 @@
+{
+  "name": "pdbp",
+  "summary": "pdbp (Pdb+): A drop-in replacement for pdb and pdbpp.",
+  "language": "python",
+  "tags": [
+    "dev",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pdbp::chunk_0",
+      "text": "pdbp (Pdb+) (https://pypi.python.org/pypi/pdbp)\n\n**[pdbp (Pdb+)](https://github.com/mdmintz/pdbp)** is an advanced console debugger for Python. It can be used as a drop-in replacement for [pdb](https://docs.python.org/3/library/pdb.html) and [pdbpp](https://github.com/pdbpp/pdbpp).\n\npdbp (Pdb+) makes Python debugging a lot easier (and more fun!)\n\n--------\n\nInstallation:\n\nThen add ``import pdbp`` to an ``__init__.py`` of your project, which will automatically make **``Pdb+``** the default debugger at breakpoints:\n\n(If using ``flake8`` for code-linting, you may want to add ``# noqa`` to that line):\n\nYou can also make ``pdbp`` the default debugger by setting an environmental variable:\n\nUsage:\n\nTo trigger a breakpoint in your code with ``pytest``, add ``--trace`` (to start tests with a breakpoint) or ``--pdb`` (to trigger a breakpoint if a test fails).\n\nTo trigger a breakpoint from a pure ``python`` run, use:\n\n--------\n\nBasic **``Pdb+``** console commands:\n``n``, ``c``, ``s``, ``u``, ``d`` => ``next``, ``continue``, ``step``, ``up``, ``down``\n\n(To learn more **Pdb+** console commands, type ``help`` in the **Pdb+** console and press ``Enter/Return``.)\n\n--------\n\n**``pdbp`` (Pdb+)** makes improvements to ``pdbpp`` so that it works in all environments. It also includes other bug-fixes. \"Sticky\" mode is the default option, which shows multiple lines of code while letting you see where you're going (while typing ``n`` + ``Enter``).\n\nIf you somehow reset ``pdb`` to Python's built-in version, you can always replace ``pdb`` with **``pdbp``** again as the default debugger by running this:\n\nHere's how to customize **``pdbp``**/``pdb`` options if you don't like the default settings: (Shown below are the default settings.)\n\nYou can also trigger **``Pdb+``** activation like this:\n\npdbp (Pdb+) commands:\n\nPost Mortem Debug Mode:\n\nThe ``where`` / ``w`` command, which displays the current stack:\n\n--------\n\nSticky Mode vs Non-Sticky Mode:\n\nThe default mode (``sticky``) lets you see a lot more lines of code from the debugger when active. In Non-Sticky mode, only one line of code is shown at a time. You can switch between the two modes by typing ``sticky`` in the **Pdb+** console prompt and pressing ``Enter/Return``.\n\n> **Sticky Mode:**\n\n> **Non-Sticky Mode:**\n\n--------\n\nTab completion:\n\n--------\n\nMulti-layer highlighting in the same stack:\n\nMore examples:\n\n**``Pdb+``** is used by packages such as **``seleniumbase``**:\n\n* https://pypi.org/project/seleniumbase/\n* https://github.com/seleniumbase/SeleniumBase\n\n--------\n\n--------\n\n(**Pdb+** is maintained by the [SeleniumBase Dev Team](https://github.com/seleniumbase/SeleniumBase))",
+      "word_count": 360
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "azure-cognitiveservices-speech",
+  "summary": "Microsoft Cognitive Services Speech SDK for Python",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "azure-cognitiveservices-speech::chunk_0",
+      "text": "For an introduction to this package, have a look at `the quickstart\narticle `_.\n\nFor information about the Speech Service, please refer to `its\nwebsite `_.\n\nDocumentation\n-------------\n\nAPI documentation for this package can be found `here `_.\n\nLicense information\n-------------------\n\n- `Microsoft Software License Terms for the Speech SDK `_\n- `Third party notices `_",
+      "word_count": 56
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "tensorboard",
+  "summary": "TensorBoard lets you watch Tensors Flow",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tensorboard::chunk_0",
+      "text": "TensorBoard is a suite of web applications for inspecting and understanding\nyour TensorFlow runs and graphs.\n\nReleases prior to 1.6.0 were published under the ``tensorflow-tensorboard`` name\nand may be found at https://pypi.python.org/pypi/tensorflow-tensorboard.",
+      "word_count": 32
+    }
+  ]
+}

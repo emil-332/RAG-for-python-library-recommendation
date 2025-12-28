@@ -1,0 +1,16 @@
+{
+  "name": "yfinance",
+  "summary": "Download market data from Yahoo! Finance API",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "yfinance::chunk_0",
+      "text": "Download market data from Yahoo! Finance's API\n\n**yfinance** offers a Pythonic way to fetch financial & market data from [Yahoo!Ⓡ finance](https://finance.yahoo.com).\n\n---\n\n> [!IMPORTANT]  \n> **Yahoo!, Y!Finance, and Yahoo! finance are registered trademarks of Yahoo, Inc.**\n>\n> yfinance is **not** affiliated, endorsed, or vetted by Yahoo, Inc. It's an open-source tool that uses Yahoo's publicly available APIs, and is intended for research and educational purposes.\n> \n> **You should refer to Yahoo!'s terms of use** ([here](https://policies.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.htm), [here](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html), and [here](https://policies.yahoo.com/us/en/yahoo/terms/index.htm)) **for details on your rights to use the actual data downloaded.\n>\n> Remember - the Yahoo! finance API is intended for personal use only.**\n\n---\n\n> [!TIP]\n> THE NEW DOCUMENTATION WEBSITE IS NOW LIVE! \n> \n> Visit [**ranaroussi.github.io/yfinance**](https://ranaroussi.github.io/yfinance)\n\n---\n\nMain components\n\n- `Ticker`: single ticker data\n- `Tickers`: multiple tickers' data\n- `download`: download market data for multiple tickers\n- `Market`: get information about a market\n- `WebSocket` and `AsyncWebSocket`: live streaming data\n- `Search`: quotes and news from search\n- `Sector` and `Industry`: sector and industry information\n- `EquityQuery` and `Screener`: build query to screen market\n\nInstallation\n\nInstall `yfinance` from PYPI using `pip`:\n\n[yfinance relies on the community to investigate bugs and contribute code. Here's how you can help.](CONTRIBUTING.md)\n\n---\n\n---\n\nLegal Stuff\n\n**yfinance** is distributed under the **Apache Software License**. See\nthe [LICENSE.txt](./LICENSE.txt) file in the release for details.\n\nAGAIN - yfinance is **not** affiliated, endorsed, or vetted by Yahoo, Inc. It's\nan open-source tool that uses Yahoo's publicly available APIs, and is\nintended for research and educational purposes. You should refer to Yahoo!'s terms of use\n([here](https://policies.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.htm),\n[here](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html), and\n[here](https://policies.yahoo.com/us/en/yahoo/terms/index.htm)) for\ndetails on your rights to use the actual data downloaded.\n\n---\n\nP.S.\n\nPlease drop me a note with any feedback you have.\n\n**Ran Aroussi**",
+      "word_count": 290
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pandera",
+  "summary": "A light-weight and flexible data validation and testing tool for statistical data objects.",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pandera::chunk_0",
+      "text": "Install\n\nPandera supports [multiple dataframe libraries](https://pandera.readthedocs.io/en/stable/supported_libraries.html), including [pandas](http://pandas.pydata.org), [polars](https://docs.pola.rs/), [pyspark](https://spark.apache.org/docs/latest/api/python/index.html), and more. To validate `pandas` DataFrames, install Pandera with the `pandas` extra:\n\n**With `pip`:**\n\n**With `uv`:**\n\n**With `conda`:**\n\nGet started\n\nFirst, create a dataframe:\n\nValidate the data using the object-based API:\n\nOr validate the data using the class-based API:\n\n> [!WARNING]\n> Pandera `v0.24.0` introduces the `pandera.pandas` module, which is now the\n> (highly) recommended way of defining `DataFrameSchema`s and `DataFrameModel`s\n> for `pandas` data structures like `DataFrame`s. Defining a dataframe schema from\n> the top-level `pandera` module will produce a `FutureWarning`:\n>\n> \n>\n> Update your import to:\n>\n> \n>\n> And all of the rest of your pandera code should work. Using the top-level\n> `pandera` module to access `DataFrameSchema` and the other pandera classes\n> or functions will be deprecated in version `0.29.0`\n\nNext steps\n\nSee the [official documentation](https://pandera.readthedocs.io) to learn more.",
+      "word_count": 147
+    }
+  ]
+}

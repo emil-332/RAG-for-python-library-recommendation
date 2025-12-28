@@ -1,0 +1,16 @@
+{
+  "name": "lifelines",
+  "summary": "Survival analysis in Python, including Kaplan Meier, Nelson Aalen and regression",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "lifelines::chunk_0",
+      "text": "Documentation and intro to survival analysis\n\nIf you are new to survival analysis, wondering why it is useful, or are interested in *lifelines* examples, API, and syntax, please read the [Documentation and Tutorials page](http://lifelines.readthedocs.org/en/latest/index.html)\n\nContact\n\nDevelopment\n\nSee our [Contributing](https://github.com/CamDavidsonPilon/lifelines/blob/master/.github/CONTRIBUTING.md) guidelines.",
+      "word_count": 40
+    }
+  ]
+}

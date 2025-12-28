@@ -1,0 +1,16 @@
+{
+  "name": "tf-keras",
+  "summary": "Deep learning for humans.",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tf-keras::chunk_0",
+      "text": "TF-Keras is a deep learning API written in Python,\nrunning on top of the machine learning platform TensorFlow.\n\nIt was developed with a focus on enabling fast experimentation and\nproviding a delightful developer experience.\nThe purpose of TF-Keras is to give an *unfair advantage* to any developer\nlooking to ship ML-powered apps.",
+      "word_count": 52
+    }
+  ]
+}

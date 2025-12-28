@@ -1,0 +1,17 @@
+{
+  "name": "inspect-ai",
+  "summary": "Framework for large language model evaluations",
+  "language": "python",
+  "tags": [
+    "dev",
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "inspect-ai::chunk_0",
+      "text": "[](https://aisi.gov.uk/)\n\nWelcome to Inspect, a framework for large language model evaluations created by the [UK AI Security Institute](https://aisi.gov.uk/).\n\nInspect provides many built-in components, including facilities for prompt engineering, tool usage, multi-turn dialog, and model graded evaluations. Extensions to Inspect (e.g. to support new elicitation and scoring techniques) can be provided by other Python packages.\n\nTo get started with Inspect, please see the documentation at .\n\nInspect also includes a collection of over 100 pre-built evaluations ready to run on any model (learn more at [Inspect Evals](https://ukgovernmentbeis.github.io/inspect_evals/))\n\n***\n\nTo work on development of Inspect, clone the repository and install with the `-e` flag and `[dev]` optional dependencies:\n\nOptionally install pre-commit hooks via\n\nRun linting, formatting, and tests via\n\nIf you use VS Code, you should be sure to have installed the recommended extensions (Python, Ruff, and MyPy). Note that you'll be prompted to install these when you open the project in VS Code.\n\n***\n\nTo work on the Inspect documentation, install the optional `[doc]` dependencies with the `-e` flag and build the docs:\n\nIf you intend to work on the docs iteratively, you'll want to install the Quarto extension in VS Code.",
+      "word_count": 191
+    }
+  ]
+}

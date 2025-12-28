@@ -1,0 +1,17 @@
+{
+  "name": "cuda-bindings",
+  "summary": "Python bindings for CUDA",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "cuda-bindings::chunk_0",
+      "text": ".. SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\n.. SPDX-License-Identifier: LicenseRef-NVIDIA-SOFTWARE-LICENSE\n\n****************************************\ncuda-bindings: Low-level CUDA interfaces\n****************************************\n\n   :target: https://www.nvidia.com/\n   :alt: NVIDIA\n\n`cuda.bindings `_ is a standard set of low-level interfaces, providing full coverage of and 1:1 access to the CUDA host APIs from Python. Checkout the `Overview `_ for the workflow and performance results.\n\n* `Repository `_\n* `Documentation `_\n* `Examples `_\n* `Issue tracker `_\n\nFor the installation instruction, please refer to the `Installation `_ page.",
+      "word_count": 82
+    }
+  ]
+}

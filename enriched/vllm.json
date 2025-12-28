@@ -1,0 +1,18 @@
+{
+  "name": "vllm",
+  "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+  "language": "python",
+  "tags": [
+    "dev",
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "vllm::chunk_0",
+      "text": "About\n\nvLLM is a fast and easy-to-use library for LLM inference and serving.\n\nOriginally developed in the [Sky Computing Lab](https://sky.cs.berkeley.edu) at UC Berkeley, vLLM has evolved into a community-driven project with contributions from both academia and industry.\n\nvLLM is fast with:\n\n- State-of-the-art serving throughput\n- Efficient management of attention key and value memory with [**PagedAttention**](https://blog.vllm.ai/2023/06/20/vllm.html)\n- Continuous batching of incoming requests\n- Fast model execution with CUDA/HIP graph\n- Quantizations: [GPTQ](https://arxiv.org/abs/2210.17323), [AWQ](https://arxiv.org/abs/2306.00978), [AutoRound](https://arxiv.org/abs/2309.05516), INT4, INT8, and FP8\n- Optimized CUDA kernels, including integration with FlashAttention and FlashInfer\n- Speculative decoding\n- Chunked prefill\n\nvLLM is flexible and easy to use with:\n\n- Seamless integration with popular Hugging Face models\n- High-throughput serving with various decoding algorithms, including *parallel sampling*, *beam search*, and more\n- Tensor, pipeline, data and expert parallelism support for distributed inference\n- Streaming outputs\n- OpenAI-compatible API server\n- Support for NVIDIA GPUs, AMD CPUs and GPUs, Intel CPUs and GPUs, PowerPC CPUs, Arm CPUs, and TPU. Additionally, support for diverse hardware plugins such as Intel Gaudi, IBM Spyre and Huawei Ascend.\n- Prefix caching support\n- Multi-LoRA support\n\nvLLM seamlessly supports most popular open-source models on HuggingFace, including:\n\n- Transformer-like LLMs (e.g., Llama)\n- Mixture-of-Expert LLMs (e.g., Mixtral, Deepseek-V2 and V3)\n- Embedding Models (e.g., E5-Mistral)\n- Multi-modal LLMs (e.g., LLaVA)\n\nFind the full list of supported models [here](https://docs.vllm.ai/en/latest/models/supported_models.html).\n\nGetting Started\n\nInstall vLLM with `pip` or [from source](https://docs.vllm.ai/en/latest/getting_started/installation/gpu/index.html#build-wheel-from-source):\n\nVisit our [documentation](https://docs.vllm.ai/en/latest/) to learn more.\n\nContributing\n\nWe welcome and value any contributions and collaborations.\nPlease check out [Contributing to vLLM](https://docs.vllm.ai/en/latest/contributing/index.html) for how to get involved.\n\nSponsors\n\nvLLM is a community project. Our compute resources for development and testing are supported by the following organizations. Thank you for your support!\n\nCash Donations:\n\n- a16z\n- Dropbox\n- Sequoia Capital\n- Skywork AI\n- ZhenFund\n\nCompute Resources:\n\n- Alibaba Cloud\n- AMD\n- Anyscale\n- Arm\n- AWS\n- Crusoe Cloud\n- Databricks\n- DeepInfra\n- Google Cloud\n- IBM\n- Intel\n- Lambda Lab\n- Nebius\n- Novita AI\n- NVIDIA\n- Red Hat\n- Replicate\n- Roblox\n- RunPod\n- Trainy\n- UC Berkeley\n- UC San Diego\n- Volcengine\n\nSlack Sponsor: Anyscale\n\nWe also have an official fundraising venue through [OpenCollective](https://opencollective.com/vllm). We plan to use the fund to support the development, maintenance, and adoption of vLLM.\n\nCitation\n\nIf you use vLLM for your research, please cite our [paper](https://arxiv.org/abs/2309.06180):\n\nContact Us\n\n- For collaborations and partnerships, please contact us at [vllm-questions@lists.berkeley.edu](mailto:vllm-questions@lists.berkeley.edu)\n\nMedia Kit",
+      "word_count": 407
+    }
+  ]
+}

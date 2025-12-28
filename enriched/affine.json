@@ -1,0 +1,16 @@
+{
+  "name": "affine",
+  "summary": "Matrices describing affine transformation of the plane",
+  "language": "python",
+  "tags": [
+    "data",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "affine::chunk_0",
+      "text": "Affine\n======\n\nMatrices describing 2D affine transformation of the plane.\n\nThe Affine package is derived from Casey Duncan's Planar package. Please see\nthe copyright statement in `affine/__init__.py `__.\n\nUsage\n-----\n\nThe 3x3 augmented affine transformation matrix for transformations in two\ndimensions is illustrated below.\n\n::\n\nx'\ny'\n1\n\nMatrices can be created by passing the values ``a, b, c, d, e, f`` to the\n``affine.Affine`` constructor or by using its ``identity()``,\n``translation()``, ``scale()``, ``shear()``, and ``rotation()`` class methods.\n\n.. code-block:: pycon\n\n  >>> from affine import Affine\n  >>> Affine.identity()\n  Affine(1.0, 0.0, 0.0,\n  >>> Affine.translation(1.0, 5.0)\n  Affine(1.0, 0.0, 1.0,\n  >>> Affine.scale(2.0)\n  Affine(2.0, 0.0, 0.0,\n  >>> Affine.shear(45.0, 45.0)  # decimal degrees\n  Affine(1.0, 0.9999999999999999, 0.0,\n  >>> Affine.rotation(45.0)     # decimal degrees\n  Affine(0.7071067811865476, -0.7071067811865475, 0.0,\n\nThese matrices can be applied to ``(x, y)`` tuples to obtain transformed\ncoordinates ``(x', y')``.\n\n.. code-block:: pycon\n\n  >>> Affine.translation(1.0, 5.0) * (1.0, 1.0)\n  (2.0, 6.0)\n  >>> Affine.rotation(45.0) * (1.0, 1.0)\n  (1.1102230246251565e-16, 1.414213562373095)\n\nThey may also be multiplied together to combine transformations.\n\n.. code-block:: pycon\n\n  >>> Affine.translation(1.0, 5.0) * Affine.rotation(45.0)\n  Affine(0.7071067811865476, -0.7071067811865475, 1.0,\n\nUsage with GIS data packages\n----------------------------\n\nGeoreferenced raster datasets use affine transformations to map from image\ncoordinates to world coordinates. The ``affine.Affine.from_gdal()`` class\nmethod helps convert `GDAL GeoTransform\n`__,\nsequences of 6 numbers in which the first and fourth are the x and y offsets\nand the second and sixth are the x and y pixel sizes.\n\nUsing a GDAL dataset transformation matrix, the world coordinates ``(x, y)``\ncorresponding to the top left corner of the pixel 100 rows down from the\norigin can be easily computed.\n\n.. code-block:: pycon\n\n  >>> geotransform = (-237481.5, 425.0, 0.0, 237536.4, 0.0, -425.0)\n  >>> fwd = Affine.from_gdal(*geotransform)\n  >>> col, row = 0, 100\n  >>> fwd * (col, row)\n  (-237481.5, 195036.4)\n\nThe reverse transformation is obtained using the ``~`` operator.\n\n.. code-block:: pycon\n\n  >>> rev = ~fwd\n  >>> rev * fwd * (col, row)\n  (0.0, 99.99999999999999)",
+      "word_count": 313
+    }
+  ]
+}

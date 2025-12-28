@@ -1,0 +1,16 @@
+{
+  "name": "azureml-train",
+  "summary": null,
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "azureml-train::chunk_0",
+      "text": "##########################################################################################\nMicrosoft Azure Machine Learning - azureml-train package\n##########################################################################################\n\nThe azureml-train package has been deprecated and might not receive future updates and removed from the distribution altogether. Please use azureml-train-core instead.",
+      "word_count": 31
+    }
+  ]
+}

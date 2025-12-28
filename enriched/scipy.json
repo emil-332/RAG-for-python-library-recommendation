@@ -1,0 +1,16 @@
+{
+  "name": "scipy",
+  "summary": "Fundamental algorithms for scientific computing in Python",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "scipy::chunk_0",
+      "text": ".. image:: https://raw.githubusercontent.com/scipy/scipy/main/doc/source/_static/logo.svg\n  :target: https://scipy.org\n  :width: 110\n  :height: 110\n  :align: left \n\n  :target: https://numfocus.org\n\n.. image:: https://img.shields.io/pypi/dm/scipy.svg?label=Pypi%20downloads\n  :target: https://pypi.org/project/scipy/\n\n.. image:: https://img.shields.io/conda/dn/conda-forge/scipy.svg?label=Conda%20downloads\n  :target: https://anaconda.org/conda-forge/scipy\n\n  :target: https://stackoverflow.com/questions/tagged/scipy\n\n  :target: https://www.nature.com/articles/s41592-019-0686-2\n\nSciPy (pronounced \"Sigh Pie\") is an open-source software for mathematics,\nscience, and engineering. It includes modules for statistics, optimization,\nintegration, linear algebra, Fourier transforms, signal and image processing,\nODE solvers, and more.\n\nSciPy is built to work with\nNumPy arrays, and provides many user-friendly and efficient numerical routines,\nsuch as routines for numerical integration and optimization. Together, they\nrun on all popular operating systems, are quick to install, and are free of\ncharge. NumPy and SciPy are easy to use, but powerful enough to be depended\nupon by some of the world's leading scientists and engineers. If you need to\nmanipulate numbers on a computer and display or publish the results, give\nSciPy a try!\n\nFor the installation instructions, see `our install\nguide `__.\n\nCall for Contributions\n----------------------\n\nWe appreciate and welcome contributions. Small improvements or fixes are always appreciated; issues labeled as \"good\nfirst issue\" may be a good starting point. Have a look at `our contributing\nguide `__.\n\nWriting code isn’t the only way to contribute to SciPy. You can also:\n\n- review pull requests\n- triage issues\n- develop tutorials, presentations, and other educational materials\n- maintain and improve `our website `__\n- develop graphic design for our brand assets and promotional materials\n- help with outreach and onboard new contributors\n- write grant proposals and help with other fundraising efforts\n\nIf you’re unsure where to start or how your skills fit in, reach out! You can\nask on the `forum `__\nor here, on GitHub, by leaving a comment on a relevant issue that is already\nopen.\n\nIf you are new to contributing to open source, `this\nguide `__ helps explain why, what,\nand how to get involved.",
+      "word_count": 309
+    }
+  ]
+}

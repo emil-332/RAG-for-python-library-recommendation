@@ -1,0 +1,16 @@
+{
+  "name": "donfig",
+  "summary": "Python package for configuring a python package",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "donfig::chunk_0",
+      "text": "Donfig\n======\n\n   :target: https://codecov.io/gh/pytroll/donfig\n\n   :target: https://anaconda.org/conda-forge/donfig/\n\n   :target: https://results.pre-commit.ci/latest/github/pytroll/donfig/main\n   :alt: pre-commit.ci status\n\nDonfig is a python library meant to make configuration easier for other\npython packages. Donfig can be configured programmatically, by\nenvironment variables, or from YAML files in standard locations. The\nbelow examples show the basics of using donfig. For more details see the\nofficial `documentation `_.\n\nInstallation\n------------\n\nDonfig can be installed from PyPI using pip:\n\n.. code-block:: bash\n\nOr with conda using the conda-forge channel:\n\n.. code-block:: bash\n\nUsing Donfig\n------------\n\nCreate the package-wide configuration object for your package named `mypkg`:\n\n.. code-block:: python\n\nUse the configuration object:\n\n.. code-block:: python\n\nSet configuration in Python\n---------------------------\n\nConfiguration can be modified in python before code using it is called:\n\n.. code-block:: python\n\nDonfig configurations can also be changed as a context manager:\n\n.. code-block:: python\n\nConfigure from environment variables\n------------------------------------\n\nEnvironment variables are automatically loaded when the Config object is\ncreated. Any environment variable starting with the name of the config\nobject in all capital letters and an underscore will be loaded in to\nthe config object:\n\n.. code-block:: bash\n\nAnd can be accessed in python:\n\n.. code-block:: python\n\nConfigure from YAML file\n------------------------\n\nDonfig will also automatically load any YAML configuration files found in\nspecific paths. The default paths:\n\n- ~/.config//\n- /etc//\n- /etc//\n\nNote the `/etc//` directory can also be specified with the\nenvironment variable `DASK_ROOT_CONFIG`. Also note that\n`~/.config/` (or other location specified with `DASK_CONFIG`)\ncan be created as a custom user configuration file for easier user\ncustomization (see documentation for details).\n\nHistory\n-------\n\nDonfig is based on the original configuration logic of the `dask` library.\nThe code has been modified to use a config object instead of a global\nconfiguration dictionary. This makes the configuration logic of dask available\nto everyone. The name \"donfig\" is a shortening of \"dask.config\", the original\ndask module that implemented this functionality.\n\nLicense\n-------\n\nOriginal code from the dask library was distributed under the license\nspecified in `DASK_LICENSE.txt`. In November 2018 this code was migrated to\nthe Donfig project under the MIT license described in `LICENSE.txt`. The full\ncopyright for this project is therefore::",
+      "word_count": 355
+    }
+  ]
+}

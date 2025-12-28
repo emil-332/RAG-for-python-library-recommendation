@@ -1,0 +1,17 @@
+{
+  "name": "rtree",
+  "summary": "R-Tree spatial index for Python GIS",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "rtree::chunk_0",
+      "text": "Rtree: Spatial indexing for Python\n\n(https://github.com/Toblerity/rtree/actions/workflows/test.yml)\n\nRtree is a [ctypes](https://docs.python.org/3/library/ctypes.html) Python wrapper of [libspatialindex](https://libspatialindex.org/) that provides a\nnumber of advanced spatial indexing features for the spatially curious Python\nuser.  These features include:\n\n* Nearest neighbor search\n* Intersection search\n* Multi-dimensional indexes\n* Clustered indexes (store Python pickles directly with index entries)\n* Bulk loading\n* Deletion\n* Disk serialization\n* Custom storage implementation (to implement spatial indexing in ZODB, for example)\n\nWheels are available for most major platforms, and `rtree` with bundled `libspatialindex` can be installed via pip:\n\nSee [changes](https://rtree.readthedocs.io/en/latest/changes.html) for all versions.",
+      "word_count": 94
+    }
+  ]
+}

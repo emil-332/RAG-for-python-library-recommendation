@@ -1,0 +1,15 @@
+{
+  "name": "azureml-dataprep-rslex",
+  "summary": "Azure ML Data Preparation RustLex",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "azureml-dataprep-rslex::chunk_0",
+      "text": "Azure Machine Learning Data Prep RsLex\n\nAzure Machine Learning Data Prep RsLex is a Rust implementation of Data Prep's capabilities to load, transform, and write data for machine learning workflows.\nYou can interact with RsLex via the Data Prep SDK, `azureml-dataprep`, by calling `use_rust_execution(True)` before using the SDK.\n\nInstall the SDK\n\nTo install Azure Machine Learning Data Prep RsLex, use the following command:\n\nNOTE: This package is not intended for direct installation or usage. `azureml-dataprep` depends on this package.",
+      "word_count": 79
+    }
+  ]
+}

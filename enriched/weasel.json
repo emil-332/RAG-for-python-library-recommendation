@@ -1,0 +1,15 @@
+{
+  "name": "weasel",
+  "summary": "Weasel: A small and easy workflow system",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "weasel::chunk_0",
+      "text": "Weasel: A small and easy workflow system\n\nWeasel lets you manage and share **end-to-end workflows** for\ndifferent **use cases and domains**, and orchestrate training, packaging and\nserving your custom pipelines. You can start off by cloning a pre-defined\nproject template, adjust it to fit your needs, load in your data, train a\npipeline, export it as a Python package, upload your outputs to a remote storage\nand share your results with your team. Weasel can be used via the\n[`weasel`](https://github.com/explosion/weasel/blob/main/docs/cli.md) command and we provide templates in our\n[`projects`](https://github.com/explosion/projects) repo.\n\nExample: Get started with a project template\n\nThe easiest way to get started is to clone a project template and run it – for\nexample, this [end-to-end template](https://github.com/explosion/projects/tree/v3/pipelines/tagger_parser_ud)\nthat lets you train a spaCy **part-of-speech\ntagger** and **dependency parser** on a Universal Dependencies treebank.\n\n> **Note**\n>\n> Our [`projects`](https://github.com/explosion/projects) repo includes various\n> project templates for different NLP tasks, models, workflows and integrations\n> that you can clone and run. The easiest way to get started is to pick a\n> template, clone it and start modifying it!\n\nDocumentation\n\nGet started with the documentation:\n\nMigrating from spaCy Projects\n\nWeasel is a standalone replacement for spaCy Projects.\nThere are a few backward incompatibilities that you should be aware of:\n\n- The `SPACY_CONFIG_OVERRIDES` environment variable is no longer checked.\n  You can set configuration overrides using `WEASEL_CONFIG_OVERRIDES`.\n- Support for the `spacy_version` configuration key has been dropped.\n- Support for the `check_requirements` configuration key has been dropped.\n- Support for `SPACY_PROJECT_USE_GIT_VERSION` environment variable has been dropped.\n- Error codes are now Weasel-specific, and do not follow spaCy error codes.\n\nWeasel checks for the first three incompatibilities and will issue a\nwarning if you're using it with spaCy-specific configuration options.",
+      "word_count": 286
+    }
+  ]
+}

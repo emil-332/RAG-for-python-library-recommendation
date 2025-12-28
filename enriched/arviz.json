@@ -1,0 +1,16 @@
+{
+  "name": "arviz",
+  "summary": "Exploratory analysis of Bayesian models",
+  "language": "python",
+  "tags": [
+    "math",
+    "visualization"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "arviz::chunk_0",
+      "text": "ArviZ in other languages\nArviZ also has a Julia wrapper available [ArviZ.jl](https://julia.arviz.org/).\n\nDocumentation\n\nThe ArviZ documentation can be found in the [official docs](https://python.arviz.org/en/latest/index.html).\nFirst time users may find the [quickstart](https://python.arviz.org/en/latest/getting_started/Introduction.html)\nto be helpful. Additional guidance can be found in the\n[user guide](https://python.arviz.org/en/latest/user_guide/index.html).\n\nInstallation\n\nStable\nArviZ is available for installation from [PyPI](https://pypi.org/project/arviz/).\nThe latest stable version can be installed using pip:\n\nArviZ is also available through [conda-forge](https://anaconda.org/conda-forge/arviz).\n\nDevelopment\nThe latest development version can be installed from the main branch using pip:\n\nAnother option is to clone the repository and install using git and setuptools:\n\n-------------------------------------------------------------------------------\n\n[Gallery](https://python.arviz.org/en/latest/examples/index.html)\n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  And more...\n\nDependencies\n\nArviZ is tested on Python 3.10, 3.11 and 3.12, and depends on NumPy, SciPy, xarray, and Matplotlib.\n\nCitation\n\nIf you use ArviZ and want to cite it please use (https://doi.org/10.21105/joss.01143)\n\nHere is the citation in BibTeX format\n\nContributions\nArviZ is a community project and welcomes contributions.\nAdditional information can be found in the [Contributing Readme](https://github.com/arviz-devs/arviz/blob/main/CONTRIBUTING.md)\n\nCode of Conduct\nArviZ wishes to maintain a positive community. Additional details\ncan be found in the [Code of Conduct](https://github.com/arviz-devs/arviz/blob/main/CODE_OF_CONDUCT.md)\n\nDonations\nArviZ is a non-profit project under NumFOCUS umbrella. If you want to support ArviZ financially, you can donate [here](https://numfocus.org/donate-to-arviz).\n\nSponsors\n(https://numfocus.org)",
+      "word_count": 195
+    }
+  ]
+}

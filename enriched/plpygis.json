@@ -1,0 +1,16 @@
+{
+  "name": "plpygis",
+  "summary": "Python tools for PostGIS",
+  "language": "python",
+  "tags": [
+    "data",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "plpygis::chunk_0",
+      "text": "plpygis\n\n`plpygis` is a pure Python module with no dependencies that can convert geometries between [Well-known binary](https://en.wikipedia.org/wiki/Well-known_binary) (WKB/EWKB), [Well-known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) (WKT/EWKT) and GeoJSON representations. `plpygis` is mainly intended for use in PostgreSQL [PL/Python](https://www.postgresql.org/docs/current/plpython.html) functions to augment [PostGIS](https://postgis.net/)'s native capabilities.\n\nBasic usage\n\n`plpygis` implements several subclasses of the `Geometry` class, such as `Point`, `LineString`, `MultiPolygon` and so on:\n\nUsage with PostGIS\n\n`plpygis` is designed to provide an easy way to implement PL/Python functions that accept `geometry` arguments or return `geometry` results. The following example will take a PostGIS `geometry(Point)` and use an external service to create a `geometry(PointZ)`.\n\nThe `Geometry()` constructor will convert a PostGIS `geometry` that has been passed as a parameter to the PL/Python function into one of its `plpygis` subclasses. A `Geometry` that is returned from the PL/Python function will automatically be converted back to a PostGIS `geometry`.\n\nThe function above can be called as part of an SQL query:\n\nDocumentation\n\nFull `plpygis` documentation is available at .",
+      "word_count": 160
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "fiddle",
+  "summary": "Fiddle: A Python-first configuration library",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "fiddle::chunk_0",
+      "text": "Fiddle\n\nFiddle is a Python-first configuration library particularly well suited to ML\napplications. Fiddle enables deep configurability of parameters in a program,\nwhile allowing configuration to be expressed in readable and maintainable\nPython code.\n\n**Authors**: Dan Holtmann-Rice, Brennan Saeta, Sergio Guadarrama",
+      "word_count": 41
+    }
+  ]
+}

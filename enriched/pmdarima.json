@@ -1,0 +1,17 @@
+{
+  "name": "pmdarima",
+  "summary": "Python's forecast::auto.arima equivalent",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "ui"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pmdarima::chunk_0",
+      "text": "pmdarima\n\n(https://circleci.com/gh/alkaline-ml/pmdarima)\n(https://github.com/alkaline-ml/pmdarima/actions/workflows/build_and_deploy.yml)\n(https://codecov.io/gh/alkaline-ml/pmdarima)\n\nPmdarima (originally `pyramid-arima`, for the anagram of 'py' + 'arima') is a statistical\nlibrary designed to fill the void in Python's time series analysis capabilities. This includes:\n\n  * The equivalent of R's [`auto.arima`](https://www.rdocumentation.org/packages/forecast/versions/7.3/topics/auto.arima) functionality\n  * A collection of statistical tests of stationarity and seasonality\n  * Time series utilities, such as differencing and inverse differencing\n  * Numerous endogenous and exogenous transformers and featurizers, including Box-Cox and Fourier transformations\n  * Seasonal time series decompositions\n  * Cross-validation utilities\n  * A rich collection of built-in time series datasets for prototyping and examples\n  * Scikit-learn-esque pipelines to consolidate your estimators and promote productionization\n  \nPmdarima wraps [statsmodels](https://github.com/statsmodels/statsmodels/blob/master/statsmodels)\nunder the hood, but is designed with an interface that's familiar to users coming\nfrom a scikit-learn background.\n\nInstallation\n\npip\n\nPmdarima has binary and source distributions for Windows, Mac and Linux (`manylinux`) on pypi\nunder the package name `pmdarima` and can be downloaded via `pip`:\n\nconda\n\nPmdarima also has Mac and Linux builds available via `conda` and can be installed like so:\n\n**Note:** We do not maintain our own Conda binaries, they are maintained at https://github.com/conda-forge/pmdarima-feedstock.\nSee that repo for further documentation on working with Pmdarima on Conda.\n\nQuickstart Examples\n\nFitting a simple auto-ARIMA on the [`wineind`](https://alkaline-ml.com/pmdarima/modules/generated/pmdarima.datasets.load_wineind.html#pmdarima.datasets.load_wineind) dataset:\n\nFitting a more complex pipeline on the [`sunspots`](https://www.rdocumentation.org/packages/datasets/versions/3.6.1/topics/sunspots) dataset,\nserializing it, and then loading it from disk to make predictions:\n\nAvailability\n\n`pmdarima` is available on PyPi in pre-built Wheel files for Python 3.10+ for the following platforms:\n\n* Mac (64-bit)\n* Linux (64-bit manylinux)\n* Windows (64-bit)\n  * 32-bit wheels are available for pmdarima versions below 2.0.0 and Python versions below 3.10\n\nIf a wheel doesn't exist for your platform, you can still `pip install` and it\nwill build from the source distribution tarball, however you'll need `cython>=0.29`\nand `gcc` (Mac/Linux) or `MinGW` (Windows) in order to build the package from source.\n\nNote that legacy versions (<1.0.0) are available under the name\n\"`pyramid-arima`\" and can be pip installed via:\n\nHowever, this is not recommended.\n\nDocumentation\n\nAll of your questions and more (including examples and guides) can be answered by\nthe [`pmdarima` documentation](https://www.alkaline-ml.com/pmdarima). If not, always\nfeel free to file an issue.",
+      "word_count": 354
+    }
+  ]
+}

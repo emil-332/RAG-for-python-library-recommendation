@@ -1,0 +1,16 @@
+{
+  "name": "tensorflow",
+  "summary": "TensorFlow is an open source machine learning framework for everyone.",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tensorflow::chunk_0",
+      "text": "TensorFlow is an open source software library for high performance numerical\ncomputation. Its flexible architecture allows easy deployment of computation\nacross a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters\nof servers to mobile and edge devices.\n\nOriginally developed by researchers and engineers from the Google Brain team\nwithin Google's AI organization, it comes with strong support for machine\nlearning and deep learning and the flexible numerical computation core is used\nacross many other scientific domains. TensorFlow is licensed under [Apache\n2.0](https://github.com/tensorflow/tensorflow/blob/master/LICENSE).",
+      "word_count": 85
+    }
+  ]
+}

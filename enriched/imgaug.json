@@ -1,0 +1,16 @@
+{
+  "name": "imgaug",
+  "summary": "Image augmentation library for deep neural networks",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "imgaug::chunk_0",
+      "text": "A library for image augmentation in machine learning experiments, particularly convolutional\nneural networks. Supports the augmentation of images, keypoints/landmarks, bounding boxes, heatmaps and segmentation\nmaps in a variety of different ways.",
+      "word_count": 31
+    }
+  ]
+}

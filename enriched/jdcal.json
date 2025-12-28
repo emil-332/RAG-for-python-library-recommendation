@@ -1,0 +1,15 @@
+{
+  "name": "jdcal",
+  "summary": "Julian dates from proleptic Gregorian and Julian calendars.",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "jdcal::chunk_0",
+      "text": "jdcal\n=====\n\n.. _TPM: http://www.sal.wisc.edu/~jwp/astro/tpm/tpm.html\n.. _Jeffrey W. Percival: http://www.sal.wisc.edu/~jwp/\n.. _IAU SOFA: http://www.iausofa.org/\n.. _pip: https://pypi.org/project/pip/\n.. _easy_install: https://setuptools.readthedocs.io/en/latest/easy_install.html\n\n.. image:: https://travis-ci.org/phn/jdcal.svg?branch=master\n\nThis module contains functions for converting between Julian dates and\ncalendar dates.\n\nA function for converting Gregorian calendar dates to Julian dates, and\nanother function for converting Julian calendar dates to Julian dates\nare defined. Two functions for the reverse calculations are also\ndefined.\n\nDifferent regions of the world switched to Gregorian calendar from\nJulian calendar on different dates. Having separate functions for Julian\nand Gregorian calendars allow maximum flexibility in choosing the\nrelevant calendar.\n\nJulian dates are stored in two floating point numbers (double).  Julian\ndates, and Modified Julian dates, are large numbers. If only one number\nis used, then the precision of the time stored is limited. Using two\nnumbers, time can be split in a manner that will allow maximum\nprecision. For example, the first number could be the Julian date for\nthe beginning of a day and the second number could be the fractional\nday. Calculations that need the latter part can now work with maximum\nprecision.\n\nAll the above functions are \"proleptic\". This means that they work for\ndates on which the concerned calendar is not valid. For example,\nGregorian calendar was not used prior to around October 1582.\n\nA function to test if a given Gregorian calendar year is a leap year is\nalso defined.\n\nZero point of Modified Julian Date (MJD) and the MJD of 2000/1/1\n12:00:00 are also given as module level constants.\n\nExamples\n--------\n\nSome examples are given below. For more information see\n\nGregorian calendar:\n\n.. code-block:: python\n\nJulian calendar:\n\n.. code-block:: python\n\nGregorian leap year:\n\n.. code-block:: python\n\nJD for zero point of MJD, and MJD for JD2000.0:\n\n.. code-block:: python\n\nInstallation\n------------\n\nThe module can be installed using `pip`_ or `easy_install`_::\n\n  $ pip install jdcal\n\nor,\n\n::\n\n  $ easy_install jdcal\n\nTests are in ``test_jdcal.py``.\n\nCredits\n--------\n\n1. A good amount of the code is based on the excellent `TPM`_ C library\n   by `Jeffrey W. Percival`_.\n2. The inspiration to split Julian dates into two numbers came from the\n   `IAU SOFA`_ C library. No code or algorithm from the SOFA library is\n   used in `jdcal`.\n\nLicense\n-------\n\nReleased under BSD; see LICENSE.txt.\n\nFor comments and suggestions, email to user `prasanthhn` in the `gmail.com`\ndomain.",
+      "word_count": 387
+    }
+  ]
+}

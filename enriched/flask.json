@@ -1,0 +1,15 @@
+{
+  "name": "flask",
+  "summary": "A simple framework for building complex web applications.",
+  "language": "python",
+  "tags": [
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "flask::chunk_0",
+      "text": "Flask\n\nFlask is a lightweight [WSGI] web application framework. It is designed\nto make getting started quick and easy, with the ability to scale up to\ncomplex applications. It began as a simple wrapper around [Werkzeug]\nand [Jinja], and has become one of the most popular Python web\napplication frameworks.\n\nFlask offers suggestions, but doesn't enforce any dependencies or\nproject layout. It is up to the developer to choose the tools and\nlibraries they want to use. There are many extensions provided by the\ncommunity that make adding new functionality easy.\n\nA Simple Example\n\nDonate\n\nThe Pallets organization develops and supports Flask and the libraries\nit uses. In order to grow the community of contributors and users, and\nallow the maintainers to devote more time to the projects, [please\ndonate today].\n\nContributing\n\nSee our [detailed contributing documentation][contrib] for many ways to\ncontribute, including reporting issues, requesting features, asking or answering\nquestions, and making PRs.",
+      "word_count": 154
+    }
+  ]
+}

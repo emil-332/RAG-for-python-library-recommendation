@@ -1,0 +1,15 @@
+{
+  "name": "boolean-py",
+  "summary": "Define boolean algebras, create and parse boolean expressions and create custom boolean DSL.",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "boolean-py::chunk_0",
+      "text": "This library helps you deal with boolean expressions and algebra with variables\nand the boolean functions AND, OR, NOT.\n\nYou can parse expressions from strings and simplify and compare expressions.\nYou can also easily create your custom algreba and mini DSL and create custom\ntokenizers to handle custom expressions.\n\nFor extensive documentation look either into the docs directory or view it online, at\n\nCopyright (c) 2009-2020 Sebastian Kraemer, basti.kr@gmail.com and others\nSPDX-License-Identifier: BSD-2-Clause",
+      "word_count": 73
+    }
+  ]
+}

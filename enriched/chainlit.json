@@ -1,0 +1,17 @@
+{
+  "name": "chainlit",
+  "summary": "Build Conversational AI.",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "chainlit::chunk_0",
+      "text": "Installation\n\nOpen a terminal and run:\n\nIf this opens the `hello app` in your browser, you're all set!\n\nDevelopment version\n\nThe latest in-development version can be installed straight from GitHub with:\n\n(Requires Node and pnpm installed on the system.)\n\nQuickstart\n\nPure Python\n\nCreate a new file `demo.py` with the following code:\n\nNow run it!\n\nMore Examples - Cookbook\n\nYou can find various examples of Chainlit apps [here](https://github.com/Chainlit/cookbook) that leverage tools and services such as OpenAI, Anthropiс, LangChain, LlamaIndex, ChromaDB, Pinecone and more.\n\nTell us what you would like to see added in Chainlit using the Github issues or on [Discord](https://discord.gg/k73SQ3FyUh).\n\nContributing\n\nAs an open-source initiative in a rapidly evolving domain, we welcome contributions, be it through the addition of new features or the improvement of documentation.\n\nFor detailed information on how to contribute, see [here](/CONTRIBUTING.md).\n\nLicense\n\nChainlit is open-source and licensed under the [Apache 2.0](LICENSE) license.",
+      "word_count": 146
+    }
+  ]
+}

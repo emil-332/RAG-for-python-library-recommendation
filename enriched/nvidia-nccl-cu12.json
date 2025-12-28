@@ -1,0 +1,16 @@
+{
+  "name": "nvidia-nccl-cu12",
+  "summary": "NVIDIA Collective Communication Library (NCCL) Runtime",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "nvidia-nccl-cu12::chunk_0",
+      "text": "NCCL (pronounced \"Nickel\") is a stand-alone library of standard collective communication routines for GPUs, implementing all-reduce, all-gather, reduce, broadcast, and reduce-scatter. It has been optimized to achieve high bandwidth on any platform using PCIe, NVLink, NVswitch, as well as networking using InfiniBand Verbs or TCP/IP sockets.",
+      "word_count": 46
+    }
+  ]
+}

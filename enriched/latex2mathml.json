@@ -1,0 +1,15 @@
+{
+  "name": "latex2mathml",
+  "summary": "Pure Python library for LaTeX to MathML conversion",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "latex2mathml::chunk_0",
+      "text": "latex2mathml\n\nPure Python library for LaTeX to MathML conversion\n\nInstallation\n\nUsage\n\nPython\n\nCommand-line\n\nReferences\n\nLaTeX\n\nMathML\n\n- http://www.xmlmind.com/tutorials/MathML/\n\nAuthor\n\n- [Ronie Martinez](mailto:ronmarti18@gmail.com)\n\nContributors \n\nThanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):\n\n  \n  \n\nThis project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!",
+      "word_count": 42
+    }
+  ]
+}

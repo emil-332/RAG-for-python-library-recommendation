@@ -1,0 +1,16 @@
+{
+  "name": "gprofiler-official",
+  "summary": "Functional enrichment analysis and more via the g:Profiler toolkit",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "gprofiler-official::chunk_0",
+      "text": "gprofiler\n\nProject description\n\nThe official Python 3 interface to the [g:Profiler](https://biit.cs.ut.ee/gprofiler/) \ntoolkit for enrichment analysis of functional (GO and other) terms, \nconversion between identifier namespaces and mapping orhologous genes in related organisms. \n\nIt has an optional dependency on pandas.\n\nInstalling gprofiler\n\nthe recommended way of installing gprofiler is using pip\n\nLegacy version \n\nThe `0.3.x` series of gprofiler-official is incompatible with the `1.0.x` series. We changed the major version number to \nsignify the breaking changes in the API. To install the previous version of `gprofiler-official`, use the command\n\nTools:\n\nTo use any of the tools in the g:Profiler toolkit, first initialize the GProfiler object.\n\ng:GOSt (profile)\n\nOutput:\n\n* `source` is the code for the datasource\n* `native` is the ID for the enriched term/functional category in its native namespace.\n* `name` is the readable name for the enriched term, `description` is the longer description if available.\n* `p_value` is the corrected p-value for the \n* `term_size`, `query_size`, `intersection_size`, `effective_domain_size` are parameters to the hypergeometric test.\n* `query` is the name of the query and is significant if multiple queries were made in one call (e.g `gp.profile(query={'query1':['NR1H4'], 'query2':['NR1H4','TRIP12']})`)\n\nSetting the parameter `no_evidences=False` would add the column `intersections` (a list of genes that are annotated to the term and are present in the query )\nand the column `evidences` (a list of lists of GO evidence codes for the intersecting genes)\n\nNB! the parameter `combined` significantly changes the output structure by packing the results of distinct queries together.\nFor example:\n\nOutput (truncated):\n\ng:Convert (convert)\n\nOutput:\n\n`incoming` column lists the input gene, `converted` lists the gene in the target namespace (Entrez Gene accession number in this case).\n\ng:Orth (orth)\n\nOutput:\n\n`incoming` is the input gene, `converted` is the canonical Ensembl ID for the input gene, \n`ortholog_ensg` is the canonical Ensembl ID for the orthologous gene in the target organism.\n\ng:SNPense (snpense)\n\nOutput:\n\n* `rs_id` is the input rs-number\n* `chromosome`, `strand`, `start` and `end` encode the position of the variation\n* `ensgs` and `gene_names` are lists of protein-encoding genes associated with the rs-number.\n* `variants` are predicted variant effects.",
+      "word_count": 345
+    }
+  ]
+}

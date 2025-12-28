@@ -1,0 +1,15 @@
+{
+  "name": "pyusb",
+  "summary": "Easy USB access for Python",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pyusb::chunk_0",
+      "text": "PyUSB offers easy USB devices communication in Python.\nIt should work without additional code in any environment with\nPython >= 3.9, ctypes and a pre-built USB backend library\n(currently: libusb 1.x, libusb 0.1.x or OpenUSB).",
+      "word_count": 35
+    }
+  ]
+}

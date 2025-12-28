@@ -1,0 +1,15 @@
+{
+  "name": "biotraj",
+  "summary": "Basic trajectory file format functionality for Biotite; forked from MDTraj",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "biotraj::chunk_0",
+      "text": "biotraj\n=======\n\nLoading and saving raw data in trajectory formats.\n\nThis package is small excerpt from https://github.com/mdtraj/mdtraj containing only the\nfunctionality to read and write trajectory files.\nIt is not intended to be used as a separate package, but is a dependency for\nIt is not integrated into the Biotite package directly due to an incompatible license.\n\nCurrently supported formats:\n\n- *XTC*\n- *TRR*\n- *NetCDF*\n- *DCD*",
+      "word_count": 68
+    }
+  ]
+}

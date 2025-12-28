@@ -1,0 +1,16 @@
+{
+  "name": "geopy",
+  "summary": "Python Geocoding Toolbox",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "geopy::chunk_0",
+      "text": "geopy\n=====\n\n.. image:: https://img.shields.io/pypi/v/geopy.svg?style=flat-square\n\n.. image:: https://img.shields.io/github/actions/workflow/status/geopy/geopy/ci.yml?branch=master&style=flat-square\n\n.. image:: https://img.shields.io/github/license/geopy/geopy.svg?style=flat-square\n\ngeopy is a Python client for several popular geocoding web\nservices.\n\ngeopy makes it easy for Python developers to locate the coordinates of\naddresses, cities, countries, and landmarks across the globe using\nthird-party geocoders and other data sources.\n\ngeopy includes geocoder classes for the `OpenStreetMap Nominatim`_,\n`Google Geocoding API (V3)`_, and many other geocoding services.\nThe full list is available on the `Geocoders doc section`_.\nGeocoder classes are located in `geopy.geocoders`_.\n\n.. _OpenStreetMap Nominatim: https://nominatim.org\n.. _Google Geocoding API (V3): https://developers.google.com/maps/documentation/geocoding/\n.. _Geocoders doc section: https://geopy.readthedocs.io/en/latest/#geocoders\n.. _geopy.geocoders: https://github.com/geopy/geopy/tree/master/geopy/geocoders\n\ngeopy is tested against CPython (versions 3.7, 3.8, 3.9, 3.10, 3.11, 3.12)\nand PyPy3. geopy 1.x line also supported CPython 2.7, 3.4 and PyPy2.\n\n© geopy contributors 2006-2018 (see AUTHORS) under the `MIT\nLicense `__.\n\nInstallation\n------------\n\nInstall using `pip `__ with:\n\n::\n\nOr, `download a wheel or source archive from\nPyPI `__.\n\nGeocoding\n---------\n\nTo geolocate a query to an address and coordinates:\n\n.. code:: pycon\n\nTo find the address corresponding to a set of coordinates:\n\n.. code:: pycon\n\nMeasuring Distance\n------------------\n\nGeopy can calculate geodesic distance between two points using the\n`geodesic distance\n`_ or the\n`great-circle distance\n`_,\nwith a default of the geodesic distance available as the function\n`geopy.distance.distance`.\n\nHere's an example usage of the geodesic distance, taking pair\nof :code:`(lat, lon)` tuples:\n\n.. code:: pycon\n\nUsing great-circle distance, also taking pair of :code:`(lat, lon)` tuples:\n\n.. code:: pycon\n\nDocumentation\n-------------\n\nMore documentation and examples can be found at\n`Read the Docs `__.",
+      "word_count": 257
+    }
+  ]
+}

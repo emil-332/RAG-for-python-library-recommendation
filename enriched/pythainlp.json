@@ -1,0 +1,16 @@
+{
+  "name": "pythainlp",
+  "summary": "Thai Natural Language Processing library",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pythainlp::chunk_0",
+      "text": "Install\n\nFor stable version:\n\nFor development version:\n\nSome functionalities, like named-entity recognition, require extra packages.\nSee https://github.com/PyThaiNLP/pythainlp for installation options.",
+      "word_count": 20
+    }
+  ]
+}

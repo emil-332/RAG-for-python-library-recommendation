@@ -1,0 +1,16 @@
+{
+  "name": "biothings-client",
+  "summary": "Python Client for BioThings API services.",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "biothings-client::chunk_0",
+      "text": ".. image:: https://img.shields.io/pypi/pyversions/biothings-client.svg\n\n.. image:: https://img.shields.io/pypi/format/biothings-client.svg\n\n.. image:: https://img.shields.io/pypi/dm/biothings_client.svg\n   :alt: PyPI Downloads\n   :target: https://pypistats.org/packages/biothings_client\n\n   :alt: Documentation Status\n\nIntro\n=====\n\n*biothings_client* is an easy-to-use Python wrapper to access any Biothings.api_\n-based backend service. Currently, the following clients are available:\n\n.. _t.biothings.io: https://t.biothings.io\n.. _Biothings.api: https://biothings.io\n.. _MyGene.Info: https://mygene.info\n.. _MyVariant.Info: https://myvariant.info\n.. _MyChem.Info: https://mychem.info\n.. _MyDisease.Info: https://mydisease.info\n.. _MyGeneset.Info: https://mygeneset.info\n\nSupport\n============\n\nOptional dependencies\n======================\n\nInstallation\n=============\n\nVersion history\n===============\n\nTutorial\n=========\n\nDocumentation\n=============\n\nUsage\n=====\n\n* Synchronous client.\n\n* Asynchronous client.\n\nContact\n========\nDrop us any feedback `@biothingsapi `_",
+      "word_count": 89
+    }
+  ]
+}

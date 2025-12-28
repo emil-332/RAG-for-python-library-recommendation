@@ -1,0 +1,18 @@
+{
+  "name": "clarifai-grpc",
+  "summary": "Clarifai gRPC API Client",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "clarifai-grpc::chunk_0",
+      "text": "Clarifai Python gRPC Client\n\nThis is the official Clarifai gRPC Python client for interacting with our powerful recognition\n[API](https://docs.clarifai.com).\nClarifai provides a platform for data scientists, developers, researchers and enterprises to master the entire\nartificial intelligence lifecycle. Gather valuable business insights from images, video and text using computer vision\nand natural language processing.\n\n* Try the Clarifai demo at: https://clarifai.com/demo\n* Sign up for a free account at: https://portal.clarifai.com/signup\n* Read the documentation at: https://docs.clarifai.com/\n\n(https://pypi.python.org/pypi/clarifai-grpc)\n(https://github.com/Clarifai/clarifai-python-grpc/actions)\n\nInstallation\n\nVersioning\n\nThis library doesn't use semantic versioning. The first two version numbers (`X.Y` out of `X.Y.Z`) follow the API (backend) versioning, and\nwhenever the API gets updated, this library follows it.\n\nThe third version number (`Z` out of `X.Y.Z`) is used by this library for any independent releases of library-specific improvements and bug fixes.\n\nGetting started\n\nConstruct the `V2Stub` object using which you'll access all the Clarifai API functionality:\n\n> Alternatives to the encrypted gRPC channel (`ClarifaiChannel.get_grpc_channel()`) are:\n> - the HTTPS+JSON channel (`ClarifaiChannel.get_json_channel()`), and\n> - the unencrypted gRPC channel (`ClarifaiChannel.get_insecure_grpc_channel()`).\n>\n> We only recommend them in special cases.\n\nPredict concepts in an image:\n\nSee [the Clarifai API documentation](https://docs.clarifai.com/) for all available functionality.\n\nTroubleshooting\n\nI get the following error when installing the library: `Failed building wheel for grpcio`\n\nTry upgrading **setuptools** to a version `40.7.1` or higher.\n\nSource: https://github.com/grpc/grpc/issues/17829",
+      "word_count": 219
+    }
+  ]
+}

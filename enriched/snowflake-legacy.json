@@ -1,0 +1,17 @@
+{
+  "name": "snowflake-legacy",
+  "summary": "You should switch to the snowflake-uuid package",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "snowflake-legacy::chunk_0",
+      "text": "The snowflake._legacy package\n\nHistorically, the `snowflake` package on PyPI was an unrelated package owned\nby an independent developer not affiliated with\n[Snowflake](https://www.snowflake.com/).  After friendly discussion in\n2023, it was agreed to transfer the PyPI `snowflake` package name to\nSnowflake.\n\nIn order to provide a more manageable transition, Snowflake has agreed to\nmaintain some backward compatibility with the old `snowflake` package, now\nrenamed to [snowflake-uuid](https://pypi.org/project/snowflake-uuid/).  For a\nperiod of one year, existing users of the old package will be able to:\n\n* `import snowflake` and call `snowflake.snowflake()` to return the contents\n  of `/etc/snowflake` as a string, if it exists.  No validation of the value\n  is performed.  If `/etc/snowflake` doesn't exist, a `FileNotFoundError` will\n  be raised.  `snowflake.snowflake()` takes a single string argument which\n  names an alternative path to read from, and this is supported in the legacy\n  API.\n* `snowflake.make_snowflake()` will always raise a `NotImplementedError` and\n  point users to the new `snowflake-uuid` package.\n\nIt is highly recommended that all consumers of the old `snowflake` package\nchange their dependency to `snowflake-uuid` as soon as possible.",
+      "word_count": 172
+    }
+  ]
+}

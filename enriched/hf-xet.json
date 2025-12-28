@@ -1,0 +1,18 @@
+{
+  "name": "hf-xet",
+  "summary": "Fast transfer of large files with the Hugging Face Hub.",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "hf-xet::chunk_0",
+      "text": "Welcome\n\n`hf-xet` enables `huggingface_hub` to utilize xet storage for uploading and downloading to HF Hub. Xet storage provides chunk-based deduplication, efficient storage/retrieval with local disk caching, and backwards compatibility with Git LFS. This library is not meant to be used directly, and is instead intended to be used from [huggingface_hub](https://pypi.org/project/huggingface-hub).\n\nKey features\n\n♻ **chunk-based deduplication implementation**: avoid transferring and storing chunks that are shared across binary files (models, datasets, etc).\n\n **Python bindings**: bindings for [huggingface_hub](https://github.com/huggingface/huggingface_hub/) package.\n\n↔ **network communications**: concurrent communication to HF Hub Xet backend services (CAS).\n\n **local disk caching**: chunk-based cache that sits alongside the existing [huggingface_hub disk cache](https://huggingface.co/docs/huggingface_hub/guides/manage-cache).\n\nInstallation\n\nInstall the `hf_xet` package with [pip](https://pypi.org/project/hf-xet/):\n\nQuick Start\n\n`hf_xet` is not intended to be run independently as it is expected to be used from `huggingface_hub`, so to get started with `huggingface_hub` check out the documentation [here](\"https://hf.co/docs/huggingface_hub\").\n\nContributions (feature requests, bugs, etc.) are encouraged & appreciated ️\n\nPlease join us in making hf-xet better. We value everyone's contributions. Code is not the only way to help. Answering questions, helping each other, improving documentation, filing issues all help immensely. If you are interested in contributing (please do!), check out the [contribution guide](https://github.com/huggingface/xet-core/blob/main/CONTRIBUTING.md) for this repository.",
+      "word_count": 195
+    }
+  ]
+}

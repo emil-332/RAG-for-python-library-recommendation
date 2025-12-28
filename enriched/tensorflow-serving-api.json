@@ -1,0 +1,16 @@
+{
+  "name": "tensorflow-serving-api",
+  "summary": "TensorFlow Serving Python API.",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tensorflow-serving-api::chunk_0",
+      "text": "TensorFlow Serving is a flexible, high-performance serving system for machine\nlearning models, designed for production environments.TensorFlow Serving makes\nit easy to deploy new algorithms and experiments, while keeping the same server\narchitecture and APIs. TensorFlow Serving provides out-of-the-box integration\nwith TensorFlow models, but can be easily extended to serve other types of\nmodels and data.\n\nThis package contains the TensorFlow Serving Python APIs.",
+      "word_count": 63
+    }
+  ]
+}

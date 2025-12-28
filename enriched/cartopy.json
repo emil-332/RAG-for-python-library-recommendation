@@ -1,0 +1,17 @@
+{
+  "name": "cartopy",
+  "summary": "A Python library for cartographic visualizations with Matplotlib",
+  "language": "python",
+  "tags": [
+    "math",
+    "ui",
+    "visualization"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "cartopy::chunk_0",
+      "text": "Table of contents\n\n markdown-toc -i --bullets='-' README.md\n\nNOTE: This entire README can be markdown linted with\n-->\n\n- [Overview](#overview)\n- [Get in touch](#get-in-touch)\n- [License and copyright](#license-and-copyright)\n\nOverview\n\nCartopy is a Python package designed to make drawing maps for data\nanalysis and visualisation easy.\n\nIt features:\n\n- object oriented projection definitions\n- point, line, polygon and image transformations between projections\n- integration to expose advanced mapping in Matplotlib with a simple and\n  intuitive interface\n- powerful vector data handling by integrating shapefile reading with Shapely\n  capabilities\n\nDocumentation can be found at .\n\nGet in touch\n\n- Ask usage questions on\n  [StackOverflow](https://stackoverflow.com/questions/tagged/cartopy).\n- For less well defined questions, ideas, general discussion or announcements of\n  related projects use the\n  [Cartopy category on Matplotlib's Discourse](https://discourse.matplotlib.org/c/3rdparty/cartopy/19).\n- Report bugs, suggest features or view the source code on\n  [GitHub](https://github.com/SciTools/cartopy).\n- To chat with developers and other users you can use the\n  [Gitter Chat](https://gitter.im/SciTools/cartopy).\n\nCredits, copyright and license\n\nCartopy is developed collaboratively under the SciTools umberella.\n\nA full list of codecontributors (\"Cartopy contributors\") can be found at\n\nCode is just one of many ways of positively contributing to Cartopy, please see\nour [contributing guide](.github/CONTRIBUTING.md) for more details on how\nyou can get involved.\n\nCartopy is released under the 3-Clause BSD license with a shared copyright model.\nSee [LICENSE](LICENSE) for full terms.\n\nThe [Met Office](https://metoffice.gov.uk) has made a significant\ncontribution to the development, maintenance and support of this library.\nAll Met Office contributions are copyright on behalf of the British Crown.",
+      "word_count": 244
+    }
+  ]
+}

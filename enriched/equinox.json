@@ -1,0 +1,16 @@
+{
+  "name": "equinox",
+  "summary": "Elegant easy-to-use neural networks in JAX.",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "equinox::chunk_0",
+      "text": "Installation\n\nRequires Python 3.10+.\n\nEquinox is also available through a community-supported build on [conda-forge](https://github.com/conda-forge/equinox-feedstock).\n\nDocumentation\n\nAvailable at [https://docs.kidger.site/equinox](https://docs.kidger.site/equinox).\n\nQuick example\n\nModels are defined using PyTorch-like syntax:\n\nand are fully compatible with normal JAX operations:\n\nFinally, there's no magic behind the scenes. All `eqx.Module` does is register your class as a PyTree. From that point onwards, JAX already knows how to work with PyTrees.\n\nCitation\n\nIf you found this library to be useful in academic work, then please cite: ([arXiv link](https://arxiv.org/abs/2111.00254))\n\n(Also consider starring the project on GitHub.)\n\nSee also: other libraries in the JAX ecosystem\n\n**Always useful**  \n[jaxtyping](https://github.com/patrick-kidger/jaxtyping): type annotations for shape/dtype of arrays.  \n\n**Deep learning**  \n[Optax](https://github.com/deepmind/optax): first-order gradient (SGD, Adam, ...) optimisers.  \n[Orbax](https://github.com/google/orbax): checkpointing (async/multi-host/multi-device).  \n[Levanter](https://github.com/stanford-crfm/levanter): scalable+reliable training of foundation models (e.g. LLMs).  \n[paramax](https://github.com/danielward27/paramax): parameterizations and constraints for PyTrees.\n\n**Scientific computing**  \n[Diffrax](https://github.com/patrick-kidger/diffrax): numerical differential equation solvers.  \n[Optimistix](https://github.com/patrick-kidger/optimistix): root finding, minimisation, fixed points, and least squares.  \n[Lineax](https://github.com/patrick-kidger/lineax): linear solvers.  \n[BlackJAX](https://github.com/blackjax-devs/blackjax): probabilistic+Bayesian sampling.  \n[sympy2jax](https://github.com/patrick-kidger/sympy2jax): SymPyJAX conversion; train symbolic expressions via gradient descent.  \n[PySR](https://github.com/milesCranmer/PySR): symbolic regression. (Non-JAX honourable mention!)  \n\n**Awesome JAX**  \n[Awesome Equinox](https://docs.kidger.site/equinox/awesome-list/)  \n[Awesome JAX](https://github.com/lockwo/awesome-jax): a longer list of other JAX projects.",
+      "word_count": 180
+    }
+  ]
+}

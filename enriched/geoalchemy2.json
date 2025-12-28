@@ -1,0 +1,15 @@
+{
+  "name": "geoalchemy2",
+  "summary": "Using SQLAlchemy with Spatial Databases",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "geoalchemy2::chunk_0",
+      "text": "============\nGeoAlchemy 2\n============\n\n   :target: https://github.com/geoalchemy/geoalchemy2/actions\n\n   :target: https://coveralls.io/r/geoalchemy/geoalchemy2\n\n   :alt: Documentation Status\n\n  :target: https://zenodo.org/doi/10.5281/zenodo.10808783\n\nGeoAlchemy 2 is a Python toolkit for working with spatial databases. It is\nbased on the gorgeous `SQLAlchemy `_.\n\nDocumentation is on Read the Docs: https://geoalchemy-2.readthedocs.io/en/stable.",
+      "word_count": 39
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cmdstanpy",
+  "summary": "Python interface to CmdStan",
+  "language": "python",
+  "tags": [
+    "dev",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "cmdstanpy::chunk_0",
+      "text": "CmdStanPy\n\n(https://codecov.io/gh/stan-dev/cmdstanpy)\n\nCmdStanPy is a lightweight pure-Python interface to CmdStan which provides access to the Stan compiler and all inference algorithms.  It supports both development and production workflows. Because model development and testing may require many iterations, the defaults favor development mode and therefore output files are stored on a temporary filesystem. Non-default options allow all aspects of a run to be specified so that scripts can be used to distributed analysis jobs across nodes and machines.\n\nCmdStanPy is distributed via PyPi: https://pypi.org/project/cmdstanpy/\n\nor Conda Forge: https://anaconda.org/conda-forge/cmdstanpy\n\nGoals\n\n- Clean interface to Stan services so that CmdStanPy can keep up with Stan releases.\n\n- Provide access to all CmdStan inference methods.\n\n- Easy to install,\n  + minimal Python library dependencies: numpy, pandas\n  + Python code doesn't interface directly with c++, only calls compiled executables\n\n- Modular - CmdStanPy produces a MCMC sample (or point estimate) from the posterior; other packages do analysis and visualization.\n\n- Low memory overhead - by default, minimal memory used above that required by CmdStanPy; objects run CmdStan programs and track CmdStan input and output files.\n\nSource Repository\n\nCmdStanPy and CmdStan are available from GitHub: https://github.com/stan-dev/cmdstanpy and https://github.com/stan-dev/cmdstan\n\nDocs\n\nThe latest release documentation is hosted on  https://mc-stan.org/cmdstanpy, older release versions are available from readthedocs:  https://cmdstanpy.readthedocs.io\n\nLicensing\n\nThe CmdStanPy, CmdStan, and the core Stan C++ code are licensed under new BSD.\n\nExample",
+      "word_count": 225
+    }
+  ]
+}

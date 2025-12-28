@@ -1,0 +1,17 @@
+{
+  "name": "fasttext-langdetect",
+  "summary": "80x faster and 95% accurate language identification with Fasttext",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "fasttext-langdetect::chunk_0",
+      "text": "fasttext-langdetect\nThis library is a wrapper for the language detection model trained on fasttext by Facebook. For more information, please visit: https://fasttext.cc/docs/en/language-identification.html\n\nSupported languages\n\nInstall\n\nUsage\n`detect` method expects UTF-8 data. `low_memory` option enables getting predictions with the compressed version of the fasttext model by sacrificing the accuracy a bit.\n\nBenchmark\nWe benchmarked the fasttext model against [cld2](https://github.com/CLD2Owners/cld2), [langid](https://github.com/saffsd/langid.py), and [langdetect](https://github.com/Mimino666/langdetect) on Wili-2018 dataset.\n\nfasttext\n--------------------------\nAverage time (ms)\n139 langs - not weighted\n139 langs - pop weighted\n44 langs - not weighted\n44 langs - pop weighted\n\n- `pop weighted` means recall for each language is multipled by [its number of speakers](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers).\n- 139 languages = all languages with ISO 639-1 2-letter code\n- 44 languages = top 44 languages spoken in the world\n\nRecall per language\nlang\n-------------------------\nAfrikaans\nAlbanian\nAmharic\nArabic\nAragonese\nArmenian\nAssamese\nAvar\nAymara\nAzerbaijani\nBashkir\nBasque\nBelarusian\nBengali\nBhojpuri\nBokmål\nBosnian\nBreton\nBulgarian\nBurmese\nCatalan\nCentral Khmer\nChechen\nChuvash\nCornish\nCorsican\nCroatian\nCzech\nDanish\nDhivehi\nDutch\nEnglish\nEsperanto\nEstonian\nFaroese\nFinnish\nFrench\nGalician\nGeorgian\nGerman\nGuarani\nGujarati\nHaitian Creole\nHausa\nHebrew\nHindi\nHungarian\nIcelandic\nIdo\nIgbo\nIndonesian\nInterlingua\nInterlingue\nIrish\nItalian\nJapanese\nJavanese\nKannada\nKazakh\nKinyarwanda\nKirghiz\nKomi\nKorean\nKurdish\nLao\nLatin\nLatvian\nLimburgan\nLingala\nLithuanian\nLuganda\nLuxembourgish\nMacedonian\nMalagasy\nMalay\nMalayalam\nMaltese\nManx\nMaori\nMarathi\nModern Greek\nMongolian\nNavajo\nNepali (macrolanguage)\nNorthern Sami\nNorwegian Nynorsk\nOccitan\nOriya\nOromo\nOssetian\nPanjabi\nPersian\nPolish\nPortuguese\nPushto\nQuechua\nRomanian\nRomansh\nRussian\nSanskrit\nSardinian\nScottish Gaelic\nSerbian\nSerbo-Croatian\nShona\nSindhi\nSinhala\nSlovak\nSlovene\nSomali\nSpanish\nStandard Chinese\nSundanese\nSwahili (macrolanguage)\nSwedish\nTagalog\nTajik\nTamil\nTatar\nTelugu\nThai\nTibetan\nTongan\nTswana\nTurkish\nTurkmen\nUighur\nUkrainian\nUrdu\nUzbek\nVietnamese\nVolapük\nWalloon\nWelsh\nWestern Frisian\nWolof\nXhosa\nYiddish\nYoruba\n\nReferences\n[1] A. Joulin, E. Grave, P. Bojanowski, T. Mikolov, [Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759)\n\n[2] A. Joulin, E. Grave, P. Bojanowski, M. Douze, H. Jégou, T. Mikolov, [FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651)",
+      "word_count": 315
+    }
+  ]
+}

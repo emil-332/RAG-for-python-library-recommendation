@@ -1,0 +1,17 @@
+{
+  "name": "lap",
+  "summary": "Linear Assignment Problem solver (LAPJV/LAPMOD).",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "lap::chunk_0",
+      "text": "lap: Linear Assignment Problem Solver\n\n[`lap`](https://github.com/gatagat/lap) is a [linear assignment problem](https://en.wikipedia.org/wiki/Assignment_problem) solver using Jonker-Volgenant algorithm for dense LAPJV¹ or sparse LAPMOD² matrices. Both algorithms are implemented from scratch based solely on the papers¹˒² and the public domain Pascal implementation provided by A. Volgenant³. The LAPMOD implementation seems to be faster than the LAPJV implementation for matrices with a side of more than ~5000 and with less than 50% finite coefficients.\n\n¹ R. Jonker and A. Volgenant, \"A Shortest Augmenting Path Algorithm for Dense and Sparse Linear Assignment Problems\", Computing 38, 325-340 (1987) \n² A. Volgenant, \"Linear and Semi-Assignment Problems: A Core Oriented Approach\", Computer Ops Res. 23, 917-932 (1996) \n³ http://www.assignmentproblems.com/LAPJV.htm | [[archive.org](https://web.archive.org/web/20220221010749/http://www.assignmentproblems.com/LAPJV.htm)]\n\nInstallation\n\nInstall from [PyPI](https://pypi.org/project/lap/):\n\n(https://pepy.tech/project/lap)\n(https://pepy.tech/project/lap)\n\n**Pre-built Wheels** \n:---:\nPython 3.7\nPython 3.8\nPython 3.9-3.13 ¹\n\n¹ v0.5.10 supports numpy v2.x for Python 3.9-3.13. 🆕 \n² Windows ARM64 is experimental.\n\nOther options\n\nInstall from GitHub repo (requires C++ compiler):\n\nBuild and install (requires C++ compiler):\n\nUsage\n\nMore details\n\n`cost, x, y = lap.lapjv(C)`\n\nThe function `lapjv(C)` returns the assignment cost `cost` and two arrays `x` and `y`. If cost matrix `C` has shape NxM, then `x` is a size-N array specifying to which column each row is assigned, and `y` is a size-M array specifying to which row each column is assigned. For example, an output of `x = [1, 0]` indicates that row 0 is assigned to column 1 and row 1 is assigned to column 0. Similarly, an output of `x = [2, 1, 0]` indicates that row 0 is assigned to column 2, row 1 is assigned to column 1, and row 2 is assigned to column 0.\n\nNote that this function *does not* return the assignment matrix (as done by scipy's [`linear_sum_assignment`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html) and lapsolver's [`solve dense`](https://github.com/cheind/py-lapsolver)). The assignment matrix can be constructed from `x` as follows:\n\nEquivalently, we could construct the assignment matrix from `y`:\n\nFinally, note that the outputs are redundant: we can construct `x` from `y`, and vise versa:\n\nLicense\n\nReleased under the 2-clause BSD license, see [LICENSE](./LICENSE).\n\nCopyright (C) 2012-2024, Tomas Kazmar\n\nContributors (in alphabetic order):\n- Benjamin Eysenbach\n- Léo Duret\n- Raphael Reme\n- Ratha Siv\n- Robert Wen\n- Steven\n- Tom White\n- Tomas Kazmar\n- Wok",
+      "word_count": 371
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "gin-config",
+  "summary": "Gin-Config: A lightweight configuration library for Python",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "gin-config::chunk_0",
+      "text": "Gin\n\nGin provides a lightweight configuration framework for Python, based on\ndependency injection. Functions or classes can be decorated with\n`@gin.configurable`, allowing default parameter values to be supplied from a\nconfig file (or passed via the command line) using a simple but powerful syntax.\nThis removes the need to define and maintain configuration objects (e.g.\nprotos), or write boilerplate parameter plumbing and factory code, while often\ndramatically expanding a project's flexibility and configurability.\n\nGin is particularly well suited for machine learning experiments (e.g. using\nTensorFlow), which tend to have many parameters, often nested in complex ways.\n\n**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman\n**Contributors**: Oscar Ramirez, Marek Fiser",
+      "word_count": 108
+    }
+  ]
+}

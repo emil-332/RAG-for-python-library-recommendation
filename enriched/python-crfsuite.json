@@ -1,0 +1,16 @@
+{
+  "name": "python-crfsuite",
+  "summary": "Python binding for CRFsuite",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "python-crfsuite::chunk_0",
+      "text": "===============\npython-crfsuite\n===============\n\n.. image:: https://img.shields.io/pypi/v/python-crfsuite.svg?style=flat-square\n\npython-crfsuite is a python binding to CRFsuite_.\n\nInstallation\n============\n\nUsing ``pip``::\n\nUsing ``conda``::\n\nUsage\n=====\n\nSee docs_ and an example_.\n\n.. _docs: http://python-crfsuite.rtfd.org/\n.. _example: https://github.com/scrapinghub/python-crfsuite/blob/master/examples/CoNLL%202002.ipynb\n\nSee Also\n========\n\nsklearn-crfsuite_ is a python-crfsuite wrapper which provides\nAPI similar to scikit-learn.\n\n.. _sklearn-crfsuite: https://github.com/TeamHG-Memex/sklearn-crfsuite\n\nContributing\n============\n\n* Source code: https://github.com/scrapinghub/python-crfsuite\n* Issue tracker: https://github.com/scrapinghub/python-crfsuite/issues\n\nFeel free to submit ideas, bugs reports, pull requests or regular patches.\n\nPlease don't commit generated cpp files in the same commit as other files.\n\n.. _Cython: http://cython.org/\n.. _tox: http://tox.testrun.org\n\nAuthors and Contributors\n========================\n\nOriginal authors are Terry Peng  and\nMikhail Korobov . Many other people contributed;\nsome of them can be found at github Contributors_ page.\n\nBundled CRFSuite_ C/C++ library is by Naoaki Okazaki & contributors.\n\n.. _Contributors: https://github.com/scrapinghub/python-crfsuite/graphs/contributors\n\nLicense\n=======\n\npython-crfsuite is licensed under MIT license.\nCRFsuite_ library is licensed under BSD license.\n\n.. _CRFsuite: https://github.com/chokkan/crfsuite\n\nAlternatives\n============\n\n* https://github.com/chokkan/crfsuite/tree/master/swig/python - official\n  Python wrapper, exposes C++ API using SWIG.\n* https://github.com/jakevdp/pyCRFsuite - uses C API instead of C++ API;\n  allows to use scipy sparse matrices as an input. At the time of writing\n  it is unmaintained.\n* https://github.com/bosondata/crfsuite-rs - uses a Rust wrapper with CFFI instead of C++ API;\n  allows to tag with GIL released for better performance.\n\nThis package (python-crfsuite) wraps CRFsuite C++ API using Cython.\nIt is faster than official SWIG wrapper and has a simpler codebase than\na more advanced pyCRFsuite. python-crfsuite works in Python 2 and Python 3,\ndoesn't have external dependencies (CRFsuite is bundled, numpy/scipy stack\nis not needed) and workarounds some of the issues with C++ CRFsuite library.",
+      "word_count": 266
+    }
+  ]
+}

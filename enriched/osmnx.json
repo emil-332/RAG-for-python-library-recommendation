@@ -1,0 +1,17 @@
+{
+  "name": "osmnx",
+  "summary": "Download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap",
+  "language": "python",
+  "tags": [
+    "math",
+    "visualization",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "osmnx::chunk_0",
+      "text": "OSMnx\n\n(https://pypi.org/project/osmnx/)\n(https://pepy.tech/project/osmnx)\n(https://osmnx.readthedocs.io/)\n(https://github.com/gboeing/osmnx/actions/workflows/ci.yml)\n(https://codecov.io/gh/gboeing/osmnx)\n\n**OSMnx** is a Python package to easily download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap. You can download and model walking, driving, or biking networks with a single line of code then analyze and visualize them. You can just as easily work with urban amenities/points of interest, building footprints, transit stops, elevation data, street orientations, speed/travel time, and routing.\n\nOSMnx 2.0 is released: read the [migration guide](https://github.com/gboeing/osmnx/issues/1123).\n\nCitation\n\nIf you use OSMnx in your work, please cite the paper:\n\nBoeing, G. (2025). [Modeling and Analyzing Urban Networks and Amenities with OSMnx](https://doi.org/10.1111/gean.70009). *Geographical Analysis* 57 (4), 567-577. doi:10.1111/gean.70009\n\nGetting Started\n\nFirst read the [Getting Started](https://osmnx.readthedocs.io/en/stable/getting-started.html) guide for an introduction to the package and FAQ.\n\nThen work through the [Examples Gallery](https://github.com/gboeing/osmnx-examples) for step-by-step tutorials and sample code.\n\nInstallation\n\nFollow the [Installation](https://osmnx.readthedocs.io/en/stable/installation.html) guide to install OSMnx.\n\nSupport\n\nIf you have any trouble, consult the [User Reference](https://osmnx.readthedocs.io/en/stable/user-reference.html). The OSMnx repository is hosted on [GitHub](https://github.com/gboeing/osmnx). If you have a \"how-to\" or usage question, please ask it on [StackOverflow](https://stackoverflow.com/search?q=osmnx), as we reserve the repository's issue tracker for bug tracking and feature development.\n\nLicense\n\nOSMnx is open source and licensed under the MIT license. OpenStreetMap's open data [license](https://www.openstreetmap.org/copyright/) requires that derivative works provide proper attribution. Refer to the [Getting Started](https://osmnx.readthedocs.io/en/stable/getting-started.html) guide for usage limitations.",
+      "word_count": 218
+    }
+  ]
+}

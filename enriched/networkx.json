@@ -1,0 +1,15 @@
+{
+  "name": "networkx",
+  "summary": "Python package for creating and manipulating graphs and networks",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "networkx::chunk_0",
+      "text": "NetworkX\n========\n\n.. image::\n\n.. image::\n\n.. image::\n\n.. image::\n\n.. image::\n\n.. image::\n\nNetworkX is a Python package for the creation, manipulation,\nand study of the structure, dynamics, and functions\nof complex networks.\n\nSimple example\n--------------\n\nFind the shortest path between two nodes in an undirected graph:\n\n.. code:: pycon\n\nInstall\n-------\n\nInstall the latest released version of NetworkX:\n\n.. code:: shell\n\nInstall with all optional dependencies:\n\n.. code:: shell\n\nFor additional details,\nplease see the `installation guide `_.\n\nBugs\n----\n\nPlease report any bugs that you find `here `_.\nOr, even better, fork the repository on `GitHub `_\nand create a pull request (PR). We welcome all changes, big or small, and we\nwill help you make the PR if you are new to `git` (just ask on the issue and/or\nsee the `contributor guide `_).\n\nLicense\n-------\n\nReleased under the `3-clause BSD license `_::",
+      "word_count": 147
+    }
+  ]
+}

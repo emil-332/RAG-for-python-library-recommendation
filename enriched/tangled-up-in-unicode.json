@@ -1,0 +1,16 @@
+{
+  "name": "tangled-up-in-unicode",
+  "summary": "Access to the Unicode Character Database (UCD)",
+  "language": "python",
+  "tags": [
+    "data",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tangled-up-in-unicode::chunk_0",
+      "text": "Tangled up in Unicode\n\nThis module provides access to character properties for all Unicode characters, from the Unicode Character Database (UCD) .\nThis module provides an alternative to Python's standard library [`unicodedata`](https://docs.python.org/3/library/unicodedata.html).\n`Tangled up in Unicode` provides four main benefits compared to the standard library:\n- The [latest version](http://www.unicode.org/versions/latest/) of the Unicode database is used.\n- Adds human-readable class names (Property value aliases).\n- Extends the properties to use more potential of the database.\n- UCD version independent of Python version (Python 3.6 has UCD 9.0, 3.7 has UCD 11.0.0, 3.8 has 12.0.1, 3.9 has 13.0.0)\n\nNote that Python 3 added unicode support, but that this is different from the UCD.\nUnicode support handles storing and manipulating unicode characters, while this package aims to provide properties of specific characters.\n\nExample\n\nThe default lookup in `unicodedata` for `$`:\n\nProperty\n---------------------------\nName\nCategory (Short)\nBidirectional (Short)\nCombining\nMirrored\nEast Asian Width (Short)\nDecomposition\n\nExtra information provided by this package\n\nProperty\n-------------------------------\nCategory Alias (Long)\nBidirectional Alias (Long)\nEast Asian Width Alias (Long)\nScript (Long)\nScript (Short)\nBlock (Long)\nBlock (Short)\nPropList\nUppercase Character\nLowercase Character\nTitlecase\tCharacter\n\nProperties comparison\n\nProperty\n---------------------------\nName\nDecimal\nDigit\nNumeric\nCombining\nMirrored\nDecomposition\nCategory\nBidirectional\nEast Asian Width\nScript\nBlock\nAge\nBinary Property Values\nVersion\n\n_Table 1: presence of properties is denoted by &#9745; (Unicode Character 'BALLOT BOX WITH CHECK' (U+2611))._\n\nUsage\n\nThe package can be installed via pip:\n\nPerformance\n\nThe module is written in Python. \nIt can be compiled with Cython to gain [competitive performance](# \"Meaning the null hypothesis of the two libraries having the same average runtime could not be rejected.\") with the native library.\n\nUnsupported features\n\nSome of the features in `unicodedata` are not supported. \n\nFeature\n-----------------------\nlookup\nnormalize\nucd_3_2_0\n\nAcknowledgements\nWhere possible, code and documentation of the original module are used.\nThis repository is part of the Dylan Profiling project.",
+      "word_count": 307
+    }
+  ]
+}

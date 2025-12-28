@@ -1,0 +1,17 @@
+{
+  "name": "neptune-api",
+  "summary": "A client library for accessing Neptune API",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "neptune-api::chunk_0",
+      "text": "neptune-api\nA client library for accessing Neptune API\n\nUsage\nFirst, create a client:\n\nIf the endpoints you're going to hit require authentication, use `AuthenticatedClient` instead:\n\nNow call your endpoint and use your models:\n\nOr do the same thing with an async version:\n\nBy default, when you're calling an HTTPS API it will attempt to verify that SSL is working correctly. Using certificate verification is highly recommended most of the time, but sometimes you may need to authenticate to a server (especially an internal server) using a custom certificate bundle.\n\nYou can also disable certificate validation altogether, but beware that **this is a security risk**.\n\nThere are more settings on the generated `Client` class which let you control more runtime behavior, check out the docstring on that class for more info.\n\nThings to know:\n1. Every path/method combo becomes a Python module with four functions:\n\n1. All path/query params, and bodies become method arguments.\n1. If your endpoint had any tags on it, the first tag will be used as a module name for the function (my_tag above)\n1. Any endpoint which did not have a tag will be in `neptune_api.api.default`\n\nUpdate OpenAPI spec\n\nRun the following command to regenerate the OpenAPI client:",
+      "word_count": 202
+    }
+  ]
+}

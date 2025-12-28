@@ -1,0 +1,16 @@
+{
+  "name": "tensorflow-addons",
+  "summary": "TensorFlow Addons.",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tensorflow-addons::chunk_0",
+      "text": "TensorFlow Addons is a repository of contributions that conform to well-\nestablished API patterns, but implement new functionality not available\nin core TensorFlow. TensorFlow natively supports a large number of\noperators, layers, metrics, losses, and optimizers. However, in a fast\nmoving field like ML, there are many interesting new developments that\ncannot be integrated into core TensorFlow (because their broad\napplicability is not yet clear, or it is mostly used by a smaller subset\nof the community).",
+      "word_count": 77
+    }
+  ]
+}

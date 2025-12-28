@@ -1,0 +1,15 @@
+{
+  "name": "click",
+  "summary": "Composable command line interface toolkit",
+  "language": "python",
+  "tags": [
+    "cli"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "click::chunk_0",
+      "text": "Click\n\nClick is a Python package for creating beautiful command line interfaces\nin a composable way with as little code as necessary. It's the \"Command\nLine Interface Creation Kit\". It's highly configurable but comes with\nsensible defaults out of the box.\n\nIt aims to make the process of writing command line tools quick and fun\nwhile also preventing any frustration caused by the inability to\nimplement an intended CLI API.\n\nClick in three points:\n\n-   Arbitrary nesting of commands\n-   Automatic help page generation\n-   Supports lazy loading of subcommands at runtime\n\nA Simple Example\n\nDonate\n\nThe Pallets organization develops and supports Click and other popular\npackages. In order to grow the community of contributors and users, and\nallow the maintainers to devote more time to the projects, [please\ndonate today][].\n\nContributing\n\nSee our [detailed contributing documentation][contrib] for many ways to\ncontribute, including reporting issues, requesting features, asking or answering\nquestions, and making PRs.",
+      "word_count": 154
+    }
+  ]
+}

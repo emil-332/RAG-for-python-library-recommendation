@@ -1,0 +1,15 @@
+{
+  "name": "ortools",
+  "summary": "Google OR-Tools python libraries and modules",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ortools::chunk_0",
+      "text": "This project hosts operations research tools developed at Google and\nmade available as open source under the Apache 2.0 License.\n\nOR-Tools includes solvers for:\n\n- Constraint Programming\n  - CP-SAT solver: A constraint programming solver that uses SAT (satisfiability)\n  methods.\n  - Original CP solver: A constraint programming solver.\n- Linear and Mixed-Integer Programming\n  - Glop: A linear optimizer to find the optimal value of a linear objective\n  function, given a set of linear inequalities as constraints.\n  - MPSolver, ModelBuilder: Wrappers around commercial and other open source\n  solvers, including mixed integer solvers: CBC, CLP, GLPK, Gurobi or SCIP.\n- Vehicle Routing\n  A specialized library for identifying best vehicle routes given constraints.\n- Graph Algorithms\n  Code for finding shortest paths in graphs, min-cost flows, max flows, and\n  linear sum assignments.",
+      "word_count": 127
+    }
+  ]
+}

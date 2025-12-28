@@ -1,0 +1,15 @@
+{
+  "name": "pymorphy3",
+  "summary": "Morphological analyzer (POS tagger + inflection engine) for Russian language.",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pymorphy3::chunk_0",
+      "text": "pymorphy3\n=========\n\npymorphy3 is the continuation of the unmaintained project [pymorphy2](https://github.com/kmike/pymorphy2) which is an morphological analyzer (POS tagger + inflection engine) for Russian and Ukrainian languages.\n\npymorphy3 officially supports Python 3.9 ~ 3.14.\n\n* Documentation: https://pymorphy2.readthedocs.io\n* Bug tracker: https://github.com/no-plagiarism/pymorphy3/issues\n* Changelog: https://github.com/no-plagiarism/pymorphy3/blob/master/CHANGES.rst\n* License: https://github.com/no-plagiarism/pymorphy3/blob/master/LICENSE.txt\n* Contributors: https://github.com/no-plagiarism/pymorphy3/blob/master/AUTHORS.rst",
+      "word_count": 49
+    }
+  ]
+}

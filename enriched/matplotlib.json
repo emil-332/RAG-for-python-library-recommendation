@@ -1,0 +1,16 @@
+{
+  "name": "matplotlib",
+  "summary": "Python plotting package",
+  "language": "python",
+  "tags": [
+    "math",
+    "visualization"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "matplotlib::chunk_0",
+      "text": "Install\n\nSee the [install\ndocumentation](https://matplotlib.org/stable/users/installing/index.html),\nwhich is generated from `/doc/install/index.rst`\n\nContribute\n\nYou've discovered a bug or something else you want to change — excellent!\n\nYou've worked out a way to fix it — even better!\n\nYou want to tell us about it — best of all!\n\nStart at the [contributing\nguide](https://matplotlib.org/devdocs/devel/contribute.html)!\n\nContact\n\n[Discourse](https://discourse.matplotlib.org/) is the discussion forum\nfor general questions and discussions and our recommended starting\npoint.\n\nOur active mailing lists (which are mirrored on Discourse) are:\n\n[Gitter](https://gitter.im/matplotlib/matplotlib) is for coordinating\ndevelopment and asking questions directly related to contributing to\nmatplotlib.\n\nCiting Matplotlib\n\nIf Matplotlib contributes to a project that leads to publication, please\nacknowledge this by citing Matplotlib.\n\n[A ready-made citation\nentry](https://matplotlib.org/stable/users/project/citing.html) is\navailable.",
+      "word_count": 115
+    }
+  ]
+}

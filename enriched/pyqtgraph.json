@@ -1,0 +1,16 @@
+{
+  "name": "pyqtgraph",
+  "summary": "Scientific Graphics and GUI Library for Python",
+  "language": "python",
+  "tags": [
+    "math",
+    "visualization"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pyqtgraph::chunk_0",
+      "text": "PyQtGraph is a pure-python graphics and GUI library built on PyQt5/PySide2 and\nnumpy. \n\nIt is intended for use in mathematics / scientific / engineering applications.\nDespite being written entirely in python, the library is very fast due to its\nheavy leverage of numpy for number crunching, Qt's GraphicsView framework for\n2D display, and OpenGL for 3D display.",
+      "word_count": 57
+    }
+  ]
+}

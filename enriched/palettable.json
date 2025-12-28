@@ -1,0 +1,17 @@
+{
+  "name": "palettable",
+  "summary": "Color palettes for Python",
+  "language": "python",
+  "tags": [
+    "math",
+    "visualization",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "palettable::chunk_0",
+      "text": "Palettable\n==========\n\n   :target: https://github.com/jiffyclub/palettable/actions/workflows/ci.yml\n   :alt: Build Status\n\n   :target: https://coveralls.io/r/jiffyclub/palettable\n   :alt: Coveralls\n\n.. image:: https://img.shields.io/pypi/v/palettable.svg\n   :target: https://pypi.python.org/pypi/palettable/\n   :alt: Latest Version\n\n.. image:: https://img.shields.io/pypi/pyversions/snakeviz.svg\n   :target: https://pypi.python.org/pypi/snakeviz/\n   :alt: Supported Python versions\n\n.. image:: https://img.shields.io/pypi/wheel/palettable.svg\n\nColor Palettes for Python\n-------------------------\n\nPalettable (formerly brewer2mpl) is a library of color palettes for Python.\nIt's written in pure Python with no dependencies, but it can supply color maps\nfor matplotlib. You can use Palettable to customize matplotlib plots or supply\ncolors for a web application.\n\nFor more information see the\n`documentation `_.",
+      "word_count": 85
+    }
+  ]
+}

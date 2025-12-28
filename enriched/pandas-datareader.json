@@ -1,0 +1,16 @@
+{
+  "name": "pandas-datareader",
+  "summary": "Data readers extracted from the pandas codebase,should be compatible with recent pandas versions",
+  "language": "python",
+  "tags": [
+    "dev",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "pandas-datareader::chunk_0",
+      "text": "pandas-datareader\n\nUp to date remote data access for pandas, works for multiple versions of\npandas.\n\n(https://pypi.python.org/pypi/pandas-datareader/)\n(https://codecov.io/gh/pydata/pandas-datareader)\n(https://pandas-datareader.readthedocs.io/en/latest/)\n(https://github.com/psf/black)\n(https://pypi.org/project/pandas-datareader/)\n\nInstallation\n\nInstall using `pip`\n\nUsage\n\nDocumentation\n\n[Stable documentation](https://pydata.github.io/pandas-datareader/) is available on\n[github.io](https://pydata.github.io/pandas-datareader/). A second copy of the stable\ndocumentation is hosted on [read the docs](https://pandas-datareader.readthedocs.io/)\nfor more details.\n\n[Development documentation](https://pydata.github.io/pandas-datareader/devel/) is available\nfor the latest changes in master.\n\nRequirements\n\nUsing pandas datareader requires the following packages:\n\n-   pandas>=1.0\n-   lxml\n-   requests>=2.19.0\n\nBuilding the documentation additionally requires:\n\n-   matplotlib\n-   ipython\n-   requests_cache\n-   sphinx\n-   pydata_sphinx_theme\n\nDevelopment and testing additionally requires:\n\n-   black\n-   coverage\n-   codecov\n-   coveralls\n-   flake8\n-   pytest\n-   pytest-cov\n-   wrapt\n\nInstall latest development version\n\nor",
+      "word_count": 113
+    }
+  ]
+}

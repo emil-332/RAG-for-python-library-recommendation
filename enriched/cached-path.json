@@ -1,0 +1,18 @@
+{
+  "name": "cached-path",
+  "summary": "A file utility for accessing both local and remote files through a unified interface",
+  "language": "python",
+  "tags": [
+    "data",
+    "math",
+    "ml",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "cached-path::chunk_0",
+      "text": "[cached-path](https://cached-path.readthedocs.io/)\n\nA file utility library that provides a unified, simple interface for accessing both local and remote files.\nThis can be used behind other APIs that need to access files agnostic to where they are located.\n\nQuick links\n\nInstallation\n\n**cached-path** requires Python 3.7 or later.\n\nInstalling with `pip`\n\n**cached-path** is available [on PyPI](https://pypi.org/project/cached-path/). Just run\n\nInstalling from source\n\nTo install **cached-path** from source, first clone [the repository](https://github.com/allenai/cached_path):\n\nThen run\n\nUsage\n\nGiven something that might be a URL or local path, `cached_path()` determines which.\nIf it's a remote resource, it downloads the file and caches it to the [cache directory](#cache-directory), and\nthen returns the path to the cached file. If it's already a local path,\nit makes sure the file exists and returns the path.\n\nFor URLs, `http://`, `https://`, `s3://` (AWS S3), `gs://` (Google Cloud Storage), and `hf://` (HuggingFace Hub) are all supported out-of-the-box.\nOptionally `beaker://` URLs in the form of `beaker://{user_name}/{dataset_name}/{file_path}` are supported, which requires [beaker-py](https://beaker-py-docs.allen.ai) to be installed.\n\nFor example, to download the PyTorch weights for the model `epwalsh/bert-xsmall-dummy`\non HuggingFace, you could do:\n\nFor paths or URLs that point to a tarfile or zipfile, you can also add a path\nto a specific file to the `url_or_filename` preceeded by a \"!\", and the archive will\nbe automatically extracted (provided you set `extract_archive` to `True`),\nreturning the local path to the specific file. For example:\n\nUsing custom headers for HTTP requests\n\nYou can provide custom headers for HTTP requests, which is useful for accessing private resources that require authentication:\n\nThis is particularly useful for downloading private files from services like Hugging Face, GitHub, or any other API that uses Bearer token authentication.\n\nCache directory\n\nBy default the cache directory is `~/.cache/cached_path/`, however there are several ways to override this setting:\n- set the environment variable `CACHED_PATH_CACHE_ROOT`,\n- call `set_cache_dir()`, or\n- set the `cache_dir` argument each time you call `cached_path()`.\n\nTeam\n\n**cached-path** is developed and maintained by the AllenNLP team, backed by [the Allen Institute for Artificial Intelligence (AI2)](https://allenai.org/).\nAI2 is a non-profit institute with the mission to contribute to humanity through high-impact AI research and engineering.\nTo learn more about who specifically contributed to this codebase, see [our contributors](https://github.com/allenai/cached_path/graphs/contributors) page.\n\nLicense\n\n**cached-path** is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).\nA full copy of the license can be found [on GitHub](https://github.com/allenai/cached_path/blob/main/LICENSE).",
+      "word_count": 380
+    }
+  ]
+}

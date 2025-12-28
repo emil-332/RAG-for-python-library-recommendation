@@ -1,0 +1,15 @@
+{
+  "name": "murmurhash",
+  "summary": "Cython bindings for MurmurHash",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "murmurhash::chunk_0",
+      "text": "Cython bindings for MurmurHash2\n\n(https://github.com/explosion/murmurhash/actions/workflows/tests.yml)\n(https://pypi.python.org/pypi/murmurhash)\n(https://anaconda.org/conda-forge/murmurhash)\n(https://github.com/explosion/wheelwright/releases)",
+      "word_count": 8
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "nvidia-nvshmem-cu12",
+  "summary": "NVSHMEM creates a global address space that provides efficient and scalable communication for NVIDIA GPU clusters.",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "nvidia-nvshmem-cu12::chunk_0",
+      "text": "NVSHMEM is a parallel programming interface based on OpenSHMEM that provides efficient and scalable communication for NVIDIA GPU clusters. NVSHMEM creates a global address space for data that spans the memory of multiple GPUs and can be accessed with fine-grained GPU-initiated operations, CPU-initiated operations, and operations on CUDA streams.",
+      "word_count": 49
+    }
+  ]
+}

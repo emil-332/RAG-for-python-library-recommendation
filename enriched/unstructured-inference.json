@@ -1,0 +1,18 @@
+{
+  "name": "unstructured-inference",
+  "summary": "A library for performing inference using trained models.",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml",
+    "ui",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "unstructured-inference::chunk_0",
+      "text": "Installation\n\nPackage\n\nRun `pip install unstructured-inference`.\n\nDetectron2\n\n[Detectron2](https://github.com/facebookresearch/detectron2) is required for using models from the [layoutparser model zoo](#using-models-from-the-layoutparser-model-zoo) \nbut is not automatically installed with this package. \nFor MacOS and Linux, build from source with:\n\nOther install options can be found in the \n[Detectron2 installation guide](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).\n\nWindows is not officially supported by Detectron2, but some users are able to install it anyway. \nSee discussion [here](https://layout-parser.github.io/tutorials/installation#for-windows-users) for \ntips on installing Detectron2 on Windows.\n\nRepository\n\nTo install the repository for development, clone the repo and run `make install` to install dependencies.\nRun `make help` for a full list of install options.\n\nGetting Started\n\nTo get started with the layout parsing model, use the following commands:\n\nOnce the model has detected the layout and OCR'd the document, the text extracted from the first \npage of the sample document will be displayed.\nYou can convert a given element to a `dict` by running the `.to_dict()` method.\n\nModels\n\nThe inference pipeline operates by finding text elements in a document page using a detection model, then extracting the contents of the elements using direct extraction (if available), OCR, and optionally table inference models.\n\nWe offer several detection models including [Detectron2](https://github.com/facebookresearch/detectron2) and [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX).\n\nUsing a non-default model\n\nWhen doing inference, an alternate model can be used by passing the model object to the ingestion method via the `model` parameter. The `get_model` function can be used to construct one of our out-of-the-box models from a keyword, e.g.:\n\nUsing your own model\n\nAny detection model can be used for in the `unstructured_inference` pipeline by wrapping the model in the `UnstructuredObjectDetectionModel` class. To integrate with the `DocumentLayout` class, a subclass of `UnstructuredObjectDetectionModel` must have a `predict` method that accepts a `PIL.Image.Image` and returns a list of `LayoutElement`s, and an `initialize` method, which loads the model and prepares it for inference.\n\nSecurity Policy\n\nSee our [security policy](https://github.com/Unstructured-IO/unstructured-inference/security/policy) for\ninformation on how to report security vulnerabilities.\n\nLearn more\n\nSection\n-\n[Unstructured Community Github](https://github.com/Unstructured-IO/community)\n[Unstructured Github](https://github.com/Unstructured-IO)\n[Company Website](https://unstructured.io)",
+      "word_count": 324
+    }
+  ]
+}

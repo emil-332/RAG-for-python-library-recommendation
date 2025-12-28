@@ -1,0 +1,16 @@
+{
+  "name": "convertdate",
+  "summary": "Converts between Gregorian dates and other calendar systems",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "convertdate::chunk_0",
+      "text": "Armenian\n\nThe Armenian calendar begins on 11 July 552 (Julian) and has two modes of\nreckoning. The first is the invariant-length version consisting of 12 months\nof 30 days each and five epagomenal days; the second is the version\nestablished by Yovhannes Sarkawag in 1084, which fixed the first day of the\nyear with respect to the Julian calendar and added a sixth epagomenal day\nevery four years.\n\nBy default the invariant calendar is used, but the Sarkawag calendar can be\nused beginning with the Armenian year 533 (11 August 1084) by passing the\nparameter `method='sarkawag'` to the relevant functions.\n\nFrench Republican\n\nLeap year calculations in the French Republican calendar are a matter of\ndispute. By default, `convertdate` calculates leap years using the\nautumnal equinox. You can also use one of three more systematic methods\nproposed over the years.\n\n-   Romme, a co-creator of the calendar, proposed leap years in years\n-   Some concordances were drawn up in the 19th century that gave leap\n-   Von M&auml;dler proposed leap years in years divisible by four, except\n\nYou can specify any of these three methods with the method keyword\nargument in `french_republican` conversion functions.\n\nAll the conversion methods correctly assign the leap years implemented\nwhile calendar was in use (3, 7, 11).\n\nBaha'i\n------\n\nThe Bah&aacute;'&iacute; (Bad&iacute;) calendar has an intercalary period, Ayyam-i-H&aacute;, which occurs between the 18th and 19th months.\nDates in this period are returned as month 19, and the month of &lsquo;Al&aacute; is reported as month 20.\n\nBefore the Common Era\n---------------------\n\nFor dates before the Common Era (year 1), `convertdate` uses\nastronomical notation: 1 BC is recorded as 0, 2 BC is -1, etc. This\nmakes arithmatic much easier at the expense of ignoring custom.\n\nNote that for dates before 4 CE, `convertdate` uses the [proleptic\nJulian\ncalendar](https://en.wikipedia.org/wiki/Proleptic_Julian_calendar). The\nJulian Calendar was in use from 45 BC, but before 4 CE the leap year\nleap year pattern was irregular.\n\nThe [proleptic Gregorian\ncalendar](https://en.wikipedia.org/wiki/Proleptic_Gregorian_calendar) is\nused for dates before 1582 CE, the year of the Gregorian calendar\nreform.\n\nHolidays\n--------\n\nNorth American holidays are the current focus of the `holidays` module,\nbut pull requests are welcome.\n\nUtils\n-----\n\nConvertdate includes some utilities for manipulating and calculating\ndates.\n\nNote that when calculating weekdays, convertdate uses the convention of\nthe calendar and time modules: Monday is 0, Sunday is 6.\n\nOther utility functions:\n\n-   nearest\\_weekday\n-   next\\_or\\_current\\_weekday\n-   previous\\_weekday\n-   previous\\_or\\_current\\_weekday",
+      "word_count": 401
+    }
+  ]
+}

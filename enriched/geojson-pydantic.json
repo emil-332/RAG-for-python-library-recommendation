@@ -1,0 +1,16 @@
+{
+  "name": "geojson-pydantic",
+  "summary": "Pydantic data models for the GeoJSON spec.",
+  "language": "python",
+  "tags": [
+    "data",
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "geojson-pydantic::chunk_0",
+      "text": "geojson-pydantic\n\n   Pydantic models for GeoJSON.\n\n  \n\n  \n  \n\n  \n  \n  \n  \n  \n  \n  \n  \n\n  \n\n---\n\n**Documentation**: https://developmentseed.org/geojson-pydantic/\n\n**Source Code**: https://github.com/developmentseed/geojson-pydantic\n\n---\n\nDescription\n\n`geojson_pydantic` provides a suite of Pydantic models matching the [GeoJSON specification rfc7946](https://datatracker.ietf.org/doc/html/rfc7946). Those models can be used for creating or validating geojson data.\n\nInstall\n\nOr install from source:\n\nInstall with conda from [`conda-forge`](https://anaconda.org/conda-forge/geojson-pydantic):\n\nContributing\n\nSee [CONTRIBUTING.md](https://github.com/developmentseed/geojson-pydantic/blob/main/CONTRIBUTING.md).\n\nChanges\n\nSee [CHANGES.md](https://github.com/developmentseed/geojson-pydantic/blob/main/CHANGELOG.md).\n\nAuthors\n\nInitial implementation by @geospatial-jeff; taken liberally from https://github.com/arturo-ai/stac-pydantic/\n\nSee [contributors](hhttps://github.com/developmentseed/geojson-pydantic/graphs/contributors) for a listing of individual contributors.\n\nLicense\n\nSee [LICENSE](https://github.com/developmentseed/geojson-pydantic/blob/main/LICENSE)",
+      "word_count": 72
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "graphframes",
+  "summary": "GraphFrames: DataFrame-based Graphs",
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "graphframes::chunk_0",
+      "text": "This is a package for DataFrame-based graphs on top of Apache Spark. Users can write highly expressive queries by leveraging the DataFrame API, combined with a new API for motif finding. The user also benefits from DataFrame performance optimizations within the Spark SQL engine.",
+      "word_count": 44
+    }
+  ]
+}

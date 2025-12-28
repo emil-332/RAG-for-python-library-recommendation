@@ -1,0 +1,16 @@
+{
+  "name": "livekit-agents",
+  "summary": "A powerful framework for building realtime voice AI agents",
+  "language": "python",
+  "tags": [
+    "math",
+    "ml"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "livekit-agents::chunk_0",
+      "text": "LiveKit Agents for Python\n\nRealtime framework for production-grade multimodal and voice AI agents.\n\nSee [https://docs.livekit.io/agents/](https://docs.livekit.io/agents/) for quickstarts, documentation, and examples.",
+      "word_count": 20
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "bokeh",
+  "summary": "Interactive plots and applications in the browser from Python",
+  "language": "python",
+  "tags": [
+    "math",
+    "ui",
+    "visualization",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "bokeh::chunk_0",
+      "text": "Installation\n\nTo install Bokeh and its required dependencies using `pip`, enter the following command at a Bash or Windows command prompt:\n\nTo install using `conda`, enter the following command at a Bash or Windows command prompt:\n\nRefer to the [installation documentation](https://docs.bokeh.org/en/latest/docs/first_steps/installation.html) for more details.\n\nResources\n\nOnce Bokeh is installed, check out the [first steps guides](https://docs.bokeh.org/en/latest/docs/first_steps.html#first-steps-guides).\n\nVisit the [full documentation site](https://docs.bokeh.org) to view the [User's Guide](https://docs.bokeh.org/en/latest/docs/user_guide.html) or [checkout the Bokeh tutorial repository](https://github.com/bokeh/tutorial/) to learn about Bokeh in live Jupyter Notebooks.\n\nCommunity support is available on the [Project Discourse](https://discourse.bokeh.org).\n\nIf you would like to contribute to Bokeh, please review the [Contributor Guide](https://docs.bokeh.org/en/latest/docs/dev_guide.html) and [request an invitation to the Bokeh Dev Slack workspace](https://slack-invite.bokeh.org/).\n\n*Note: Everyone who engages in the Bokeh project's discussion forums, codebases, and issue trackers is expected to follow the [Code of Conduct](https://github.com/bokeh/bokeh/blob/HEAD/docs/CODE_OF_CONDUCT.md).*\n\nSupport\n\nFiscal Support\n\nThe Bokeh project is grateful for [individual contributions](https://opencollective.com/bokeh), as well as for present and past monetary support from the organizations and companies listed below:\n\n  \n  \n\n  \n  \n\n  \n  \n\n \n \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\nIf your company uses Bokeh and is able to sponsor the project, please contact info@bokeh.org\n\n*Bokeh is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides Bokeh with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.*\n\n*Donations to Bokeh are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.*\n\nIn-kind Support\n\nNon-monetary support can help with development, collaboration, infrastructure, security, and vulnerability management. The Bokeh project is grateful to the following companies for their donation of services:\n\n* [Amazon Web Services](https://aws.amazon.com/)\n* [GitGuardian](https://gitguardian.com/)\n* [GitHub](https://github.com/)\n* [makepath](https://makepath.com/)\n* [Pingdom](https://www.pingdom.com/website-monitoring)\n* [Slack](https://slack.com)\n* [QuestionScout](https://www.questionscout.com/)\n* [1Password](https://1password.com/)",
+      "word_count": 298
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "keras-tuner",
+  "summary": "A Hyperparameter Tuning Library for Keras",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "keras-tuner::chunk_0",
+      "text": "KerasTuner\n\n(https://github.com/keras-team/keras-tuner/actions?query=workflow%3ATests+branch%3Amaster)\n(https://codecov.io/gh/keras-team/keras-tuner)\n\nKerasTuner is an easy-to-use, scalable hyperparameter optimization framework\nthat solves the pain points of hyperparameter search. Easily configure your\nsearch space with a define-by-run syntax, then leverage one of the available\nsearch algorithms to find the best hyperparameter values for your models.\nKerasTuner comes with Bayesian Optimization, Hyperband, and Random Search algorithms\nbuilt-in, and is also designed to be easy for researchers to extend in order to\nexperiment with new search algorithms.\n\nOfficial Website: [https://keras.io/keras_tuner/](https://keras.io/keras_tuner/)\n\nQuick links\n\n* [Getting started with KerasTuner](https://keras.io/guides/keras_tuner/getting_started)\n* [KerasTuner developer guides](https://keras.io/guides/keras_tuner/)\n* [KerasTuner API reference](https://keras.io/api/keras_tuner/)\n\nInstallation\n\nKerasTuner requires **Python 3.8+** and **TensorFlow 2.0+**.\n\nInstall the latest release:\n\nYou can also check out other versions in our\n[GitHub repository](https://github.com/keras-team/keras-tuner).\n\nQuick introduction\n\nImport KerasTuner and TensorFlow:\n\nWrite a function that creates and returns a Keras model.\nUse the `hp` argument to define the hyperparameters during model creation.\n\nInitialize a tuner (here, `RandomSearch`).\nWe use `objective` to specify the objective to select the best models,\nand we use `max_trials` to specify the number of different models to try.\n\nStart the search and get the best model:\n\nTo learn more about KerasTuner, check out [this starter guide](https://keras.io/guides/keras_tuner/getting_started/).\n\nContributing Guide\n\nPlease refer to the [CONTRIBUTING.md](https://github.com/keras-team/keras-tuner/blob/master/CONTRIBUTING.md) for the contributing guide.\n\nThank all the contributors!\n\n(https://github.com/keras-team/keras-tuner/graphs/contributors)\n\nCommunity\n\nAsk your questions on our [GitHub Discussions](https://github.com/keras-team/keras-tuner/discussions).\n\nCiting KerasTuner\n\nIf KerasTuner helps your research, we appreciate your citations.\nHere is the BibTeX entry:",
+      "word_count": 231
+    }
+  ]
+}

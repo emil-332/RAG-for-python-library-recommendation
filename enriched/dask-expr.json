@@ -1,0 +1,16 @@
+{
+  "name": "dask-expr",
+  "summary": "High Level Expressions for Dask",
+  "language": "python",
+  "tags": [
+    "math",
+    "web"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "dask-expr::chunk_0",
+      "text": "Dask Expressions\n================\n\nDask DataFrames with query optimization.\n\nThis is a rewrite of Dask DataFrame that includes query\noptimization and generally improved organization.\n\nMore in our blog posts:\n- [Dask Expressions overview](https://blog.dask.org/2023/08/25/dask-expr-introduction)\n- [TPC-H benchmark results vs. Dask DataFrame](https://docs.coiled.io/blog/tpch.html)\n\nExample\n-------\n\nQuery Representation\n--------------------\n\nDask-expr encodes user code in an expression tree:\n\nThis expression tree will be optimized and modified before execution:\n\nStability\n---------\n\nThis is the default backend for dask.DataFrame since version 2024.3.0.\n\nAPI Coverage\n------------\n\nDask-Expr covers almost everything of the Dask DataFrame API. The only missing features are:\n\n- named GroupBy Aggregations",
+      "word_count": 95
+    }
+  ]
+}

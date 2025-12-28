@@ -1,0 +1,15 @@
+{
+  "name": "canmatrix",
+  "summary": null,
+  "language": "python",
+  "tags": [
+    "math"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "canmatrix::chunk_0",
+      "text": "Canmatrix implements a \"Python Can Matrix Object\" which describes the can-communication\nand the needed objects (Boardunits, Frames, Signals, Values, ...) Canmatrix also includes\ntwo Tools (canconvert and cancompare) for converting and comparing CAN databases.\nThere are also some extract and merge options for dealing with can databases.\n\n**supported file formats for import:**\n\n**supported file formats for export:**",
+      "word_count": 57
+    }
+  ]
+}
