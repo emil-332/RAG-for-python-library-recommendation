@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+
+.DS_Store
+.vscode/
+
+raw/
+clean/
+chunked/
+enriched/
+
+*.log
