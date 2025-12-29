@@ -92,14 +92,14 @@ def retrieve_libraries(query, top_x=5):
 
     return results
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # Uncomment to build the DB for the first time
-    build_vector_database()
-
-    user_goal = "I want to build a web scraper to collect news articles."
-    matches = retrieve_libraries(user_goal, top_x=3)
-
-    print(f"\nTop recommendations for: '{user_goal}'")
-    for res in matches:
-        print(f"- {res['library']} (Similarity: {res['score']:.4f})")
-        print(f"  Tags: {res['tags']}")
+#    build_vector_database()
+#
+#    user_goal = "I want to build a web scraper to collect news articles."
+#    matches = retrieve_libraries(user_goal, top_x=3)
+#
+#    print(f"\nTop recommendations for: '{user_goal}'")
+#    for res in matches:
+#        print(f"- {res['library']} (Similarity: {res['score']:.4f})")
+#        print(f"  Tags: {res['tags']}")
