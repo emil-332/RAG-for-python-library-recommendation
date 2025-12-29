@@ -15,7 +15,7 @@ If the Context is empty or irrelevant, strictly state that you cannot find suita
 
 Structure your answer:
 1. **Top Recommendation**: The best fit.
-2. **Alternatives**: 1-2 other options.
+2. **Alternatives**: 2 other options.
 3. **Why**: specific technical reasons linking the library features to the user's goal.
 
 Use a bullet point list of advantages and disadvantages for each recommendation.
@@ -56,8 +56,8 @@ def load_library_details(library_name):
 def generate_rag_response(user_query):
     # 1. Retrieval
     try:
-        # Retrieve top 4 matches based on vector similarity
-        retrieved_items = retrieve_libraries(user_query, top_x=4)
+        # Retrieve top matches based on vector similarity
+        retrieved_items = retrieve_libraries(user_query, top_x=6)
     except Exception as e:
         return f"Error connecting to Vector DB: {str(e)}", []
 
