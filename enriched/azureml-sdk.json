@@ -13,5 +13,6 @@
       "text": "What is the Azure Machine Learning SDK for Python?\n==================================================\n\nThe Azure Machine Learning SDK for Python is used by data scientists and AI developers \nto build and run machine learning workflows upon the Azure Machine Learning service. \nYou can interact with the service in any Python environment, including Jupyter Notebooks \nor your favorite Python IDE.\n\nUse this SDK to quickly build, train, and deploy your machine learning and deep learning \nmodels for various domains.\n\nAzure Machine Learning service stores free form text that the customer provides (e.g. names\nfor workspaces, resource groups, experiments, files, and images) or experiment parameters \nin the United States.\n\nGetting Started: https://docs.microsoft.com/en-us/python/api/overview/azure/ml/intro\n\nExamples: https://github.com/Azure/MachineLearningNotebooks\n\nRelease updates: https://docs.microsoft.com/en-us/azure/machine-learning/service/azure-machine-learning-release-notes",
       "word_count": 112
     }
-  ]
+  ],
+  "usage_description": "This library is used to quickly build, train, and deploy machine learning models for various domains, allowing developers to streamline their workflow with Azure's scalable service. With this library, data scientists can easily interact with the Azure Machine Learning service from any Python environment to create, manage, and execute machine learning workflows."
 }

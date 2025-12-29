@@ -12,5 +12,6 @@
       "text": "Quick start\n\nTo install the latest official release:\n\nTo install from source:\n\nQuick links\n\nPLY format reference\n\n[Link](https://web.archive.org/web/20161221115231/http://www.cs.virginia.edu/~gfx/Courses/2001/Advanced.spring.01/plylib/Ply.txt)\n\nProject documentation\n\n[Link](https://python-plyfile.readthedocs.io)\n\nGetting help\n\nHave questions? Feel free to ask in\n[Discussions](https://github.com/dranjan/python-plyfile/discussions).\n\nReporting bugs\n\n[Issues](https://github.com/dranjan/python-plyfile/issues)\n\nContributing\n\n[Information for developers](https://python-plyfile.readthedocs.io/en/latest/developing.html)\n\nCopyright and license\n\nCopyright Darsh Ranjan and `plyfile` authors.\n\nThis software is released under the terms of the GNU General Public\nLicense, version 3.  See the file `COPYING` for details.",
       "word_count": 68
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to read and write PLY (Polygon File Format) files, allowing developers to import and export 3D models in this widely-used format. With plyfile, developers can easily load and manipulate PLY files in their Python applications for tasks such as data visualization, computer-aided design, or game development."
 }

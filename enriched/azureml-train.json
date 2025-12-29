@@ -12,5 +12,6 @@
       "text": "##########################################################################################\nMicrosoft Azure Machine Learning - azureml-train package\n##########################################################################################\n\nThe azureml-train package has been deprecated and might not receive future updates and removed from the distribution altogether. Please use azureml-train-core instead.",
       "word_count": 31
     }
-  ]
+  ],
+  "usage_description": "This library is used to enable developers to train machine learning models on Microsoft Azure, providing a core set of functionality for model training that can be used in conjunction with other Azure ML packages. However, due to its deprecation, it's recommended to use the `azureml-train-core` package instead for future-proof and supported development."
 }

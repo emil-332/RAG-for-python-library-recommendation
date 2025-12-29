@@ -11,5 +11,6 @@
       "text": "Cython bindings for MurmurHash2\n\n(https://github.com/explosion/murmurhash/actions/workflows/tests.yml)\n(https://pypi.python.org/pypi/murmurhash)\n(https://anaconda.org/conda-forge/murmurhash)\n(https://github.com/explosion/wheelwright/releases)",
       "word_count": 8
     }
-  ]
+  ],
+  "usage_description": "This library is used to efficiently compute non-cryptographic hash values using the MurmurHash2 algorithm, allowing developers to accelerate their hashing operations in Python applications. With this library, developers can quickly and accurately generate hash values for various data inputs, streamlining tasks such as set operations or fast lookups."
 }

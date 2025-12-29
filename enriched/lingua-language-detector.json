@@ -39,5 +39,6 @@
       "text": "There might be classification tasks where you know beforehand that your\nlanguage data is definitely not written in Latin, for instance. The detection\naccuracy can become better in such cases if you exclude certain languages from\nthe decision process or just explicitly include relevant languages:\n\n11.10 Differences to native Python enums\n\nAs version >= 2.0 has been implemented in Rust with Python bindings implemented\nwith [PyO3](https://pyo3.rs), there are some limitations with regard to enums.\n[PyO3 does not yet support meta classes](https://github.com/PyO3/pyo3/issues/906), \nthat's why Lingua's enums do not exactly behave like native Python enums.\n\nIf you want to iterate through all members of the `Language` enum, for instance, \nyou can do it like this:\n\nPyO3 enums are not subscriptable. If you want to get an enum member dynamically,\nyou can do it like this:\n\n12. What's next for version 2.2.0?\n\nTake a look at the [planned issues](https://github.com/pemistahl/lingua-py/milestone/10).",
       "word_count": 146
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accurately detect the language of short texts and mixed-language texts, enabling efficient preprocessing for various natural language processing applications. By utilizing this library, developers can automate tasks such as text classification, spell checking, and routing emails to corresponding customer service departments based on language."
 }

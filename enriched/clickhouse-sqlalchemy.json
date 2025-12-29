@@ -12,5 +12,6 @@
       "text": "ClickHouse SQLAlchemy\n=====================\n\nClickHouse dialect for SQLAlchemy to `ClickHouse database `_.\n\n.. image:: https://img.shields.io/pypi/v/clickhouse-sqlalchemy.svg\n\n.. image:: https://img.shields.io/pypi/l/clickhouse-sqlalchemy.svg\n\n.. image:: https://img.shields.io/pypi/pyversions/clickhouse-sqlalchemy.svg\n\n.. image:: https://img.shields.io/pypi/dm/clickhouse-sqlalchemy.svg\n\n   :target: https://github.com/xzkostyan/clickhouse-sqlalchemy/actions/workflows/actions.yml\n\nDocumentation\n=============\n\nDocumentation is available at https://clickhouse-sqlalchemy.readthedocs.io.\n\nUsage\n=====\n\nSupported interfaces:\n\n- **native** [recommended] (TCP) via `clickhouse-driver `\n- **async native** (TCP) via `asynch `\n- **http** via requests\n\nDefine table\n\nInsert some data\n\nAnd query inserted data\n\nLicense\n=======\n\nClickHouse SQLAlchemy is distributed under the `MIT license\n`_.",
       "word_count": 74
     }
-  ]
+  ],
+  "usage_description": "This library is used to interact with a ClickHouse database from Python applications using SQLAlchemy, allowing developers to execute SQL queries and perform various operations on the database. With this library, developers can easily define tables, insert data, and query it using a familiar SQLAlchemy interface, without having to directly handle the underlying database connection or syntax."
 }

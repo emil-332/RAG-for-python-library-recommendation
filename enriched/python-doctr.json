@@ -25,5 +25,6 @@
       "text": "Distributed under the Apache 2.0 License. See [`LICENSE`](https://github.com/mindee/doctr?tab=Apache-2.0-1-ov-file#readme) for more information.",
       "word_count": 11
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to perform high-performance OCR (Optical Character Recognition) on documents, including text detection and recognition in both English and other languages. With docTR, developers can extract text from scanned documents, images, and PDFs, including those with rotated pages or multiple box orientations."
 }

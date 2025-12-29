@@ -25,5 +25,6 @@
       "text": "Llama 3.1 (8B) max. context length\nWe tested Llama 3.1 (8B) Instruct and did 4bit QLoRA on all linear layers (Q, K, V, O, gate, up and down) with rank = 32 with a batch size of 1. We padded all sequences to a certain maximum sequence length to mimic long context finetuning workloads.\nGPU VRAM\n----------\n8 GB\n12 GB\n16 GB\n24 GB\n40 GB\n48 GB\n80 GB\n\nLlama 3.3 (70B) max. context length\nWe tested Llama 3.3 (70B) Instruct on a 80GB A100 and did 4bit QLoRA on all linear layers (Q, K, V, O, gate, up and down) with rank = 32 with a batch size of 1. We padded all sequences to a certain maximum sequence length to mimic long context finetuning workloads.\n\nGPU VRAM\n----------\n48 GB\n80 GB\n\nCitation\n\nYou can cite the Unsloth repo as follows:\n\nThank You to\n- And of course for every single person who has contributed or has used Unsloth!",
       "word_count": 163
     }
-  ]
+  ],
+  "usage_description": "This library is used to significantly accelerate large language model training and fine-tuning processes, allowing developers to achieve 2-5X faster results with up to 70% less VRAM usage. With unsloth, developers can quickly train a range of popular models on their dataset using a user-friendly interface, enabling the creation of custom trained models for various applications."
 }

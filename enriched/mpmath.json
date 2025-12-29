@@ -24,5 +24,6 @@
       "text": "* The interface for switching precision and rounding is not finalized.\n  The current method is not threadsafe.\n\n5. Help and bug reports\n-----------------------\n\nGeneral questions and comments can be sent to the mpmath mailinglist,\nmpmath@googlegroups.com\n\nYou can also report bugs and send patches to the mpmath issue tracker,",
       "word_count": 48
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the mpmath library:\n\nThis library is used to perform high-precision arithmetic operations on floating-point numbers, allowing developers to handle mathematical calculations that require a level of precision beyond standard floating-point capabilities. With mpmath, developers can write robust and accurate numerical computations in Python, such as scientific simulations, data analysis, or cryptographic applications."
 }

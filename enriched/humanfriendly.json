@@ -24,5 +24,6 @@
       "text": ".. External references:\n.. _#4: https://github.com/xolox/python-humanfriendly/issues/4\n.. _#8: https://github.com/xolox/python-humanfriendly/pull/8\n.. _#9: https://github.com/xolox/python-humanfriendly/pull/9\n.. _ANSI escape sequences: https://en.wikipedia.org/wiki/ANSI_escape_code\n.. _changelog: https://humanfriendly.readthedocs.io/en/latest/changelog.html\n.. _colorama: https://pypi.org/project/colorama\n.. _format_size(): https://humanfriendly.readthedocs.io/en/latest/#humanfriendly.format_size\n.. _GitHub: https://github.com/xolox/python-humanfriendly\n.. _MIT license: https://en.wikipedia.org/wiki/MIT_License\n.. _parse_size(): https://humanfriendly.readthedocs.io/en/latest/#humanfriendly.parse_size\n.. _peter@peterodding.com: peter@peterodding.com\n.. _PyPI: https://pypi.org/project/humanfriendly\n.. _Read the Docs: https://humanfriendly.readthedocs.io",
       "word_count": 47
     }
-  ]
+  ],
+  "usage_description": "This library is used to create more user-friendly text interfaces in Python, making it easier for developers to parse and format data in a way that's easily understandable by humans. With humanfriendly, developers can also improve the interactive experience with features like easy-to-use timers and customizable terminal interaction."
 }

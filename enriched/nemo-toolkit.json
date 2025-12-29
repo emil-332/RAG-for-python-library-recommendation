@@ -29,5 +29,6 @@
       "text": "Large Language Models and Multimodal Models\n\nLicenses\n\nNeMo is licensed under the [Apache License 2.0](https://github.com/NVIDIA/NeMo?tab=Apache-2.0-1-ov-file).",
       "word_count": 15
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the nemo-toolkit library:\n\nThis library is used to build, train, and deploy conversational AI models for various tasks such as text generation, image-text-to-text conversion, and speech recognition. By leveraging the NeMo framework, developers can easily integrate state-of-the-art Hugging Face models into their applications and fine-tune them for specific use cases, enabling fast development of sophisticated conversational interfaces."
 }

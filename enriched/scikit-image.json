@@ -11,5 +11,6 @@
       "text": "scikit-image: Image processing in Python\n\n(https://forum.image.sc/tags/scikit-image)\n(https://stackoverflow.com/questions/tagged/scikit-image)\n(https://skimage.zulipchat.com)\n(https://scientific-python.org/specs/)\n(https://insights.linuxfoundation.org/project/scikit-image-scikit-image)\n\nInstallation\n\n- **pip:** `pip install scikit-image`\n- **conda:** `conda install -c conda-forge scikit-image`\n\nAlso see [installing `scikit-image`](https://github.com/scikit-image/scikit-image/blob/main/INSTALL.rst).\n\nLicense\n\nSee [LICENSE.txt](https://github.com/scikit-image/scikit-image/blob/main/LICENSE.txt).\n\nCitation\n\nIf you find this project useful, please cite:\n\n> Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias,\n> François Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle\n> Gouillart, Tony Yu, and the scikit-image contributors.\n> _scikit-image: Image processing in Python_. PeerJ 2:e453 (2014)\n> https://doi.org/10.7717/peerj.453",
       "word_count": 77
     }
-  ]
+  ],
+  "usage_description": "This library is used to enable developers to efficiently perform image processing tasks in Python, offering a wide range of algorithms for filtering, thresholding, and other operations on images. By utilizing scikit-image, developers can simplify the task of analyzing and manipulating images within their applications."
 }

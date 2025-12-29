@@ -11,5 +11,6 @@
       "text": "This library helps you deal with boolean expressions and algebra with variables\nand the boolean functions AND, OR, NOT.\n\nYou can parse expressions from strings and simplify and compare expressions.\nYou can also easily create your custom algreba and mini DSL and create custom\ntokenizers to handle custom expressions.\n\nFor extensive documentation look either into the docs directory or view it online, at\n\nCopyright (c) 2009-2020 Sebastian Kraemer, basti.kr@gmail.com and others\nSPDX-License-Identifier: BSD-2-Clause",
       "word_count": 73
     }
-  ]
+  ],
+  "usage_description": "Here is a short summary of what a developer can achieve with this library:\n\nThis library is used to define and work with boolean expressions in a programmatically accessible way, allowing for parsing, simplification, and comparison of complex boolean statements. With boolean-py, developers can also create custom boolean DSLs (Domain Specific Languages) and algebraic structures tailored to their specific needs."
 }

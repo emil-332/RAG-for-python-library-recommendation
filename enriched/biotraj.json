@@ -11,5 +11,6 @@
       "text": "biotraj\n=======\n\nLoading and saving raw data in trajectory formats.\n\nThis package is small excerpt from https://github.com/mdtraj/mdtraj containing only the\nfunctionality to read and write trajectory files.\nIt is not intended to be used as a separate package, but is a dependency for\nIt is not integrated into the Biotite package directly due to an incompatible license.\n\nCurrently supported formats:\n\n- *XTC*\n- *TRR*\n- *NetCDF*\n- *DCD*",
       "word_count": 68
     }
-  ]
+  ],
+  "usage_description": "This library is used to load and save raw data in various trajectory file formats, including XTC, TRR, NetCDF, and DCD. By utilizing this library, developers can easily read from and write to these files, streamlining their workflow when working with molecular dynamics trajectories."
 }

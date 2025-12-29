@@ -12,5 +12,6 @@
       "text": "Gin\n\nGin provides a lightweight configuration framework for Python, based on\ndependency injection. Functions or classes can be decorated with\n`@gin.configurable`, allowing default parameter values to be supplied from a\nconfig file (or passed via the command line) using a simple but powerful syntax.\nThis removes the need to define and maintain configuration objects (e.g.\nprotos), or write boilerplate parameter plumbing and factory code, while often\ndramatically expanding a project's flexibility and configurability.\n\nGin is particularly well suited for machine learning experiments (e.g. using\nTensorFlow), which tend to have many parameters, often nested in complex ways.\n\n**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman\n**Contributors**: Oscar Ramirez, Marek Fiser",
       "word_count": 108
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to simplify configuration management in Python applications by allowing developers to easily inject default parameter values from a config file or command line into functions or classes. With gin-config, developers can reduce boilerplate code and increase the flexibility and configurability of their projects, particularly well-suited for machine learning experiments."
 }

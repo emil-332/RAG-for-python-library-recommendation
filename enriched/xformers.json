@@ -12,5 +12,6 @@
       "text": "XFormers: A collection of composable Transformer building blocks.XFormers aims at being able to reproduce most architectures in the Transformer-family SOTA,defined as compatible and combined building blocks as opposed to monolithic models",
       "word_count": 31
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to compose and combine building blocks to efficiently reproduce a wide range of state-of-the-art (SOTA) architectures within the Transformer family. With XFormers, developers can easily mix-and-match compatible components to create complex transformer models without having to implement each architecture from scratch."
 }

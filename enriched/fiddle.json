@@ -12,5 +12,6 @@
       "text": "Fiddle\n\nFiddle is a Python-first configuration library particularly well suited to ML\napplications. Fiddle enables deep configurability of parameters in a program,\nwhile allowing configuration to be expressed in readable and maintainable\nPython code.\n\n**Authors**: Dan Holtmann-Rice, Brennan Saeta, Sergio Guadarrama",
       "word_count": 41
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to enable the deep configurability of parameters in ML applications, allowing developers to express complex configurations in readable and maintainable Python code. With Fiddle, you can write highly customizable programs that adapt easily to different scenarios without sacrificing maintainability or readability."
 }

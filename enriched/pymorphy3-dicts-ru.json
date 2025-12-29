@@ -11,5 +11,6 @@
       "text": "pymorphy3-dicts-ru\n==========================================================\n\nRussian dictionaries for `pymorphy3`_.\n\n.. _pymorphy3: https://github.com/no-plagiarism/pymorphy3\n\nInstallation\n------------\n\nInstall::\n\nUsage\n-----\n\nTo use these dictionaries with pymorphy2 create MorphAnalyzer\nwith ``lang='ru'`` parameter:\n\n>>> import pymorphy3\n>>> morph = pymorphy3.MorphAnalyzer(lang='ru')\n\nTo get a path to the installed dictionary data use\n``pymorphy3_dicts_ru.get_path()`` method.\n\nDevelopment\n-----------\n\nThe main repo is https://github.com/no-plagiarism/pymorphy3-dicts. The repository\ndoesn't contain the data itself: only package template and update\nscripts are stored in VCS.\n\nLicense for Python code in this package is MIT.\nThe data is licensed under\n`Creative Commons Attribution-Share Alike `_.",
       "word_count": 87
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enable Russian language support for the pymorphy3 morphological analyzer, allowing developers to perform tasks such as tokenization and part-of-speech tagging on Russian text. By installing and using these dictionaries, developers can leverage the capabilities of pymorphy3 to analyze and process large volumes of Russian text data with high accuracy."
 }

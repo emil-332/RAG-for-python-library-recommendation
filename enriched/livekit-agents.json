@@ -12,5 +12,6 @@
       "text": "LiveKit Agents for Python\n\nRealtime framework for production-grade multimodal and voice AI agents.\n\nSee [https://docs.livekit.io/agents/](https://docs.livekit.io/agents/) for quickstarts, documentation, and examples.",
       "word_count": 20
     }
-  ]
+  ],
+  "usage_description": "This library is used to build highly scalable and reliable real-time voice AI agents that can handle complex multimodal interactions. With LiveKit Agents, developers can create sophisticated conversational interfaces that integrate voice capabilities with other modalities, such as video or text input."
 }

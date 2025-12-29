@@ -29,5 +29,6 @@
       "text": "* orjson - Required if you want to use `ORJSONResponse`.\n* ujson - Required if you want to use `UJSONResponse`.\n\nLicense\n\nThis project is licensed under the terms of the MIT license.",
       "word_count": 32
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build high-performance web applications and APIs quickly and efficiently, making it suitable for production use. With FastAPI, developers can create scalable, fast, and easy-to-maintain backend services that handle complex tasks such as machine learning integrations, RESTful APIs, and more."
 }

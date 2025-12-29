@@ -12,5 +12,6 @@
       "text": "A library for image augmentation in machine learning experiments, particularly convolutional\nneural networks. Supports the augmentation of images, keypoints/landmarks, bounding boxes, heatmaps and segmentation\nmaps in a variety of different ways.",
       "word_count": 31
     }
-  ]
+  ],
+  "usage_description": "This library is used to enhance the robustness and generalizability of deep neural networks by automatically generating new versions of training data through image augmentation techniques. With imgaug, developers can easily augment images, keypoints, bounding boxes, heatmaps, and segmentation maps for their machine learning experiments, allowing them to improve model performance on a variety of tasks."
 }

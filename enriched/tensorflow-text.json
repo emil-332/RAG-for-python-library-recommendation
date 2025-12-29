@@ -12,5 +12,6 @@
       "text": "TF.Text is a TensorFlow library of text related ops, modules, and subgraphs. The\nlibrary can perform the preprocessing regularly required by text-based models,\nand includes other features useful for sequence modeling not provided by core\nTensorFlow.\n\nSee the README on GitHub for further documentation.",
       "word_count": 44
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to enable developers to easily incorporate text-related functionality into their TensorFlow projects, including common preprocessing tasks required for text-based models. With TF.Text, developers can leverage additional features and ops not provided by core TensorFlow, streamlining the development of sequence modeling applications."
 }

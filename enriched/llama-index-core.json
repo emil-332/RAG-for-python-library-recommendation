@@ -12,5 +12,6 @@
       "text": "LlamaIndex Core\n\nThe core python package to the LlamaIndex library. Core classes and abstractions\nrepresent the foundational building blocks for LLM applications, most notably,\nRAG. Such building blocks include abstractions for LLMs, Vector Stores, Embeddings,\nStorage, Callables and several others.\n\nWe've designed the core library so that it can be easily extended through subclasses.\nBuilding LLM applications with LlamaIndex thus involves building with LlamaIndex\ncore as well as with the LlamaIndex [integrations](https://github.com/run-llama/llama_index/tree/main/llama-index-integrations) needed for your application.",
       "word_count": 76
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build foundational components and abstractions for Large Language Model (LLM) applications, providing a core set of building blocks for tasks such as text embedding and retrieval. By extending the core library through subclasses, developers can create custom LLM applications that integrate seamlessly with various data storage and vector store systems."
 }

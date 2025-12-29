@@ -12,5 +12,6 @@
       "text": "LanceDB\n\nA Python library for [LanceDB](https://github.com/lancedb/lancedb).\n\nInstallation\n\nPreview Releases\n\nStable releases are created about every 2 weeks. For the latest features and bug fixes, you can install the preview release. These releases receive the same level of testing as stable releases, but are not guaranteed to be available for more than 6 months after they are released. Once your application is stable, we recommend switching to stable releases.\n\nUsage\n\nBasic Example\n\nDevelopment\n\nSee [CONTRIBUTING.md](./CONTRIBUTING.md) for information on how to contribute to LanceDB.",
       "word_count": 82
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the lancedb library:\n\nThis library is used to provide a high-performance, in-memory data storage solution for Python applications, enabling developers to efficiently store and retrieve large amounts of data. By leveraging LanceDB, developers can build scalable and responsive applications that require fast access to data without compromising on performance or storage limitations."
 }

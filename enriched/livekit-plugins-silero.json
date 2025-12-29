@@ -12,5 +12,6 @@
       "text": "Silero VAD plugin for LiveKit Agents\n\nSupport for VAD-based turn detection.\n\nSee [https://docs.livekit.io/agents/build/turns/vad/](https://docs.livekit.io/agents/build/turns/vad/) for more information.\n\nInstallation\n\nThis plugin contains model files that would need to be downloaded prior to use.",
       "word_count": 31
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to integrate automatic speech detection (VAD) capabilities into LiveKit Agents, allowing developers to detect and handle voice activity in real-time. By using this plugin, developers can enable features such as automated turn-taking and improved audio quality control in their live communication applications."
 }

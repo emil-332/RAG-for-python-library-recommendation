@@ -23,5 +23,6 @@
       "text": "It is my intention to archive the `matplotlib/mpl-finance` repository soon, and direct everyone to `matplotlib/mplfinance`.  The main reason for the rename is to avoid confusion with the hyphen and the underscore: As it was, `mpl-finance` was *installed with the hyphen, but imported with an underscore `mpl_finance`.*  Going forward it will be a simple matter of both installing and importing `mplfinance`.\n\n---\n\nOld API availability\n\n**With this new ` mplfinance ` package installed, in addition to the new API, users can still access the old API**. The old API may be removed someday, but for the foreseeable future we will keep it ... at least until we are very confident that users of the old API can accomplish the same things with the new API.\n\nTo access the old API with the new ` mplfinance ` package installed, change the old import statements\n\n**from:**\n\n**to:**\n\nwhere `` indicates the method you want to import, for example:",
       "word_count": 155
     }
-  ]
+  ],
+  "usage_description": "This library is used to enable developers to easily visualize and analyze financial data using a simplified API that integrates seamlessly with Pandas DataFrames. With mplfinance, users can create sophisticated financial plots without having to perform manual extra work with matplotlib."
 }

@@ -22,5 +22,6 @@
       "text": "-  0.3.7\n\n-  Fix bug when using fractional seconds, minutes, hours or days,\n\n-  0.3.6\n\n-  Add method to compute rising and setting times of the Sun.\n\n-  0.3.5\n\n-  Add method ``magnitude()`` to planet classes.\n\n-  0.3.4\n\n-  Add method to compute the parallax correction to Earth class.\n\n-  0.3.3\n\n-  Add methods to compute the passage through the nodes.\n\n-  0.3.2\n\n-  Add methods to compute the perihelion and aphelion of all planets.\n\n-  0.3.1\n\n-  Fix errors in the elongation computation, add tests and examples\n\n-  0.3.0\n\n-  Added ``Pluto`` class.",
       "word_count": 94
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to simplify astronomical calculations in Python by providing easy-to-use and well-documented implementations of Jean Meeus' algorithms. With PyMeeus, developers can quickly and easily calculate various astronomical values such as planetary positions, eclipses, and other celestial phenomena."
 }

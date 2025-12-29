@@ -12,5 +12,6 @@
       "text": "TensorFlow Addons is a repository of contributions that conform to well-\nestablished API patterns, but implement new functionality not available\nin core TensorFlow. TensorFlow natively supports a large number of\noperators, layers, metrics, losses, and optimizers. However, in a fast\nmoving field like ML, there are many interesting new developments that\ncannot be integrated into core TensorFlow (because their broad\napplicability is not yet clear, or it is mostly used by a smaller subset\nof the community).",
       "word_count": 77
     }
-  ]
+  ],
+  "usage_description": "This library is used to extend the capabilities of core TensorFlow with new and experimental features not natively supported. By leveraging TensorFlow Addons, developers can tap into a wide range of innovative operators, layers, metrics, losses, and optimizers that enhance their machine learning workflows."
 }

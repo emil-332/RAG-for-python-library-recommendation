@@ -23,5 +23,6 @@
       "text": "The properties ``words``, ``labels`` return the words and labels from\nthe dictionary :\n\n.. code:: py\n\nThe object overrides ``__getitem__`` and ``__contains__`` functions in\norder to return the representation of a word and to check if a word is\nin the vocabulary.\n\n.. code:: py\n\nJoin the fastText community\n---------------------------\n\n-  `Facebook page `__\n-  `Stack\n   overflow `__\n-  `Google\n   group `__\n-  `GitHub `__\n\n.. |CircleCI| image:: https://circleci.com/gh/facebookresearch/fastText/tree/master.svg?style=svg\n   :target: https://circleci.com/gh/facebookresearch/fastText/tree/master",
       "word_count": 71
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently learn word representations and perform sentence classification tasks using machine learning techniques. With fastText, developers can build scalable text processing models that enable applications such as natural language processing, sentiment analysis, and document categorization."
 }

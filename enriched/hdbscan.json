@@ -23,5 +23,6 @@
       "text": "We welcome contributions in any form! Assistance with documentation, particularly expanding tutorials,\nis always welcome. To contribute please `fork the project `_ make your changes and submit a pull request. We will do our best to work through any issues with\nyou and get your code merged into the main branch.\n\n------\nCiting\n------\n\nIf you have used this codebase in a scientific publication and wish to cite it, please use the `Journal of Open Source Software article `_.\n\n.. code:: bibtex\n\nTo reference the high performance algorithm developed in this library please cite our paper in ICDMW 2017 proceedings.\n\n.. code:: bibtex\n\nIf you used the branch-detection functionality in this library please cite our `PeerJ paper `_:\n\n.. code:: bibtex\n\n---------\nLicensing\n---------\n\nThe hdbscan package is 3-clause BSD licensed. Enjoy.",
       "word_count": 132
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the hdbscan library:\n\nThis library is used to perform hierarchical density-based spatial clustering of applications, allowing for robust clustering of data points with varying densities without requiring extensive parameter tuning. By integrating DBSCAN over multiple epsilon values, HDBSCAN enables developers to easily identify stable clusters in their data with minimal manual configuration."
 }

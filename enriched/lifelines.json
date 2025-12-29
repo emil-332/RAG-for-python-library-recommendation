@@ -12,5 +12,6 @@
       "text": "Documentation and intro to survival analysis\n\nIf you are new to survival analysis, wondering why it is useful, or are interested in *lifelines* examples, API, and syntax, please read the [Documentation and Tutorials page](http://lifelines.readthedocs.org/en/latest/index.html)\n\nContact\n\nDevelopment\n\nSee our [Contributing](https://github.com/CamDavidsonPilon/lifelines/blob/master/.github/CONTRIBUTING.md) guidelines.",
       "word_count": 40
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to perform survival analysis in Python, allowing developers to model and analyze time-to-event data using techniques such as Kaplan Meier estimation and regression. With lifelines, developers can create robust and accurate models that capture the complexities of event-time data, enabling informed predictions and decision-making."
 }

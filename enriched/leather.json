@@ -12,5 +12,6 @@
       "text": ".. image:: https://img.shields.io/pypi/dw/leather.svg\n\n.. image:: https://img.shields.io/pypi/v/leather.svg\n\n.. image:: https://img.shields.io/pypi/l/leather.svg\n\n.. image:: https://img.shields.io/pypi/pyversions/leather.svg\n\nLeather is the Python charting library for those who need charts *now* and don't care if they're perfect.\n\nLeather isn't picky. It's rough. It gets dirty. It looks sexy just hanging on the back of a chair. Leather doesn't need your accessories. Leather is how Snake Plissken would make charts.\n\nGet it?\n\nImportant links:\n\n* Documentation:    https://leather.rtfd.io\n* Repository:       https://github.com/wireservice/leather\n* Issues:           https://github.com/wireservice/leather/issues",
       "word_count": 75
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the Leather library:\n\nThis library is used to quickly and easily create charts for data visualization, prioritizing speed over perfect aesthetics. By using Leather, developers can rapidly produce charts that effectively convey insights to an audience, without requiring extensive customization or polish."
 }

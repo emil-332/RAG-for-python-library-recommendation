@@ -12,5 +12,6 @@
       "text": "TensorBoard is a suite of web applications for inspecting and understanding\nyour TensorFlow runs and graphs.\n\nReleases prior to 1.6.0 were published under the ``tensorflow-tensorboard`` name\nand may be found at https://pypi.python.org/pypi/tensorflow-tensorboard.",
       "word_count": 32
     }
-  ]
+  ],
+  "usage_description": "This library is used to facilitate inspection and understanding of TensorFlow runs and graphs through a suite of web applications, allowing developers to gain insights into their models' performance. With TensorBoard, developers can visualize and analyze the data flow within their TensorFlow applications."
 }

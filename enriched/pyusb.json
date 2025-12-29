@@ -11,5 +11,6 @@
       "text": "PyUSB offers easy USB devices communication in Python.\nIt should work without additional code in any environment with\nPython >= 3.9, ctypes and a pre-built USB backend library\n(currently: libusb 1.x, libusb 0.1.x or OpenUSB).",
       "word_count": 35
     }
-  ]
+  ],
+  "usage_description": "This library is used to enable developers to communicate with USB devices in Python environments with Python 3.9 and above, without requiring additional code. With pyusb, developers can easily interact with a wide range of USB devices, streamlining the development process for applications that rely on USB connectivity."
 }

@@ -12,5 +12,6 @@
       "text": "TensorFlow is an open source software library for high performance numerical\ncomputation. Its flexible architecture allows easy deployment of computation\nacross a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters\nof servers to mobile and edge devices.\n\nOriginally developed by researchers and engineers from the Google Brain team\nwithin Google's AI organization, it comes with strong support for machine\nlearning and deep learning and the flexible numerical computation core is used\nacross many other scientific domains. TensorFlow is licensed under [Apache\n2.0](https://github.com/tensorflow/tensorflow/blob/master/LICENSE).",
       "word_count": 85
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build and deploy machine learning models across various platforms, including desktops, servers, mobile devices, and edge devices. With TensorFlow-CPU, developers can leverage high-performance numerical computation for tasks such as deep learning and scientific computing in a wide range of applications."
 }

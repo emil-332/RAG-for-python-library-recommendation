@@ -27,5 +27,6 @@
       "text": ":code:`geojson.utils.generate_random` yields a geometry type with random data\n\n.. code:: python\n\n>>> import geojson\n\n>>> geojson.utils.generate_random(\"LineString\")  # doctest: +ELLIPSIS\n  {\"coordinates\": [...], \"type\": \"LineString\"}\n\n>>> geojson.utils.generate_random(\"Polygon\")  # doctest: +ELLIPSIS\n  {\"coordinates\": [...], \"type\": \"Polygon\"}\n\nDevelopment\n-----------\n\nTo build this project, run :code:`python setup.py build`.\nTo run the unit tests, run :code:`python -m pip install tox && tox`.\nTo run the style checks, run :code:`flake8` (install `flake8` if needed).\n\nCredits\n-------\n\n* Sean Gillies \n* Matthew Russell \n* Corey Farwell \n* Blake Grotewold \n* Zsolt Ero \n* Sergey Romanov \n* Ray Riga\n\n.. _GeoJSON: https://geojson.org/\n.. _The GeoJSON Format Specification: https://tools.ietf.org/html/rfc7946\n.. _\\_\\_geo\\_interface\\_\\_ Specification: https://gist.github.com/sgillies/2217756",
       "word_count": 102
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to work with GeoJSON-formatted data in Python, providing functions for encoding and decoding, as well as classes for all supported GeoJSON objects. With geojson, developers can efficiently parse, manipulate, and create GeoJSON data, enabling geospatial applications such as mapping, location-based services, and spatial analysis."
 }

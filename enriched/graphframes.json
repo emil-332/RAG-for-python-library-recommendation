@@ -11,5 +11,6 @@
       "text": "This is a package for DataFrame-based graphs on top of Apache Spark. Users can write highly expressive queries by leveraging the DataFrame API, combined with a new API for motif finding. The user also benefits from DataFrame performance optimizations within the Spark SQL engine.",
       "word_count": 44
     }
-  ]
+  ],
+  "usage_description": "This library is used to create and query graph structures as DataFrames on top of Apache Spark, allowing developers to leverage the expressive power of the DataFrame API along with optimized performance. With graphframes, developers can write highly efficient queries that navigate complex relationships in their data using a combination of standard SQL and motif finding capabilities."
 }

@@ -13,5 +13,6 @@
       "text": "LiveKit SDK for Python\n\nPython SDK to integrate LiveKit's real-time video, audio, and data capabilities into your Python applications using WebRTC. Designed for use with [LiveKit Agents](https://github.com/livekit/agents) to build powerful voice AI apps.\n\nSee https://docs.livekit.io/ for more information.",
       "word_count": 38
     }
-  ]
+  ],
+  "usage_description": "This library is used to integrate LiveKit's real-time video, audio, and data capabilities into Python applications using WebRTC. With this SDK, developers can build powerful voice AI apps that leverage the full potential of live communication."
 }

@@ -49,5 +49,6 @@
       "text": "Feel free to use the project under Apache 2.0 or the Three-clause BSD license at your preference.",
       "word_count": 17
     }
-  ]
+  ],
+  "usage_description": "This library is used to accelerate vector math operations in AI, Search, and DBMS workloads with up to 10x cost-efficiency improvement through its extensive set of SIMD-optimized kernels. Developers can leverage SimSIMD to implement distance functions such as Euclidean, Cosine, Hamming, and Jaccard for various applications like Vector Search, DSP, Quantum computing, and Text Analysis."
 }

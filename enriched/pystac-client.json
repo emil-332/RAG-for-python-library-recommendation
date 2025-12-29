@@ -12,5 +12,6 @@
       "text": "pystac-client\n\n(https://github.com/stac-utils/pystac-client/actions/workflows/continuous-integration.yml)\n(https://github.com/stac-utils/pystac-client/actions/workflows/release.yml)\n\n(https://pystac-client.readthedocs.io)\n(https://codecov.io/gh/stac-utils/pystac-client)\n\nA Python client for working with [STAC](https://stacspec.org/) APIs.\n\nInstallation\n\nPySTAC Client is published to PyPi as [pystac-client](https://pypi.org/project/pystac-client/).\n\nThe only direct Python dependencies of **pystac-client** are [PySTAC](https://pystac.readthedocs.io),\n[requests](https://docs.python-requests.org), and [dateutil](https://dateutil.readthedocs.io).\n\nTo install with pip, run:\n\nDocumentation\n\nSee the [documentation page](https://pystac-client.readthedocs.io/en/latest/) for the latest docs.\n\nDevelopment\n\nSee the [contributing page](https://pystac-client.readthedocs.io/en/latest/contributing.html) for the latest development instructions.",
       "word_count": 58
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to search and interact with SpatioTemporal Asset Catalog (STAC) APIs, providing a Python client for working with STAC data. With pystac-client, developers can easily query and retrieve geospatial and temporal data from STAC APIs, enabling applications that require spatial and temporal analysis."
 }

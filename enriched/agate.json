@@ -11,5 +11,6 @@
       "text": ".. image:: https://img.shields.io/pypi/dm/agate.svg\n\n.. image:: https://img.shields.io/pypi/v/agate.svg\n\n.. image:: https://img.shields.io/pypi/l/agate.svg\n\n.. image:: https://img.shields.io/pypi/pyversions/agate.svg\n\nagate is a Python data analysis library that is optimized for humans instead of machines. It is an alternative to numpy and pandas that solves real-world problems with readable code.\n\nagate was previously known as journalism.\n\nImportant links:\n\n* Documentation:    https://agate.rtfd.org\n* Repository:       https://github.com/wireservice/agate\n* Issues:           https://github.com/wireservice/agate/issues",
       "word_count": 59
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the agate library:\n\nThis library is used to enable readable and efficient data analysis in Python, providing an alternative to popular libraries like numpy and pandas. With agate, developers can solve real-world problems in a straightforward manner, focusing on human-readable code instead of machine-centric optimization."
 }

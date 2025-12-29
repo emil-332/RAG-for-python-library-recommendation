@@ -25,5 +25,6 @@
       "text": "Cloud connected functionality (like our model and Workflows registries, dataset management, model monitoring, device management, and managed infrastructure) requires a Roboflow account and API key & is metered based on usage.\n\nEnterprise functionality is source-available in [`inference/enterprise`](/inference/enterprise/) under an [enterprise license](/inference/enterprise/LICENSE.txt) and usage in production requires an active Enterprise contract in good standing.\n\nSee the \"Self Hosting and Edge Deployment\" section of the [Roboflow Licensing](https://roboflow.com/licensing) documentation for more information on how Roboflow Inference is licensed.\n\ncontribution\n\nWe would love your input to improve Roboflow Inference! Please see our [contributing guide](https://github.com/roboflow/inference/blob/master/CONTRIBUTING.md) to get started. Thank you to all of our contributors!",
       "word_count": 100
     }
-  ]
+  ],
+  "usage_description": "This library is used to convert any camera into an AI-powered camera by providing a unified interface for deploying computer vision models across various devices and environments. With inference-gpu, developers can easily integrate machine learning capabilities with traditional computer vision methods on a range of edge devices and computers."
 }

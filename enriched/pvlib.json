@@ -11,5 +11,6 @@
       "text": "pvlib python is a community developed toolbox that provides a set of\nfunctions and classes for simulating the performance of photovoltaic\nenergy systems and accomplishing related tasks.  The core mission of pvlib\npython is to provide open, reliable, interoperable, and benchmark\nimplementations of PV system models.\n\nWe need your help to make pvlib-python a great tool!\n\nDocumentation: http://pvlib-python.readthedocs.io\n\nSource code: https://github.com/pvlib/pvlib-python",
       "word_count": 61
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to simulate the performance of photovoltaic energy systems, allowing developers to model and analyze the behavior of solar panels under various conditions. By leveraging pvlib's robust and interoperable models, developers can efficiently design, optimize, and predict the output of PV systems."
 }

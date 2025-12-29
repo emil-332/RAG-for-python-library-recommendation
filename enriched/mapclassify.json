@@ -12,5 +12,6 @@
       "text": "`mapclassify` implements a family of classification schemes for choropleth maps.\nIts focus is on the determination of the number of classes, and the assignment\nof observations to those classes. It is intended for use with upstream mapping\nand geovisualization packages (see `geopandas`_ and `geoplot`_)\nthat handle the rendering of the maps.\n\nFor further theoretical background see \"`Choropleth Mapping`_\" in Rey, S.J., D. Arribas-Bel, and L.J. Wolf (2020) \"Geographic Data Science with PySAL and the PyData Stack”.\n\n.. _geopandas: https://geopandas.org/mapping.html\n.. _geoplot: https://residentmario.github.io/geoplot/user_guide/Customizing_Plots.html\n.. _Choropleth Mapping: https://geographicdata.science/book/notebooks/05_choropleth.html",
       "word_count": 86
     }
-  ]
+  ],
+  "usage_description": "This library is used to determine the optimal number of classes and assign observations to those classes for choropleth maps, enabling effective visualization of geographic data. With mapclassify, developers can streamline their geospatial mapping and analysis workflows by automating the classification process for choropleth maps."
 }

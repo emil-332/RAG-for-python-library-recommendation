@@ -24,5 +24,6 @@
       "text": "Tracebacks\n\nRich can render [beautiful tracebacks](https://rich.readthedocs.io/en/latest/traceback.html) which are easier to read and show more code than standard Python tracebacks. You can set Rich as the default traceback handler so all uncaught exceptions will be rendered by Rich.\n\nHere's what it looks like on OSX (similar on Linux):\n\nAll Rich renderables make use of the [Console Protocol](https://rich.readthedocs.io/en/latest/protocol.html), which you can also use to implement your own Rich content.\n\nRich CLI\n\nSee also [Rich CLI](https://github.com/textualize/rich-cli) for a command line application powered by Rich. Syntax highlight code, render markdown, display CSVs in tables, and more, directly from the command prompt.\n\nTextual\n\nSee also Rich's sister project, [Textual](https://github.com/Textualize/textual), which you can use to build sophisticated User Interfaces in the terminal.",
       "word_count": 116
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to add rich text formatting capabilities to terminal-based applications, including rendering text with colors, styles, and effects. With Rich, developers can easily create visually appealing terminals that display data in a readable and engaging way, such as tables, progress bars, and syntax highlighting."
 }

@@ -11,5 +11,6 @@
       "text": "Canmatrix implements a \"Python Can Matrix Object\" which describes the can-communication\nand the needed objects (Boardunits, Frames, Signals, Values, ...) Canmatrix also includes\ntwo Tools (canconvert and cancompare) for converting and comparing CAN databases.\nThere are also some extract and merge options for dealing with can databases.\n\n**supported file formats for import:**\n\n**supported file formats for export:**",
       "word_count": 57
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to work with CAN (Controller Area Network) communication, allowing developers to create and manage objects such as board units, frames, signals, and values. With Canmatrix, developers can also convert and compare CAN databases using the built-in tools, making it easier to import, export, and manipulate these complex datasets."
 }

@@ -11,5 +11,6 @@
       "text": "GeoPandas is a project to add support for geographic data to\n`pandas`_ objects.\n\nThe goal of GeoPandas is to make working with geospatial data in\npython easier. It combines the capabilities of `pandas`_ and `shapely`_,\nproviding geospatial operations in pandas and a high-level interface\nto multiple geometries to shapely. GeoPandas enables you to easily do\noperations in python that would otherwise require a spatial database\nsuch as PostGIS.\n\n.. _pandas: https://pandas.pydata.org\n.. _shapely: https://shapely.readthedocs.io/en/latest/",
       "word_count": 74
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the geopandas library:\n\nThis library is used to easily work with geographic data in Python, combining the capabilities of pandas and shapely to provide high-level geospatial operations. With GeoPandas, developers can perform complex spatial analysis and operations that would otherwise require a spatial database like PostGIS directly within their Python code."
 }

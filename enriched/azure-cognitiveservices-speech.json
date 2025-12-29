@@ -12,5 +12,6 @@
       "text": "For an introduction to this package, have a look at `the quickstart\narticle `_.\n\nFor information about the Speech Service, please refer to `its\nwebsite `_.\n\nDocumentation\n-------------\n\nAPI documentation for this package can be found `here `_.\n\nLicense information\n-------------------\n\n- `Microsoft Software License Terms for the Speech SDK `_\n- `Third party notices `_",
       "word_count": 56
     }
-  ]
+  ],
+  "usage_description": "This library is used to interact with Microsoft's Cognitive Services Speech API, enabling developers to build applications that utilize speech recognition, synthesis, and other related features. With this library, developers can integrate powerful speech capabilities into their Python projects, such as transcribing audio files or converting text-to-speech."
 }

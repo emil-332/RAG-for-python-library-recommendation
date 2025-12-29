@@ -23,5 +23,6 @@
       "text": "- Version 0.12.0 and earlier, the ``track_order`` parameter`order was missing\n  and thus order tracking was implicitly set to ``False``.\n- Version 0.13.0 enabled order tracking by setting the parameter\n  ``track_order`` to ``True`` by default without deprecation.\n- Versions 0.13.1 to 1.0.2 set ``track_order`` to ``False`` due to a bug in a\n  core dependency of h5netcdf, h5py `upstream bug`_ which was resolved in h5py\n  3.7.0 with the help of the h5netcdf team.\n- In version 1.1.0, if h5py 3.7.0 or above is detected, the ``track_order``\n  parameter is set to ``True`` by default.\n\n.. _order tracking: https://docs.unidata.ucar.edu/netcdf-c/current/file_format_specifications.html#creation_order\n.. _upstream bug: https://github.com/h5netcdf/h5netcdf/issues/136\n.. _[*]: https://github.com/h5netcdf/h5netcdf/issues/128\n\n.. changelog\n\nChangelog\n---------\n\n`Changelog`_\n\n.. _Changelog: https://github.com/h5netcdf/h5netcdf/blob/main/CHANGELOG.rst\n\n.. license\n\nLicense\n-------\n\n`3-clause BSD`_\n\n.. _3-clause BSD: https://github.com/h5netcdf/h5netcdf/blob/main/LICENSE",
       "word_count": 120
     }
-  ]
+  ],
+  "usage_description": "This library, h5netcdf, is used to enable reading and writing of netCDF4 files directly via HDF5 files using the h5py interface, eliminating the need for the Unidata netCDF library. By leveraging h5py, developers can achieve faster performance and reduced dependencies in their workflows when working with netCDF4 files."
 }

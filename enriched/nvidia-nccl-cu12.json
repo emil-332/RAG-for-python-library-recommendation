@@ -12,5 +12,6 @@
       "text": "NCCL (pronounced \"Nickel\") is a stand-alone library of standard collective communication routines for GPUs, implementing all-reduce, all-gather, reduce, broadcast, and reduce-scatter. It has been optimized to achieve high bandwidth on any platform using PCIe, NVLink, NVswitch, as well as networking using InfiniBand Verbs or TCP/IP sockets.",
       "word_count": 46
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to implement efficient collective communication routines for GPUs, including all-reduce, all-gather, reduce, broadcast, and reduce-scatter operations. By utilizing NCCL, developers can achieve high bandwidth on various platforms and optimize their distributed computing applications that rely on GPU-based parallel processing."
 }

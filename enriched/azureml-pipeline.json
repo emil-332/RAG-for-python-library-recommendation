@@ -12,5 +12,6 @@
       "text": "Machine learning (ML) pipelines are used by data scientists to build, optimize, and manage their machine learning workflows. A typical pipeline involves a sequence of steps that cover the following areas:\n\n * Data preparation, such as normalizations and transformations\n * Model training, such as hyper parameter tuning and validation\n * Model deployment and evaluation\n\nThe Azure Machine Learning SDK for Python can be used to create ML pipelines as well as to submit and track individual pipeline runs.\n\nModule and ModuleVersion classes are added to manage reusable compute units in pipelines.",
       "word_count": 91
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build, optimize, and manage machine learning workflows by providing a framework for creating and executing pipelines that cover data preparation, model training, deployment, and evaluation. Developers can leverage the Azure Machine Learning SDK to create reusable compute units and automate their ML workflow, making it easier to track and improve their models over time."
 }

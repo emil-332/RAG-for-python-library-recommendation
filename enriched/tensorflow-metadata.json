@@ -13,5 +13,6 @@
       "text": "TensorFlow Metadata\n\n(https://github.com/tensorflow/metadata)\n\nTensorFlow Metadata provides standard representations for metadata that are\nuseful when training machine learning models with TensorFlow.\n\nThe metadata serialization formats include:\n\n* A schema describing tabular data (e.g., tf.Examples).\n* A collection of summary statistics over such datasets.\n* A problem statement quantifying the objectives of a model.\n\nThe metadata may be produced by hand or automatically during input data\nanalysis, and may be consumed for data validation, exploration, and\ntransformation.",
       "word_count": 75
     }
-  ]
+  ],
+  "usage_description": "This library is used to standardize and serialize metadata about machine learning models and datasets, enabling developers to efficiently manage and analyze their data. With TensorFlow Metadata, you can define schema, collect summary statistics, and quantify problem objectives, facilitating data validation, exploration, and transformation for improved model training."
 }

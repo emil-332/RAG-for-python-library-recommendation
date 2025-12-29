@@ -33,5 +33,6 @@
       "text": "Starting from 4.2.0 and 3.4.9 builds the macOS Travis build environment was updated to XCode 9.4. The change effectively dropped support for older than 10.13 macOS versions.\n\nStarting from 4.3.0 and 3.4.10 builds the Linux build environment was updated from `manylinux1` to `manylinux2014`. This dropped support for old Linux distributions.\n\nStarting from version 4.7.0 the Mac OS GitHub Actions build environment was update to version 11. Mac OS 10.x support deprecated. See https://github.com/actions/runner-images/issues/5583\n\nStarting from version 4.9.0 the Mac OS GitHub Actions build environment was update to version 12. Mac OS 10.x support deprecated by Brew and most of used packages.",
       "word_count": 101
     }
-  ]
+  ],
+  "usage_description": "This library is used to enable the use of OpenCV in headless environments, allowing developers to utilize OpenCV's computer vision capabilities without the need for a graphical interface. By using opencv-python-headless, developers can focus on building AI-powered applications that rely on OpenCV's robust feature detection and image processing functions."
 }

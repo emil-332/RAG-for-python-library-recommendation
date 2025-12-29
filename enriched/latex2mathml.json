@@ -11,5 +11,6 @@
       "text": "latex2mathml\n\nPure Python library for LaTeX to MathML conversion\n\nInstallation\n\nUsage\n\nPython\n\nCommand-line\n\nReferences\n\nLaTeX\n\nMathML\n\n- http://www.xmlmind.com/tutorials/MathML/\n\nAuthor\n\n- [Ronie Martinez](mailto:ronmarti18@gmail.com)\n\nContributors \n\nThanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):\n\n  \n  \n\nThis project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!",
       "word_count": 42
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to convert LaTeX equations and formulas into MathML, enabling developers to integrate mathematical expressions into web applications and documents in a standardized and platform-independent way. With latex2mathml, developers can easily render LaTeX-based math content in web browsers, making it accessible for visually impaired users or those who prefer interactive math experiences."
 }

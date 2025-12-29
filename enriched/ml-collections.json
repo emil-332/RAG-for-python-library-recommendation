@@ -23,5 +23,6 @@
       "text": "Meanwhile, serialization libraries such as [`cloudpickle`](\npickling every type to which it refers, on the assumption that types defined\nat module scope can later be reconstructed simply by re-importing the modules\nin which they are defined.\n\nThat assumption does not hold for a type that is defined at module scope in a\nconfig file, because the config file can't be imported the usual way. The\nsymptom of this will be an `ImportError` when unpickling an object.\n\nThe treatment is to move types from module scope into `get_config()` so that\nthey will be serialized along with the values that have those types.\n\nAuthors\n*   Sergio Gómez Colmenarejo - sergomez@google.com\n*   Wojciech Marian Czarnecki - lejlot@google.com\n*   Nicholas Watters\n*   Mohit Reddy - mohitreddy@google.com",
       "word_count": 122
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the ml-collections library:\n\nThis library is used to create and manage configuration objects for machine learning experiments and models, providing features such as dot-based access, locking mechanisms, and type safety. With ml-collections, developers can define and work with complex configurations in a way that is both human-readable and resistant to spelling mistakes or other errors."
 }

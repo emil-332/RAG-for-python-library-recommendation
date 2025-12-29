@@ -12,5 +12,6 @@
       "text": "tensorflowjs: The Python Package for TensorFlow.js\n\nThe **tensorflowjs** pip package contains libraries and tools for\n[TensorFlow.js](https://js.tensorflow.org).\n\nUse following command to install the library with support of interactive CLI:\n\nThen, run the following to see a list of CLI options\n\nor, use the wizard\n\nAlternatively, run the converter via its Bazel target. This must be run from withing the tfjs repo:\n\nDevelopment\n\nThe python tests are run with Bazel.\n\nAlternatively, run `yarn run-python-tests` to run the above command.\n\nTo debug a specific test case, use the `--test_filter` option. For example,\n\nInteractive debugging with breakpoints is supported by `debugpy` in VSCode.\nTo enable debugging, put this code at the top of the test file you want to\ndebug.\n\nYou may also need to add the following dependency to the test target in the\nBazel `BUILD` file if it's not already present.\n\nThen, run the test with `bazel run --config=debugpy` and connect\nthe VSCode debugger by selecting the `Python: Attach (Converter)` option.",
       "word_count": 159
     }
-  ]
+  ],
+  "usage_description": "This library is used to provide a Python interface for working with TensorFlow.js, allowing developers to easily convert and manage machine learning models between JavaScript and other formats. With tensorflowjs, developers can streamline their cross-platform model development and deployment workflows."
 }

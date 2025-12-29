@@ -9,5 +9,6 @@
       "text": "Pillow\n\nPython Imaging Library (Fork)\n\nPillow is the friendly PIL fork by [Jeffrey A. Clark and\ncontributors](https://github.com/python-pillow/Pillow/graphs/contributors).\nPIL is the Python Imaging Library by Fredrik Lundh and contributors.\nAs of 2019, Pillow development is\n[supported by Tidelift](https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=readme&utm_campaign=enterprise).\n\nOverview\n\nThe Python Imaging Library adds image processing capabilities to your Python interpreter.\n\nThis library provides extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities.\n\nThe core image library is designed for fast access to data stored in a few basic pixel formats. It should provide a solid foundation for a general image processing tool.\n\nMore information\n\nReport a vulnerability\n\nTo report a security vulnerability, please follow the procedure described in the [Tidelift security policy](https://tidelift.com/docs/security).",
       "word_count": 117
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to add image processing capabilities to Python applications, enabling developers to handle and manipulate various image file formats efficiently. With Pillow, developers can perform extensive image operations such as reading, writing, and modifying images across multiple formats, including common ones like JPEG, PNG, and GIF."
 }

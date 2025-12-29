@@ -22,5 +22,6 @@
       "text": "> Meurer A, Smith CP, Paprocki M, Čertík O, Kirpichev SB, Rocklin M,\n> Kumar A, Ivanov S, Moore JK, Singh S, Rathnayake T, Vig S, Granger BE,\n> Muller RP, Bonazzi F, Gupta H, Vats S, Johansson F, Pedregosa F, Curry\n> MJ, Terrel AR, Roučka Š, Saboo A, Fernando I, Kulal S, Cimrman R,\n> Scopatz A. (2017) SymPy: symbolic computing in Python. *PeerJ Computer\n> Science* 3:e103\n\nA BibTeX entry for LaTeX users is\n\nSymPy is BSD licensed, so you are free to use it whatever you like, be\nit academic, commercial, creating forks or derivatives, as long as you\ncopy the BSD statement if you redistribute it (see the LICENSE file for\ndetails). That said, although not required by the SymPy license, if it\nis convenient for you, please cite SymPy when using it in your work and\nalso consider contributing all your changes back, so that we can\nincorporate it and all of us will benefit in the end.",
       "word_count": 164
     }
-  ]
+  ],
+  "usage_description": "This library is used to solve and manipulate mathematical equations, expressions, and formulas with ease, allowing developers to implement advanced mathematical operations in their Python applications. With SymPy, developers can perform symbolic mathematics, including differentiation, integration, and solving equations, to build robust and efficient mathematical models and algorithms."
 }

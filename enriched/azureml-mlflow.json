@@ -13,5 +13,6 @@
       "text": "Microsoft Azure Machine Learning Tracking server plugin for Python\n==================================================================\n\nThe azureml-mlflow package contains the integration code of AzureML with MLflow.\nMLflow (https://mlflow.org/) is an open-source platform for tracking machine learning experiments and managing models.\nYou can use MLflow logging APIs with Azure Machine Learning so that metrics and artifacts are logged to your Azure\nmachine learning workspace.\n\nUsage\n-----\n\nWithin an `AzureML Workspace `_,\nadd the code below to use MLflow.\n\n.. code-block:: python\n\n   import mlflow\n   from azureml.core import Workspace\n\n   workspace = Workspace.from_config()\n\n   mlflow.set_tracking_uri(workspace.get_mlflow_tracking_uri())\n\nMore examples can be found at https://aka.ms/azureml-mlflow-examples.",
       "word_count": 92
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to integrate Azure Machine Learning (AzureML) with MLflow, enabling developers to log metrics and artifacts directly to their Azure machine learning workspace using MLflow logging APIs. With azureml-mlflow, developers can easily track and manage their machine learning experiments and models within AzureML."
 }

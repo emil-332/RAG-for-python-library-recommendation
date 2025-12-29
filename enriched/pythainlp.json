@@ -12,5 +12,6 @@
       "text": "Install\n\nFor stable version:\n\nFor development version:\n\nSome functionalities, like named-entity recognition, require extra packages.\nSee https://github.com/PyThaiNLP/pythainlp for installation options.",
       "word_count": 20
     }
-  ]
+  ],
+  "usage_description": "This library is used to perform various tasks in Thai Natural Language Processing, such as text analysis and entity recognition. Developers can leverage this library to build applications that understand and interact with the Thai language at a deeper level, enabling features like text classification, sentiment analysis, and named-entity extraction."
 }

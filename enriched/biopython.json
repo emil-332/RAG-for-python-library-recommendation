@@ -29,5 +29,6 @@
       "text": "- ``README.rst``  -- This file.\n- ``NEWS.rst``    -- Release notes and news.\n- ``LICENSE.rst`` -- What you can do with the code.\n- ``CONTRIB.rst`` -- An (incomplete) list of people who helped Biopython in\n  one way or another.\n- ``CONTRIBUTING.rst`` -- An overview about how to contribute to Biopython.\n- ``DEPRECATED.rst`` -- Contains information about modules in Biopython that\n  were removed or no longer recommended for use, and how to update code that\n  uses those modules.\n- ``MANIFEST.in`` -- Configures which files to include in releases.\n- ``setup.py``    -- Installation file.\n- ``Bio/``        -- The main code base code.\n- ``BioSQL/``     -- Code for using Biopython with BioSQL databases.\n- ``Doc/``        -- Documentation.\n- ``Scripts/``    -- Miscellaneous, possibly useful, standalone scripts.\n- ``Tests/``      -- Regression testing code including sample data files.",
       "word_count": 131
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the biopython library:\n\nThis library is used to analyze and manipulate biological data, including DNA, RNA, and protein sequences, providing tools for tasks such as sequence alignment, phylogenetic tree construction, and genome annotation. With biopython, developers can automate and simplify various computational molecular biology tasks, freeing up time to focus on more complex research and analysis."
 }

@@ -23,5 +23,6 @@
       "text": "The changelog for the current release can be found in the releases tab:\n(https://github.com/Qiskit/qiskit/releases)\nThe changelog provides a quick overview of notable changes for a given\nrelease.\n\nAdditionally, as part of each release, detailed release notes are written to\ndocument in detail what has changed as part of a release. This includes any\ndocumentation on potential breaking changes on upgrade and new features. See [all release notes here](https://quantum.cloud.ibm.com/docs/api/qiskit/release-notes).\n\nAcknowledgements\n\nWe acknowledge partial support for Qiskit development from the DOE Office of Science National Quantum Information Science Research Centers, Co-design Center for Quantum Advantage (C2QA) under contract number DE-SC0012704.\n\nLicense\n\n[Apache License 2.0](LICENSE.txt)",
       "word_count": 102
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create and manipulate complex quantum circuits, including optimization, compilation, and simulation for working with quantum computers at an advanced level. Developers can leverage Qiskit to compose, execute, and analyze quantum programs, as well as integrate them into their existing workflows and applications."
 }

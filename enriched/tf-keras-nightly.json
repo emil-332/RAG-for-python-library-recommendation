@@ -12,5 +12,6 @@
       "text": "TF-Keras is a deep learning API written in Python,\nrunning on top of the machine learning platform TensorFlow.\n\nIt was developed with a focus on enabling fast experimentation and\nproviding a delightful developer experience.\nThe purpose of TF-Keras is to give an *unfair advantage* to any developer\nlooking to ship ML-powered apps.",
       "word_count": 52
     }
-  ]
+  ],
+  "usage_description": "This library is used to enable developers to rapidly build and deploy machine learning powered applications with ease, thanks to its fast experimentation capabilities and user-friendly interface. By leveraging TF-Keras, developers can gain a significant competitive edge in the development of ML-powered projects, allowing them to quickly ship high-quality apps that leverage the power of deep learning."
 }

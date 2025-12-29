@@ -12,5 +12,6 @@
       "text": "Tree\n\n`tree` is a library for working with nested data structures. In a way, `tree`\ngeneralizes the builtin `map` function which only supports flat sequences,\nand allows to apply a function to each \"leaf\" preserving the overall\nstructure.\n\n`tree` is backed by an optimized C++ implementation suitable for use in\ndemanding applications, such as machine learning models.\n\nInstallation\n\nFrom PyPI:\n\nDirectly from github using pip:\n\nBuild from source:\n\nSupport\n\nIf you are having issues, please let us know by filing an issue on our\n[issue tracker](https://github.com/deepmind/tree/issues).\n\nLicense\n\nThe project is licensed under the Apache 2.0 license.",
       "word_count": 96
     }
-  ]
+  ],
+  "usage_description": "This library is used to work with nested data structures in a flexible and efficient manner, allowing developers to apply functions to each \"leaf\" while preserving the overall structure. By leveraging an optimized C++ implementation, this library enables developers to tackle demanding applications such as machine learning models with ease."
 }

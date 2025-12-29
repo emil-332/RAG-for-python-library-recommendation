@@ -12,5 +12,6 @@
       "text": "sbVirtualDisplay () (https://pypi.python.org/pypi/sbvirtualdisplay)\n\nA customized [pyvirtualdisplay](https://github.com/ponty/PyVirtualDisplay) for use with [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) automation.\n\nUsage example:\n\nOr as a context manager:\n\nWhen to use:\n\nIf you need to run browser tests on a headless machine (such as a Linux backend), and you can't use a browser's headless mode (such as Chrome's headless mode), then this may help. For example, Chrome does not allow extensions in headless mode, so if you need to run automated tests on a headless Linux machine and you need to use Chrome extensions, then this will let you run those tests using a virtual display.\n\nMore info:\n\n* [Xvfb](https://en.wikipedia.org/wiki/Xvfb) is required for this to work.",
       "word_count": 106
     }
-  ]
+  ],
+  "usage_description": "This library is used to create a virtual display environment for running SeleniumBase browser tests on headless machines, such as Linux backends, when direct access to a physical display or the browser's headless mode is not feasible. By leveraging Xvfb and providing a customized virtual display experience, this library enables developers to run automated tests with Chrome extensions in a simulated display context."
 }

@@ -24,5 +24,6 @@
       "text": "- ideas\n- feedback\n- documentation\n- bug reports\n- NLP training and testing corpora\n- Development and testing\n\nClone the repo and submit your pull-requests! Or directly create issues in this repo.\n\nJohn Snow Labs\n\n[http://johnsnowlabs.com](http://johnsnowlabs.com)",
       "word_count": 37
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to add powerful natural language processing capabilities to machine learning pipelines, enabling developers to perform tasks such as text classification, sentiment analysis, and named entity recognition at scale. With Spark NLP, developers can easily integrate state-of-the-art NLP annotations into their applications in over 200 languages, using a wide range of pre-trained models and pipelines."
 }

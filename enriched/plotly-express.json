@@ -13,5 +13,6 @@
       "text": "Plotly Express\n\nPlotly Express is now part of Plotly.py version 4 and so the `plotly_express` module now just re-exports the contents of `plotly.express`\n\nInstallation\n\nIf you follow the [`plotly` Getting Started](https://plot.ly/python/getting-started/) instructions for installation, you will get access to `plotly.express`.\n\nHowever, if you have existing code that imports from `plotly_express` explicitly and you don't wish to change it, you can still install the latest version, which just exposes `plotly.express` under the `plotly_express` namespace.\n\nVia `pip`\n\nJust running `pip install plotly_express==0.4.0` in your terminal should do it!\n\nVia `conda`\n\nYou'll have to install from the `plotly` channel with `conda install -c plotly plotly_express==0.4.0`\n\nGetting Help\n\nPlease join our [Community Forum](https://community.plot.ly/c/api/python) or file a [Github Issue](https://github.com/plotly/plotly.py/issues/new) if you've found a bug.",
       "word_count": 119
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create high-level data visualizations using Plotly.py, allowing developers to easily and quickly generate interactive charts and graphs from their data. With Plotly Express, developers can streamline their data visualization workflow and produce professional-looking plots with minimal code."
 }

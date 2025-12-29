@@ -12,5 +12,6 @@
       "text": "Dask Expressions\n================\n\nDask DataFrames with query optimization.\n\nThis is a rewrite of Dask DataFrame that includes query\noptimization and generally improved organization.\n\nMore in our blog posts:\n- [Dask Expressions overview](https://blog.dask.org/2023/08/25/dask-expr-introduction)\n- [TPC-H benchmark results vs. Dask DataFrame](https://docs.coiled.io/blog/tpch.html)\n\nExample\n-------\n\nQuery Representation\n--------------------\n\nDask-expr encodes user code in an expression tree:\n\nThis expression tree will be optimized and modified before execution:\n\nStability\n---------\n\nThis is the default backend for dask.DataFrame since version 2024.3.0.\n\nAPI Coverage\n------------\n\nDask-Expr covers almost everything of the Dask DataFrame API. The only missing features are:\n\n- named GroupBy Aggregations",
       "word_count": 95
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accelerate and optimize high-level data processing operations on Dask DataFrames, leveraging query optimization for improved performance. With dask-expr, developers can write complex queries in an expression tree format that gets optimized and executed efficiently, making it suitable as the default backend for Dask DataFrames since version 2024.3.0."
 }

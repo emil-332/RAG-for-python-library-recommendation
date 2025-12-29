@@ -12,5 +12,6 @@
       "text": "The h5py package provides both a high- and low-level interface to the HDF5\nlibrary from Python. The low-level interface is intended to be a complete\nwrapping of the HDF5 API, while the high-level component supports  access to\nHDF5 files, datasets and groups using established Python and NumPy concepts.\n\nA strong emphasis on automatic conversion between Python (Numpy) datatypes and\ndata structures and their HDF5 equivalents vastly simplifies the process of\nreading and writing data from Python.\n\nWheels are provided for several popular platforms, with an included copy of\nthe HDF5 library (usually the latest version when h5py is released).\n\nYou can also `build h5py from source\n`_\nwith any HDF5 stable release from version 1.10.4 onwards, although naturally new\nHDF5 versions released after this version of h5py may not work.\nOdd-numbered minor versions of HDF5 (e.g. 1.13) are experimental, and may not\nbe supported.",
       "word_count": 144
     }
-  ]
+  ],
+  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the h5py library:\n\nThis library is used to efficiently read and write complex data in HDF5 format from Python applications, leveraging established NumPy concepts for simplified data access. With h5py, developers can easily store, manage, and retrieve large datasets and structured data within HDF5 files."
 }
