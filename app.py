@@ -8,9 +8,36 @@ from indexing_and_retrieval import retrieve_libraries
 MODEL_NAME = "llama3.1"
 ENRICHED_DIR = Path("enriched")
 
-SYSTEM_PROMPT = """
+# --- Prompts ---
+
+# 1. Query Analysis Prompt (The "Expert" Step)
+ANALYSIS_PROMPT = """
+You are a senior software architect. Analyze the user's project idea.
+Determine if the description is specific enough to recommend precise Python libraries.
+
+Return a JSON object with this structure:
+{
+    "status": "vague" or "specific",
+    "content": [
+        // If "vague": Provide 2-3 short, specific technical questions to narrow down the requirements.
+        // If "specific": Provide a string of 5-10 technical keywords to expand the search query.
+    ]
+}
+
+Example 1 (Vague):
+Input: "I want to scrape websites."
+Output: {"status": "vague", "content": ["Are the sites static HTML or dynamic (JavaScript)?", "Do you need to bypass captchas?"]}
+
+Example 2 (Specific):
+Input: "I want to scrape React websites using a headless browser."
+Output: {"status": "specific", "content": "selenium playwright pyppeteer dynamic-content headless browser automation javascript-rendering"}
+"""
+
+# 2. RAG Generation Prompt (The "Recommender" Step)
+RAG_SYSTEM_PROMPT = """
 You are a software architecture assistant. Your goal is to recommend libraries based on the user's project description.
-Use the provided Context (retrieved library data) to justify your recommendations.
+Use the provided Context to recommend the best libraries and justify your recommendations.
+Focus on the specific technical needs identified in the user's query.
 If the Context is empty or irrelevant, strictly state that you cannot find suitable libraries in the database.
 
 Structure your answer:
@@ -25,12 +52,23 @@ Then follow up with a final sentence or two that recommends a specific library b
 Talk to the user directly, not in the third person about the user.
 """
 
+def analyze_user_query(user_input):
+    """
+    Step 1: User Modeling / Query Expansion.
+    Decides if we need to ask questions or if we can search immediately.
+    """
+    try:
+        response = ollama.chat(model=MODEL_NAME, format='json', messages=[
+            {'role': 'system', 'content': ANALYSIS_PROMPT},
+            {'role': 'user', 'content': user_input},
+        ])
+        return json.loads(response['message']['content'])
+    except Exception as e:
+        # Fallback if JSON parsing fails
+        return {"status": "specific", "content": user_input}
+
 def load_library_details(library_name):
-    """
-    Loads the full enriched data for a given library from the JSON file.
-    Handles spaces in library names by replacing them with hyphens.
-    """
-    # Construct filename: "library name" -> "library-name.json"
+    """Load enriched data for transparency."""
     safe_name = library_name.replace(" ", "-")
     file_path = ENRICHED_DIR / f"{safe_name}.json"
     
@@ -40,124 +78,165 @@ def load_library_details(library_name):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            
-        # Reconstruct the full readme by joining all text chunks
         chunks = data.get("chunks", [])
         full_text = "\n\n".join([c.get("text", "") for c in chunks])
-        
         return {
-            "summary": data.get("summary", "No summary available."),
-            "usage_description": data.get("usage_description", "No enriched description available."),
+            "summary": data.get("summary", ""),
+            "usage_description": data.get("usage_description", ""),
             "full_readme": full_text
         }
-    except Exception as e:
-        return {"summary": "", "usage_description": f"Error loading file: {e}", "full_readme": ""}
+    except:
+        return None
 
-def generate_rag_response(user_query):
-    # 1. Retrieval
+def generate_rag_response(search_query, original_intent=""):
+    """
+    Step 2: Retrieval & Generation.
+    Uses the 'search_query' (which might be the expanded keywords) to find docs,
+    but answers the 'original_intent' to keep the conversation natural.
+    """
+    # 1. Retrieve
     try:
-        # Retrieve top matches based on vector similarity
-        retrieved_items = retrieve_libraries(user_query, top_x=6)
+        retrieved_items = retrieve_libraries(search_query, top_x=4)
     except Exception as e:
         return f"Error connecting to Vector DB: {str(e)}", []
 
-    # 2. Context Construction & Data Loading
+    # 2. Build Context
     context_str = ""
     final_results = []
     
     for item in retrieved_items:
-        # Load the full enriched JSON for this library
         details = load_library_details(item['library'])
-        
         if details:
-            # Add loaded details to the item dictionary for the UI
-            item['full_readme'] = details['full_readme']
-            item['usage_description'] = details['usage_description']
-            item['summary'] = details['summary']
+            item.update(details)
         else:
-            # Fallback if file not found
-            item['full_readme'] = "Could not find enriched data file."
-            item['usage_description'] = "N/A"
-            item['summary'] = item.get('summary', '')
-
+            item.update({"full_readme": "N/A", "usage_description": "N/A", "summary": ""})
+        
         final_results.append(item)
-
-        # Add to the Prompt Context
-        # We include the Enriched Description and Summary for better LLM reasoning
+        
         context_str += f"""
         === Library: {item['library']} ===
         [Tags]: {', '.join(item['tags'])}
-        [Summary]: {item['summary']}
         [Enriched Analysis]: {item['usage_description']}
-        [Relevant Readme Snippet]:
-        {item['context_chunk']}
-        ==================================
+        [Snippet]: {item['context_chunk']}
         \n
         """
 
+    # 3. Generate Answer
     final_prompt = f"""
-    User Project Goal: "{user_query}"
+    User's Original Goal: "{original_intent}"
+    Technical Search Context: "{search_query}"
 
-    Available Libraries (Context):
+    Available Libraries:
     {context_str}
 
-    Based ONLY on the context above, recommend the best libraries.
+    Recommend the best libraries based on the context. Explain WHY they fit the technical context.
     """
 
-    # 3. Generation (Ollama)
     try:
         response = ollama.chat(model=MODEL_NAME, messages=[
-            {'role': 'system', 'content': SYSTEM_PROMPT},
+            {'role': 'system', 'content': RAG_SYSTEM_PROMPT},
             {'role': 'user', 'content': final_prompt},
         ])
         return response['message']['content'], final_results
     except Exception as e:
-        return f"Error connecting to Ollama: {str(e)}. Is 'ollama serve' running?", []
+        return f"Error: {e}", []
 
-# --- UI Layout ---
-st.set_page_config(page_title="Library Recommender", layout="wide") # Wide layout for better reading
-st.title("📚 Intelligent Library Recommender")
-st.caption("Describe your project goal (e.g., 'I want to build a web scraper for news sites')")
+# --- UI Logic ---
+st.set_page_config(page_title="GenAI Library Expert", layout="wide")
+st.title("🧠 Adaptive Library Architect")
 
-# Initialize Chat History
+# Session State for "Conversation Flow"
 if "messages" not in st.session_state:
     st.session_state.messages = []
+if "clarification_mode" not in st.session_state:
+    st.session_state.clarification_mode = False
+if "original_query" not in st.session_state:
+    st.session_state.original_query = ""
 
 # Display Chat History
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# Input Area
-if prompt := st.chat_input("What are you building?"):
-    # Display User Message
+# Chat Input
+if prompt := st.chat_input("Describe your project idea..."):
+    
+    # User message
     st.chat_message("user").markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    # Generate Response
-    with st.spinner("Analyzing requirements & retrieving libraries..."):
-        ai_response, sources = generate_rag_response(prompt)
-
-    # Display AI Message
-    with st.chat_message("assistant"):
-        st.markdown(ai_response)
+    # --- FLOW A: Handling Clarification Answers ---
+    if st.session_state.clarification_mode:
+        # The user just answered the questions.
+        # We combine original query + their answers into a super-query.
+        combined_query = f"Project: {st.session_state.original_query}. Requirements: {prompt}"
         
-        # Sources Section
-        if sources:
-            st.divider()
-            st.subheader("📚 Analyzed Libraries")
-            for s in sources:
-                # Expander for each library
-                with st.expander(f"📄 {s['library']} (Score: {s['score']:.2f})"):
-                    # Tab structure to keep it clean
-                    tab1, tab2 = st.tabs(["Analysis & Summary", "Full Readme"])
-                    
-                    with tab1:
-                        st.markdown(f"**Summary:** {s['summary']}")
-                        st.info(f"**💡 Enriched Usage Description:**\n\n{s['usage_description']}")
-                        st.caption(f"**Tags:** {', '.join(s['tags'])}")
-                    
-                    with tab2:
-                        st.markdown(s['full_readme'])
+        with st.spinner("Synthesizing requirements and retrieving libraries..."):
+            # We treat this combined query as "Specific" now
+            ai_response, sources = generate_rag_response(combined_query, original_intent=st.session_state.original_query)
+        
+        # Reset mode
+        st.session_state.clarification_mode = False
+        st.session_state.original_query = ""
+        
+        # Display Results
+        with st.chat_message("assistant"):
+            st.markdown(ai_response)
+            if sources:
+                st.divider()
+                st.subheader("📚 Analyzed Libraries")
+                for s in sources:
+                     with st.expander(f"📄 {s['library']} (Score: {s['score']:.2f})"):
+                        tab1, tab2 = st.tabs(["Analysis", "Full Readme"])
+                        with tab1:
+                            st.info(s['usage_description'])
+                            st.caption(s['context_chunk'])
+                        with tab2:
+                            st.markdown(s['full_readme'])
+                            
+        st.session_state.messages.append({"role": "assistant", "content": ai_response})
 
-    st.session_state.messages.append({"role": "assistant", "content": ai_response})
+    # --- FLOW B: New Query Analysis ---
+    else:
+        with st.spinner("Analyzing complexity..."):
+            analysis = analyze_user_query(prompt)
+        
+        if analysis['status'] == 'vague':
+            # Case: Query is vague -> Ask Questions
+            st.session_state.clarification_mode = True
+            st.session_state.original_query = prompt
+            
+            # Format questions nicely
+            questions_text = "**I need a bit more detail to give you the best advice:**\n\n"
+            for q in analysis['content']:
+                questions_text += f"- {q}\n"
+            
+            with st.chat_message("assistant"):
+                st.markdown(questions_text)
+            
+            st.session_state.messages.append({"role": "assistant", "content": questions_text})
+            
+        else:
+            # Case: Query is specific -> Expand Keywords & Search
+            expanded_terms = analysis['content']
+            # We append the keywords to the prompt for the vector search
+            enhanced_search_query = f"{prompt} {expanded_terms}"
+            
+            with st.spinner(f"Searching with enhanced context: '{expanded_terms}'..."):
+                ai_response, sources = generate_rag_response(enhanced_search_query, original_intent=prompt)
+            
+            with st.chat_message("assistant"):
+                st.markdown(ai_response)
+                if sources:
+                    st.divider()
+                    st.subheader("📚 Analyzed Libraries")
+                    for s in sources:
+                         with st.expander(f"📄 {s['library']} (Score: {s['score']:.2f})"):
+                            tab1, tab2 = st.tabs(["Analysis", "Full Readme"])
+                            with tab1:
+                                st.info(s['usage_description'])
+                                st.caption(s['context_chunk'])
+                            with tab2:
+                                st.markdown(s['full_readme'])
+                                
+            st.session_state.messages.append({"role": "assistant", "content": ai_response})
