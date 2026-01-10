@@ -92,8 +92,8 @@ def retrieve_libraries(query, top_x=5):
 
     return results
 
-#if __name__ == "__main__":
-    # Uncomment to build the DB for the first time
+# if __name__ == "__main__":
+#    # Uncomment to build the DB for the first time
 #    build_vector_database()
 #
 #    user_goal = "I want to build a web scraper to collect news articles."

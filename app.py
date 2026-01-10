@@ -1,7 +1,10 @@
-import streamlit as st
-import ollama
 import json
+from enum import Enum
 from pathlib import Path
+
+import ollama
+import streamlit as st
+
 from indexing_and_retrieval import retrieve_libraries
 
 # --- Configuration ---
@@ -38,7 +41,8 @@ RAG_SYSTEM_PROMPT = """
 You are a software architecture assistant. Your goal is to recommend libraries based on the user's project description.
 Use the provided Context to recommend the best libraries and justify your recommendations.
 Focus on the specific technical needs identified in the user's query.
-If the Context is empty or irrelevant, strictly state that you cannot find suitable libraries in the database.
+Only recommend libraries listed in the 'Available Libraries'.
+If the 'Available Libraries' context is empty or irrelevant, strictly state that you cannot find suitable libraries in the database.
 
 Structure your answer:
 1. **Top Recommendation**: The best fit.
@@ -51,6 +55,23 @@ Start with the best recommendation, then 2nd place, 3rd place.
 Then follow up with a final sentence or two that recommends a specific library based on the context the user gave.
 Talk to the user directly, not in the third person about the user.
 """
+
+WELCOME_MESSAGE = """
+👋 **Welcome!**
+
+I'm your **Adaptive Library Architect**.
+
+Tell me what you want to build in Python — whether it's a quick script,
+a production system, or just an idea you're exploring.
+
+You can start simple, like
+- *"I want to build a REST API"*
+- *"I want to train a machine learning model"*
+- *"I need to scrape some data"*
+
+and we will figure the rest out together 😊
+"""
+
 
 def analyze_user_query(user_input):
     """
@@ -141,102 +162,110 @@ def generate_rag_response(search_query, original_intent=""):
     except Exception as e:
         return f"Error: {e}", []
 
+def show_recommendations(recommend_msg: str, sources: list):
+    with st.chat_message("assistant"):
+        st.markdown(recommend_msg)
+        if sources:
+            st.divider()
+            st.subheader("📚 Relevant Libraries")
+            for s in sources:
+                with st.expander(f"📄 {s['library']} (Score: {s['score']:.2f})"):
+                    tab1, tab2 = st.tabs(["Analysis", "Full Readme"])
+                    with tab1:
+                        st.info(s['usage_description'])
+                        # st.caption(s['context_chunk'])
+                    with tab2:
+                        st.markdown(s['full_readme'])
+
+    st.session_state.messages.append({"role": "assistant", "content": recommend_msg})
+
+
 # --- UI Logic ---
-st.set_page_config(page_title="GenAI Library Expert", layout="wide")
-st.title("🧠 Adaptive Library Architect")
+class Mode(Enum):
+    ANALYSE = 1
+    RECOMMEND = 2
 
 # Session State for "Conversation Flow"
 if "messages" not in st.session_state:
     st.session_state.messages = []
+if "mode" not in st.session_state:
+    st.session_state.mode = Mode.ANALYSE
 if "clarification_mode" not in st.session_state:
     st.session_state.clarification_mode = False
 if "original_query" not in st.session_state:
     st.session_state.original_query = ""
+if "pending_prompt" not in st.session_state:
+    st.session_state.pending_prompt = None
+
+# st.set_page_config(page_title="GenAI Library Expert", layout="wide")
+st.title("🧠 Adaptive Library Architect")
+
+# Show a welcome message if the chat is still empty
+if len(st.session_state.messages) == 0:
+    st.subheader(WELCOME_MESSAGE)
 
 # Display Chat History
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# Chat Input
-if prompt := st.chat_input("Describe your project idea..."):
-    
-    # User message
-    st.chat_message("user").markdown(prompt)
-    st.session_state.messages.append({"role": "user", "content": prompt})
-
+# Handle the pending prompt if there is one
+if prompt := st.session_state.pending_prompt:
     # --- FLOW A: Handling Clarification Answers ---
     if st.session_state.clarification_mode:
         # The user just answered the questions.
         # We combine original query + their answers into a super-query.
         combined_query = f"Project: {st.session_state.original_query}. Requirements: {prompt}"
-        
+
         with st.spinner("Synthesizing requirements and retrieving libraries..."):
             # We treat this combined query as "Specific" now
-            ai_response, sources = generate_rag_response(combined_query, original_intent=st.session_state.original_query)
-        
+            ai_response, sources = generate_rag_response(combined_query,
+                                                         original_intent=st.session_state.original_query)
+
         # Reset mode
         st.session_state.clarification_mode = False
         st.session_state.original_query = ""
-        
+
         # Display Results
-        with st.chat_message("assistant"):
-            st.markdown(ai_response)
-            if sources:
-                st.divider()
-                st.subheader("📚 Analyzed Libraries")
-                for s in sources:
-                     with st.expander(f"📄 {s['library']} (Score: {s['score']:.2f})"):
-                        tab1, tab2 = st.tabs(["Analysis", "Full Readme"])
-                        with tab1:
-                            st.info(s['usage_description'])
-                            st.caption(s['context_chunk'])
-                        with tab2:
-                            st.markdown(s['full_readme'])
-                            
-        st.session_state.messages.append({"role": "assistant", "content": ai_response})
+        show_recommendations(ai_response, sources)
 
     # --- FLOW B: New Query Analysis ---
     else:
-        with st.spinner("Analyzing complexity..."):
+        with st.spinner("Analyzing user intentions..."):
             analysis = analyze_user_query(prompt)
-        
+
         if analysis['status'] == 'vague':
             # Case: Query is vague -> Ask Questions
             st.session_state.clarification_mode = True
             st.session_state.original_query = prompt
-            
+
             # Format questions nicely
             questions_text = "**I need a bit more detail to give you the best advice:**\n\n"
             for q in analysis['content']:
                 questions_text += f"- {q}\n"
-            
+
             with st.chat_message("assistant"):
                 st.markdown(questions_text)
-            
+
             st.session_state.messages.append({"role": "assistant", "content": questions_text})
-            
+
         else:
             # Case: Query is specific -> Expand Keywords & Search
             expanded_terms = analysis['content']
             # We append the keywords to the prompt for the vector search
-            enhanced_search_query = f"{prompt} {expanded_terms}"
-            
+            enhanced_search_query = f"{prompt}\nKeywords: {expanded_terms}"
+
             with st.spinner(f"Searching with enhanced context: '{expanded_terms}'..."):
                 ai_response, sources = generate_rag_response(enhanced_search_query, original_intent=prompt)
-            
-            with st.chat_message("assistant"):
-                st.markdown(ai_response)
-                if sources:
-                    st.divider()
-                    st.subheader("📚 Analyzed Libraries")
-                    for s in sources:
-                         with st.expander(f"📄 {s['library']} (Score: {s['score']:.2f})"):
-                            tab1, tab2 = st.tabs(["Analysis", "Full Readme"])
-                            with tab1:
-                                st.info(s['usage_description'])
-                                st.caption(s['context_chunk'])
-                            with tab2:
-                                st.markdown(s['full_readme'])
-                                
-            st.session_state.messages.append({"role": "assistant", "content": ai_response})
+
+            show_recommendations(ai_response, sources)
+
+    st.session_state.pending_prompt = None
+
+# Accept new chat messages by the user
+if user_message := st.chat_input("Describe your project idea"):
+    # Store the new user message
+    st.chat_message("user").markdown(user_message)
+    st.session_state.messages.append({"role": "user", "content": user_message})
+    st.session_state.pending_prompt = user_message
+    st.rerun()
