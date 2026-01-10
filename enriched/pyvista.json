@@ -22,5 +22,5 @@
       "word_count": 363
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with pyvista:\n\nThis library is used to simplify the process of working with VTK in Python by providing a more intuitive and easy-to-use API. Developers can leverage pyvista to create complex 3D visualizations, filter and manipulate mesh data structures, and perform spatial dataset operations with ease."
+  "usage_description": "This library is used to create 3D plots with ease and simplify complex data geometries using a high-level API for the Visualization Toolkit (VTK). It enables developers to work with mesh data structures and filtering methods through a Pythonic interface."
 }

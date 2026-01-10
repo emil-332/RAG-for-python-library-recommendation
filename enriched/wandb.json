@@ -14,5 +14,5 @@
       "word_count": 442
     }
   ],
-  "usage_description": "This library is used to track and visualize machine learning experiments of any size, allowing developers to easily manage and compare their model's performance through a user-friendly interface. With wandb, developers can install it to integrate with the Weights & Biases platform, sign up for an account, and use their API key to start logging and analyzing experiment data."
+  "usage_description": "This library is used to track, visualize, and manage machine learning experiments of any size through integration with the Weights & Biases API. It enables developers to easily sign up, create API keys, and configure their accounts for seamless interaction with the W&B platform."
 }

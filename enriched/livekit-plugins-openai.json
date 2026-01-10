@@ -14,5 +14,5 @@
       "word_count": 59
     }
   ],
-  "usage_description": "This library is used to integrate various OpenAI services, including Realtime API, LLM (Large Language Model), TTS (Text-to-Speech), and STT (Speech-to-Text) APIs, into LiveKit Agents. With this plugin, developers can leverage the capabilities of these OpenAI services to enhance their applications with AI-powered features such as language processing and speech synthesis."
+  "usage_description": "This library is used to integrate services from OpenAI with LiveKit Agents, providing support for various APIs such as Realtime API, LLM, TTS, and STT. This integration enables developers to leverage a large number of OpenAI-compatible APIs in their applications."
 }

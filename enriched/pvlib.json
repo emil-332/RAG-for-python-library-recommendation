@@ -12,5 +12,5 @@
       "word_count": 61
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to simulate the performance of photovoltaic energy systems, allowing developers to model and analyze the behavior of solar panels under various conditions. By leveraging pvlib's robust and interoperable models, developers can efficiently design, optimize, and predict the output of PV systems."
+  "usage_description": "This library is used to simulate the performance of photovoltaic energy systems and accomplish related tasks. It provides open, reliable, and interoperable implementations of PV system models, enabling developers to accurately model and optimize solar panel performance."
 }

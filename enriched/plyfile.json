@@ -13,5 +13,5 @@
       "word_count": 68
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to read and write PLY (Polygon File Format) files, allowing developers to import and export 3D models in this widely-used format. With plyfile, developers can easily load and manipulate PLY files in their Python applications for tasks such as data visualization, computer-aided design, or game development."
+  "usage_description": "This library is used to read and write files in PLY format, a widely-used binary mesh format for 3D models. With this library, developers can easily import and export 3D model data in PLY format from their Python applications."
 }

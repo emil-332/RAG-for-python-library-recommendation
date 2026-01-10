@@ -13,5 +13,5 @@
       "word_count": 301
     }
   ],
-  "usage_description": "This library, Awkward, is used to manipulate JSON-like data with NumPy-like idioms, allowing developers to write concise and efficient code for large-scale data processing. By using Awkward Arrays, developers can achieve significant performance gains and memory efficiency compared to traditional Python approaches, making it ideal for handling complex data sets."
+  "usage_description": "This library is used to manipulate JSON-like data with NumPy-like idioms, allowing for concise and performance-optimized code. With Awkward Arrays, developers can efficiently process large datasets with a syntax familiar from NumPy."
 }

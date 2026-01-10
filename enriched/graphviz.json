@@ -14,5 +14,5 @@
       "word_count": 433
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create and render graph descriptions in the DOT language, allowing developers to easily assemble and visualize complex graphs from Python code. With Graphviz, developers can generate a wide range of output formats (e.g., PDF, PNG, SVG) and even display graphs directly within Jupyter notebooks or other interactive environments."
+  "usage_description": "This library is used to create and render graph descriptions in the DOT language of Graphviz from Python, enabling developers to visualize complex relationships and structures. With this library, developers can generate various types of output files (e.g., PDF, PNG, SVG) for their graphs and even display them directly within Jupyter notebooks."
 }

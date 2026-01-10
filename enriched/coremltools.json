@@ -15,5 +15,5 @@
       "word_count": 191
     }
   ],
-  "usage_description": "Here is a short summary of what this library enables developers to achieve:\n\nThis library is used to convert, create, and test machine learning models in the .mlmodel format for integration into Apple's Core ML framework. It allows developers to easily import existing models from other tools and formats into their iOS, iPadOS, watchOS, macOS, or tvOS apps."
+  "usage_description": "This library is used to create and convert machine learning models to the Core ML format for integration into Apple apps. With coremltools, developers can easily import and export models in .mlmodel format, streamlining the process of integrating AI capabilities into their iOS or macOS projects."
 }

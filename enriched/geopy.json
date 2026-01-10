@@ -13,5 +13,5 @@
       "word_count": 257
     }
   ],
-  "usage_description": "This library is used to perform geocoding, which enables developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using various third-party geocoders. With geopy, developers can easily integrate geographic data into their applications, making it suitable for projects that require mapping or location-based features."
+  "usage_description": "This library is used to locate coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoding web services. Developers can use geopy to easily integrate geolocation functionality into their applications."
 }

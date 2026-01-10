@@ -13,5 +13,5 @@
       "word_count": 77
     }
   ],
-  "usage_description": "This library is used to extend the capabilities of core TensorFlow with new and experimental features not natively supported. By leveraging TensorFlow Addons, developers can tap into a wide range of innovative operators, layers, metrics, losses, and optimizers that enhance their machine learning workflows."
+  "usage_description": "This library is used to extend and complement TensorFlow's existing functionality with newly developed techniques in machine learning. It provides additional operators, layers, metrics, losses, and optimizers that are not available natively in core TensorFlow."
 }

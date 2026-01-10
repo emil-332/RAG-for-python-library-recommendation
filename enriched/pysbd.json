@@ -14,5 +14,5 @@
       "word_count": 219
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to automatically detect sentence boundaries in text across multiple languages, enabling developers to process and analyze large volumes of natural language data. With pysbd, developers can easily integrate rule-based sentence boundary detection into their applications, improving the accuracy and efficiency of tasks such as text preprocessing and sentiment analysis."
+  "usage_description": "This library is used to detect sentence boundaries in text across multiple languages using a rule-based approach, allowing developers to accurately identify sentences and use this information for various natural language processing tasks. By leveraging pysbd, developers can improve the accuracy of their NLP applications and enable features such as automatic summarization, question answering, and more."
 }

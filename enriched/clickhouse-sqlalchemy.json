@@ -13,5 +13,5 @@
       "word_count": 74
     }
   ],
-  "usage_description": "This library is used to interact with a ClickHouse database from Python applications using SQLAlchemy, allowing developers to execute SQL queries and perform various operations on the database. With this library, developers can easily define tables, insert data, and query it using a familiar SQLAlchemy interface, without having to directly handle the underlying database connection or syntax."
+  "usage_description": "This library is used to seamlessly integrate ClickHouse databases into SQLAlchemy-enabled applications, allowing developers to easily interact with ClickHouse tables and execute SQL queries. With this library, developers can leverage the full power of ClickHouse in their Python projects using a familiar SQLAlchemy interface."
 }

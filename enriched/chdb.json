@@ -16,5 +16,5 @@
       "word_count": 743
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create an in-process SQL OLAP Engine within Python applications, allowing for efficient data processing and analysis without the need for installing ClickHouse separately. With chDB, developers can easily integrate OLAP capabilities into their projects while minimizing memory copying and supporting various file formats such as Parquet, CSV, and JSON."
+  "usage_description": "This library is used to enable in-process SQL OLAP capabilities within a Python application, leveraging the power of ClickHouse without requiring a separate installation. With chDB, developers can perform complex analytics tasks directly within their Python code, utilizing various input/output formats and supported by the Python DB API 2.0 standard."
 }

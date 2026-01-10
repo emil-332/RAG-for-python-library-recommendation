@@ -34,5 +34,5 @@
       "word_count": 367
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the tqdm library:\n\nThis library is used to display a smart progress meter for any iterable in real-time, allowing developers to easily visualize the status of their loops and estimate remaining time. With tqdm, developers can efficiently track progress and reduce overhead, making it a versatile tool that works across various platforms and environments."
+  "usage_description": "This library is used to display a smart progress meter for loops, allowing developers to track the progress of their code with minimal overhead. By wrapping an iterable with tqdm, developers can instantly visualize the completion percentage and estimated remaining time for any loop."
 }

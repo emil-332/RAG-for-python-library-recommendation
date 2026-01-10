@@ -13,5 +13,5 @@
       "word_count": 160
     }
   ],
-  "usage_description": "This library is used to programmatically interact with Singularity containers from Python code. With spython, developers can automate tasks and workflows involving containerization and reproducibility in scientific computing and data analysis applications."
+  "usage_description": "This library is used to interact with Singularity containers from Python scripts through a command-line interface. With this library, developers can work with Singularity containers programmatically and automate tasks that would otherwise require manual interaction."
 }

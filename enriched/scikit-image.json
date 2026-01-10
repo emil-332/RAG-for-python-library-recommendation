@@ -12,5 +12,5 @@
       "word_count": 77
     }
   ],
-  "usage_description": "This library is used to enable developers to efficiently perform image processing tasks in Python, offering a wide range of algorithms for filtering, thresholding, and other operations on images. By utilizing scikit-image, developers can simplify the task of analyzing and manipulating images within their applications."
+  "usage_description": "This library is used to perform a wide range of image processing tasks in Python, including filtering, thresholding, and feature extraction. Developers can leverage scikit-image to build robust image analysis applications with ease."
 }

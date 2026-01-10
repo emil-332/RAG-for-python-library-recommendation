@@ -23,5 +23,5 @@
       "word_count": 145
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently optimize data collection by cleaning, filtering, and sampling URLs to prioritize important pages and reduce unnecessary requests. By leveraging courlan's URL normalization and quality control features, developers can improve the scalability and efficiency of their web crawling and scraping applications."
+  "usage_description": "This library is used to optimize data collection from the web by cleaning, filtering, and sampling URLs to exclude irrelevant or spam content. Developers can use coURLan to crawl the web in an efficient and scalable way while maintaining reasonable measures of quality or freshness."
 }

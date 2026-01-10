@@ -13,5 +13,5 @@
       "word_count": 339
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the astropy library:\n\nThis library is used to provide a core package for astronomy in Python, enabling developers to perform complex astronomical computations and data analysis with ease. By leveraging Astropy's robust functionality and interoperability features, developers can build efficient and scalable applications for tasks such as data visualization, modeling, and simulation."
+  "usage_description": "This library is used to provide a single core package for astronomy in Python, enabling developers to perform various tasks such as data analysis, modeling, and visualization for astronomy and astrophysics applications. With astropy, developers can write efficient and interoperable code that integrates with other packages used in the field of astronomy."
 }

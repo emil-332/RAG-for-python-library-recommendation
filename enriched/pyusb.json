@@ -12,5 +12,5 @@
       "word_count": 35
     }
   ],
-  "usage_description": "This library is used to enable developers to communicate with USB devices in Python environments with Python 3.9 and above, without requiring additional code. With pyusb, developers can easily interact with a wide range of USB devices, streamlining the development process for applications that rely on USB connectivity."
+  "usage_description": "This library is used to enable easy communication with USB devices from Python applications, allowing developers to access and control various types of USB peripherals in their code. With this library, developers can easily interact with USB devices without needing to write additional low-level code for device communication."
 }

@@ -13,5 +13,5 @@
       "word_count": 409
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to perform a wide range of tasks in computational molecular biology, including identifying homologous sequence regions and finding disulfide bonds in protein structures. By utilizing Biotite's comprehensive set of tools, developers can efficiently tackle various bioinformatics challenges and streamline their workflow."
+  "usage_description": "This library is used to perform various tasks in computational molecular biology, including identifying homologous sequence regions and finding disulfide bonds in protein structures. It offers a set of tools for bioinformatics analysis that can be easily integrated into Python applications."
 }

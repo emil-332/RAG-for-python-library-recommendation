@@ -14,5 +14,5 @@
       "word_count": 512
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to provide a standard API for reinforcement learning and a diverse set of reference environments that can be used to test and train reinforcement learning agents. With gymnasium, developers can experiment with various environments, such as classic control problems, physics-based games, text-based environments, and more, to evaluate the performance of their reinforcement learning algorithms."
+  "usage_description": "This library is used to enable the development of reinforcement learning agents in a variety of simulation environments, including classic control problems, physics-based games, and simple text-based worlds. With Gymnasium, developers can train and test their agents across multiple environment types, facilitating experimentation and improvement of reinforcement learning algorithms."
 }

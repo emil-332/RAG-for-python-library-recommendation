@@ -12,5 +12,5 @@
       "word_count": 225
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to provide safe and convenient access to XML processing capabilities, including XPath, RelaxNG, XML Schema, XSLT, C14N, and more, through the ElementTree API. With lxml, developers can efficiently parse, transform, and validate XML documents in Python, leveraging a powerful combination of libxml2/libxslt and Pythonic syntax."
+  "usage_description": "This library is used to efficiently and safely process XML documents with features like XPath, RelaxNG validation, and XSLT transformations. Developers can leverage lxml to perform complex XML operations in a Pythonic way, extending the ElementTree API for robust XML parsing and manipulation."
 }

@@ -31,5 +31,5 @@
       "word_count": 112
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently augment audio data for deep learning models, enabling developers to prepare and preprocess high-quality training datasets. With torch-audiomentations, developers can easily apply various audio transformations to their data, improving model performance and robustness in tasks such as speech recognition, music classification, and audio event detection."
+  "usage_description": "This library is used to apply various audio data augmentations in Pytorch, enabling developers to enhance and diversify their audio datasets for deep learning applications. With this library, developers can easily add noise, time-stretching, pitch-shifting, and other effects to their audio data, improving model robustness and performance."
 }

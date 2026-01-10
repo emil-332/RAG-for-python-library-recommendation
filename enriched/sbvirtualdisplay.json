@@ -13,5 +13,5 @@
       "word_count": 106
     }
   ],
-  "usage_description": "This library is used to create a virtual display environment for running SeleniumBase browser tests on headless machines, such as Linux backends, when direct access to a physical display or the browser's headless mode is not feasible. By leveraging Xvfb and providing a customized virtual display experience, this library enables developers to run automated tests with Chrome extensions in a simulated display context."
+  "usage_description": "This library is used to provide a customized virtual display solution for SeleniumBase automation on headless machines, allowing developers to run browser tests that require extensions or cannot use headless mode. With sbvirtualdisplay, developers can successfully execute automated tests on Linux backends without relying on a browser's native headless capabilities."
 }

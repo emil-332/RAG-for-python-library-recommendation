@@ -13,5 +13,5 @@
       "word_count": 144
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the h5py library:\n\nThis library is used to efficiently read and write complex data in HDF5 format from Python applications, leveraging established NumPy concepts for simplified data access. With h5py, developers can easily store, manage, and retrieve large datasets and structured data within HDF5 files."
+  "usage_description": "This library is used to read and write HDF5 files from Python with automatic conversion between data types, simplifying the process of accessing and storing complex data. It provides a high-level interface that allows developers to work with HDF5 files using familiar Python and NumPy concepts."
 }

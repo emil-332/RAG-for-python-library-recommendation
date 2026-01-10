@@ -12,5 +12,5 @@
       "word_count": 42
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to convert LaTeX equations and formulas into MathML, enabling developers to integrate mathematical expressions into web applications and documents in a standardized and platform-independent way. With latex2mathml, developers can easily render LaTeX-based math content in web browsers, making it accessible for visually impaired users or those who prefer interactive math experiences."
+  "usage_description": "This library is used to convert LaTeX mathematical expressions into MathML format, enabling developers to display and render math equations in web applications and documents. Developers can use this library to seamlessly integrate LaTeX formulas with other technologies that support MathML, such as HTML5, CSS3, and JavaScript libraries like MathJax."
 }

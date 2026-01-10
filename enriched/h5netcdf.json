@@ -24,5 +24,5 @@
       "word_count": 120
     }
   ],
-  "usage_description": "This library, h5netcdf, is used to enable reading and writing of netCDF4 files directly via HDF5 files using the h5py interface, eliminating the need for the Unidata netCDF library. By leveraging h5py, developers can achieve faster performance and reduced dependencies in their workflows when working with netCDF4 files."
+  "usage_description": "This library is used to read and write netCDF4 files directly via HDF5 format without relying on the Unidata netCDF library. With h5netcdf, developers can bypass the installation of additional binary dependencies, potentially improving performance for specific workflows by up to 4x faster execution times."
 }

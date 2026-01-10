@@ -13,5 +13,5 @@
       "word_count": 128
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to provide a suite of evaluation tools for various machine learning and natural language processing tasks, allowing developers to easily compute and compare metrics, measurements, and comparisons. With Evaluate, developers can quickly integrate a wide range of evaluation modules into their projects, streamlining the process of model evaluation and comparison."
+  "usage_description": "This library is used to provide a collection of evaluation metrics, comparisons, and measurements that can be easily integrated into machine learning workflows. With Evaluate, developers can seamlessly compute results for various evaluation tasks using its simple and intuitive API."
 }

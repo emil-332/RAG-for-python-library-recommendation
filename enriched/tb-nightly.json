@@ -13,5 +13,5 @@
       "word_count": 32
     }
   ],
-  "usage_description": "This library is used to facilitate inspection and understanding of TensorFlow runs and graphs through a suite of web applications, allowing developers to gain insights into their models' performance. With TensorBoard, developers can visualize and analyze the data flow within their TensorFlow applications."
+  "usage_description": "This library is used to inspect and understand your TensorFlow runs and graphs through a suite of web applications. This allows developers to effectively monitor and analyze their machine learning models' performance in real-time."
 }

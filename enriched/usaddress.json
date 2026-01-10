@@ -16,5 +16,5 @@
       "word_count": 441
     }
   ],
-  "usage_description": "This library is used to parse US addresses using conditional random fields, enabling developers to break down addresses into their constituent parts such as street, city, state, and zip code. With usaddress, developers can extract specific address components from a given address string for use in various applications or data processing workflows."
+  "usage_description": "This library is used to parse US addresses using conditional random fields, allowing developers to accurately extract address components such as street, city, state, and ZIP code. This enables efficient data processing and analysis of geospatial information in various applications."
 }

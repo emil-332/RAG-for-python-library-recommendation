@@ -15,5 +15,5 @@
       "word_count": 189
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create high-level plots for data analysis and visualization, allowing developers to focus on exploring and conveying insights rather than getting bogged down in plotting details. With HoloViews, you can easily express complex visualizations in just a few lines of code, making it an ideal choice for anyone looking to simplify their data analysis workflow."
+  "usage_description": "This library is used to simplify data analysis and visualization by allowing developers to focus on the exploration and conveyance of insights rather than the plotting process itself. With HoloViews, developers can easily annotate their data to let it visualize itself in a seamless and simple manner."
 }

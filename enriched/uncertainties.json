@@ -13,5 +13,5 @@
       "word_count": 367
     }
   ],
-  "usage_description": "This library is used to perform complex calculations with values that have uncertainties, streamlining error propagation and simplifying the process of working with uncertain quantities. With this library, developers can easily compute results with associated uncertainties, making it an essential tool for scientists and engineers who work with imprecise or noisy data."
+  "usage_description": "This library is used to perform calculations that take into account the uncertainties associated with input values, simplifying error propagation and providing reliable results. With this library, developers can easily calculate the uncertainty of composite values by combining quantities with errors."
 }

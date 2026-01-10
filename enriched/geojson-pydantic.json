@@ -13,5 +13,5 @@
       "word_count": 72
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create and validate GeoJSON data by providing a set of Pydantic models that conform to the official GeoJSON specification (rfc7946). With geojson-pydantic, developers can ensure the correctness and consistency of their geographic data, making it easier to integrate into their applications."
+  "usage_description": "This library is used to create or validate GeoJSON data with a suite of Pydantic models that match the official specification. By using this library, developers can ensure their geospatial data conforms to industry standards and automate validation and serialization tasks."
 }

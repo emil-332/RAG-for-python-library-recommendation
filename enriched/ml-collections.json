@@ -24,5 +24,5 @@
       "word_count": 122
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the ml-collections library:\n\nThis library is used to create and manage configuration objects for machine learning experiments and models, providing features such as dot-based access, locking mechanisms, and type safety. With ml-collections, developers can define and work with complex configurations in a way that is both human-readable and resistant to spelling mistakes or other errors."
+  "usage_description": "This library is used to provide a set of Python collections with features like dot-based access, locking, lazy computation, and type safety for ML use cases. It enables developers to create and manage configurations for experiments and models in a structured and efficient manner."
 }

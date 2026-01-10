@@ -15,5 +15,5 @@
       "word_count": 799
     }
   ],
-  "usage_description": "This library is used to automatically optimize the hyperparameters of machine learning models, allowing developers to improve their model's performance without manually tuning parameters. With Optuna, developers can easily find the optimal combination of hyperparameters for their specific use case, streamlining the development and deployment process."
+  "usage_description": "This library is used to automatically optimize the performance of machine learning models by searching for optimal hyperparameters. With Optuna, developers can efficiently explore large hyperparameter spaces and find the best combinations that maximize their model's accuracy or other evaluation metrics."
 }

@@ -15,5 +15,5 @@
       "word_count": 312
     }
   ],
-  "usage_description": "This library is used to record and stream data such as images, tensors, point clouds, and text for live visualization in the Rerun Viewer or offline analysis. With this library, developers can easily capture and log relevant data, enabling them to visualize and analyze it in real-time or later on."
+  "usage_description": "This library is used to record and stream various types of data, such as images, tensors, point clouds, and text, for live visualization or later use. With this SDK, developers can easily integrate data logging capabilities into their applications using a variety of programming languages."
 }

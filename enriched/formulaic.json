@@ -13,5 +13,5 @@
       "word_count": 175
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to convert dataframes into model matrices using high-performance Wilkinson formulas, allowing for efficient and scalable mathematical operations. With formulaic, developers can write and optimize complex mathematical models, including those that require symbolic differentiation, making it an ideal choice for tasks such as linear regression and machine learning applications."
+  "usage_description": "This library is used to convert dataframes into high-performance model matrices for various statistical modeling tasks. It provides efficient tools for symbolic differentiation, formula parsing, and extensible input/output plugins to support a wide range of use cases."
 }

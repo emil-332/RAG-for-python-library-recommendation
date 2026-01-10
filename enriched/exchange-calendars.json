@@ -19,5 +19,5 @@
       "word_count": 353
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to easily define and query calendars for more than 50 security exchanges, allowing developers to streamline their financial data processing tasks. With exchange-calendars, developers can get lists of available calendars, retrieve specific calendars, and query schedules, as well as work with sessions and minutes for deeper analysis."
+  "usage_description": "This library is used to define and query calendars for various security exchanges, providing access to pre-built calendars for over 50 exchanges. With this library, developers can easily retrieve and manipulate exchange schedules, sessions, and minutes."
 }

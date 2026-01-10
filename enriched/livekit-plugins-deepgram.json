@@ -14,5 +14,5 @@
       "word_count": 45
     }
   ],
-  "usage_description": "This library is used to integrate Deepgram's voice AI services into LiveKit Agents, enabling seamless speech-to-text (STT) and text-to-speech (TTS) functionality within the platform. By utilizing this plugin, developers can easily leverage Deepgram's API to enhance their applications with advanced natural language processing capabilities."
+  "usage_description": "This library is used to integrate Deepgram's voice AI services into LiveKit Agents, enabling text-to-speech and speech-to-text capabilities. With this plugin, developers can leverage Deepgram's API within their LiveKit applications for advanced audio processing and analysis functionalities."
 }

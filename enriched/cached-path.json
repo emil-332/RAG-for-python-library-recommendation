@@ -15,5 +15,5 @@
       "word_count": 380
     }
   ],
-  "usage_description": "This library is used to provide a unified interface for accessing files, both locally and remotely, allowing developers to easily retrieve files from any location with a single function call. By using cached-path, developers can simplify file access in their applications, without having to worry about the underlying storage location of the files."
+  "usage_description": "This library is used to provide a unified interface for accessing both local and remote files from any location. This can be used behind other APIs that need to access files without knowing where they are located, simplifying file retrieval logic."
 }

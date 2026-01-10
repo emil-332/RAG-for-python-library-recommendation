@@ -60,5 +60,5 @@
       "word_count": 405
     }
   ],
-  "usage_description": "Here is a short (2-sentence) summary of what a developer can achieve with this library:\n\nThis library is used to provide building blocks for precise and flexible type hints in Python, enabling developers to create robust and maintainable code. With optype, you can define custom types and type aliases that accurately reflect the behavior of your functions, making it easier to write type-safe and self-documenting code."
+  "usage_description": "This library is used to provide precise and flexible type hints for Python developers, enabling them to accurately express complex type relationships in their code. With optype, developers can create robust and maintainable type annotations that handle edge cases and variations in input types with ease."
 }

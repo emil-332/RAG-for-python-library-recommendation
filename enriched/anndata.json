@@ -14,5 +14,5 @@
       "word_count": 356
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently handle annotated data matrices in memory and on disk, providing features such as sparse data support and lazy operations. With anndata, developers can easily manage large datasets while maintaining flexibility and performance, making it particularly useful for applications involving single-cell data analysis."
+  "usage_description": "This library is used to efficiently handle annotated data matrices in memory and on disk, offering features such as sparse data support and a PyTorch interface. This enables developers to perform computationally efficient operations with large datasets, particularly in the context of single-cell data analysis."
 }

@@ -13,5 +13,5 @@
       "word_count": 256
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to extend and enhance various machine learning capabilities, providing additional tools and features for tasks such as feature selection, clustering, and classification. With mlxtend, developers can build more robust and accurate machine learning models by leveraging its array of pre-built functions and algorithms."
+  "usage_description": "This library is used to extend existing machine learning functionalities and provide additional tools for data analysis. It offers various utilities and algorithms to enhance the capabilities of other popular machine learning libraries."
 }

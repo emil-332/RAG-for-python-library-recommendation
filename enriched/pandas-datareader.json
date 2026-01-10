@@ -13,5 +13,5 @@
       "word_count": 113
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enable remote data access for pandas, allowing developers to easily retrieve and manipulate financial and economic data from various sources. With pandas-datareader, developers can efficiently extract and process large datasets from online repositories such as Yahoo Finance, Quandl, and others."
+  "usage_description": "This library is used to provide up-to-date remote data access for pandas, allowing developers to seamlessly fetch and manipulate external datasets with ease. With this library, developers can easily extract and integrate various types of data from multiple sources into their pandas-based applications."
 }

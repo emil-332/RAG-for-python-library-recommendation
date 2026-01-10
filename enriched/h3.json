@@ -13,5 +13,5 @@
       "word_count": 198
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the h3 library:\n\nThis library is used to perform efficient geospatial indexing and calculations on hexagonal cells, enabling developers to quickly and accurately determine relationships between locations. With h3, developers can seamlessly integrate geospatial capabilities into their applications, improving mapping, location-based services, and spatial analysis functionality."
+  "usage_description": "This library is used to perform efficient geospatial queries and indexing on hexagonal cells, enabling developers to handle large-scale location-based data with precision. With h3, developers can index, query, and analyze geographic data with optimized performance and accuracy."
 }

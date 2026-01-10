@@ -14,5 +14,5 @@
       "word_count": 403
     }
   ],
-  "usage_description": "This library, django-forge-ai, is used to seamlessly integrate modern AI and Large Language Model (LLM) functionalities into Django projects, enabling developers to automate tasks and enhance user experience. With django-forge-ai, developers can create AI-powered admin fields, native Receptive Architectures for Graphs (RAG) system integration, and configurable AI agents, all manageable through the Django admin interface."
+  "usage_description": "This library is used to seamlessly integrate modern AI and Large Language Model (LLM) functionalities into Django projects, providing pre-built solutions for common AI engineering tasks. With django-forge-ai, developers can easily add AI-powered features such as auto-generated summaries and content to their models and admin interfaces."
 }

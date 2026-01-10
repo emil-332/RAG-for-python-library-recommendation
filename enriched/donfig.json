@@ -13,5 +13,5 @@
       "word_count": 355
     }
   ],
-  "usage_description": "This library is used to simplify configuration management in Python packages, allowing developers to configure settings programmatically, through environment variables, or from YAML files. With donfig, you can easily create and manage a centralized configuration object for your package, streamlining the process of setting up and customizing its behavior."
+  "usage_description": "This library is used to make configuration easier for other Python packages by allowing developers to configure settings programmatically, through environment variables, or from YAML files. With donfig, developers can automate and streamline their package's setup process with minimal code."
 }

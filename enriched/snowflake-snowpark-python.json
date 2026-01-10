@@ -15,5 +15,5 @@
       "word_count": 529
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build applications that efficiently process data in Snowflake without requiring data movement, enabling streamlined and optimized data pipelines. With Snowpark for Python, developers can leverage intuitive APIs to query and process data directly within the Snowflake system."
+  "usage_description": "This library is used to build applications that process data in Snowflake without having to move data to the system where your application code runs. It provides intuitive APIs for querying and processing data in a data pipeline, enabling efficient data processing and management."
 }

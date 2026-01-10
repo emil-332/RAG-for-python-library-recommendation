@@ -15,5 +15,5 @@
       "word_count": 459
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to optimize complex, non-linear functions in Python by providing an implementation of the Covariance Matrix Adaptation Evolution Strategy algorithm. Developers can use this library to efficiently search for optimal solutions to difficult optimization problems, even when gradients are not available or landscapes are rugged and multi-modal."
+  "usage_description": "This library is used to efficiently solve difficult, non-linear optimization problems in Python with a focus on unconstrained or bound-constrained objective functions. It provides a robust solution for complex search spaces with no gradients available and limited budget of function evaluations."
 }

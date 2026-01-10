@@ -14,5 +14,5 @@
       "word_count": 321
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to convert between spherical mercator coordinates and XYZ tiles, allowing for efficient processing and storage of geospatial data on the web. Developers can use Mercantile to calculate tile boundaries, find the tile containing a given point, or perform other common spatial operations in their web applications."
+  "usage_description": "This library is used to convert between longitude/latitude coordinates and their corresponding XYZ tiles in a Mercator projection. It provides utilities for determining the boundaries of tiles, converting between spherical Mercator coordinates and tile coordinates, and more."
 }

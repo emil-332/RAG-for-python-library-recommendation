@@ -12,5 +12,5 @@
       "word_count": 239
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to access and utilize a comprehensive open-source database of thermodynamic and transport properties, providing developers with the ability to simulate and analyze complex thermophysical behavior in various systems. With CoolProp, developers can calculate essential properties such as enthalpy, entropy, and viscosity for a wide range of fluids and substances, enabling more accurate modeling and prediction of their behavior under different conditions."
+  "usage_description": "This library is used to access and calculate thermodynamic and transport properties for various fluids and substances, allowing developers to integrate accurate physical property calculations into their applications. With CoolProp, developers can create software that accurately models the behavior of different materials under various conditions."
 }

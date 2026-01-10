@@ -14,5 +14,5 @@
       "word_count": 112
     }
   ],
-  "usage_description": "This library is used to quickly build, train, and deploy machine learning models for various domains, allowing developers to streamline their workflow with Azure's scalable service. With this library, data scientists can easily interact with the Azure Machine Learning service from any Python environment to create, manage, and execute machine learning workflows."
+  "usage_description": "This library is used to build and run machine learning workflows upon the Azure Machine Learning service, allowing for quick model development and deployment across various domains. It enables data scientists and AI developers to interact with the service from any Python environment, including Jupyter Notebooks or their preferred IDE."
 }

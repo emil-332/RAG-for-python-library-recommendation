@@ -15,5 +15,5 @@
       "word_count": 195
     }
   ],
-  "usage_description": "This library is used to enable the efficient transfer and storage of large files on the Hugging Face Hub, leveraging features like chunk-based deduplication and local disk caching. By utilizing this library, developers can streamline their workflows and improve performance when uploading and downloading models and datasets from the HF Hub."
+  "usage_description": "This library is used to enable fast transfer of large files with Hugging Face Hub by utilizing xet storage for efficient uploading and downloading, featuring deduplication and local disk caching. It provides a way for the huggingface_hub package to leverage these features, streamlining large file transfers."
 }

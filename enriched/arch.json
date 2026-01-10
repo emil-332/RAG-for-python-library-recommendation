@@ -13,5 +13,5 @@
       "word_count": 686
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to implement financial econometrics models, including Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for volatility analysis, cointegration testing, and unit root tests. With the `arch` library, developers can build and analyze complex time series models in Python to better understand and forecast financial data."
+  "usage_description": "This library, arch, is used to implement and analyze financial econometric models for volatility, unit roots, cointegration, and other related metrics, providing a suite of tools for researchers and analysts. Developers can leverage this library to build applications that perform statistical modeling and analysis of time series data in finance."
 }

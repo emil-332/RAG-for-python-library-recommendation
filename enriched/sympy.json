@@ -23,5 +23,5 @@
       "word_count": 164
     }
   ],
-  "usage_description": "This library is used to solve and manipulate mathematical equations, expressions, and formulas with ease, allowing developers to implement advanced mathematical operations in their Python applications. With SymPy, developers can perform symbolic mathematics, including differentiation, integration, and solving equations, to build robust and efficient mathematical models and algorithms."
+  "usage_description": "This library is used to provide a comprehensive computer algebra system (CAS) for Python, enabling developers to perform complex mathematical calculations and operations. With SymPy, developers can solve equations, manipulate mathematical expressions, and handle various types of mathematical objects with ease."
 }

@@ -14,5 +14,5 @@
       "word_count": 82
     }
   ],
-  "usage_description": "This library is used to provide direct access to CUDA's host APIs from Python, offering a 1:1 interface for seamless integration of GPU-accelerated computations into Python applications. Developers can leverage this library to unlock the full potential of NVIDIA GPUs and offload computationally intensive tasks from their CPU to achieve significant performance boosts."
+  "usage_description": "This library is used to provide low-level access to CUDA host APIs from Python, allowing developers to leverage the full capabilities of NVIDIA GPUs in their applications. With cuda-bindings, developers can write high-performance CUDA code using a standard set of interfaces and a familiar Python programming language."
 }

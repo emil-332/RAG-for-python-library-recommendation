@@ -15,5 +15,5 @@
       "word_count": 479
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enhance the functionality of PyTorch's DataLoader for more efficient and flexible data loading, allowing developers to create custom data pipelines and improve their data processing workflows. By using torchdata, developers can simplify and optimize their data loading processes, making it easier to build and train PyTorch models with large datasets."
+  "usage_description": "This library is used to enhance the functionality of PyTorch's built-in DataLoader by providing composable data loading modules for more efficient and flexible data processing. By leveraging torchdata, developers can create complex data pipelines with ease, streamlining their machine learning workflows and improving overall performance."
 }

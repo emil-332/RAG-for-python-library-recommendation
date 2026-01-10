@@ -15,5 +15,5 @@
       "word_count": 308
     }
   ],
-  "usage_description": "This library is used to create attractive statistical graphics with a high-level interface, allowing developers to focus on visualizing their data without worrying about the underlying complexity of plotting. With seaborn, developers can efficiently generate informative and visually appealing plots for exploring and presenting their datasets."
+  "usage_description": "This library is used to create attractive and informative statistical graphics, providing a high-level interface for drawing visualizations based on matplotlib. With seaborn, developers can easily produce publication-quality plots to effectively communicate insights from their data."
 }

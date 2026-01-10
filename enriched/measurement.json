@@ -13,5 +13,5 @@
       "word_count": 196
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create and manipulate unit-aware measurement objects in Python, allowing for easy conversion between different units. With this library, developers can perform operations such as adding, subtracting, or comparing measurements across various types (e.g., distance, area, energy, temperature), making it easier to work with physical quantities in their code."
+  "usage_description": "This library is used to create and manipulate unit-aware measurements in various physical units, including distance, area, energy, speed, temperature, time, volume, and weight. With this library, developers can easily convert between different measurement units and perform arithmetic operations on these values."
 }

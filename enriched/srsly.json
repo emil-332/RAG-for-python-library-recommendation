@@ -14,5 +14,5 @@
       "word_count": 759
     }
   ],
-  "usage_description": "This library is used to provide a unified, high-performance serialization API for various data formats (JSON, JSONL, MessagePack, Pickle, and YAML) in Python, simplifying cross-platform and version-agnostic serialization. With srsly, developers can write robust code that correctly serializes and deserializes data across different platforms and Python versions with minimal effort."
+  "usage_description": "This library is used to efficiently serialize data in various formats, such as JSON, MessagePack, and YAML, ensuring compatibility across different Python versions and platforms. Developers can use it to easily write platform-agnostic code that handles serialization tasks correctly and with high performance."
 }

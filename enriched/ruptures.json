@@ -12,5 +12,5 @@
       "word_count": 442
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to analyze and segment non-stationary signals into meaningful intervals, enabling developers to identify changes in time-series data. With ruptures, developers can implement various change point detection algorithms for both parametric and non-parametric models, providing a robust tool for signal processing applications."
+  "usage_description": "This library is used to identify changes or breaks in signal data, allowing developers to analyze and segment non-stationary signals. With ruptures, developers can implement exact and approximate change point detection algorithms for various parametric and non-parametric models."
 }

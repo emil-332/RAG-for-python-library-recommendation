@@ -13,5 +13,5 @@
       "word_count": 745
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to compute high-quality embeddings for text data, enabling applications such as semantic search and similarity analysis. It also provides reranking capabilities through Cross-Encoder models, allowing developers to fine-tune the relevance of search results or classify text based on its similarity to other texts."
+  "usage_description": "This library is used to compute embeddings for state-of-the-art models and calculate similarity scores using various encoder types. With this library, developers can easily implement applications such as semantic search and reranking in their projects."
 }

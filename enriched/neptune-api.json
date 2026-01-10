@@ -14,5 +14,5 @@
       "word_count": 202
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to provide a client-side interface for accessing and interacting with the Neptune API, enabling developers to make authenticated requests to endpoints and work with API data in a programmatic way. By using this library, developers can simplify their interactions with the Neptune API and focus on building their application's core functionality without needing to worry about the underlying API details."
+  "usage_description": "This library is used to create clients for accessing Neptune API endpoints, providing authenticated or unauthenticated access to data. Developers can use it to build applications that interact with Neptune API securely and efficiently, leveraging its async and synchronous calling capabilities."
 }

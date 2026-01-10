@@ -14,5 +14,5 @@
       "word_count": 354
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the pmdarima library:\n\nThis library is used to automatically fit ARIMA models to time series data, providing an equivalent functionality to R's auto.arima function. With pmdarima, developers can also perform statistical tests for stationarity and seasonality, transform data using various techniques, and decompose seasonal time series data."
+  "usage_description": "This library is used to automatically fit ARIMA models to time series data using the equivalent of R's auto.arima functionality. With pmdarima, developers can easily perform robust forecasting and analysis of time series data in Python."
 }

@@ -14,5 +14,5 @@
       "word_count": 692
     }
   ],
-  "usage_description": "This library is used to automate complexities in deep learning model training and deployment, such as handling backprop, mixed precision, multi-GPU, and distributed training, allowing developers to focus on their models and data. With this library, developers can scale from CPU to multi-node without changing their core code, streamlining the process of building and deploying AI products."
+  "usage_description": "This library is used to simplify the process of building and deploying AI products by automating complexities such as backpropagation, mixed precision training, and distributed training. It enables developers to focus on model development and data while scaling from CPU to multi-node without changing their core code."
 }

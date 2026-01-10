@@ -15,5 +15,5 @@
       "word_count": 603
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build powerful web applications and data exploratory tools entirely in Python, allowing for rapid development of complex and interactive dashboards. With Panel's high-level reactive APIs and lower-level callback-based APIs, developers can create anything from simple tools to multi-page apps with rich interactivity."
+  "usage_description": "This library is used to easily build powerful tools, dashboards, and complex applications entirely in Python. It allows developers to quickly create exploratory applications or complex, multi-page apps with rich interactivity using high-level reactive APIs or lower-level callback based APIs."
 }

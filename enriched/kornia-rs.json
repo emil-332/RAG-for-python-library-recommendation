@@ -16,5 +16,5 @@
       "word_count": 642
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the kornia-rs library:\n\nThis library is used to perform low-level computer vision operations, including image I/O, visualization, and other fundamental tasks, in a thread-safe and efficient manner. With kornia-rs, developers can integrate robust and scalable computer vision capabilities into their machine learning and data-science projects written in Rust."
+  "usage_description": "This library is used to perform image I/O, visualization, and other low-level operations in machine learning and data-science projects. It provides a thread-safe and efficient way to handle computer vision tasks written in Rust."
 }

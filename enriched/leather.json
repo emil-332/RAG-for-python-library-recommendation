@@ -13,5 +13,5 @@
       "word_count": 75
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the Leather library:\n\nThis library is used to quickly and easily create charts for data visualization, prioritizing speed over perfect aesthetics. By using Leather, developers can rapidly produce charts that effectively convey insights to an audience, without requiring extensive customization or polish."
+  "usage_description": "This library is used to quickly create charts for non-technical users who prioritize speed over perfection. It provides a straightforward and easy-to-use charting solution that allows developers to rapidly generate visualizations without requiring extensive customization or polish."
 }

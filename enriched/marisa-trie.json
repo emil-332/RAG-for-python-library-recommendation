@@ -18,5 +18,5 @@
       "word_count": 498
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build static, memory-efficient Trie-like structures in Python that offer significantly reduced memory usage and comparable lookup speeds compared to standard dictionaries. Developers can leverage these optimized data structures for tasks such as prefix search and string matching operations, making them particularly useful for large-scale text processing applications."
+  "usage_description": "This library is used to provide fast and memory-efficient Trie-like data structures for Python, allowing developers to efficiently store and retrieve large amounts of string data while minimizing memory usage. With MARISA Trie, developers can achieve significant memory savings (up to 50x-100x less) compared to traditional Python dictionaries, along with comparable lookup speeds and advanced methods like prefix search."
 }

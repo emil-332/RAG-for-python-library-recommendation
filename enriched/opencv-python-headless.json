@@ -34,5 +34,5 @@
       "word_count": 101
     }
   ],
-  "usage_description": "This library is used to enable the use of OpenCV in headless environments, allowing developers to utilize OpenCV's computer vision capabilities without the need for a graphical interface. By using opencv-python-headless, developers can focus on building AI-powered applications that rely on OpenCV's robust feature detection and image processing functions."
+  "usage_description": "This library is used to install and use the OpenCV computer vision library in a headless (non-interactive) environment. With this package, developers can easily integrate OpenCV's image processing and analysis capabilities into their Python applications without requiring a graphical interface."
 }

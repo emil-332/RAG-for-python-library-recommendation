@@ -20,5 +20,5 @@
       "word_count": 384
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enable support for various file systems and formats in TensorFlow, extending its built-in capabilities. Developers can use tensorflow-io to seamlessly read and write data from external storage solutions such as Google Cloud Storage (GCS) and other supported file systems."
+  "usage_description": "This library is used to provide additional file systems and formats that can be accessed from TensorFlow, extending its built-in capabilities. This allows developers to seamlessly read and write various file types within their TensorFlow applications."
 }

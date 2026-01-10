@@ -14,5 +14,5 @@
       "word_count": 318
     }
   ],
-  "usage_description": "This library, BotBuilder-schema, is used to deserialize and serialize data sent between a user and bot using the Bot Framework, enabling developers to easily work with the structured data exchanged between bots and users. By leveraging this library, developers can build more robust and efficient chatbots that effectively communicate with users through standardized schemas."
+  "usage_description": "This library is used to serialize data sent between a user and bot when using Bot Framework, enabling seamless communication between the two entities. Developers can achieve streamlined integration with Bot Framework by utilizing this library's serialization capabilities."
 }

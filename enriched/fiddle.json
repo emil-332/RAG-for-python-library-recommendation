@@ -13,5 +13,5 @@
       "word_count": 41
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to enable the deep configurability of parameters in ML applications, allowing developers to express complex configurations in readable and maintainable Python code. With Fiddle, you can write highly customizable programs that adapt easily to different scenarios without sacrificing maintainability or readability."
+  "usage_description": "This library is used to enable deep configurability of parameters in ML applications through readable and maintainable Python code. With Fiddle, developers can express complex configurations in a programmatic way that simplifies maintenance and modification of model parameters."
 }

@@ -14,5 +14,5 @@
       "word_count": 623
     }
   ],
-  "usage_description": "This library is used to easily interact with trained machine learning models hosted in Gradio apps as if they were APIs. With gradio-client, developers can programmatically use these models to perform tasks such as image generation, chatbot interactions, or data processing."
+  "usage_description": "This library is used to interact with trained machine learning models via their Gradio apps, allowing developers to programmatically use these models in their own applications. With gradio-client, you can easily turn any Gradio Space into an API that can be accessed and utilized from your code."
 }

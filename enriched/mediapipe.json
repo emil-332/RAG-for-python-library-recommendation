@@ -15,5 +15,5 @@
       "word_count": 489
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the mediapipe library:\n\nThis library is used to build world-class ML solutions and applications that can be deployed on mobile, edge, cloud, or web platforms. Developers can leverage MediaPipe Solutions to quickly develop vision, text, and audio-based tasks, such as object detection, text classification, and audio classification, using a suite of libraries and tools provided by the library."
+  "usage_description": "This library is used to build world-class ML solutions and applications across various platforms, including mobile, edge, cloud, and the web. Developers can use MediaPipe Solutions to implement tasks such as object detection, text classification, and audio classification with ease."
 }

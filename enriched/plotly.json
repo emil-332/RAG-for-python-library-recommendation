@@ -13,5 +13,5 @@
       "word_count": 244
     }
   ],
-  "usage_description": "This library is used to create interactive and visually appealing data visualizations for various chart types, including scientific charts, 3D graphs, and statistical charts. With plotly.py, developers can easily generate high-quality graphs that can be viewed in Jupyter notebooks, standalone HTML files, or integrated into other applications."
+  "usage_description": "This library is used to create interactive and customizable visualizations of data with over 30 chart types, including scientific charts, 3D graphs, and statistical charts. With plotly, developers can easily embed these visualizations into Jupyter notebooks, other Python notebook software, or as standalone HTML files."
 }

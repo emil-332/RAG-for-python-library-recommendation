@@ -13,5 +13,5 @@
       "word_count": 80
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the onnxslim library:\n\nThis library is used to optimize Onnx models, reducing their operator count while maintaining accuracy and improving inference speed. By leveraging onnxslim, developers can fine-tune their machine learning models for faster and more efficient deployment in various applications."
+  "usage_description": "This library is used to optimize Onnx models by reducing the number of operators while maintaining accuracy, resulting in improved inference speed. This optimization enables developers to create more efficient models that can run faster and with better performance without compromising on model quality."
 }

@@ -14,5 +14,5 @@
       "word_count": 640
     }
   ],
-  "usage_description": "Here is a short (2-sentence) summary of what a developer can achieve with this library:\n\nThis library is used to enable efficient similarity search and clustering of dense vectors on CPU architectures, making it suitable for large-scale machine learning applications. By leveraging this library, developers can speed up vector similarity computations and group similar data points together, unlocking new possibilities in areas like recommender systems, natural language processing, and computer vision."
+  "usage_description": "This library is used to efficiently perform similarity search and clustering of dense vectors in CPU-based applications. Developers can leverage this library to build high-performance vector similarity search models without requiring a GPU."
 }

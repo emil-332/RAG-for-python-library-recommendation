@@ -13,5 +13,5 @@
       "word_count": 155
     }
   ],
-  "usage_description": "This library is used to optimize operations and accelerate matrix multiplication in deep learning models, providing a high-performance solution for developers working with large-scale neural networks. By utilizing the bitsandbytes library, developers can improve their model's computation efficiency and speed up training times on various platforms."
+  "usage_description": "This library is used to accelerate matrix multiplication and other k-bit operations, leveraging optimized routines for improved performance. It can be integrated with PyTorch 2.3+ to enhance the efficiency of neural network computations."
 }

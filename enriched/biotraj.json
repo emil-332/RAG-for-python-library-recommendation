@@ -12,5 +12,5 @@
       "word_count": 68
     }
   ],
-  "usage_description": "This library is used to load and save raw data in various trajectory file formats, including XTC, TRR, NetCDF, and DCD. By utilizing this library, developers can easily read from and write to these files, streamlining their workflow when working with molecular dynamics trajectories."
+  "usage_description": "This library is used to read and write trajectory files in various formats, including XTC, TRR, NetCDF, and DCD. With biotraj, developers can load and save raw data from molecular dynamics simulations, facilitating the analysis and manipulation of trajectory data."
 }

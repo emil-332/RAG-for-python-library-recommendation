@@ -13,5 +13,5 @@
       "word_count": 147
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to validate and test statistical data objects, providing support for multiple data frame libraries including pandas, polars, and pyspark. With pandera, developers can ensure the accuracy and consistency of their data by defining and enforcing strict schema definitions on their data frames."
+  "usage_description": "This library is used to validate and test statistical data objects in various formats, including pandas DataFrames, using a light-weight and flexible framework. With pandera, developers can ensure the integrity and accuracy of their data across different libraries and frameworks."
 }

@@ -27,5 +27,5 @@
       "word_count": 114
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to prepare raw documents for downstream Machine Learning (ML) tasks by applying advanced features such as chunking, embedding, and image and table enrichment generation. By leveraging the `unstructured` library, developers can efficiently transform their data into a format suitable for ML model training, enabling faster and more accurate insights from unstructured data."
+  "usage_description": "This library is used to prepare raw documents for downstream machine learning tasks by providing features like chunking, embedding, and image/table enrichment. It enables developers to streamline their data processing pipelines and improve performance through a low-code UI or API."
 }

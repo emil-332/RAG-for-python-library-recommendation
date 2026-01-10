@@ -14,5 +14,5 @@
       "word_count": 145
     }
   ],
-  "usage_description": "This library is used to easily interact with the PubChem database in Python, enabling developers to search for chemical compounds by name or structure, standardize chemicals, convert between file formats, and retrieve compound properties. With PubChemPy, developers can access a wide range of chemical data and integrate it into their applications."
+  "usage_description": "This library is used to interact with the PubChem database through Python, enabling chemical searches, standardization, file format conversions, and property retrievals. With PubChemPy, developers can programmatically retrieve and manipulate chemical information, facilitating tasks such as data mining and analysis in cheminformatics applications."
 }

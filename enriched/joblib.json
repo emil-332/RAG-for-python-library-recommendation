@@ -13,5 +13,5 @@
       "word_count": 486
     }
   ],
-  "usage_description": "This library is used to simplify the process of creating and managing complex data processing pipelines with Python functions, allowing developers to efficiently combine and parallelize multiple tasks. With joblib, developers can streamline their workflows by leveraging a lightweight pipelining framework that provides a convenient way to compose and execute sequences of function calls in parallel or sequentially."
+  "usage_description": "This library is used to simplify and parallelize complex computations with Python functions, allowing developers to efficiently process large datasets in a scalable manner. With joblib, developers can create robust pipelines that leverage multi-core CPUs and distribute tasks across processes for optimal performance."
 }

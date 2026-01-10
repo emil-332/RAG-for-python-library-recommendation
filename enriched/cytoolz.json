@@ -13,5 +13,5 @@
       "word_count": 339
     }
   ],
-  "usage_description": "Here is a short (2-sentence) summary of what a developer can achieve with this library:\n\nThis library is used to add high-performance functional utilities to Python code, enabling efficient data analysis and manipulation using built-in types like lists and dictionaries. With cytoolz, developers can write fast and memory-efficient code that leverages the iterator protocol to minimize memory usage while achieving low-level performance."
+  "usage_description": "This library is used to add high performance functional utilities for iterables, functions, and dictionaries to Python applications, allowing for efficient data analysis with low memory usage. It provides a Cython implementation of the Toolz package, enabling seamless integration with other libraries such as itertools, functools, and third-party libraries."
 }

@@ -24,5 +24,5 @@
       "word_count": 102
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create and manipulate complex quantum circuits, including optimization, compilation, and simulation for working with quantum computers at an advanced level. Developers can leverage Qiskit to compose, execute, and analyze quantum programs, as well as integrate them into their existing workflows and applications."
+  "usage_description": "This library is used to create, optimize, and execute complex quantum circuits, as well as work with quantum operators and primitives. With this library, developers can build applications that leverage the power of quantum computing at the level of extended quantum circuits, operators, and primitives."
 }

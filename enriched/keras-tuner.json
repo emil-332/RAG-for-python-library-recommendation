@@ -13,5 +13,5 @@
       "word_count": 231
     }
   ],
-  "usage_description": "This library is used to automate hyperparameter tuning for Keras models, allowing developers to easily optimize model performance without manual trial and error. With keras-tuner, developers can leverage built-in search algorithms such as Bayesian Optimization, Hyperband, or Random Search to find the best-performing hyperparameters for their models."
+  "usage_description": "This library is used to optimize hyperparameters for Keras models by configuring a search space and leveraging built-in search algorithms such as Bayesian Optimization, Hyperband, or Random Search. With KerasTuner, developers can easily fine-tune their models to achieve better performance without manual experimentation."
 }

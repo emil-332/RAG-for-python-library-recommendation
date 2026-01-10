@@ -52,5 +52,5 @@
       "word_count": 182
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the `timm` library:\n\nThis library is used to implement various PyTorch image models, including popular architectures such as EfficientNets and LayerScales, allowing developers to easily integrate them into their deep learning projects. With timm, developers can quickly load pre-trained models and weights, saving time and effort in training and fine-tuning their own computer vision tasks."
+  "usage_description": "This library is used to provide pre-trained PyTorch models and utilities for computer vision tasks, making it easier to implement state-of-the-art image classification and detection models. With timm, developers can quickly integrate efficient and accurate image processing capabilities into their applications."
 }

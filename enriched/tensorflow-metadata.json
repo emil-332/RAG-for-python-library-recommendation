@@ -14,5 +14,5 @@
       "word_count": 75
     }
   ],
-  "usage_description": "This library is used to standardize and serialize metadata about machine learning models and datasets, enabling developers to efficiently manage and analyze their data. With TensorFlow Metadata, you can define schema, collect summary statistics, and quantify problem objectives, facilitating data validation, exploration, and transformation for improved model training."
+  "usage_description": "This library is used to provide standard representations for metadata that are useful when training machine learning models with TensorFlow. It enables developers to define schemas, collect summary statistics, and quantify objectives of a model, facilitating data validation, exploration, and transformation."
 }

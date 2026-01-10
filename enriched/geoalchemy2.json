@@ -12,5 +12,5 @@
       "word_count": 39
     }
   ],
-  "usage_description": "This library is used to enable developers to efficiently work with geospatial data in Python, integrating spatial capabilities into applications using SQLAlchemy. With geoalchemy2, developers can leverage advanced spatial database functionality, such as geometric calculations and queries, within their existing database-backed applications."
+  "usage_description": "This library is used to enable developers to work with spatial data in their applications using SQLAlchemy, a popular Python SQL toolkit. With geoalchemy2, developers can easily integrate and manipulate geospatial data within their existing SQLAlchemy-based projects."
 }

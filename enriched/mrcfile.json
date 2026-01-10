@@ -14,5 +14,5 @@
       "word_count": 530
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to read and write MRC files, which store image and volume data in structural biology applications, using a simple API that exposes file headers and data as NumPy arrays. With mrcfile, developers can easily create and open MRC files for various tasks, taking advantage of its cross-platform compatibility with Python 2 and 3."
+  "usage_description": "This library is used to easily create, open, and manipulate MRC files in Python, allowing developers to store and work with image and volume data in structural biology applications. With mrcfile, developers can access the file's header and data as numpy arrays, simplifying the process of working with these files."
 }

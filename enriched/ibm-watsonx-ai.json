@@ -14,5 +14,5 @@
       "word_count": 44
     }
   ],
-  "usage_description": "This library is used to build, train, and deploy machine learning models as APIs on the IBM Cloud, enabling developers to integrate AI capabilities into their applications. With ibm-watsonx-ai, developers can share and collaborate with colleagues using Python to streamline application development and deployment processes."
+  "usage_description": "This library is used to train, test, and deploy machine learning models as APIs on IBM Cloud and IBM Cloud for Data. With this library, developers can share their trained models with colleagues through a Python interface."
 }

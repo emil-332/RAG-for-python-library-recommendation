@@ -14,5 +14,5 @@
       "word_count": 58
     }
   ],
-  "usage_description": "This library is used to access and manage Snowflake resources across various workloads, including data engineering, machine learning, and client applications, through a unified Python API. With the `snowflake` package, developers can easily interact with their Snowflake account, leveraging APIs for tasks such as data management, processing, and analytics."
+  "usage_description": "This library is used to unify access to Snowflake resources across various workloads, including data engineering, Snowpark, and client applications. With this library, developers can build Python applications that seamlessly integrate with Snowflake databases using a consistent API interface."
 }

@@ -25,5 +25,5 @@
       "word_count": 191
     }
   ],
-  "usage_description": "This library is used to convert and match country names between different classification schemes and naming versions, enabling developers to seamlessly integrate data from various sources into a standardized format. By leveraging the country converter's aggregation concordance matrices and regular expression matching capabilities, developers can build robust applications that require accurate and consistent country name handling."
+  "usage_description": "This library is used to convert and match country names between different classification schemes and naming versions using regular expressions for efficient matching. With this library, developers can build aggregation concordance matrices between various classification schemes, facilitating data analysis and integration across different datasets."
 }

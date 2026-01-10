@@ -14,5 +14,5 @@
       "word_count": 313
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently tokenize Japanese text into smaller segments for various natural language processing tasks, providing a compact and lightweight solution for developers. By using TinySegmenter, developers can accurately split Japanese sentences into meaningful parts, enabling applications such as text summarization, sentiment analysis, and machine translation."
+  "usage_description": "This library is used to enable compact Japanese text tokenization in Python applications. It provides a lightweight and efficient way to break down Japanese texts into individual segments or tokens."
 }

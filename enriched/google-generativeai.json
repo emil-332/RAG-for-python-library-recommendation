@@ -14,5 +14,5 @@
       "word_count": 271
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to enable developers to easily interact with Google's GenAI models, including Gemini, Veo, Imagen, and more, through a unified API client. By leveraging this library, developers can integrate the power of these models into their applications and create innovative AI-driven features with minimal effort."
+  "usage_description": "This library is used to provide a unified client library and tools for accessing Google's Generative AI models, including Gemini, Veo, and Imagen. This library enables developers to easily integrate Google's GenAI capabilities into their applications with minimal complexity."
 }

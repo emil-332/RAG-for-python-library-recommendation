@@ -15,5 +15,5 @@
       "word_count": 287
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to define and validate data types in Docling, providing a foundation for structuring and organizing data within the framework. With docling-core, developers can ensure consistency and correctness in their data models by defining clear specifications and transformations."
+  "usage_description": "This library is used to define and validate custom data types in the Docling framework. It enables developers to create robust data models with built-in validation and transformation capabilities."
 }

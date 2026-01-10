@@ -14,5 +14,5 @@
       "word_count": 386
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to create portable, high-performance dataframes that can be easily deployed across various environments with minimal code modifications. With Ibis, developers can leverage a unified dataframe API for interacting with local or remote data sources, simplifying data exploration and manipulation tasks."
+  "usage_description": "This library is used to build high-performance, portable data applications with Python's familiar dataframe API across various data storage systems. It allows developers to seamlessly compose and execute local or remote data analysis tasks using a unified and expressive API."
 }

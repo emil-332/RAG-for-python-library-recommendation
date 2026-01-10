@@ -19,5 +19,5 @@
       "word_count": 440
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the assemblyai library:\n\nThis library is used to transcribe and understand audio data using AI models, enabling secure and scalable processing of speech data. With a single API call, developers can access advanced AI capabilities for analyzing audio and speech data, streamlining their development workflows."
+  "usage_description": "This library is used to securely transcribe and understand audio and speech data at large scale using AI models. With a single API call, developers can access cutting-edge AI-powered transcription capabilities."
 }

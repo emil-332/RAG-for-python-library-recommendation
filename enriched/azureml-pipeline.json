@@ -13,5 +13,5 @@
       "word_count": 91
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build, optimize, and manage machine learning workflows by providing a framework for creating and executing pipelines that cover data preparation, model training, deployment, and evaluation. Developers can leverage the Azure Machine Learning SDK to create reusable compute units and automate their ML workflow, making it easier to track and improve their models over time."
+  "usage_description": "This library is used to build, optimize, and manage machine learning workflows through the creation of customizable pipelines. It enables data scientists to streamline their workflow by automating tasks such as data preparation, model training, deployment, and evaluation."
 }

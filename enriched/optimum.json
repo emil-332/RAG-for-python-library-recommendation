@@ -15,5 +15,5 @@
       "word_count": 473
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to integrate third-party hardware libraries from partner companies, enabling developers to harness the unique functionality and capabilities of these accelerators in their projects. With Optimum, developers can tap into specialized hardware features such as GPU acceleration, neural compression, and more, to optimize performance and efficiency in AI and machine learning applications."
+  "usage_description": "This library is used to integrate third-party hardware accelerators with Hugging Face Transformers, enabling developers to leverage specialized hardware for efficient and high-performance computing. By using Optimum, developers can interface with various accelerator-specific functionalities from Hardware Partners to optimize their models' performance."
 }

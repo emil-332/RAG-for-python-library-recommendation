@@ -24,5 +24,5 @@
       "word_count": 321
     }
   ],
-  "usage_description": "This library is used to build and implement Bayesian statistical models for advanced Markov chain Monte Carlo (MCMC) and variational inference (VI) tasks. With PyMC, developers can create and fit complex probabilistic models in Python, enabling the application of probabilistic machine learning techniques to a wide range of problems."
+  "usage_description": "This library is used to create Bayesian statistical models and perform probabilistic machine learning tasks, leveraging advanced MCMC and variational inference algorithms. With PyMC, developers can build and analyze complex statistical models with ease, making it an essential tool for data scientists and statisticians."
 }

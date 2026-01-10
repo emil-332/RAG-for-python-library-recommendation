@@ -16,5 +16,5 @@
       "word_count": 451
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the Torchaudio library:\n\nThis library is used to process audio data for machine learning tasks within the PyTorch ecosystem, allowing developers to efficiently load, manipulate, and prepare audio datasets for training and inference. By leveraging Torchaudio's capabilities, developers can build and fine-tune models that excel at audio-related tasks such as speech recognition, music classification, and more."
+  "usage_description": "This library is used to process audio data for machine learning tasks, providing a tightly scoped package that leverages PyTorch's strengths in audio processing. Developers can achieve efficient and effective handling of audio data with this library."
 }

@@ -12,5 +12,5 @@
       "word_count": 635
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the pyclipper library:\n\nThis library is used to perform various geometric operations on polygons and paths, including clipping, offsetting, and scaling, thanks to its exposure of public functions and classes from the C++ translation of the Clipper library. By leveraging pyclipper's capabilities, developers can create applications that require efficient polygon manipulation, such as map rendering, CAD/CAM systems, or game development."
+  "usage_description": "This library is used to perform polygon clipping operations, allowing developers to efficiently clip complex polygons against each other or simple shapes. With pyclipper, developers can create and manipulate geometric objects in their applications with precision and accuracy."
 }

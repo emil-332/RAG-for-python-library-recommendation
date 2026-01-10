@@ -13,5 +13,5 @@
       "word_count": 44
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to enable developers to easily incorporate text-related functionality into their TensorFlow projects, including common preprocessing tasks required for text-based models. With TF.Text, developers can leverage additional features and ops not provided by core TensorFlow, streamlining the development of sequence modeling applications."
+  "usage_description": "This library is used to simplify text preprocessing tasks required by text-based models in TensorFlow, and provide additional features for sequence modeling. It enables developers to efficiently manipulate and process text data within their TensorFlow applications."
 }

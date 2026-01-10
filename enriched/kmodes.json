@@ -12,5 +12,5 @@
       "word_count": 730
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enable clustering of categorical data using the k-modes algorithm, as well as mixed numerical and categorical data using the k-prototypes algorithm. By leveraging these algorithms, developers can effectively group similar data points into clusters for insights and pattern discovery in their datasets."
+  "usage_description": "This library is used to perform clustering on categorical data with the k-modes algorithm or handle mixed numerical/categorical data with the k-prototypes algorithm. It enables developers to efficiently group similar records in datasets that contain non-numerical attributes."
 }

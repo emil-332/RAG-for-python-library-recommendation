@@ -14,5 +14,5 @@
       "word_count": 344
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build and deploy AI agents with ease, leveraging a simple and customizable agent loop that supports multiple model providers out of the box. With strands-agents, developers can quickly create complex multi-agent systems, autonomous agents, and streaming applications that access thousands of pre-built tools via Model Context Protocol (MCP) servers."
+  "usage_description": "This library is used to build AI agents with a model-driven approach, enabling developers to create and manage intelligent systems quickly and efficiently in just a few lines of code. It supports various model providers, including Amazon Bedrock, OpenAI, and custom ones, allowing for seamless integration into existing workflows."
 }

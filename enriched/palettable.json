@@ -14,5 +14,5 @@
       "word_count": 85
     }
   ],
-  "usage_description": "This library is used to create and manage color palettes for various visualizations, allowing developers to easily design and apply consistent color schemes in their Python applications. With Palettable, developers can generate high-quality color maps for use with libraries like matplotlib, streamlining the visualization process and enhancing the overall aesthetic of their projects."
+  "usage_description": "This library is used to generate and customize color palettes for Python applications, particularly for use with the popular data visualization library matplotlib. With Palettable, developers can easily create consistent and visually appealing color schemes for their plots and visualizations."
 }

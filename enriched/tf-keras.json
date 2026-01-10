@@ -13,5 +13,5 @@
       "word_count": 52
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to enable developers to quickly experiment with deep learning models using Python, leveraging the power of TensorFlow. With TF-Keras, developers can gain an unfair advantage in shipping machine learning-powered applications, thanks to its focus on speed and ease of use."
+  "usage_description": "This library is used to enable rapid development and deployment of deep learning models using TensorFlow, allowing developers to focus on experimentation and innovation. With tf-keras, developers can leverage its simplicity and flexibility to build and deploy high-quality machine learning applications quickly and efficiently."
 }

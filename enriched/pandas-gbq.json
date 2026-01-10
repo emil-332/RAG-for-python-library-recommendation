@@ -13,5 +13,5 @@
       "word_count": 96
     }
   ],
-  "usage_description": "This library is used to seamlessly integrate Google BigQuery with pandas, allowing developers to easily read and write data between BigQuery and pandas DataFrames. With pandas-gbq, developers can efficiently manipulate and analyze large datasets stored in BigQuery using pandas' familiar API."
+  "usage_description": "This library is used to read and write data between pandas DataFrames and Google BigQuery, enabling seamless integration of the two for big data analytics. With pandas-gbq, developers can easily load, manipulate, and analyze large datasets in BigQuery using familiar pandas APIs."
 }

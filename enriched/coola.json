@@ -13,5 +13,5 @@
       "word_count": 434
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to check equality between two complex/nested objects in a single line, making it easier to compare data structures such as PyTorch Tensors or NumPy arrays. With coola, developers can quickly and easily verify whether two nested objects are identical, saving time and effort compared to manual comparison methods."
+  "usage_description": "This library is used to check equality between two complex/nested objects, including those with nested structures such as lists and dictionaries. With coola, developers can easily verify if two objects are identical in a single line of code."
 }

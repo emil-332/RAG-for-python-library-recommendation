@@ -14,5 +14,5 @@
       "word_count": 294
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to automate project tasks and workflows in an efficient, incremental, and easily discoverable way. With doit, developers can define ad hoc tasks, manage their execution order, and cache results to reduce unnecessary computations, making it suitable for complex build processes or workflows that go beyond traditional build tools."
+  "usage_description": "This library, doit, is used to automate tasks and workflows in a project by providing a unified and efficient way to execute tasks in the correct order. It enables developers to easily define tasks, manage dependencies, and cache results for incremental builds and up-to-date checks."
 }

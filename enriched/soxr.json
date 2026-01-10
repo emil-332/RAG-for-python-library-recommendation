@@ -12,5 +12,5 @@
       "word_count": 273
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to perform high-quality, one-dimensional sample-rate conversions for audio signals in Python, making it suitable for applications requiring precise digital signal processing. By leveraging the SoXR library, developers can efficiently resample and convert audio sample rates, streamlining their workflow and ensuring optimal sound quality in various audio-related projects."
+  "usage_description": "This library is used to perform high-quality, one-dimensional sample-rate conversion and resampling of audio signals. It provides a Python wrapper for libsoxr, allowing developers to easily implement accurate and efficient rate conversion in their projects."
 }

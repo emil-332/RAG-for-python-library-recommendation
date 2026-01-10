@@ -13,5 +13,5 @@
       "word_count": 365
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to significantly accelerate common NumPy array operations, including finding means and performing moving window calculations, by offloading the computation to C for improved performance. By leveraging Bottleneck's accelerated functions, developers can create more efficient and scalable data processing workflows in their Python applications."
+  "usage_description": "This library is used to speed up NumPy array operations by leveraging optimized C code, providing significant performance improvements for common array functions. By utilizing Bottleneck's accelerated functions, developers can achieve faster computation times for tasks such as finding the mean of arrays with missing values and calculating moving window means."
 }

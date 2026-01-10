@@ -13,5 +13,5 @@
       "word_count": 103
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to extend the capabilities of xarray for geospatial data analysis by integrating it with rasterio, enabling efficient and accurate manipulation of geospatial arrays. With rioxarray, developers can perform tasks such as reprojection, regridding, and spatial operations on large geospatial datasets."
+  "usage_description": "This library is used to integrate geospatial raster data with xarray for efficient and scalable analysis and processing. This integration enables developers to work seamlessly with spatial data using a powerful and flexible array-based interface."
 }

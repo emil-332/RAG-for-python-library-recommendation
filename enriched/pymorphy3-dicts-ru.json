@@ -12,5 +12,5 @@
       "word_count": 87
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enable Russian language support for the pymorphy3 morphological analyzer, allowing developers to perform tasks such as tokenization and part-of-speech tagging on Russian text. By installing and using these dictionaries, developers can leverage the capabilities of pymorphy3 to analyze and process large volumes of Russian text data with high accuracy."
+  "usage_description": "This library is used to enable Russian language support for pymorphy3, allowing developers to analyze and parse Russian words. It provides the necessary dictionaries to create a MorphAnalyzer instance with lang='ru' parameter for efficient Russian word processing."
 }

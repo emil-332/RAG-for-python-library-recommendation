@@ -14,5 +14,5 @@
       "word_count": 465
     }
   ],
-  "usage_description": "This library is used to efficiently manipulate and analyze two-dimensional geometric objects, providing a powerful toolkit for spatial operations and calculations. With Shapely, developers can create, transform, and interrogate complex shapes with precision and accuracy, enabling the development of robust geospatial applications."
+  "usage_description": "This library is used to perform manipulation and analysis of geometric objects, such as points, lines, and polygons. With Shapely, developers can create and manage spatial relationships between complex shapes and boundaries."
 }

@@ -13,5 +13,5 @@
       "word_count": 410
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently serialize and deserialize numerical and array data types from NumPy, enabling fast and compact conversion between Python objects and the msgpack format. With msgpack-numpy, developers can easily convert complex NumPy arrays and other Python data structures into binary messages that can be easily sent or stored over a network or in a file."
+  "usage_description": "This library is used to efficiently serialize and deserialize numerical and array data types provided by numpy using the msgpack format. It supports serialization of Python's native complex data types for added flexibility."
 }

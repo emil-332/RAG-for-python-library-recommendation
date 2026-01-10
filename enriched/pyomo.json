@@ -13,5 +13,5 @@
       "word_count": 427
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the pyomo library:\n\nThis library is used to formulate and analyze complex optimization models across various problem types, including linear and nonlinear programming, mixed-integer problems, and more. With Pyomo, developers can define symbolic problems, create concrete instances, and solve them using standard solvers, enabling efficient analysis and scripting of their optimization needs."
+  "usage_description": "This library is used to define, solve, and analyze complex optimization models across various problem types, including linear, nonlinear, mixed-integer, and stochastic programming. With Pyomo, developers can create and optimize mathematical models using Python, facilitating the solution of diverse optimization problems in fields such as operations research, engineering, and economics."
 }

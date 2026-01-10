@@ -14,5 +14,5 @@
       "word_count": 119
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create high-level data visualizations using Plotly.py, allowing developers to easily and quickly generate interactive charts and graphs from their data. With Plotly Express, developers can streamline their data visualization workflow and produce professional-looking plots with minimal code."
+  "usage_description": "This library is used to create interactive, web-based visualizations with ease through a high-level interface, allowing developers to focus on data analysis rather than complex plotting code. With Plotly Express, developers can generate a wide range of plots, including scatter plots, bar charts, histograms, and more, in a simple and intuitive way."
 }

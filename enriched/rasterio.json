@@ -17,5 +17,5 @@
       "word_count": 369
     }
   ],
-  "usage_description": "This library is used to read and write geospatial raster data in formats such as GeoTIFF, allowing developers to efficiently manipulate and utilize large gridded datasets. With Rasterio, developers can leverage Python's NumPy API to work directly with N-D arrays, streamlining the processing of spatially referenced imagery and other raster data."
+  "usage_description": "This library is used to read and write geospatial raster data in various formats, such as GeoTIFF, using a Python API based on N-D arrays. With Rasterio, developers can efficiently handle large gridded datasets in their applications."
 }

@@ -15,5 +15,5 @@
       "word_count": 434
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to simplify and standardize geocoding tasks in Python, allowing developers to easily parse and retrieve location data from various providers. With Geocoder, developers can perform forward and reverse geocoding, as well as batch geocoding, house address, IP address, and bounding box lookups, and access the resulting JSON and GeoJSON data."
+  "usage_description": "This library is used to simplify and standardize geocoding tasks across different online providers, allowing developers to easily parse various JSON responses and access multiple geocoding features. With Geocoder, developers can retrieve latitude and longitude coordinates for locations from a variety of sources in a consistent and straightforward manner."
 }

@@ -34,5 +34,5 @@
       "word_count": 101
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what this library can achieve:\n\nThis library is used to provide a simplified installation and usage process for OpenCV, allowing developers to easily integrate the powerful computer vision library into their projects. With opencv-contrib-python-headless, developers can leverage OpenCV's extensive set of features and functionalities without worrying about manual builds or complex setup procedures."
+  "usage_description": "This library is used to provide a free and open-source implementation of computer vision algorithms, allowing developers to easily integrate OpenCV into their projects. By leveraging this library, developers can unlock advanced image processing capabilities without the need for additional licensing or fees."
 }

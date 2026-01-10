@@ -14,5 +14,5 @@
       "word_count": 636
     }
   ],
-  "usage_description": "This library is used to accelerate Digital Signal Processing tasks such as resampling, FFT Convolutions, and more with PyTorch support for differentiability and CUDA acceleration. With Julius, developers can efficiently implement and optimize various signal processing algorithms in their audio and 1D signal analysis projects."
+  "usage_description": "This library is used to accelerate and differentiable digital signal processing tasks, such as resampling and FFT Convolutions, in PyTorch with CUDA support. Developers can leverage this library to perform various DSP operations, including those related to audio and 1D signals, within their PyTorch projects."
 }

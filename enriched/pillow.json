@@ -10,5 +10,5 @@
       "word_count": 117
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to add image processing capabilities to Python applications, enabling developers to handle and manipulate various image file formats efficiently. With Pillow, developers can perform extensive image operations such as reading, writing, and modifying images across multiple formats, including common ones like JPEG, PNG, and GIF."
+  "usage_description": "This library is used to add extensive image processing capabilities to Python applications, including support for various file formats and efficient internal representations. This enables developers to load, edit, and manipulate images within their code with high performance."
 }

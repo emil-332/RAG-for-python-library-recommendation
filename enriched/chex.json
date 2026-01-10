@@ -25,5 +25,5 @@
       "word_count": 474
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the Chex library:\n\nThis library is used to simplify the development of reliable and testable code in JAX, providing utilities for instrumentation, debugging, and testing across various variants. With Chex, developers can efficiently write robust and maintainable JAX code by leveraging its suite of tools and utilities."
+  "usage_description": "This library is used to simplify the process of writing reliable JAX code by providing utilities for instrumentation, debugging, and testing. It helps developers write robust and efficient code with features like assertion and warning handling, debug transformations, and multi-variant testing."
 }

@@ -14,5 +14,5 @@
       "word_count": 612
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build private and secure Multi-Agent Systems that run in your cloud, allowing you to create complex AI products with scalable and horizontally deployable architecture. With Agno, developers can design, execute, and manage agent-based workflows, ensuring data remains within their environment while leveraging a pre-built FastAPI runtime for seamless production deployment."
+  "usage_description": "This library is used to build private and secure Multi-Agent Systems (MAS) that run entirely within a developer's own cloud infrastructure. With Agno, developers can create scalable AI products with pre-built FastAPI runtime, stateless architecture, and integrated toolkits for building complex workflows."
 }

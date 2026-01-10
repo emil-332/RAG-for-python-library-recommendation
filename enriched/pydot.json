@@ -14,5 +14,5 @@
       "word_count": 748
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create, read, edit, and visualize graphs in Python, leveraging the power of Graphviz's DOT language. With pydot, developers can build and manipulate complex graph structures, making it ideal for tasks like network visualization, algorithmic analysis, and data exploration."
+  "usage_description": "This library is used to create, read, edit, and visualize graphs with Python, leveraging the capabilities of Graphviz's DOT language. It provides a pure Python interface that supports compatibility with other libraries like `networkx` and comes with only one dependency - `pyparsing`."
 }

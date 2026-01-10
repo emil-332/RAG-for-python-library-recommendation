@@ -14,5 +14,5 @@
       "word_count": 191
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to evaluate large language models through a comprehensive framework that includes built-in components for prompt engineering, dialog management, and model grading. With Inspect, developers can quickly run over 100 pre-built evaluations on their models or extend the library's functionality to support new evaluation techniques."
+  "usage_description": "This library is used to enable large language model evaluations through a framework that includes built-in components for prompt engineering, multi-turn dialog, and model graded evaluations. With this library, developers can easily run over 100 pre-built evaluation scripts on any model."
 }

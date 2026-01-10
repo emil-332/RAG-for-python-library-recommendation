@@ -13,5 +13,5 @@
       "word_count": 307
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to provide seamless and up-to-date access to character properties for all Unicode characters, utilizing the latest version of the Unicode Character Database (UCD). Developers can leverage this library's extended features, such as human-readable property names and additional database capabilities, to build robust applications that accurately handle Unicode characters."
+  "usage_description": "This library is used to access and utilize the Unicode Character Database (UCD) for all Unicode characters, offering a more up-to-date and feature-rich alternative to Python's standard `unicodedata` library. With it, developers can take advantage of the latest UCD version, human-readable property names, and extended properties not available in the standard library."
 }

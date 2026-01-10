@@ -14,5 +14,5 @@
       "word_count": 588
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to serialize and transfer complex Python constructs, such as functions and classes defined interactively, between processes or machines in cluster computing environments. With cloudpickle, developers can efficiently ship code and data over the network for remote execution, enabling seamless collaboration across different machines and versions of Python."
+  "usage_description": "This library is used to serialize and deserialize complex Python data structures such as lambda functions and classes defined interactively, making it ideal for cluster computing and distributed environments. It allows developers to easily ship and execute Python code on remote hosts, while maintaining compatibility across the same version of Python."
 }

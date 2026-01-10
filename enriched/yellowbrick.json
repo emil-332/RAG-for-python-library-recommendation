@@ -16,5 +16,5 @@
       "word_count": 705
     }
   ],
-  "usage_description": "This library is used to facilitate machine learning with scikit-learn by providing a suite of visual analysis and diagnostic tools that help developers build intuition around feature engineering, algorithm selection, and hyperparameter tuning. With Yellowbrick, users can diagnose common problems surrounding model complexity, bias, and other issues, making it easier to select the best-performing models for their specific use case."
+  "usage_description": "This library is used to facilitate machine learning with scikit-learn by providing a suite of visual analysis and diagnostic tools to steer the model selection process. It enables developers to build intuition around feature engineering, algorithm selection, and hyperparameter tuning through visual representations of the model selection workflow."
 }

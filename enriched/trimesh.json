@@ -13,5 +13,5 @@
       "word_count": 478
     }
   ],
-  "usage_description": "Here is a short (2-sentence) summary of what a developer can achieve with this library:\n\nThis library is used to import, export, process, analyze and view triangular meshes in various formats, including STL, PLY, OBJ, GLTF/GLB. With optional dependencies installed, additional functionalities such as convex hulls, graph operations, and fast ray queries can be utilized for more complex mesh analysis and manipulation."
+  "usage_description": "This library is used to import, export, process, analyze, and view triangular meshes in various formats. It enables developers to efficiently load, manipulate, and visualize complex 3D geometric data using Python."
 }

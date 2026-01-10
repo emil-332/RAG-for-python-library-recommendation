@@ -13,5 +13,5 @@
       "word_count": 360
     }
   ],
-  "usage_description": "This library, pdbp, is used to provide an advanced console debugger for Python that can easily replace the built-in pdb and pdbpp debuggers. By integrating pdbp into a project, developers can make debugging their code significantly easier and more enjoyable."
+  "usage_description": "This library is used to provide an advanced console debugger for Python, serving as a drop-in replacement for pdb and pdbpp. With this library, developers can make Python debugging easier and more enjoyable by setting it as the default debugger at breakpoints or through environmental variables."
 }

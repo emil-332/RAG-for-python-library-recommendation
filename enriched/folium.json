@@ -13,5 +13,5 @@
       "word_count": 118
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create interactive and visually appealing maps in Python using the Leaflet.js library, allowing developers to effectively visualize geospatial data. By leveraging the strengths of both Python and Leaflet.js, folium enables developers to easily manipulate their data and generate beautiful maps for various applications."
+  "usage_description": "This library is used to create interactive and customizable maps with Leaflet.js using Python data. Developers can leverage folium to visualize their data on a map, making it easier to understand complex spatial relationships and trends."
 }

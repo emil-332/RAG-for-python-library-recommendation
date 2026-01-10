@@ -40,5 +40,5 @@
       "word_count": 146
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accurately detect the language of short texts and mixed-language texts, enabling efficient preprocessing for various natural language processing applications. By utilizing this library, developers can automate tasks such as text classification, spell checking, and routing emails to corresponding customer service departments based on language."
+  "usage_description": "This library is used to detect the languages present in short text and mixed-language text with high accuracy, enabling developers to preprocess linguistic data for various applications such as text classification and spell checking. This library serves as a convenient alternative to large machine learning frameworks or natural language processing systems, allowing developers to quickly and easily perform language detection tasks."
 }

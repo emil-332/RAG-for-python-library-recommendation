@@ -24,5 +24,5 @@
       "word_count": 130
     }
   ],
-  "usage_description": "This library is used to connect Python applications to Snowflake databases securely, providing a reliable and efficient way to interact with data. With the snowflake-connector-python library, developers can establish seamless connections between their Python code and Snowflake instances, enabling tasks such as data transfer, querying, and management."
+  "usage_description": "This library is used to simplify interactions with Snowflake databases in Python applications, allowing for secure and efficient data transfer. It provides a robust connection mechanism and handles various authentication methods, including OAuth and external browser login, making it easier to integrate Snowflake with Python-based systems."
 }

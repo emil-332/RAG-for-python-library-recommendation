@@ -13,5 +13,5 @@
       "word_count": 49
     }
   ],
-  "usage_description": "This library is used to create a unified global address space across multiple NVIDIA GPUs in a cluster, enabling efficient and scalable communication between them. With NVSHMEM, developers can write parallel programs that access and share data across the collective memory of GPU nodes, improving performance in HPC applications."
+  "usage_description": "This library is used to enable efficient and scalable communication between NVIDIA GPUs in clusters through a shared global address space. With NVSHMEM, developers can write applications that seamlessly access and share data across multiple GPUs using fine-grained GPU-initiated or CPU-initiated operations."
 }

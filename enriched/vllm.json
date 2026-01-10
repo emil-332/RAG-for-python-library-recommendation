@@ -15,5 +15,5 @@
       "word_count": 407
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the vLLM library:\n\nThis library is used to accelerate large language model (LLM) inference and serving by providing high-throughput performance and memory efficiency, allowing for faster and more scalable deployment. With vLLM, developers can efficiently manage LLM computations, optimize model execution, and implement various quantization techniques to further enhance their models' performance."
+  "usage_description": "This library is used to accelerate the inference and serving of Large Language Models (LLMs) by providing high-throughput performance and memory efficiency. With vLLM, developers can optimize their LLM-based applications for production environments with features like state-of-the-art throughput, efficient attention management, and optimized CUDA kernels."
 }

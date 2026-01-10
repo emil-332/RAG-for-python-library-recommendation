@@ -16,5 +16,5 @@
       "word_count": 661
     }
   ],
-  "usage_description": "This library, polars-lts-cpu, is used to create and manipulate large datasets with exceptional performance, leveraging features like multi-threading, SIMD instructions, and query optimization. Developers can utilize this library to achieve high-speed data processing and analysis tasks, such as complex computations on large datasets, with ease and efficiency."
+  "usage_description": "This library is used to create and manage high-performance DataFrames in various programming languages, providing features like lazy execution, multi-threading, and query optimization for efficient data processing. With Polars-LTS-CPU, developers can achieve blazingly fast performance for complex data operations, making it suitable for large-scale data analysis and manipulation tasks."
 }

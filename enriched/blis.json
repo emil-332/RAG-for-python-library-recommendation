@@ -13,5 +13,5 @@
       "word_count": 489
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to provide fast BLAS-like linear algebra operations from Python and Cython, allowing developers to efficiently perform complex numerical computations. By leveraging the Blis library as a self-contained C-extension, developers can accelerate their linear algebra tasks without the need for external dependencies or manual integration."
+  "usage_description": "This library is used to perform BLAS-like linear algebra operations from Python and Cython at high speeds, without the complexities of native C development. With this library, developers can seamlessly integrate efficient linear algebra functionality into their projects with minimal setup required."
 }

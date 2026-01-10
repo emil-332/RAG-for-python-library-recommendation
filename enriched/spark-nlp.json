@@ -25,5 +25,5 @@
       "word_count": 37
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to add powerful natural language processing capabilities to machine learning pipelines, enabling developers to perform tasks such as text classification, sentiment analysis, and named entity recognition at scale. With Spark NLP, developers can easily integrate state-of-the-art NLP annotations into their applications in over 200 languages, using a wide range of pre-trained models and pipelines."
+  "usage_description": "This library is used to perform efficient and accurate natural language processing tasks, such as text classification, sentiment analysis, named entity recognition, and machine translation, at scale in a distributed environment. It provides simple access to state-of-the-art models and pipelines for a wide range of NLP tasks across over 200 languages."
 }

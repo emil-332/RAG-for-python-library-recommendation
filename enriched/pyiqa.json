@@ -21,5 +21,5 @@
       "word_count": 313
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to implement various image quality assessment (IQA) metrics for both full-reference and no-reference scenarios using PyTorch. Developers can use pyiqa to evaluate the quality of images, enable image processing pipelines to automatically assess image degradation, or integrate IQA capabilities into their applications."
+  "usage_description": "This library is used to evaluate the quality of images using various metrics, including both full-reference and no-reference methods, leveraging PyTorch for efficient computation. It provides a comprehensive set of image quality assessment tools that can be integrated into deep learning models or standalone applications."
 }

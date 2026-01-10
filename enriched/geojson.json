@@ -28,5 +28,5 @@
       "word_count": 102
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to work with GeoJSON-formatted data in Python, providing functions for encoding and decoding, as well as classes for all supported GeoJSON objects. With geojson, developers can efficiently parse, manipulate, and create GeoJSON data, enabling geospatial applications such as mapping, location-based services, and spatial analysis."
+  "usage_description": "This library is used to parse, serialize, and manipulate GeoJSON formatted data in Python, providing classes for all GeoJSON objects and functions for encoding and decoding. Developers can use this library to work with geospatial data in their applications, leveraging the widely adopted GeoJSON standard."
 }

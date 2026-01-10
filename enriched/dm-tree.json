@@ -13,5 +13,5 @@
       "word_count": 96
     }
   ],
-  "usage_description": "This library is used to work with nested data structures in a flexible and efficient manner, allowing developers to apply functions to each \"leaf\" while preserving the overall structure. By leveraging an optimized C++ implementation, this library enables developers to tackle demanding applications such as machine learning models with ease."
+  "usage_description": "This library is used to generalize and optimize the application of functions to nested data structures, preserving their overall structure. This enables developers to efficiently manipulate complex, hierarchical data in various applications, such as machine learning models."
 }

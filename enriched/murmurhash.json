@@ -12,5 +12,5 @@
       "word_count": 8
     }
   ],
-  "usage_description": "This library is used to efficiently compute non-cryptographic hash values using the MurmurHash2 algorithm, allowing developers to accelerate their hashing operations in Python applications. With this library, developers can quickly and accurately generate hash values for various data inputs, streamlining tasks such as set operations or fast lookups."
+  "usage_description": "This library is used to efficiently compute hash values using the MurmurHash2 algorithm in Python applications. It provides a Cython interface for generating non-cryptographic, fast hash functions that can be used for data indexing and caching purposes."
 }

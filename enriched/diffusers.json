@@ -14,5 +14,5 @@
       "word_count": 291
     }
   ],
-  "usage_description": "This library is used to generate high-quality images from text prompts using state-of-the-art diffusion models in PyTorch and JAX. With Diffusers, developers can easily integrate sophisticated image generation capabilities into their applications."
+  "usage_description": "This library is used to generate high-quality outputs such as images from text using state-of-the-art diffusion models. Developers can easily integrate these models into their applications using a simple `from_pretrained` method."
 }

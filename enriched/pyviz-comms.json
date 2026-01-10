@@ -12,5 +12,5 @@
       "word_count": 377
     }
   ],
-  "usage_description": "Here is a short (2-sentence) summary of what a developer can achieve with this library:\n\nThis library is used to enable seamless communication between Python and JavaScript, allowing HoloViz content to be rendered in JupyterLab. With pyviz-comms, developers can easily integrate complex interactive visualizations into their JupyterLab notebooks."
+  "usage_description": "This library is used to enable seamless communication between Python and JavaScript in a JupyterLab environment, allowing for dynamic rendering of HoloViz content. It simplifies the process of integrating interactive visualizations from PyViz tools into Jupyter notebooks and lab interfaces."
 }

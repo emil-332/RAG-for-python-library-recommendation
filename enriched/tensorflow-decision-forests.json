@@ -14,5 +14,5 @@
       "word_count": 180
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to train and deploy decision forest algorithms, providing a collection of tools for inference tasks. With TensorFlow Decision Forests, developers can efficiently implement and optimize decision forests models for their applications."
+  "usage_description": "This library is used to train and deploy decision forest algorithms for machine learning tasks, with support for both training and inference workflows. By using this library, developers can efficiently implement and integrate decision forests into their projects with minimal code."
 }

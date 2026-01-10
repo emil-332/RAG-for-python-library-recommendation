@@ -92,5 +92,5 @@
       "word_count": 278
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently read and write spatial data files in various GIS formats, including GeoPackage and Shapefile. With fiona, developers can easily stream simple feature data from their applications and systems into these formats for use in geographic analysis or mapping projects."
+  "usage_description": "This library is used to read and write spatial data files in various formats, including GeoPackage and Shapefile. It allows developers to stream simple feature data to and from GIS formats, making it easier to work with real-world geospatial data."
 }

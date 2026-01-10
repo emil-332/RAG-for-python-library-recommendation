@@ -17,5 +17,5 @@
       "word_count": 454
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to execute Python code in parallel across multiple processors or cores on a single system, as well as across clusters of networked computers. By leveraging the power of distributed and parallel processing, developers can speed up computationally intensive tasks such as data analysis and scientific calculations."
+  "usage_description": "This library is used to enable the parallel execution of Python code on both systems with multiple processors or cores and clusters of connected computers. With ppft, developers can distribute and execute complex tasks in parallel across multiple machines, significantly improving processing efficiency and speed."
 }

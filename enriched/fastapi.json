@@ -30,5 +30,5 @@
       "word_count": 32
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build high-performance web applications and APIs quickly and efficiently, making it suitable for production use. With FastAPI, developers can create scalable, fast, and easy-to-maintain backend services that handle complex tasks such as machine learning integrations, RESTful APIs, and more."
+  "usage_description": "This library is used to build high-performance web APIs quickly and easily, enabling developers to create scalable and efficient server-side applications. With FastAPI, developers can rapidly develop and deploy REST servers, integrate machine learning services, or orchestrate complex workflows with ease."
 }

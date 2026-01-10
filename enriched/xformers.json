@@ -13,5 +13,5 @@
       "word_count": 31
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to compose and combine building blocks to efficiently reproduce a wide range of state-of-the-art (SOTA) architectures within the Transformer family. With XFormers, developers can easily mix-and-match compatible components to create complex transformer models without having to implement each architecture from scratch."
+  "usage_description": "This library is used to compose various building blocks for creating different architectures within the Transformer family, enabling developers to easily combine or modify these components. With xformers, developers can quickly reproduce state-of-the-art (SOTA) models in the Transformer family by selecting and combining compatible building blocks."
 }

@@ -12,5 +12,5 @@
       "word_count": 482
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enable high-performance reading and writing of AVRO files, allowing for faster data processing and analysis compared to other Python implementations. With fastavro, developers can quickly read and write large AVRO files, making it suitable for applications that require efficient handling of big data."
+  "usage_description": "This library is used to enable high-performance read and write operations for AVRO files in Python, achieving speeds comparable to the Java SDK. By leveraging C extensions or PyPy, developers can efficiently handle large-scale AVRO data with faster iteration times."
 }

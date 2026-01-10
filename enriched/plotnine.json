@@ -15,5 +15,5 @@
       "word_count": 345
     }
   ],
-  "usage_description": "This library is used to compose complex and custom plots in Python by explicitly mapping variables in a dataframe to visual characteristics, allowing for efficient and incremental creation of plots. With plotnine, developers can build a wide range of plots with ease, from simple to complex, using a powerful grammar of graphics."
+  "usage_description": "This library is used to compose custom plots by explicitly mapping variables in a dataframe to visual characteristics of objects that make up the plot. This allows developers to easily create complex and incremental plots while maintaining simplicity for straightforward ones."
 }

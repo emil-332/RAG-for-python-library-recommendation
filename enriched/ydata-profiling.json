@@ -27,5 +27,5 @@
       "word_count": 102
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to generate a detailed and interactive profile report for pandas DataFrames, providing an extensive analysis that goes beyond basic statistics. With ydata-profiling, developers can quickly gain insights into their data's structure, distribution, and relationships in a consistent and fast solution."
+  "usage_description": "This library is used to generate comprehensive profile reports for pandas DataFrames with a single line of code, enabling easy Exploratory Data Analysis. It provides a fast and consistent solution for extended analysis of a DataFrame, allowing data analysis to be exported in different formats."
 }

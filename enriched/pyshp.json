@@ -102,5 +102,5 @@
       "word_count": 458
     }
   ],
-  "usage_description": "This library is used to read and write ESRI Shapefiles in pure Python, enabling developers to efficiently handle spatial data in various formats. With PyShp, developers can easily import and manipulate geographic data from Shapefiles, streamlining the process of working with geospatial information."
+  "usage_description": "This library is used to read and write ESRI Shapefile format in pure Python, providing developers with a straightforward way to access and manipulate spatial data. With pyshp, developers can easily import and export shapefiles from local files, zip archives, or URLs, making it a versatile tool for geospatial applications."
 }

@@ -14,5 +14,5 @@
       "word_count": 454
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to deploy computer vision models to various devices and environments using Roboflow's Inference CLI. Developers can leverage this library to run object detection, classification, instance segmentation, and foundation models (such as CLIP and SAM) locally or through the Roboflow Hosted API with minimal setup and configuration required."
+  "usage_description": "This library is used to deploy computer vision models for tasks such as object detection, classification, and instance segmentation across various devices and environments with minimal setup and prior knowledge of machine learning. It provides a lightweight interface for running inference on local machines or leveraging the Roboflow Hosted API."
 }

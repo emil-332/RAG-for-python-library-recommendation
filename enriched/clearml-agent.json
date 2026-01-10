@@ -32,5 +32,5 @@
       "word_count": 224
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the `clearml-agent` library:\n\nThis library is used to automate and manage deep learning workflows by running jobs (experiments) on any local or cloud-based resource, while also providing optimized resource utilization policies and execution environment deployment. With ClearML Agent, developers can achieve full automation in 5 steps, allowing them to focus on their models without worrying about the underlying infrastructure and resources."
+  "usage_description": "This library is used to automate the execution of machine learning and deep learning jobs on local or cloud-based resources with optimized resource utilization policies. It provides a zero-configuration, fire-and-forget execution agent for building and executing full ML/DL cluster solutions in just 5 steps."
 }

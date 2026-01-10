@@ -34,5 +34,5 @@
       "word_count": 420
     }
   ],
-  "usage_description": "This library is used to create fast and efficient parsers for various programming languages and media formats by leveraging pure-Python parsing expression grammars (PEGs). With Parsimonious, developers can quickly and accurately parse complex data structures without incurring significant performance or memory costs."
+  "usage_description": "This library is used to parse languages efficiently using parsing expression grammars (PEGs), enabling developers to create high-performance parsers for various languages with minimal memory usage. With Parsimonious, developers can build fast and lightweight parsers that meet their specific language parsing needs."
 }

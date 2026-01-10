@@ -23,5 +23,5 @@
       "word_count": 433
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to add quaternion support to NumPy, enabling developers to efficiently represent and manipulate quaternions in Python. By incorporating quaternions into the NumPy ecosystem, developers can now leverage these mathematical objects for tasks such as 3D rotations, orientations, and transformations."
+  "usage_description": "This library is used to extend NumPy with quaternion data type support, enabling developers to natively represent and perform operations on quaternions within their numerical computations. With numpy-quaternion, developers can now seamlessly integrate quaternion-based math into their applications."
 }

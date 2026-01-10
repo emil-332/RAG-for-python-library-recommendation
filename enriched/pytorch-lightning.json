@@ -15,5 +15,5 @@
       "word_count": 510
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the pytorch-lightning library:\n\nThis library is used to streamline and scale PyTorch-based machine learning models by decoupling research code from engineering tasks, allowing developers to write less boilerplate. With pytorch-lightning, developers can focus on the science behind their models while leveraging its wrapper to handle the underlying engineering details, making it easier to train and deploy complex models efficiently."
+  "usage_description": "This library is used to simplify and scale PyTorch model development by disentangling research code from engineering tasks. With PyTorch Lightning, developers can write less boilerplate code while still achieving robust and reusable models for machine learning research."
 }

@@ -13,5 +13,5 @@
       "word_count": 86
     }
   ],
-  "usage_description": "This library is used to determine the optimal number of classes and assign observations to those classes for choropleth maps, enabling effective visualization of geographic data. With mapclassify, developers can streamline their geospatial mapping and analysis workflows by automating the classification process for choropleth maps."
+  "usage_description": "This library is used to determine the optimal number of classes and assign observations to those classes for choropleth maps, enabling effective data visualization. This functionality is designed for use in geovisualization packages such as `geopandas` and `geoplot`."
 }

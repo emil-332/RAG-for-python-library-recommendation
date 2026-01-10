@@ -13,5 +13,5 @@
       "word_count": 159
     }
   ],
-  "usage_description": "This library is used to provide a Python interface for working with TensorFlow.js, allowing developers to easily convert and manage machine learning models between JavaScript and other formats. With tensorflowjs, developers can streamline their cross-platform model development and deployment workflows."
+  "usage_description": "This library is used to convert TensorFlow models for use in browser-based applications, providing a seamless integration between Python and JavaScript environments. Developers can leverage tensorflowjs to deploy machine learning models directly within web pages or hybrid mobile apps with minimal modification."
 }

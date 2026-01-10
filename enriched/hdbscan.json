@@ -24,5 +24,5 @@
       "word_count": 132
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the hdbscan library:\n\nThis library is used to perform hierarchical density-based spatial clustering of applications, allowing for robust clustering of data points with varying densities without requiring extensive parameter tuning. By integrating DBSCAN over multiple epsilon values, HDBSCAN enables developers to easily identify stable clusters in their data with minimal manual configuration."
+  "usage_description": "This library is used to perform hierarchical density-based spatial clustering, allowing for clusters of varying densities without requiring manual parameter tuning. This enables developers to easily identify stable clusterings in their data, reducing the need for manual optimization and improving overall model robustness."
 }

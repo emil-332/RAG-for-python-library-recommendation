@@ -12,5 +12,5 @@
       "word_count": 292
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to convert Unicode text to LaTeX code and vice versa, enabling developers to easily integrate LaTeX formulas and math notation into their applications. With pylatexenc, developers can seamlessly parse and encode LaTeX strings for rendering or further processing in various formats, including plain text and HTML."
+  "usage_description": "This library is used to convert text between Unicode and LaTeX formats, allowing developers to easily render LaTeX content as readable text. With this library, developers can also convert Unicode text into LaTeX code for rendering in various applications or environments."
 }

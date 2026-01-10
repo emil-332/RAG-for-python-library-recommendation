@@ -12,5 +12,5 @@
       "word_count": 68
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to scale and distribute computations across multiple machines or processes, enabling large-scale data processing and parallelization. By utilizing the Distributed scheduler for Dask, developers can efficiently manage and execute complex distributed tasks, taking advantage of multiple cores and nodes in their computing infrastructure."
+  "usage_description": "This library is used to enable distributed computation and scheduling capabilities for Dask applications, allowing developers to scale their tasks across multiple machines. By leveraging this library, developers can efficiently manage and execute large-scale computations in a distributed environment."
 }

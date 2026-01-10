@@ -13,5 +13,5 @@
       "word_count": 76
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build foundational components and abstractions for Large Language Model (LLM) applications, providing a core set of building blocks for tasks such as text embedding and retrieval. By extending the core library through subclasses, developers can create custom LLM applications that integrate seamlessly with various data storage and vector store systems."
+  "usage_description": "This library is used to provide a core interface between Large Language Models (LLMs) and various data storage and processing systems, enabling the development of LLM applications. It serves as the foundational building block for RAG and other LLM applications, offering extensible classes and abstractions for tasks such as embedding, storage, and model interactions."
 }

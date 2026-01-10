@@ -13,5 +13,5 @@
       "word_count": 56
     }
   ],
-  "usage_description": "This library is used to interact with Microsoft's Cognitive Services Speech API, enabling developers to build applications that utilize speech recognition, synthesis, and other related features. With this library, developers can integrate powerful speech capabilities into their Python projects, such as transcribing audio files or converting text-to-speech."
+  "usage_description": "This library is used to develop Python applications that utilize the Azure Cognitive Services Speech capabilities, enabling developers to build speech-to-text and text-to-speech functionality into their projects. With this library, developers can easily integrate speech recognition and synthesis into their applications."
 }

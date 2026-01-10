@@ -24,5 +24,5 @@
       "word_count": 220
     }
   ],
-  "usage_description": "This library is used to enable efficient and scalable vector quantization in PyTorch, allowing developers to compress data while maintaining its quality. With this library, developers can generate high-quality images and music by leveraging techniques such as VQ-VAE-2 and Residual-VQ."
+  "usage_description": "This library is used to implement vector quantization in PyTorch, enabling developers to compress and generate high-quality image and audio data through techniques like VQ-VAE-2 and RQ-VAE. With this library, developers can utilize vector quantization methods to achieve efficient compression of complex data types, such as images and music."
 }

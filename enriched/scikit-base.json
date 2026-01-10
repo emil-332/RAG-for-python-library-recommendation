@@ -12,5 +12,5 @@
       "word_count": 185
     }
   ],
-  "usage_description": "This library is used to create scikit-learn-like parametric objects, providing a framework for building packages that follow established design patterns. With skbase, developers can easily construct their own scikit-learn-like models and tools, streamlining the process of creating machine learning pipelines and workflows."
+  "usage_description": "This library is used to create scikit-learn-like parametric objects with a consistent design pattern, enabling developers to build their own packages that follow these standards. With skbase, developers can easily construct and manage complex parametric objects for machine learning tasks."
 }

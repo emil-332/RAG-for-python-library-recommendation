@@ -13,5 +13,5 @@
       "word_count": 389
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library, pooch, is used to manage data files by downloading them from a server or data repository as needed and storing them locally in a cache folder. With pooch, developers can easily add sample datasets to their Python packages, download files over HTTP, FTP, and other protocols, and even automate the process using custom code."
+  "usage_description": "This library is used to manage data files by downloading them from a server and storing them locally in a cache, with built-in support for various protocols and file types. Pooch enables developers to easily retrieve data without worrying about manual requests or urllib configurations."
 }

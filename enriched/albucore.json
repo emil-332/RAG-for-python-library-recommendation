@@ -13,5 +13,5 @@
       "word_count": 506
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accelerate image processing operations in deep learning and computer vision applications by providing high-performance, optimized atomic functions. With Albucore, developers can quickly implement efficient image processing pipelines without worrying about the underlying implementation details, allowing them to focus on building their models."
+  "usage_description": "This library is used to accelerate high-performance image processing for deep learning and computer vision applications. It optimizes various operations like resizing, normalization, and conversion to speed up image processing workflows."
 }

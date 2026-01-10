@@ -12,5 +12,5 @@
       "word_count": 455
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to manage memory allocation and deallocation in Cython, allowing developers to tie memory to the life-cycle of Python objects for efficient garbage collection. With cymem, developers can easily handle complex memory management tasks, such as wrapping calloc calls around deeply nested structs, and ensure memory is freed when no longer needed."
+  "usage_description": "This library is used to automatically manage memory allocation and deallocation through Cython using a thin wrapper around calloc, allowing developers to tie memory to the life-cycle of Python objects. By attaching the cymem.Pool to a C-extended class, developers can easily manage complex memory usage patterns without manually tracking memory addresses."
 }

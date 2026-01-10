@@ -14,5 +14,5 @@
       "word_count": 172
     }
   ],
-  "usage_description": "This library, snowflake-legacy, allows developers to access and read the contents of the /etc/snowflake file as a string, but with no validation. It provides backward compatibility for existing users who are transitioning from the old `snowflake` package."
+  "usage_description": "This library is used to provide backward compatibility with an older, unrelated package named `snowflake`, and to allow existing users to continue accessing specific functionality for a limited time. It allows developers to read the contents of `/etc/snowflake` as a string using the `snowflake.snowflake()` function without validation."
 }

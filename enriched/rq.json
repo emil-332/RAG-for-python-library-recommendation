@@ -12,5 +12,5 @@
       "word_count": 602
     }
   ],
-  "usage_description": "This library is used to enable developers to run background tasks asynchronously, offloading processing-intensive functions from main application threads and improving overall system responsiveness. By leveraging RQ, developers can schedule and prioritize these tasks using Redis as a job queue, allowing for efficient management of workloads and better scalability."
+  "usage_description": "This library is used to create background jobs that can be processed asynchronously, allowing developers to offload lengthy or blocking operations from their main application flow. With RQ, developers can easily prioritize and manage these background tasks using features like job prioritization and multiple queue support."
 }

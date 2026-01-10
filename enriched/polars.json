@@ -14,5 +14,5 @@
       "word_count": 555
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently process and analyze large datasets, providing blazingly fast performance through lazy or eager execution and query optimization features. With Polars, developers can write powerful analytical queries in their language of choice (Python, Rust, NodeJS, R, SQL), leveraging the benefits of SIMD, multi-threading, and columnar storage formats for high-performance data processing."
+  "usage_description": "This library is used to efficiently query and manipulate large datasets in various programming languages, leveraging Rust's performance and Apache Arrow's columnar format for fast data processing. With polars, developers can achieve blazingly fast performance while working with DataFrames, making it suitable for demanding analytical tasks."
 }

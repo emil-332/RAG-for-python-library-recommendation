@@ -15,5 +15,5 @@
       "word_count": 710
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the paddlex library:\n\nThis library is used to easily develop and deploy AI models across various industries and applications, leveraging over 200 pre-trained PaddlePaddle models that can be invoked through simple Python APIs. With paddlex, developers can streamline their workflow from model training to inference, supporting multiple deployment scenarios and hardware platforms for efficient and scalable AI solutions."
+  "usage_description": "This library is used to enable developers to quickly and efficiently build, train, and deploy AI models with a low-code development tool based on PaddlePaddle. With paddlex, developers can implement model development workflows from training to inference using over 200 pre-trained models and support various mainstream hardware platforms."
 }

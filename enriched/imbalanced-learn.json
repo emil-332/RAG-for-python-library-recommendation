@@ -16,5 +16,5 @@
       "word_count": 557
     }
   ],
-  "usage_description": "This library is used to address class imbalance problems in machine learning, providing tools for handling datasets with imbalanced classes. By leveraging imbalanced-learn, developers can build more accurate and robust classification models on datasets with uneven class distributions."
+  "usage_description": "This library is used to handle and mitigate the challenges associated with imbalanced datasets in machine learning, enabling developers to build more accurate models when dealing with class imbalance problems. With this library, developers can employ various techniques such as oversampling, undersampling, and ensemble methods to improve classification performance on imbalanced data."
 }

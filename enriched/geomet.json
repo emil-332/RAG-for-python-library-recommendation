@@ -13,5 +13,5 @@
       "word_count": 396
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to easily convert between various geospatial data formats, such as GeoJSON, WKT, and GeoPackage Binary, allowing for seamless integration of different spatial data sources. With Geomet, developers can quickly and reliably translate their geometric data into the desired format using its intuitive load/dump interfaces."
+  "usage_description": "This library is used to convert between various common geospatial data formats, including 2D, 3D, and 4D geometries, through idiomatic Python interfaces. Developers can use this library to easily exchange data between different formats, such as GeoJSON, WKT, WKB, and GeoPackage Binary."
 }

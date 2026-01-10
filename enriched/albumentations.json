@@ -27,5 +27,5 @@
       "word_count": 104
     }
   ],
-  "usage_description": "This library is used to enhance the performance and robustness of deep learning and computer vision models by applying a wide range of transformations to 2D and 3D data, such as images, masks, bounding boxes, keypoints, and volumes. With Albumentations, developers can efficiently generate new training samples and improve model generalizability in various applications, including medical imaging."
+  "usage_description": "This library is used to accelerate model development in deep learning, computer vision, and medical imaging by providing a wide range of transformations for data augmentation, both 2D and 3D. This library enables developers to efficiently generate diverse training datasets, enhancing model robustness and accuracy."
 }

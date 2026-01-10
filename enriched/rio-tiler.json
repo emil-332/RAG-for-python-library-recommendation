@@ -14,5 +14,5 @@
       "word_count": 258
     }
   ],
-  "usage_description": "This library is used to read raster datasets from various sources, including local files, HTTP, AWS S3, and Google Cloud Storage, while providing a user-friendly interface. With rio-tiler, developers can efficiently access and utilize large raster data sources in their projects."
+  "usage_description": "This library is used to read raster datasets from various sources, including local files, HTTP, AWS S3, and Google Cloud Storage. It provides user-friendly helper methods for accessing data and metadata from these raster sources, supported by Rasterio/GDAL."
 }

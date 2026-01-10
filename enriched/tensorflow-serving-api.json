@@ -13,5 +13,5 @@
       "word_count": 63
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to deploy machine learning models in production environments with high-performance serving capabilities. With this library, developers can easily integrate their TensorFlow models into a scalable and flexible serving system that supports rapid deployment of new algorithms and experiments."
+  "usage_description": "This library is used to deploy and manage machine learning models in production environments with ease and high performance. It allows developers to integrate their TensorFlow models with a flexible and scalable serving system."
 }

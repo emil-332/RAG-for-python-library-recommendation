@@ -25,5 +25,5 @@
       "word_count": 47
     }
   ],
-  "usage_description": "This library is used to create more user-friendly text interfaces in Python, making it easier for developers to parse and format data in a way that's easily understandable by humans. With humanfriendly, developers can also improve the interactive experience with features like easy-to-use timers and customizable terminal interaction."
+  "usage_description": "This library is used to make text interfaces more user-friendly by providing features such as formatting numbers, timespans, and file sizes in human-readable formats. It also offers tools for easy terminal interaction, prompting users with lists of options, and displaying styled text."
 }

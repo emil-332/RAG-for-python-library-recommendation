@@ -15,5 +15,5 @@
       "word_count": 681
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the `textdistance` library:\n\nThis library is used to compute the distance between two or more sequences using over 30 algorithms, enabling developers to accurately measure the similarity and dissimilarity between text inputs. By leveraging this library, developers can implement efficient and flexible sequence comparison capabilities in their applications."
+  "usage_description": "This library is used to compute distance between two or more sequences by implementing over 30 different algorithms for text comparison. It allows developers to easily compare and measure the similarity or dissimilarity of multiple strings using various metrics, such as Hamming, Levenshtein, and Damerau distances."
 }

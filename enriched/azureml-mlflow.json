@@ -14,5 +14,5 @@
       "word_count": 92
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to integrate Azure Machine Learning (AzureML) with MLflow, enabling developers to log metrics and artifacts directly to their Azure machine learning workspace using MLflow logging APIs. With azureml-mlflow, developers can easily track and manage their machine learning experiments and models within AzureML."
+  "usage_description": "This library is used to integrate Azure Machine Learning with MLflow, allowing developers to log metrics and artifacts directly to their Azure machine learning workspace. With this integration, developers can seamlessly track machine learning experiments and manage models using MLflow's APIs within the AzureML ecosystem."
 }

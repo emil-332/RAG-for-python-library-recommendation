@@ -14,5 +14,5 @@
       "word_count": 454
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to read, modify, and write Digital Imaging and Communications in Medicine (DICOM) data in a straightforward and Pythonic way. With pydicom, developers can easily handle DICOM datasets without worrying about the specifics of individual SOP classes or other aspects of the standard."
+  "usage_description": "This library is used to read, modify, and write DICOM data in a straightforward Pythonic manner, allowing developers to easily work with DICOM files without requiring additional dependencies. It provides a general-purpose framework for handling DICOM datasets, enabling developers to focus on their specific use case requirements."
 }

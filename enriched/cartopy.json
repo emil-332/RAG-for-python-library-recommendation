@@ -14,5 +14,5 @@
       "word_count": 244
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the cartopy library:\n\nThis library is used to create high-quality, geospatial visualizations and map representations for data analysis and visualization tasks. By leveraging cartopy's integration with Matplotlib and Shapely, developers can easily transform and project geographic data, facilitating the creation of accurate and informative maps."
+  "usage_description": "This library is used to create cartographic visualizations for data analysis and visualization, leveraging object-oriented projection definitions and integration with Matplotlib. With Cartopy, developers can easily draw maps and transform geographic data between different projections using a simple and intuitive interface."
 }

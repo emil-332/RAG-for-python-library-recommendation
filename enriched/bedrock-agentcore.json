@@ -14,5 +14,5 @@
       "word_count": 189
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to deploy and operate highly effective AI agents securely at scale, leveraging the capabilities of Amazon Bedrock AgentCore to accelerate production deployment. With this library, developers can build and manage scalable, trustworthy, and secure AI agents using popular open-source frameworks and models, while ensuring enterprise-grade reliability and security."
+  "usage_description": "This library is used to accelerate the deployment of AI agents into production with scalable, secure, and reliable infrastructure. With this library, developers can deploy highly effective agents at scale using any framework and model while ensuring enterprise-grade security and reliability."
 }

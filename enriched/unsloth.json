@@ -26,5 +26,5 @@
       "word_count": 163
     }
   ],
-  "usage_description": "This library is used to significantly accelerate large language model training and fine-tuning processes, allowing developers to achieve 2-5X faster results with up to 70% less VRAM usage. With unsloth, developers can quickly train a range of popular models on their dataset using a user-friendly interface, enabling the creation of custom trained models for various applications."
+  "usage_description": "This library is used to significantly accelerate the training process for various large language models, enabling developers to train models 2-5X faster and with 70% less VRAM. Developers can leverage this library to efficiently fine-tune and deploy a range of pre-trained models across different applications and use cases."
 }

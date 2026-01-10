@@ -14,5 +14,5 @@
       "word_count": 645
     }
   ],
-  "usage_description": "This library is used to leverage the power of Generative AI in production-grade applications and workflows with ease, by providing a streamlined and ergonomic framework for building GenAI applications and agents. With pydantic-ai, developers can confidently build robust and efficient GenAI solutions using Pydantic's proven validation features."
+  "usage_description": "This library is used to help developers quickly build production-grade applications and workflows with Generative AI, leveraging the power of Pydantic validation. With Pydantic AI, developers can confidently create GenAI apps and agents with an ergonomic design reminiscent of FastAPI's innovative approach."
 }

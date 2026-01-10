@@ -13,5 +13,5 @@
       "word_count": 456
     }
   ],
-  "usage_description": "This library is used to syntactically validate strings according to RFC 3987, ensuring they conform to the ABNF grammar defined in this IETF standard for Internationalized Resource Identifiers (IRIs). With rfc3987-syntax, developers can accurately check the syntax of IRIs and other resource identifiers in their Python applications."
+  "usage_description": "This library is used to syntactically validate strings according to the ABNF grammar defined in RFC 3987, ensuring conformance to the Internationalized Resource Identifiers standard. It provides a lightweight and permissively licensed module for developers to verify the syntax of IRI-related strings in their applications."
 }

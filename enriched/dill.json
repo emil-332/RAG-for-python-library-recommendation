@@ -18,5 +18,5 @@
       "word_count": 428
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to serialize and de-serialize Python objects, enabling developers to convert complex data structures into byte streams that can be easily stored or transmitted. With dill, you can also save the state of an entire interpreter session, making it possible to pick up where you left off on a different machine."
+  "usage_description": "This library is used to serialize and de-serialize Python objects to a byte stream, supporting the majority of built-in Python types. This allows developers to store and transfer complex Python data structures between systems or save the state of an interpreter session for later use."
 }

@@ -18,5 +18,5 @@
       "word_count": 444
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the pyfaidx library:\n\nThis library is used to provide efficient and random access to FASTA subsequences, allowing developers to quickly retrieve specific regions of interest from large genomic datasets. By leveraging a samtools-compatible index, developers can minimize memory usage and optimize performance when working with massive amounts of genomic data."
+  "usage_description": "This library is used to efficiently access and manipulate FASTA subsequences through random access, allowing for fast retrieval of specific sequences or regions. It also enables in-place modification of these files, making it a useful tool for complex manipulation of genomic data."
 }

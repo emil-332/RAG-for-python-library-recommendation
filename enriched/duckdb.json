@@ -14,5 +14,5 @@
       "word_count": 200
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the duckdb library:\n\nThis library is used to create fast, in-process analytical databases that can run on various platforms and programming languages, making it easy to deploy and integrate into existing applications. With DuckDB, developers can build high-performance data analysis capabilities without worrying about external dependencies or storage limitations, enabling them to execute complex queries efficiently at scale."
+  "usage_description": "This library is used to provide a fast, in-process analytical database system that allows developers to run complex SQL queries on large datasets with ease. With DuckDB, developers can read and write various file formats and execute parallelized queries across multiple hardware architectures."
 }

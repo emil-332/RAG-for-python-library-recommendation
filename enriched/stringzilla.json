@@ -91,5 +91,5 @@
       "word_count": 373
     }
   ],
-  "usage_description": "This library is used to accelerate string operations such as searching, hashing, sorting, and processing by leveraging SIMD instructions for faster performance. With StringZilla, developers can write more efficient code that maximizes CPU throughput and handles complex string tasks with ease."
+  "usage_description": "This library is used to accelerate string operations such as search, hash, sort, and processing through optimized SWAR (Simultaneous Word Access Register) and SIMD (Single Instruction, Multiple Data) instructions. With StringZilla, developers can achieve significantly faster performance for various string-related tasks in their applications."
 }

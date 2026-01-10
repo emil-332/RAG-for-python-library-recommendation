@@ -13,5 +13,5 @@
       "word_count": 31
     }
   ],
-  "usage_description": "This library is used to enhance the robustness and generalizability of deep neural networks by automatically generating new versions of training data through image augmentation techniques. With imgaug, developers can easily augment images, keypoints, bounding boxes, heatmaps, and segmentation maps for their machine learning experiments, allowing them to improve model performance on a variety of tasks."
+  "usage_description": "This library is used to augment images and various associated data (keypoints, bounding boxes, etc.) for use in deep neural network training, improving model robustness and performance. With imgaug, developers can increase the diversity of their training datasets through a range of image transformations and manipulations."
 }

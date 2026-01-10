@@ -12,5 +12,5 @@
       "word_count": 154
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to build lightweight web applications with ease, providing a flexible framework that can scale up to complex projects. With Flask, developers can quickly create and deploy robust web applications using their preferred tools and libraries."
+  "usage_description": "This library is used to build complex web applications quickly and easily with a lightweight framework that can scale up as needed. With Flask, developers have the flexibility to choose their own dependencies and project layout while still benefiting from a supportive community of contributors and extensions."
 }

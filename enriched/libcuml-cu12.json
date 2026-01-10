@@ -16,5 +16,5 @@
       "word_count": 528
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enable data scientists and engineers to run traditional tabular machine learning tasks on GPUs with accelerated performance, without requiring expertise in CUDA programming. With cuML, developers can complete ML tasks up to 50x faster than on CPU equivalents, making it suitable for large-scale data processing and analysis."
+  "usage_description": "This library is used to accelerate traditional tabular machine learning tasks on GPUs using a compatible API with scikit-learn. With cuML, developers can run these tasks up to 50x faster than their CPU equivalents for large datasets."
 }

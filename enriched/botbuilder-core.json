@@ -14,5 +14,5 @@
       "word_count": 329
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library, BotBuilder-Core SDK for Python, is used to build bots that exchange messages with users on various channels through the Microsoft Bot Framework Portal. With this library, developers can easily create conversational interfaces that integrate with different messaging platforms, such as text-based and voice-based channels."
+  "usage_description": "This library is used to enable developers to build bots that exchange messages with users on configured channels through the Bot Framework Portal. With this library, you can create sophisticated chatbots for various platforms and use cases, such as customer support or conversational interfaces."
 }

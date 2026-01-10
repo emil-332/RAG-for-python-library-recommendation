@@ -13,5 +13,5 @@
       "word_count": 373
     }
   ],
-  "usage_description": "This library is used to create advanced 3D graphics, image processing algorithms, and visualization techniques for various applications such as research, teaching, and product development. With VTK, developers can build or extend products that require complex 3D rendering, volume rendering, and image processing capabilities."
+  "usage_description": "This library is used to build and extend 3D graphics and visualization applications for image processing, volume rendering, and other advanced tasks. With VTK, developers can create complex visualizations, simulations, and interactive 3D models with hardware-accelerated performance."
 }

@@ -12,5 +12,5 @@
       "word_count": 154
     }
   ],
-  "usage_description": "This library is used to create beautiful and composable command line interfaces with ease, allowing developers to quickly build and customize CLI tools with minimal code and sensible defaults. With Click, developers can design intuitive CLI APIs, generate automatic help pages, and even dynamically load subcommands at runtime."
+  "usage_description": "This library is used to create beautiful and customizable command line interfaces in a composable way with minimal code required, while also generating automatic help pages for user convenience. With Click, developers can quickly build CLI tools with features such as arbitrary nesting of commands and lazy loading of subcommands at runtime."
 }

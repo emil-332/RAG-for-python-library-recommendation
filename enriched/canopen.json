@@ -13,5 +13,5 @@
       "word_count": 328
     }
   ],
-  "usage_description": "This library is used to create a Pythonic interface for implementing the CANopen standard, specifically for testing and automation tasks, and supports common features such as NMT master, SDO client, and PDO producer/consumer. With this library, developers can build applications that interact with CANopen devices, allowing them to control and monitor industrial equipment and systems."
+  "usage_description": "This library is used to implement a CANopen master interface in Python, supporting features such as NMT management and SDO communication for automation tasks. With this library, developers can easily integrate their applications with devices that follow the CiA 301 standard, simplifying testing and development processes."
 }

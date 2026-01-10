@@ -14,5 +14,5 @@
       "word_count": 307
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enable accurate and robust end-of-turn detection in LiveKit Agents, allowing for more seamless interactions between users and voice agents. By leveraging a custom language model, developers can prevent false positives and interruptions that often occur with traditional voice activity detection methods."
+  "usage_description": "This library is used to provide end-of-turn detection for LiveKit Agents with improved accuracy and robustness, leveraging a custom language model specifically trained for this task. This library helps ensure that voice agents interrupt users only when they have truly finished speaking, reducing false positives."
 }

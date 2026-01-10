@@ -12,5 +12,5 @@
       "word_count": 49
     }
   ],
-  "usage_description": "This library is used to perform morphological analysis and POS tagging for Russian language text, allowing developers to analyze the grammatical structure of words in a robust and accurate manner. With pymorphy3, developers can also generate inflected forms of words, facilitating tasks such as natural language processing and text analysis applications."
+  "usage_description": "This library is used to analyze Russian and Ukrainian language texts by identifying parts of speech (POS tagging) and generating word inflections. Developers can leverage pymorphy3 to improve natural language processing tasks, such as text classification, sentiment analysis, or machine translation for these languages."
 }

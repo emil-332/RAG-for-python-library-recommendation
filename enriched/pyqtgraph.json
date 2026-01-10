@@ -13,5 +13,5 @@
       "word_count": 57
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to create high-performance scientific graphics and interactive GUIs in Python, ideal for applications in mathematics, engineering, and other data-intensive fields. With pyqtgraph, developers can efficiently generate fast-paced, dynamic visualizations of complex data using NumPy, Qt's GraphicsView framework, and OpenGL."
+  "usage_description": "This library is used to create high-performance scientific graphics and GUIs for mathematical, scientific, or engineering applications. With PyQtGraph, developers can build complex, interactive visualizations that leverage the power of numpy and Qt's GraphicsView framework."
 }

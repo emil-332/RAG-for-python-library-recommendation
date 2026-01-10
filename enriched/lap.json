@@ -14,5 +14,5 @@
       "word_count": 371
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently solve linear assignment problems in dense or sparse matrices using the Jonker-Volgenant algorithm, providing fast and accurate results for large-scale datasets. By leveraging this library, developers can quickly find optimal assignments between two sets of elements, enabling applications such as resource allocation, scheduling, and machine learning model optimization."
+  "usage_description": "This library is used to solve the linear assignment problem efficiently, providing optimized solutions for dense and sparse matrices using the Jonker-Volgenant algorithm. Developers can leverage this library to quickly find optimal assignments between two sets of variables with minimal computational overhead."
 }

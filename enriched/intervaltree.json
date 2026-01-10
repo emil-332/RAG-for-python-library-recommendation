@@ -14,5 +14,5 @@
       "word_count": 245
     }
   ],
-  "usage_description": "This library is used to efficiently store, query, and manage intervals in a data structure that supports point, range overlap, and range envelopment queries. Developers can use it to tag text or time intervals with the specified lower bound and automatically manage overlapping or adjacent intervals for efficient storage and querying."
+  "usage_description": "This library is used to efficiently manage intervals of time or text in a mutable data structure that supports self-balancing queries by point, range overlap, or range envelopment. With intervaltree, developers can quickly and accurately identify overlapping intervals, allowing for efficient management of tagging text and time intervals."
 }

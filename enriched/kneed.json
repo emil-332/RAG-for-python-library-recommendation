@@ -15,5 +15,5 @@
       "word_count": 324
     }
   ],
-  "usage_description": "This library is used to detect the knee point of a function in Python, which is the point of maximum curvature given a set of x and y values. By utilizing the kneedle algorithm, developers can automatically identify the most critical or significant point in a data set."
+  "usage_description": "This library is used to detect the knee point of a function given its x and y values, which represents the point of maximum curvature. By using kneed, developers can automatically identify key points in data where the relationship between variables changes most significantly."
 }

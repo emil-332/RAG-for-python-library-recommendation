@@ -14,5 +14,5 @@
       "word_count": 641
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to optimize expensive and noisy black-box functions, providing an efficient way to find optimal parameters for complex systems. With scikit-optimize, developers can implement sequential model-based optimization methods, enabling them to improve the performance or efficiency of their applications with minimal manual effort."
+  "usage_description": "This library is used to efficiently optimize expensive and noisy black-box functions through various sequential model-based optimization methods. Developers can use scikit-optimize to find optimal solutions with minimal computational resources, making it suitable for complex tasks that require multiple iterations of function evaluation."
 }

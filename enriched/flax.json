@@ -14,5 +14,5 @@
       "word_count": 555
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create, inspect, debug, and analyze neural networks in JAX with ease, allowing developers to express their models using regular Python objects for enhanced flexibility. With Flax, developers can simplify the process of working with neural networks, leveraging features such as reference sharing and mutability to improve their overall workflow."
+  "usage_description": "This library is used to create, inspect, debug, and analyze neural networks in JAX with added support for Python reference semantics. It enables users to express their models using regular Python objects, allowing for reference sharing and mutability."
 }

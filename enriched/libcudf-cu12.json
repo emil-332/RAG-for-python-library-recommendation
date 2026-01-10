@@ -14,5 +14,5 @@
       "word_count": 420
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accelerate tabular data processing on GPUs, enabling developers to efficiently perform complex data operations in parallel. With cuDF, developers can process large datasets up to 100x faster than traditional CPU-based approaches."
+  "usage_description": "This library is used to accelerate tabular data processing on GPUs, enabling developers to efficiently perform complex computations on large datasets. With cuDF, developers can leverage the power of parallel computing to speed up data manipulation and analysis tasks."
 }

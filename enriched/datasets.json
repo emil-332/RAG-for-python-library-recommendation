@@ -15,5 +15,5 @@
       "word_count": 412
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to load, prepare, and manage diverse datasets for machine learning models in a standardized and efficient manner. With Datasets, developers can easily integrate various data sources into their projects using popular frameworks like PyTorch, TensorFlow, and JAX."
+  "usage_description": "This library is used to provide a unified interface for loading and managing various types of datasets in machine learning pipelines. With this library, developers can easily access and utilize a wide range of datasets from the Hugging Face community, streamlining their data preparation workflows."
 }

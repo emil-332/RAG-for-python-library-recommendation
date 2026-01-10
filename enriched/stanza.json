@@ -20,5 +20,5 @@
       "word_count": 376
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the stanza library:\n\nThis library is used to enable fast and accurate Natural Language Processing (NLP) tasks across many human languages, including text processing and analysis. Developers can leverage this library's pre-trained models and neural pipeline implementation to build applications that can understand and extract insights from diverse language inputs."
+  "usage_description": "This library is used to perform NLP tasks in many human languages, enabling developers to analyze and process text data with high accuracy. By leveraging the Stanza library, developers can build applications that understand and generate text in multiple languages, facilitating global communication and content creation."
 }

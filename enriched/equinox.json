@@ -13,5 +13,5 @@
       "word_count": 180
     }
   ],
-  "usage_description": "This library is used to create and implement neural networks in a straightforward and elegant way within the JAX framework, leveraging PyTorch-like syntax for simplicity and ease of use. With Equinox, developers can define models using familiar API patterns and integrate them seamlessly with other JAX operations for efficient and effective deep learning applications."
+  "usage_description": "This library is used to create and work with neural networks in JAX using an elegant, PyTorch-like syntax. It allows developers to define models that are fully compatible with normal JAX operations, making it easy to integrate into existing projects."
 }

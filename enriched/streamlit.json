@@ -15,5 +15,5 @@
       "word_count": 290
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the Streamlit library:\n\nThis library is used to rapidly build interactive web applications, such as data visualizations, dashboards, and reports, using Python scripts. With Streamlit, developers can quickly create, deploy, and share their apps without needing extensive web development expertise, thanks to its simple, Pythonic API and live editing capabilities."
+  "usage_description": "This library is used to transform Python scripts into interactive web apps in minutes, enabling developers to build dashboards, generate reports, or create chat apps. With Streamlit, you can rapidly prototype and share data-driven applications with others through its Community Cloud platform."
 }

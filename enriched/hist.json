@@ -13,5 +13,5 @@
       "word_count": 620
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to provide an analyst-friendly interface for working with histograms in Python, allowing developers to easily create and manipulate histogram axes with named labels. With Hist, developers can leverage the features provided by boost-histogram and additional enhancements such as axis naming for efficient and intuitive data analysis."
+  "usage_description": "This library is used to provide a Python interface for creating and manipulating histogram data, leveraging the boost-histogram library for efficient computation. It offers analyst-friendly features like named axes and additional utilities for tasks such as plotting and fitting."
 }

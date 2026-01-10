@@ -13,5 +13,5 @@
       "word_count": 195
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to facilitate exploratory analysis of Bayesian models, providing tools and guidance for understanding and interpreting results. With ArviZ, developers can easily navigate and visualize the outputs of their Bayesian modeling efforts, gaining deeper insights into model performance and uncertainty."
+  "usage_description": "This library is used to perform exploratory analysis of Bayesian models, providing tools for visualizing and diagnosing their behavior. It enables developers to inspect and understand the properties of complex Bayesian models in a more intuitive and interactive way."
 }

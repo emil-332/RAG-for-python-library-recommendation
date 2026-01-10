@@ -13,5 +13,5 @@
       "word_count": 419
     }
   ],
-  "usage_description": "This library is used to control various measurement devices and test equipment through a standardized interface, supporting GPIB, RS232, TCPIP, and USB connections. With pyvisa, developers can write Python scripts to interact with instruments from multiple vendors, simplifying the programming process for instrument control applications."
+  "usage_description": "This library is used to control measurement devices and test equipment via GPIB, RS232, Ethernet or USB using the VISA protocol. This allows developers to write Python programs that interact with a wide range of scientific instruments and laboratory equipment."
 }

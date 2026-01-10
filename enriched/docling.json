@@ -16,5 +16,5 @@
       "word_count": 468
     }
   ],
-  "usage_description": "Here is a short (2-sentence) summary of what a developer can achieve with this library:\n\nThis library is used to parse diverse document formats, including PDFs, DOCX, HTML, and more, into a unified representation that can be easily integrated with downstream workflows such as generative AI applications. By leveraging Docling, developers can simplify document processing and unlock new capabilities in their projects by tapping into the power of gen AI."
+  "usage_description": "This library is used to parse documents from various formats, such as PDF, DOCX, HTML, into a unified representation for downstream applications like generative AI. With docling, developers can simplify document processing and seamlessly integrate with the gen AI ecosystem."
 }

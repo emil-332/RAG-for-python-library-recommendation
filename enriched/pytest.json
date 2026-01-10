@@ -12,5 +12,5 @@
       "word_count": 375
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to write small and complex functional tests for Python applications and libraries, making it easy to ensure the reliability and quality of your code. With pytest, developers can create tests using plain \"assert\" statements and easily scale their testing efforts as their projects grow in complexity."
+  "usage_description": "This library is used to write and run tests for Python applications and libraries with ease. With pytest, developers can create small, efficient tests that scale to support complex functional testing needs."
 }

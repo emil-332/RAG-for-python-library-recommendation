@@ -13,5 +13,5 @@
       "word_count": 313
     }
   ],
-  "usage_description": "This library is used to represent and manipulate matrices describing 2D affine transformations of the plane, allowing developers to easily create and apply various types of geometric transformations such as translations, scaling, shearing, and rotations. With this library, developers can efficiently perform complex geometric operations in their applications and improve the overall accuracy and reliability of their code."
+  "usage_description": "This library is used to create and manipulate matrices that describe affine transformations of the plane in two dimensions, enabling developers to easily apply common geometric operations such as translation, scaling, shearing, and rotation. With this library, developers can efficiently build complex transformations by combining these basic operations."
 }

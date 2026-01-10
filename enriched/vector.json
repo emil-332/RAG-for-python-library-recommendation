@@ -13,5 +13,5 @@
       "word_count": 432
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to perform geometric calculations on arrays of spatial vectors, such as 2D and 3D vectors, as well as Lorentz space-time vectors. By utilizing Vector's array-based operations, developers can efficiently manipulate large collections of vectors in various coordinate systems, streamlining their high-performance computing tasks."
+  "usage_description": "This library is used to create and manipulate arrays of 2D, 3D, and Lorentz vectors for geometric calculations. Developers can use it to perform complex spatial computations on collections of vectors with ease, making it suitable for applications in High Energy Physics (HEP) and other fields."
 }

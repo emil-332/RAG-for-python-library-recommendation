@@ -12,5 +12,5 @@
       "word_count": 287
     }
   ],
-  "usage_description": "This library is used to accurately measure and analyze the loudness of audio files, providing developers with precise control over parameters such as gating block size and frequency weighting filters for more nuanced results. With pyloudnorm, developers can efficiently determine the loudness of WAV files using a standardized ITU-R BS.1770-4 algorithm."
+  "usage_description": "This library is used to accurately measure the loudness of audio files in compliance with ITU-R BS.1770-4 standards, allowing for customizable control over gating block size and frequency weighting filters. Developers can utilize this library to automate the process of measuring the loudness of audio files, enabling features such as dynamic range compression or content optimization."
 }

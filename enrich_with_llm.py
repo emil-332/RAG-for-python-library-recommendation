@@ -6,11 +6,12 @@ from tqdm import tqdm
 # Folder containing your JSON files
 DATA_DIR = "./enriched"
 
-def get_usage_description(name, summary, readme_snippet):
+def generate_usage_description(name, summary, readme_snippet):
     prompt = f"""
     You are a technical expert. Based on the library name and README snippet below, 
     write a short (2-sentence) summary of what a developer can achieve with this library.
     Use goal-oriented language like "This library is used to..."
+    Your response must only contain the summary, no additional justification.
     
     Library: {name}
     Summary: {summary}
@@ -42,7 +43,7 @@ def main():
             first_chunk = data["chunks"][0]["text"] if data["chunks"] else ""
 
             # Generate the description
-            description = get_usage_description(data["name"], data["summary"], first_chunk)
+            description = generate_usage_description(data["name"], data["summary"], first_chunk)
             data["usage_description"] = description
 
             # Save the updated JSON

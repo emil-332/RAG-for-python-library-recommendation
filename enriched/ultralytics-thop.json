@@ -14,5 +14,5 @@
       "word_count": 569
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to compute the number of Multiply-Accumulate Operations (MACs) and parameters in PyTorch models, allowing developers to evaluate model efficiency and performance. By leveraging THOP, deep learning practitioners can optimize their models for better performance and efficiency."
+  "usage_description": "This library is used to compute the FLOPs and parameters of PyTorch models, enabling developers to evaluate model efficiency and performance. With THOP, users can quickly profile their deep learning models and make informed decisions about model optimization and training."
 }

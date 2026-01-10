@@ -14,5 +14,5 @@
       "word_count": 251
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to provide a bridge between Python and Java, allowing developers to leverage Java libraries from within their Python code. By doing so, developers can tap into the strengths of both languages, combining Python's rapid prototyping capabilities with Java's strong typing for efficient production code development."
+  "usage_description": "This library is used to provide full access to Java from within Python, allowing developers to leverage Java libraries and structures directly from their Python code. With JPype, developers can combine the rapid prototyping capabilities of Python with the strong typing and production-ready features of Java."
 }

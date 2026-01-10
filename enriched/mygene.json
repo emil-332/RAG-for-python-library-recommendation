@@ -13,5 +13,5 @@
       "word_count": 153
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to query and retrieve gene annotation data from the MyGene.Info web services, providing an easy-to-use interface in Python. With mygene, developers can quickly access and utilize the comprehensive gene annotation data provided by MyGene.Info for their projects and applications."
+  "usage_description": "This library is used to access and retrieve gene annotation data from MyGene.Info services with ease using Python. It provides a simple-to-use interface to query/retrieve gene information through REST web services, making it an ideal tool for bioinformatics applications."
 }

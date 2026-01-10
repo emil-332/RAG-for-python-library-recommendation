@@ -37,5 +37,5 @@
       "word_count": 278
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to embed high-dimensional data into two or three dimensions while preserving the structure and relationships between samples, enabling efficient visualization and analysis of complex datasets. By leveraging the Uniform Manifold Approximation and Projection (UMAP) algorithm, developers can simplify their data for easier exploration and understanding."
+  "usage_description": "This library is used to perform dimensionality reduction and visualization of high-dimensional data using the Uniform Manifold Approximation and Projection (UMAP) algorithm. With umap-learn, developers can embed complex datasets in two or three dimensions for easy exploration and analysis."
 }

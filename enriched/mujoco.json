@@ -13,5 +13,5 @@
       "word_count": 405
     }
   ],
-  "usage_description": "This library is used to interface with the MuJoCo physics engine from Python, providing direct access to its raw C API functions and data structures. With mujoco, developers can incorporate advanced physics simulations into their projects, leveraging MuJoCo's capabilities for realistic and efficient simulation of complex physical systems."
+  "usage_description": "This library is used to directly access and interface with the MuJoCo physics engine from Python applications, enabling control over its complex simulations and models. This allows developers to leverage MuJoCo's advanced physics capabilities in their own projects."
 }

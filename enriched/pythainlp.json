@@ -13,5 +13,5 @@
       "word_count": 20
     }
   ],
-  "usage_description": "This library is used to perform various tasks in Thai Natural Language Processing, such as text analysis and entity recognition. Developers can leverage this library to build applications that understand and interact with the Thai language at a deeper level, enabling features like text classification, sentiment analysis, and named-entity extraction."
+  "usage_description": "This library is used to enable natural language processing tasks in the Thai language, including advanced capabilities such as named-entity recognition. With pythainlp, developers can build applications that understand and extract meaningful information from Thai text data."
 }

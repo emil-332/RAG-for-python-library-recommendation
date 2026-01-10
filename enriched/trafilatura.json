@@ -19,5 +19,5 @@
       "word_count": 314
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to gather text and metadata on the web by performing tasks such as crawling, scraping, extraction, and conversion of raw HTML into structured data. With Trafilatura, developers can turn unstructured web content into organized, meaningful data in various formats like CSV, JSON, HTML, MD, TXT, and XML."
+  "usage_description": "This library is used to gather text and metadata on the Web through web crawling, scraping, and extraction, making it easy to turn raw HTML into structured data. With Trafilatura, developers can simplify the process of discovering and extracting text data from websites for use in various applications."
 }

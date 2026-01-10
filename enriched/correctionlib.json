@@ -14,5 +14,5 @@
       "word_count": 392
     }
   ],
-  "usage_description": "This library is used to provide a standardized and structured format for handling ad-hoc correction factors in High-Energy Physics (HEP) analysis, allowing developers to easily create and evaluate complex corrections. With this library, developers can implement a range of correction functions, including binned lookups, formula evaluations, and categorical mappings, making it easier to manage data correction in HEP analysis applications."
+  "usage_description": "This library is used to provide a standardized JSON data format for various ad-hoc correction factors in HEP analysis, enabling seamless integration and evaluation across C++ and Python programs. Developers can utilize this library to define and apply complex correction functions, including multi-dimensional lookups, formula evaluations, and categorical mappings."
 }

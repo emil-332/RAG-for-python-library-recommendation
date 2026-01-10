@@ -13,5 +13,5 @@
       "word_count": 164
     }
   ],
-  "usage_description": "This library is used to create and validate Cloud Optimized GeoTIFF (COG) files, allowing for efficient storage and transfer of large geospatial raster data in the cloud. With rio-cogeo, developers can streamline their workflows by ensuring that their COG files adhere to industry standards and best practices for internal overviews and tiles."
+  "usage_description": "This library is used to create and validate Cloud Optimized GeoTIFF (COGEO) files for efficient cloud-based geospatial data storage, with features such as internal overviews and tiles. It integrates seamlessly with Rasterio to provide a streamlined workflow for working with COGEO files."
 }

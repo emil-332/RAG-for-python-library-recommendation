@@ -13,5 +13,5 @@
       "word_count": 232
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the onnxruntime library:\n\nThis library is used to accelerate and optimize performance of Machine Learning models by providing a high-speed scoring engine for Open Neural Network Exchange (ONNX) models. Developers can utilize ONNX Runtime to rapidly deploy and run their ML models in various applications, taking advantage of its optimized performance and efficiency features."
+  "usage_description": "This library is used to accelerate the scoring of Machine Learning models through efficient execution and optimized performance, allowing developers to deploy high-performance ML applications with ease. With ONNX Runtime, developers can optimize their models for various hardware platforms, including CPU, GPU, and other accelerators."
 }

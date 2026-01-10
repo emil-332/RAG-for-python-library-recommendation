@@ -13,5 +13,5 @@
       "word_count": 46
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to implement efficient collective communication routines for GPUs, including all-reduce, all-gather, reduce, broadcast, and reduce-scatter operations. By utilizing NCCL, developers can achieve high bandwidth on various platforms and optimize their distributed computing applications that rely on GPU-based parallel processing."
+  "usage_description": "This library is used to implement collective communication routines for GPUs, enabling developers to optimize data transfer and synchronization operations between multiple nodes. With NCCL, developers can achieve high-bandwidth GPU-to-GPU communication on various platforms, including PCIe, NVLink, NVswitch, InfiniBand Verbs, or TCP/IP sockets."
 }

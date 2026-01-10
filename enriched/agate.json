@@ -12,5 +12,5 @@
       "word_count": 59
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the agate library:\n\nThis library is used to enable readable and efficient data analysis in Python, providing an alternative to popular libraries like numpy and pandas. With agate, developers can solve real-world problems in a straightforward manner, focusing on human-readable code instead of machine-centric optimization."
+  "usage_description": "This library is used to simplify data analysis tasks with readable and human-friendly code, providing an alternative to traditional libraries like numpy and pandas. With agate, developers can focus on solving real-world problems without getting bogged down in complex, machine-optimized code."
 }

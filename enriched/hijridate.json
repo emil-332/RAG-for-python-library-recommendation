@@ -14,5 +14,5 @@
       "word_count": 299
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to convert between Hijri and Gregorian dates with high accuracy, using the Umm al-Qura calendar for reliable conversions. With its intuitive design and optimized performance, developers can easily integrate date conversions into their applications, supporting multilingual representation of weekday names, months, and calendar era notations."
+  "usage_description": "This library is used to convert between Hijri and Gregorian dates with high accuracy and reliability, utilizing the Umm al-Qura calendar. It enables developers to seamlessly work with both date systems in their applications."
 }

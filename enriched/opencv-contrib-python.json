@@ -34,5 +34,5 @@
       "word_count": 101
     }
   ],
-  "usage_description": "This library is used to provide a convenient installation of OpenCV's Python bindings, allowing developers to quickly and easily integrate computer vision capabilities into their projects. By using this wrapper package, developers can focus on building applications with features such as image and video processing, feature detection, and object recognition without worrying about the underlying implementation details."
+  "usage_description": "This library is used to enable developers to access and utilize OpenCV's computer vision capabilities in their Python projects, allowing for tasks such as image processing, object detection, and facial recognition. By using this library, developers can integrate the power of OpenCV into their applications with ease, without worrying about installing dependencies manually."
 }

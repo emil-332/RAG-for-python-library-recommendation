@@ -14,5 +14,5 @@
       "word_count": 315
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently and accurately identify the language of text data, providing up to 80x speedup over other libraries while maintaining 95% accuracy. With fasttext-langdetect, developers can quickly determine the language of their text inputs in various scenarios, such as content moderation, translation, or sentiment analysis applications."
+  "usage_description": "This library is used to perform fast and accurate language identification with a model trained on Fasttext, achieving 95% accuracy in just 80x the time of other popular libraries. Developers can utilize this library to enable their applications to identify languages efficiently, making it suitable for tasks such as text analysis, content moderation, and internationalization."
 }

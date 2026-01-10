@@ -13,5 +13,5 @@
       "word_count": 108
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to simplify configuration management in Python applications by allowing developers to easily inject default parameter values from a config file or command line into functions or classes. With gin-config, developers can reduce boilerplate code and increase the flexibility and configurability of their projects, particularly well-suited for machine learning experiments."
+  "usage_description": "This library is used to simplify configuration management for Python applications by allowing functions and classes to be easily configured from a file or command line. With Gin-Config, developers can remove boilerplate code and improve flexibility in their projects."
 }

@@ -13,5 +13,5 @@
       "word_count": 266
     }
   ],
-  "usage_description": "This library is used to integrate CRFsuite, a popular sequence tagging tool, into Python-based machine learning pipelines for tasks such as named entity recognition and part-of-speech tagging. With python-crfsuite, developers can leverage the capabilities of CRFsuite to build accurate and efficient models for sequence labeling problems in natural language processing and beyond."
+  "usage_description": "This library is used to train and use Conditional Random Field (CRF) models for natural language processing tasks, enabling developers to perform sequence labeling and classification. With python-crfsuite, developers can efficiently implement CRFs in their Python projects using the optimized CRFsuite engine."
 }

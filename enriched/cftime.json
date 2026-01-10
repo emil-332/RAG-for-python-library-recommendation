@@ -18,5 +18,5 @@
       "word_count": 316
     }
   ],
-  "usage_description": "Here is a short summary of what a developer can achieve with this library:\n\nThis library is used to handle time-related functionality in Python, providing tools for working with dates and times in a reliable and consistent manner. Developers can use cftime to easily manage and manipulate time data, ensuring accuracy and correctness in their applications."
+  "usage_description": "This library is used to handle time-related functionality and provide a consistent interface for working with dates and times in Python. With cftime, developers can easily convert between different date and time representations, perform date arithmetic, and more."
 }

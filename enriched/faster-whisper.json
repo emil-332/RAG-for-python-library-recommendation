@@ -26,5 +26,5 @@
       "word_count": 267
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accelerate Whisper transcription by up to 4 times faster than the original implementation, while maintaining accuracy and requiring less memory. With its optimized engine and support for 8-bit quantization, developers can efficiently transcribe audio files in real-time or near-real-time applications."
+  "usage_description": "This library is used to accelerate Whisper transcription by up to 4 times, allowing for faster and more efficient audio-to-text conversion while maintaining the same level of accuracy. It achieves this through a reimplementation using CTranslate2, a fast inference engine for Transformer models."
 }

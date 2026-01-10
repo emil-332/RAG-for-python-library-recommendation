@@ -12,5 +12,5 @@
       "word_count": 581
     }
   ],
-  "usage_description": "This library is used to perform robust and accurate materials analysis by defining core object representations for structures, allowing developers to efficiently process and analyze large datasets. With its comprehensive documentation and continuous integration testing, this library provides a reliable foundation for building and deploying materials analysis pipelines with confidence."
+  "usage_description": "This library is used to define core object representations for structures in materials analysis, providing a robust and well-documented framework for researchers and developers. With pymatgen, users can perform comprehensive analyses of materials data with confidence, thanks to its rigorous testing and continuous integration processes."
 }

@@ -29,5 +29,5 @@
       "word_count": 485
     }
   ],
-  "usage_description": "This library is used to efficiently manage and manipulate intervals in Python, allowing developers to represent and perform operations on sets of values with start and end points. With portion, developers can create interval structures that support a wide range of operations, including simplification, comparison, intersection, union, and more."
+  "usage_description": "This library is used to efficiently represent and manipulate intervals in Python, supporting various types of intervals and operations. With portion, developers can easily create, compare, and combine intervals to perform tasks such as data filtering and validation."
 }

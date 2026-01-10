@@ -14,5 +14,5 @@
       "word_count": 363
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to enable AI-powered PDF document conversion by providing pre-trained models for layout analysis and table recognition. With docling-ibm-models, developers can leverage these AI modules to accurately detect tables and their content in PDF documents, streamlining the document processing workflow."
+  "usage_description": "This library is used to provide AI-powered table detection and structure recognition capabilities for PDF document conversion. It includes two key modules: TableFormer for recognizing table structures and content bounding boxes, and a Layout model for detecting tables on a page."
 }

@@ -13,5 +13,5 @@
       "word_count": 115
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the matplotlib library:\n\nThis library is used to create high-quality, interactive visualizations in Python, including plots, charts, and graphs. With matplotlib, developers can effectively communicate complex data insights and trends through dynamic and customizable visual representations."
+  "usage_description": "This library is used to create high-quality 2D and 3D plots with various customizable options. It provides a wide range of visualization tools, allowing developers to effectively communicate complex data insights through interactive and static graphs."
 }

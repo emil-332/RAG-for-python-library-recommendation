@@ -12,5 +12,5 @@
       "word_count": 69
     }
   ],
-  "usage_description": "This library is used to enable GPU acceleration for NumPy and SciPy computations in Python. By installing cupy-cuda12x, developers can efficiently run numerical operations on NVIDIA GPUs with support for existing NumPy and SciPy APIs."
+  "usage_description": "This library is used to accelerate NumPy and SciPy operations on a GPU with Python, allowing developers to leverage high-performance computing. With cupy-cuda12x, developers can migrate CPU-bound computations to run efficiently on NVIDIA GPUs."
 }

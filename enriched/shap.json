@@ -31,5 +31,5 @@
       "word_count": 323
     }
   ],
-  "usage_description": "This library is used to provide a unified approach to explain the output of any machine learning model, with a high-speed exact algorithm for tree ensemble methods. With SHAP, developers can gain insight into how individual features contribute to their models' predictions and outputs."
+  "usage_description": "This library is used to explain the output of any machine learning model by attributing contribution of each feature to the predicted outcome. This enables developers to gain insights into how their models make predictions and identify key factors influencing the results."
 }

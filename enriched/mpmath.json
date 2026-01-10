@@ -25,5 +25,5 @@
       "word_count": 48
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the mpmath library:\n\nThis library is used to perform high-precision arithmetic operations on floating-point numbers, allowing developers to handle mathematical calculations that require a level of precision beyond standard floating-point capabilities. With mpmath, developers can write robust and accurate numerical computations in Python, such as scientific simulations, data analysis, or cryptographic applications."
+  "usage_description": "This library is used to perform high-precision numerical computations, allowing developers to handle floating-point arithmetic with arbitrary precision. This enables the creation of accurate and reliable mathematical models in applications that require precise calculations, such as scientific simulations or financial modeling."
 }

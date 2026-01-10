@@ -14,5 +14,5 @@
       "word_count": 94
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently store and query large spatial datasets, supporting advanced features like nearest neighbor search, intersection detection, and bulk loading. With rtree, developers can accelerate their Python GIS applications by leveraging optimized spatial indexing techniques for improved performance and scalability."
+  "usage_description": "This library is used to efficiently store and query large spatial datasets in Python, enabling features like nearest neighbor search, intersection detection, and bulk loading. With rtree, developers can optimize their GIS applications for faster performance and better scalability."
 }

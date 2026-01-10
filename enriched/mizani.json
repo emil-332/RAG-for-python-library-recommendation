@@ -13,5 +13,5 @@
       "word_count": 42
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to create scales for graphics, providing a Python implementation based on Hadley Wickham's Scales package. Developers can leverage Mizani to generate customized scales for their visualizations, streamlining the process of creating informative and visually appealing graphics in various Python-based systems."
+  "usage_description": "This library is used to create scalable numerical and date-time scales for Python graphics, providing a robust and consistent way to format data on plots. This library helps developers build customizable and aesthetically pleasing visualizations by transforming raw data into readable formats."
 }

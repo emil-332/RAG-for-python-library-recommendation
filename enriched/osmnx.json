@@ -14,5 +14,5 @@
       "word_count": 218
     }
   ],
-  "usage_description": "This library is used to download and model street networks from OpenStreetMap for various modes of transportation, including walking, driving, and biking. With OSMnx, developers can easily analyze and visualize these geospatial features, as well as other urban amenities and data such as building footprints and transit stops."
+  "usage_description": "This library is used to download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap. It enables developers to easily access and interact with a wide range of urban data types through a simple and unified interface."
 }

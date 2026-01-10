@@ -14,5 +14,5 @@
       "word_count": 576
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to compute positions of celestial bodies such as planets and stars with high precision, making it ideal for astronomy-related applications. Developers can leverage PyEphem's capabilities to integrate accurate planetary and star position calculations into their own projects or applications."
+  "usage_description": "This library is used to compute high-precision positions of planets and stars using astronomy computations. It provides an interface to perform precise calculations that are the same as those used in the XEphem application, allowing developers to integrate accurate astronomical data into their projects."
 }

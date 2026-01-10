@@ -15,5 +15,5 @@
       "word_count": 459
     }
   ],
-  "usage_description": "This library is used to streamline the development of custom optimization algorithms by providing a set of well-tested and efficient building blocks for gradient processing in JAX, enabling researchers to easily combine low-level components into customized solutions. With optax, developers can focus on implementing novel ideas without having to reinvent basic components, accelerating the adoption of new research concepts and improving overall productivity."
+  "usage_description": "This library is used to process gradients and optimize models in JAX, enabling developers to efficiently combine low-level building blocks into custom solutions for research and development. With optax, researchers can improve productivity and accelerate the adoption of new ideas by leveraging simple, well-tested, and efficient implementations of core optimization components."
 }

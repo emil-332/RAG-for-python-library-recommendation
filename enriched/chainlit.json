@@ -14,5 +14,5 @@
       "word_count": 146
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build and deploy conversational AI applications, allowing developers to create interactive experiences that mimic human-like conversations. With Chainlit, developers can quickly develop and test their own conversational AI projects using tools and services such as OpenAI and LangChain."
+  "usage_description": "This library is used to quickly prototype and build Conversational AI applications with ease. It provides a streamlined development process through its simple installation and example-driven documentation, allowing developers to focus on creating innovative conversational experiences."
 }

@@ -13,5 +13,5 @@
       "word_count": 215
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library, adjusttext, is used to automatically minimize label overlaps in matplotlib plots by iteratively adjusting text positions, making it easier to visualize multiple points on a graph. By using this library, developers can quickly and easily create clear and readable matplotlib plots with minimal manual intervention required."
+  "usage_description": "This library is used to automatically adjust text positions in matplotlib plots to minimize label overlaps, making it easier to effectively annotate multiple points on a graph without manual intervention. By iteratively adjusting label positions, this library helps ensure that labels are readable and do not obstruct data points or each other."
 }

@@ -13,5 +13,5 @@
       "word_count": 232
     }
   ],
-  "usage_description": "This library is used to accelerate the execution of Machine Learning models on a GPU, providing high-performance scoring capabilities for ONNX models with improved efficiency and speed. With this library, developers can leverage their existing machine learning models and deploy them efficiently on GPU-accelerated devices for faster inference times."
+  "usage_description": "This library is used to accelerate the execution of Machine Learning models on NVIDIA GPU devices, providing a high-performance scoring engine for Open Neural Network Exchange (ONNX) models. Developers can utilize this library to optimize model inference and improve the overall efficiency of their machine learning applications running on GPUs."
 }

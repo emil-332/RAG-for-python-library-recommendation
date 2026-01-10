@@ -13,5 +13,5 @@
       "word_count": 314
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to automatically compute derivatives of NumPy code with high efficiency, supporting complex features such as loops, ifs, recursion, and closures. By utilizing Autograd's capabilities in gradient-based optimization, developers can optimize scalar-valued functions with respect to array-valued arguments, enabling them to fine-tune their models and improve performance."
+  "usage_description": "This library is used to automatically compute gradients and higher-order derivatives of NumPy code with high efficiency. It supports both reverse-mode and forward-mode differentiation for gradient-based optimization tasks."
 }

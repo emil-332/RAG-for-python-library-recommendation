@@ -25,5 +25,5 @@
       "word_count": 386
     }
   ],
-  "usage_description": "This library is used to prepare multimodal data, including speech, audio, video, and text, for training machine learning models. With lhotse, developers can efficiently manage large datasets, blend multiple sources, and perform on-the-fly transformations to accelerate their model development tasks."
+  "usage_description": "This library is used to prepare multimodal data, including speech, audio, video, image, and text, for training models in a flexible and accessible way. With Lhotse, developers can scale their data pipelines to handle large datasets and implement state-of-the-art dataloading algorithms with ease."
 }

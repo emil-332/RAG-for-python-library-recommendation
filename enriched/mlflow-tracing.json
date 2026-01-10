@@ -14,5 +14,5 @@
       "word_count": 371
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to instrument your code/models/agents with MLflow Tracing, enabling you to monitor and observe the behavior of your GenAI applications. By using mlflow-tracing, developers can achieve faster deployment times in production environments, such as Docker containers, thanks to its lightweight design and minimal dependencies."
+  "usage_description": "This library is used to instrument your code/models/agents with MLflow Tracing features, enabling observability and monitoring of GenAI applications. By doing so, it facilitates faster deployment of production environments through reduced package size and dependencies."
 }

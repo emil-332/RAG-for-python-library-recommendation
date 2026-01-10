@@ -13,5 +13,5 @@
       "word_count": 273
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accelerate high-performance CUDA computations for sparse matrix-matrix multiplications, enabling developers to efficiently process large-scale structured sparse matrices. With cuSPARSELt, developers can optimize their applications' performance and scalability in operations such as transposes, multiplies, and additions involving sparse matrices with 50% sparsity ratio."
+  "usage_description": "This library is used to efficiently perform high-performance CUDA computations for sparse matrix-matrix multiplication operations. It allows developers to quickly implement complex sparse matrix algorithms with customizable options for operation selection, matrix characteristics, and more."
 }

@@ -14,5 +14,5 @@
       "word_count": 38
     }
   ],
-  "usage_description": "This library is used to integrate LiveKit's real-time video, audio, and data capabilities into Python applications using WebRTC. With this SDK, developers can build powerful voice AI apps that leverage the full potential of live communication."
+  "usage_description": "This library is used to integrate real-time video, audio, and data capabilities into Python applications using WebRTC, enabling developers to build powerful voice AI apps. With LiveKit SDK for Python, developers can seamlessly integrate live video and audio streams into their applications."
 }

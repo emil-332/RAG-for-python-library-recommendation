@@ -33,5 +33,5 @@
       "word_count": 12
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to implement state-of-the-art transformer models, including encoder-only (BERT-like), decoder-only (GPT-like), and full encoder/decoder architectures, allowing developers to leverage the power of transformer-based architectures in their applications. With x-transformers, developers can also experiment with innovative features like Flash Attention and PaLI, a language-vision model, to achieve cutting-edge performance on tasks such as image classification and language generation."
+  "usage_description": "This library is used to provide a concise yet feature-rich transformer implementation with experimental features from various papers, enabling developers to create state-of-the-art models like GPT3, BERT, and PaLI with ease. With this library, developers can achieve cutting-edge performance on tasks such as image classification, language-vision, and text generation."
 }

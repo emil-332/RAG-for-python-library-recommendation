@@ -13,5 +13,5 @@
       "word_count": 468
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to access and utilize the ERFA library's essential astronomy routines from Python, allowing for efficient computation of astronomical algorithms and calculations. With pyerfa, developers can leverage key algorithms for astronomy in their applications, such as those related to celestial mechanics, timekeeping, and coordinate transformations."
+  "usage_description": "This library is used to provide Python bindings for ERFA (Essential Routines for Fundamental Astronomy), allowing developers to perform astronomy-related calculations and operations with ease. With pyerfa, developers can leverage the ERFA library's key algorithms and routines in their Python applications."
 }

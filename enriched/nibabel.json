@@ -14,5 +14,5 @@
       "word_count": 345
     }
   ],
-  "usage_description": "This library is used to read and write various neuroimaging file formats, enabling seamless access and manipulation of data across different formats. With NiBabel, developers can easily handle a multitude of neuroimaging file types, including NIfTI, ANALYZE, GIFTI, MINC, and more."
+  "usage_description": "This library is used to read and write a variety of neuroimaging data formats, including NIfTI, ANALYZE, GIFTI, MINC, and more. With this library, developers can access and manipulate numerous types of neuroimaging files with ease."
 }

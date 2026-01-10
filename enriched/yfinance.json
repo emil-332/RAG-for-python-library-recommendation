@@ -13,5 +13,5 @@
       "word_count": 290
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently download market data from Yahoo! Finance's API, providing developers with a Pythonic way to access financial and market information. With yfinance, developers can easily retrieve the data they need for research or educational purposes, without having to navigate the complexities of Yahoo!'s APIs directly."
+  "usage_description": "This library is used to download market data from Yahoo! Finance's API for research and educational purposes, allowing developers to easily access financial and market information. With this library, developers can fetch historical stock prices, real-time quotes, and other market data in a straightforward and Pythonic way."
 }

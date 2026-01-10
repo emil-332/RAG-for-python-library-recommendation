@@ -13,5 +13,5 @@
       "word_count": 160
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to convert geometries between various formats such as WKB, WKT, EWKB, and GeoJSON within PostgreSQL PL/Python functions. With plpygis, developers can easily integrate spatial data processing capabilities into their PostGIS databases by creating custom PL/Python functions that manipulate geometric data in a flexible and efficient manner."
+  "usage_description": "This library is used to convert geometries between different formats such as WKB, WKT, and GeoJSON for use in PostgreSQL PL/Python functions with PostGIS. With plpygis, developers can easily manipulate and transform spatial data within their PostGIS applications."
 }

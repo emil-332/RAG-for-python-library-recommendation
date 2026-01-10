@@ -14,5 +14,5 @@
       "word_count": 255
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to enhance the capabilities of Optuna, allowing developers to seamlessly integrate it with third-party libraries such as PyTorch and TensorFlow for efficient hyperparameter optimization. With optuna-integration, developers can leverage extended functionalities to automate the process of tuning hyperparameters, leading to improved model performance and faster development cycles."
+  "usage_description": "This library is used to extend the functionalities of Optuna with third-party libraries, providing a seamless integration for hyperparameter optimization. With this library, developers can easily incorporate Optuna's automatic hyperparameter tuning capabilities into their projects using PyTorch, sklearn, and TensorFlow."
 }

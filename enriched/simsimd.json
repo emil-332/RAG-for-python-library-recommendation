@@ -50,5 +50,5 @@
       "word_count": 17
     }
   ],
-  "usage_description": "This library is used to accelerate vector math operations in AI, Search, and DBMS workloads with up to 10x cost-efficiency improvement through its extensive set of SIMD-optimized kernels. Developers can leverage SimSIMD to implement distance functions such as Euclidean, Cosine, Hamming, and Jaccard for various applications like Vector Search, DSP, Quantum computing, and Text Analysis."
+  "usage_description": "This library is used to accelerate mixed-precision vector math operations in computational pipelines, enabling developers to 10x cost-efficiency in workloads such as AI, Search, and DBMS. It provides a wide range of optimized functions for tasks including spatial distance calculations, dot products, bit-level distances, and set intersections."
 }

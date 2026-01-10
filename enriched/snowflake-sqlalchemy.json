@@ -29,5 +29,5 @@
       "word_count": 435
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to seamlessly connect SQLAlchemy applications to Snowflake databases, enabling efficient data manipulation and querying capabilities. By bridging the gap between Snowflake and SQLAlchemy, developers can leverage the power of both technologies to build robust data analytics and web applications."
+  "usage_description": "This library is used to enable seamless interaction between a Snowflake database and SQLAlchemy applications, allowing developers to leverage the power of both technologies in their projects. With snowflake-sqlalchemy, developers can easily integrate Snowflake databases into their data analytics and web applications using SQLAlchemy's ORM capabilities."
 }

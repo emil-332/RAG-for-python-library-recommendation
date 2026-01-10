@@ -15,5 +15,5 @@
       "word_count": 389
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to classify audio data as voiced or unvoiced in real-time using the Google WebRTC Voice Activity Detector (VAD), enabling applications such as telephony and speech recognition. Developers can integrate this VAD into their Python projects to accurately detect and analyze voice activity in various audio streams."
+  "usage_description": "This library is used to detect voice activity in audio data using the WebRTC Voice Activity Detector (VAD) algorithm, allowing developers to classify audio segments as voiced or unvoiced. With this library, developers can easily integrate voice detection capabilities into their applications, enabling features like speech recognition and telephony functionality."
 }

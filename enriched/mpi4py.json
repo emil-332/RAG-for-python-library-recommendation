@@ -29,5 +29,5 @@
       "word_count": 226
     }
   ],
-  "usage_description": "This library is used to enable efficient and convenient parallel computing in Python by allowing developers to easily communicate and coordinate between multiple processes using the Message Passing Interface (MPI) standard. With mpi4py, developers can write scalable and high-performance code that leverages distributed memory architectures to solve complex problems."
+  "usage_description": "This library is used to enable high-performance parallel computing in Python by providing a standardized interface for inter-process communication and data exchange. It allows developers to easily implement scalable and efficient parallel algorithms using the Message Passing Interface (MPI) standard."
 }

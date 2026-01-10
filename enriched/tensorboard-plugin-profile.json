@@ -19,5 +19,5 @@
       "word_count": 329
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to visualize and analyze the performance of models across multiple devices, providing insights into execution timelines, memory usage, and graph structures through various tools such as Trace Viewer and Memory Profile Viewer. With tensorboard-plugin-profile, developers can gain detailed understanding of their model's behavior and optimize its performance using features like Overview, Trace Viewer, Memory Profile Viewer, and Graph Viewer."
+  "usage_description": "This library is used to analyze and visualize the performance of a model across multiple devices, providing tools such as an overview, trace viewer, memory profile viewer, and graph viewer. Developers can use this library with XProf and Tensorboard to gain insights into their model's execution timeline, memory usage, and graph structure."
 }

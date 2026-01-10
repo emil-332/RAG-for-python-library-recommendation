@@ -14,5 +14,5 @@
       "word_count": 598
     }
   ],
-  "usage_description": "This library is used to generate objects that compute Cyclic Redundancy Checks (CRCs) for various data types, allowing developers to easily calculate CRCs with flexible polynomial settings. With crcmod, developers can efficiently implement CRC-based error detection and verification in their applications."
+  "usage_description": "This library is used to generate Cyclic Redundancy Checks (CRCs) in various bit lengths, allowing developers to calculate CRC values for different polynomial requirements. This can be useful for data integrity checks and error detection in a variety of applications."
 }

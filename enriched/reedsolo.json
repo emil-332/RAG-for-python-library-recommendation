@@ -28,5 +28,5 @@
       "word_count": 413
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to protect data from errors and bitrot in storage mediums, such as hard drives, by encoding and decoding Reed-Solomon codes with support for burst-type errors. It enables developers to implement robust error correction and erasure protection for their data, making it ideal for applications where data integrity is critical."
+  "usage_description": "This library is used to protect data from errors and bitrot during storage using Reed-Solomon encoding. It allows developers to safeguard their data against burst-type errors that commonly occur in data storage mediums."
 }

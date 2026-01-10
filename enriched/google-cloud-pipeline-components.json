@@ -14,5 +14,5 @@
       "word_count": 163
     }
   ],
-  "usage_description": "This library is used to enable developers to create pipelines using Google Cloud services, such as Vertex AI, by providing a set of reusable and configurable components. With this library, developers can compose these components together into custom pipelines using the Kubeflow Pipelines SDK."
+  "usage_description": "This library is used to enable the creation of pipelines that integrate with Google Cloud services, allowing users to automate tasks and workflows using Vertex AI SDK components. Developers can compose these components together into customized pipelines using the Kubeflow Pipelines SDK."
 }

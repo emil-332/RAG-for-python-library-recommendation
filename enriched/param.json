@@ -19,5 +19,5 @@
       "word_count": 329
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to create robust Python classes with rich, declarative attributes that enable runtime type and range validation, documentation, default values, and more. With Param, developers can also build reactive systems that automatically update on attribute changes, allowing for complex, composable APIs for real-time data processing and dependency management."
+  "usage_description": "This library is used to create robust Python classes with rich, declarative attributes for metadata management and validation, as well as enable reactive programming through automatic updates on attribute changes. It provides a suite of expressive APIs for declaring complex reactive dependencies and expressions."
 }

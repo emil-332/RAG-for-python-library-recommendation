@@ -13,5 +13,5 @@
       "word_count": 95
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accelerate and optimize high-level data processing operations on Dask DataFrames, leveraging query optimization for improved performance. With dask-expr, developers can write complex queries in an expression tree format that gets optimized and executed efficiently, making it suitable as the default backend for Dask DataFrames since version 2024.3.0."
+  "usage_description": "This library is used to optimize and execute complex data queries on large datasets, rewriting user code into an optimized expression tree for efficient execution with Dask DataFrames. It provides a high-level interface for query optimization and improved organization of Dask DataFrame operations, covering almost the entire Dask DataFrame API."
 }

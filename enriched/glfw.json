@@ -13,5 +13,5 @@
       "word_count": 555
     }
   ],
-  "usage_description": "This library is used to create cross-platform windows and render graphics using the GLFW API from within Python, providing a ctypes wrapper that closely follows the original C API but with a more Pythonic naming convention. Developers can utilize glfw to build desktop applications with advanced windowing and graphics capabilities across multiple operating systems."
+  "usage_description": "This library is used to provide a Python interface for the GLFW3 API, allowing developers to create cross-platform graphics applications with ease. With glfw, developers can access a wide range of features such as window and input management, monitor handling, and more."
 }

@@ -21,5 +21,5 @@
       "word_count": 366
     }
   ],
-  "usage_description": "Here is a short summary of what a developer can achieve with this library:\n\nThis library is used to enable developers to build and train probabilistic models in conjunction with deep networks using TensorFlow, while also providing scalable statistical inference capabilities. With TensorFlow Probability, developers can integrate probabilistic reasoning into their existing TensorFlow workflows for more robust and informed machine learning tasks."
+  "usage_description": "This library is used to enable probabilistic modeling and statistical inference in TensorFlow, providing a suite of tools for scalable and efficient probabilistic machine learning tasks. With TensorFlow Probability, developers can integrate probabilistic methods with deep networks and leverage gradient-based inference, large-scale hardware acceleration, and distributed computation."
 }

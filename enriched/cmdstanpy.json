@@ -13,5 +13,5 @@
       "word_count": 225
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to seamlessly integrate Python projects with the Stan compiler and its inference algorithms, allowing developers to leverage the power of Bayesian modeling in their applications. With cmdstanpy, developers can easily access and utilize CmdStan's capabilities for model development, testing, and production workflows from within their Python code."
+  "usage_description": "This library is used to provide a lightweight pure-Python interface to CmdStan, enabling developers to easily access the Stan compiler and inference algorithms. With this library, developers can automate model development and testing workflows by specifying run options and distributing analysis jobs across nodes and machines."
 }

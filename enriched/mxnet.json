@@ -13,5 +13,5 @@
       "word_count": 162
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build and deploy deep learning models at scale, leveraging its ultra-scalable architecture for efficient training and inference across various platforms. With MXNet, developers can create high-performance deep learning programs that combine different frameworks and techniques to maximize efficiency and productivity."
+  "usage_description": "This library is used to develop ultra-scalable deep learning models that can be efficiently trained and deployed on various platforms, combining flexibility with high performance. It allows developers to mix different flavors of deep learning programs together to maximize efficiency and productivity."
 }

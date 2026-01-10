@@ -13,5 +13,5 @@
       "word_count": 582
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to define, operate, and manipulate physical quantities by combining numerical values with units of measurement, enabling easy arithmetic operations and conversions between different units. With Pint, developers can perform various mathematical operations on physical quantities without modifying the source code, thanks to its modular design and support for numpy operations."
+  "usage_description": "This library is used to define, operate and manipulate physical quantities with ease by allowing arithmetic operations between them and conversions from and to different units. Developers can use Pint to easily work with various physical units and constants without modifying the source code or requiring additional libraries like numpy."
 }

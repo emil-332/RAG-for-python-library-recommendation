@@ -14,5 +14,5 @@
       "word_count": 648
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the kornia library:\n\nThis library is used to build and integrate differentiable computer vision functionality into PyTorch deep learning pipelines, enabling developers to perform advanced image processing and augmentation tasks. With kornia, developers can leverage pre-trained AI models, over 500 differentiable operations, and comprehensive functions for tasks such as feature detection, geometry, and stereo vision."
+  "usage_description": "This library is used to develop and train AI models for various vision tasks by providing a comprehensive set of differentiable image processing operators and advanced augmentations. With Kornia, developers can leverage pre-trained AI models and build complex data augmentation pipelines to improve the performance of their computer vision applications."
 }

@@ -28,5 +28,5 @@
       "word_count": 369
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the gradio library:\n\nThis library is used to quickly build and share interactive web applications for machine learning models, APIs, or arbitrary Python functions, allowing developers to create demos and showcase their work in just a few seconds. With Gradio, developers can easily prototype and deploy machine learning-powered web apps without needing JavaScript, CSS, or web hosting experience."
+  "usage_description": "This library is used to quickly build and share web applications for machine learning models, allowing developers to showcase their models' capabilities without requiring extensive JavaScript or web hosting experience. With just a few lines of Python code, developers can create interactive demos that can be easily shared with others."
 }

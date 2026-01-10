@@ -25,5 +25,5 @@
       "word_count": 36
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to integrate the powerful HMMER3 bioinformatics tool into Python applications, allowing for efficient and accurate protein sequence analysis and prediction. With pyhmmer, developers can easily leverage the capabilities of HMMER3 from within their Python code, streamlining tasks such as motif discovery, alignment, and modeling."
+  "usage_description": "This library is used to provide a Python interface and Cython bindings for HMMER3, allowing developers to leverage the power of profile Hidden Markov Models in their applications. This library enables seamless integration with HMMER3's advanced sequence analysis capabilities, streamlining tasks such as multiple alignment, model search, and domain detection."
 }

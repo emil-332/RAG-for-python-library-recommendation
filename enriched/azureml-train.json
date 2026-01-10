@@ -13,5 +13,5 @@
       "word_count": 31
     }
   ],
-  "usage_description": "This library is used to enable developers to train machine learning models on Microsoft Azure, providing a core set of functionality for model training that can be used in conjunction with other Azure ML packages. However, due to its deprecation, it's recommended to use the `azureml-train-core` package instead for future-proof and supported development."
+  "usage_description": "This library is used to support machine learning model training in Microsoft Azure Machine Learning, but its functionality is now maintained by a newer package called azureml-train-core. This library should no longer be relied upon for new projects due to deprecation and potential removal from distribution."
 }

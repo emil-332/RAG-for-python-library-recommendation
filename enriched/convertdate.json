@@ -13,5 +13,5 @@
       "word_count": 401
     }
   ],
-  "usage_description": "This library is used to convert and manipulate dates across various calendar systems, including the Armenian and French Republican calendars, allowing developers to work with different date formats in their applications. With this library, developers can easily convert between Gregorian dates and other calendar systems, enabling seamless integration of international or historical dates into their projects."
+  "usage_description": "This library is used to convert dates between different calendars, including the Armenian and French Republican systems, allowing for seamless integration with international date calculations. This enables developers to easily handle diverse calendar formats in their applications."
 }

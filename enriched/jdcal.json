@@ -12,5 +12,5 @@
       "word_count": 387
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to efficiently convert between Julian dates and calendar dates in both proleptic Gregorian and Julian calendars, allowing for accurate date calculations across different regions' historical calendar transitions. By leveraging this library's functions, developers can easily handle complex date conversions, facilitating the creation of robust and reliable applications that require precise date processing capabilities."
+  "usage_description": "This library is used to convert between Julian and Gregorian calendar dates, allowing developers to work with dates in both calendars seamlessly. It provides a convenient way to perform date conversions, enabling the creation of applications that can handle diverse calendaring systems and their varying adoption dates worldwide."
 }

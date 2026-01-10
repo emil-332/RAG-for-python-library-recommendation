@@ -25,5 +25,5 @@
       "word_count": 398
     }
   ],
-  "usage_description": "This library is used to efficiently create and manipulate histograms in Python, leveraging the performance of a C++14 library. With boost-histogram, developers can generate and analyze high-speed histograms with ease, making it an ideal choice for applications requiring rapid data processing and visualization."
+  "usage_description": "This library is used to quickly and efficiently create and manipulate histograms in Python, leveraging the speed of a C++14 library. With boost-histogram, developers can focus on data analysis tasks without worrying about performance constraints."
 }

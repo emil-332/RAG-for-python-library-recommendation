@@ -13,5 +13,5 @@
       "word_count": 183
     }
   ],
-  "usage_description": "This library is used to provide backwards compatibility for spaCy's registered functions, allowing developers to maintain support for outdated models and pipelines in their projects. By using this library, developers can ensure that their applications continue to function as expected even after newer, incompatible versions of spaCy are released."
+  "usage_description": "This library is used to provide backwards compatibility with outdated functions and architectures in spaCy, allowing developers to maintain support for older versions of their models and pipelines. It automatically installs as a dependency of spaCy, ensuring that legacy functionality remains accessible while keeping the core library up to date."
 }

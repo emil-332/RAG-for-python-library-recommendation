@@ -12,5 +12,5 @@
       "word_count": 147
     }
   ],
-  "usage_description": "This library is used to create and manipulate complex networks through graph creation, structure analysis, and dynamic simulation. With NetworkX, developers can efficiently find shortest paths between nodes, visualize network structures, and analyze the dynamics of complex systems."
+  "usage_description": "This library is used to create, manipulate, and study complex networks with features such as finding shortest paths between nodes. This allows developers to efficiently analyze and visualize network structures and behaviors in various applications, including graph theory research, data analysis, and network optimization."
 }

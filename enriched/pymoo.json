@@ -13,5 +13,5 @@
       "word_count": 270
     }
   ],
-  "usage_description": "Here is a 2-sentence summary:\n\nThis library is used to perform multi-objective optimization tasks in Python, allowing developers to optimize complex problems involving multiple competing objectives. With pymoo, developers can efficiently solve challenging optimization problems and find optimal solutions that balance competing requirements."
+  "usage_description": "This library is used to perform multi-objective optimization tasks with ease, allowing developers to solve complex problems that involve multiple conflicting objectives. With pymoo, developers can efficiently and effectively optimize systems or processes by leveraging a range of advanced algorithms and techniques."
 }

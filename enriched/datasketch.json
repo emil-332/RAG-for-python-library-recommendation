@@ -14,5 +14,5 @@
       "word_count": 441
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the datasketch library:\n\nThis library is used to efficiently process and search very large datasets while maintaining high accuracy, making it ideal for big data applications. With datasketch, developers can rapidly identify patterns and similarities in massive datasets using probabilistic data structures like MinHash, Weighted MinHash, HyperLogLog, and HyperLogLog++."
+  "usage_description": "This library is used to efficiently process and search large datasets with minimal loss of accuracy. With datasketch, developers can quickly identify similarities or differences between very large amounts of data."
 }

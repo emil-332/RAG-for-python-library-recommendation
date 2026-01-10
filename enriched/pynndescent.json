@@ -14,5 +14,5 @@
       "word_count": 658
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently construct k-nearest neighbor graphs and perform approximate nearest neighbor search in high-dimensional spaces, leveraging techniques from Nearest Neighbor Descent and random projection trees for optimization. By utilizing PyNNDescent, developers can build robust and scalable similarity-based applications, such as clustering, classification, or data visualization tools, with improved performance and accuracy."
+  "usage_description": "This library is used to efficiently construct k-neighbor graphs and perform approximate nearest neighbor search in high-dimensional spaces. It provides a Python implementation of Nearest Neighbor Descent with optimizations using random projection trees for initialization."
 }

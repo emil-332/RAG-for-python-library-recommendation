@@ -13,5 +13,5 @@
       "word_count": 89
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to easily access and interact with various Biothings API services, such as querying gene, variant, and chemical information. By leveraging the biothings-client library, developers can build applications that programmatically retrieve and analyze data from these services."
+  "usage_description": "This library is used to provide a Python wrapper for accessing various Biothings API services, allowing developers to easily integrate and interact with these APIs in their applications. With biothings-client, developers can leverage a range of data sources, including MyGene.Info, MyVariant.Info, and more, to enrich their projects with biological knowledge."
 }

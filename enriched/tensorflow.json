@@ -13,5 +13,5 @@
       "word_count": 85
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to build, train, and deploy machine learning models on various platforms, including desktops, clusters of servers, mobile devices, and edge devices. With TensorFlow, developers can easily deploy high-performance numerical computations across CPUs, GPUs, and TPUs, making it suitable for a wide range of scientific domains."
+  "usage_description": "This library is used to enable high-performance numerical computations across various platforms, facilitating easy deployment of machine learning and deep learning models on desktops, servers, mobile devices, or edge devices. With TensorFlow, developers can leverage its flexible architecture for efficient computation in a wide range of scientific domains, including AI, machine learning, and deep learning applications."
 }

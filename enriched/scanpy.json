@@ -16,5 +16,5 @@
       "word_count": 230
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to perform scalable single-cell gene expression analysis, including preprocessing, visualization, clustering, trajectory inference, and differential expression testing. With scanpy, developers can efficiently analyze large datasets containing over one million cells, making it an essential tool for researchers and scientists in the field of genomics and cell biology."
+  "usage_description": "This library is used to efficiently analyze single-cell gene expression data with features including preprocessing, visualization, clustering, trajectory inference, and differential expression testing. With scanpy, developers can easily handle large datasets of over one million cells in Python."
 }

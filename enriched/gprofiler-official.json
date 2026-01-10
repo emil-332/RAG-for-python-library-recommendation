@@ -13,5 +13,5 @@
       "word_count": 345
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to perform functional enrichment analysis and other bioinformatics tasks using the g:Profiler toolkit, allowing developers to identify overrepresented biological processes or functions in their data. With gprofiler-official, developers can also convert identifiers between different namespaces and map genes across related organisms."
+  "usage_description": "This library is used to perform enrichment analysis and conversion between different identifier namespaces, including functional terms and gene mappings across organisms. With this library, developers can automate tasks involving bioinformatics data and enrich their understanding of complex biological systems."
 }

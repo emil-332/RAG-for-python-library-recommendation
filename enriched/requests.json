@@ -13,5 +13,5 @@
       "word_count": 236
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to send HTTP/1.1 requests easily, eliminating the need for manual query string addition or form-encoding for PUT and POST data. With Requests, developers can streamline their API interactions and integrate various web services into their applications seamlessly."
+  "usage_description": "This library is used to send HTTP/1.1 requests easily, eliminating the need for manual query string additions or form-encoding of POST data. With requests, developers can streamline their API interactions with a simple and elegant interface."
 }

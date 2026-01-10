@@ -15,5 +15,5 @@
       "word_count": 461
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the `mlflow-skinny` library:\n\nThis library is used to enable streamlined machine learning lifecycle management, including tracking, model deployment, and collaboration, in various environments such as local machines or cloud infrastructure. With mlflow-skinny, developers can leverage MLflow's unified platform for all their AI/ML needs, from traditional machine learning to LLMs and Agents."
+  "usage_description": "This library is used to enable a unified machine learning lifecycle across various AI/ML needs, including LLMs, Agents, Deep Learning, and traditional machine learning. It allows developers to manage their entire ML workflow in a single platform, regardless of the environment or infrastructure they choose."
 }

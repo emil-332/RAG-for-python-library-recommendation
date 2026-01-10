@@ -12,5 +12,5 @@
       "word_count": 235
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently perform various geometric transformations in 3D space, including rotations, zooms, shears, and translations, as well as conversions between different representations such as rotation matrices, Euler angles, and quaternions. By leveraging the library's algorithms and documentation, developers can accurately model and manipulate complex 3D objects and scenes in their applications."
+  "usage_description": "This library is used to perform various geometric transformations in 3D space, including composition and decomposition of affine matrices and conversions between different rotation representations. With this library, developers can easily manipulate 3D coordinates and rotations for tasks such as computer graphics, robotics, and engineering applications."
 }

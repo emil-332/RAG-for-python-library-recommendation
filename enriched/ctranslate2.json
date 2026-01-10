@@ -15,5 +15,5 @@
       "word_count": 739
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to accelerate and reduce the memory usage of various Transformer models on CPU and GPU by applying performance optimization techniques such as weights quantization, layers fusion, and batch reordering. Developers can use CTranslate2 to efficiently run inference on their choice of supported models, including encoder-decoder, decoder-only, and encoder-only architectures."
+  "usage_description": "This library is used to accelerate and reduce memory usage of various Transformer models on CPU and GPU through a custom runtime that applies performance optimization techniques. Developers can use CTranslate2 to efficiently perform inference with a wide range of pre-trained models in Python or C++."
 }

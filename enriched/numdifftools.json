@@ -13,5 +13,5 @@
       "word_count": 574
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to automatically and accurately compute derivatives, gradients, and directional derivatives of functions in one or more variables using various numerical differentiation methods. By leveraging numdifftools, developers can easily and efficiently calculate the derivative of any scalar function with respect to its inputs, enabling tasks such as optimization and sensitivity analysis."
+  "usage_description": "This library is used to compute derivatives, directional derivatives, and gradients of scalar functions in one or more variables with high accuracy using adaptive finite differences. Developers can leverage numdifftools for automatic numerical differentiation tasks, allowing them to focus on higher-level analysis without manually implementing differentiation methods."
 }

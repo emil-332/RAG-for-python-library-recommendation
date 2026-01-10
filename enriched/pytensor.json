@@ -13,5 +13,5 @@
       "word_count": 195
     }
   ],
-  "usage_description": "Here is a short (2-sentence) summary of what a developer can achieve with this library:\n\nThis library, PyTensor, is used to efficiently evaluate mathematical expressions involving multi-dimensional arrays on CPUs and GPUs. With its extensible graph framework and transpilation capabilities, developers can optimize complex computations and leverage the power of various backend technologies like C, JAX, and Numba."
+  "usage_description": "This library is used to efficiently evaluate mathematical expressions involving multi-dimensional arrays, providing a hackable and extensible framework for rapid development of custom operators and symbolic optimizations. It enables the compilation of these expressions on both CPUs and GPUs through its graph transpilation framework."
 }

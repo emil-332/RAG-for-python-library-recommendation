@@ -14,5 +14,5 @@
       "word_count": 308
     }
   ],
-  "usage_description": "This library is used to efficiently read and write vector spatial data from various file formats, such as ESRI Shapefile and GeoJSON, using bulk-oriented operations. With pyogrio, developers can quickly load and save large-scale spatial datasets into and out of GeoPandas `GeoDataFrames`, enabling streamlined geospatial data processing and analysis."
+  "usage_description": "This library is used to perform fast and efficient bulk-oriented read and write operations on spatial vector file formats such as ESRI Shapefile and GeoPackage. With pyogrio, developers can easily interact with various vector data sources using GDAL/OGR."
 }

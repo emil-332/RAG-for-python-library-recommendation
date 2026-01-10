@@ -25,5 +25,5 @@
       "word_count": 116
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to add rich text formatting capabilities to terminal-based applications, including rendering text with colors, styles, and effects. With Rich, developers can easily create visually appealing terminals that display data in a readable and engaging way, such as tables, progress bars, and syntax highlighting."
+  "usage_description": "This library is used to render visually appealing text and tables in the terminal with features like syntax highlighting, markdown support, and true color. Developers can add rich output to their applications using the `rich print` method or by installing Rich in a Jupyter notebook for enhanced code presentation."
 }

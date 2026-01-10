@@ -12,5 +12,5 @@
       "word_count": 74
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the geopandas library:\n\nThis library is used to easily work with geographic data in Python, combining the capabilities of pandas and shapely to provide high-level geospatial operations. With GeoPandas, developers can perform complex spatial analysis and operations that would otherwise require a spatial database like PostGIS directly within their Python code."
+  "usage_description": "This library is used to extend the functionality of pandas objects to support geographic data, enabling developers to perform geospatial operations and manipulate multiple geometries in Python. With GeoPandas, you can easily work with geospatial data without requiring a spatial database like PostGIS."
 }

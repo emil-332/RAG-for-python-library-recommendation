@@ -13,5 +13,5 @@
       "word_count": 661
     }
   ],
-  "usage_description": "This library, pulp, is used to create and solve linear and mixed integer programming (MILP) optimization problems in Python, allowing developers to find optimal solutions using various open-source or proprietary solvers. With pulp, developers can easily generate MPS or LP files and call solvers such as GLPK, CPLEX, GUROBI, and more to solve complex mathematical optimization problems."
+  "usage_description": "This library is used to model and solve linear and mixed-integer programming problems in Python, allowing developers to optimize complex systems with various solvers. With PuLP, developers can easily generate MPS or LP files and leverage the capabilities of top-tier open-source and proprietary solvers."
 }

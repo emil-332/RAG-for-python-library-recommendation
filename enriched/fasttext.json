@@ -24,5 +24,5 @@
       "word_count": 71
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to efficiently learn word representations and sentence classifications, enabling developers to implement natural language processing tasks such as text classification and word embeddings. With fastText, developers can build models that classify text and generate vector representations of words, allowing for improved performance in downstream NLP applications."
+  "usage_description": "This library is used to efficiently learn word representations and classify text using machine learning algorithms. It provides a Python interface for training models on word representation and text classification tasks."
 }

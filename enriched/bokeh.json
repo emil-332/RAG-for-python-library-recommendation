@@ -15,5 +15,5 @@
       "word_count": 298
     }
   ],
-  "usage_description": "This library is used to create interactive, web-based visualizations and applications from Python, allowing developers to seamlessly integrate dynamic graphics into their data analysis workflows. With bokeh, developers can rapidly design and deploy browser-hosted plots and dashboards that engage users and facilitate data exploration."
+  "usage_description": "This library is used to create interactive plots and web applications from Python, enabling developers to visualize data and share insights with others. With Bokeh, developers can build custom browser-based visualizations that facilitate real-time interaction and exploration of complex data."
 }

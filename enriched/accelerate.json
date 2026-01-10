@@ -26,5 +26,5 @@
       "word_count": 160
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to simplify and accelerate the training process of PyTorch models by automating the boilerplate code required for multi-GPU/TPU/fp16 usage, allowing developers to focus on their model's logic. With Accelerate, developers can easily run their models on various hardware settings, including single CPU, single GPU, multi-GPUs, and TPUs, with or without mixed precision."
+  "usage_description": "This library is used to simplify multi-GPU/TPU and mixed precision training in PyTorch models by abstracting away boilerplate code. By integrating Accelerate, developers can easily scale their model training across various hardware configurations with minimal modifications to their existing PyTorch code."
 }

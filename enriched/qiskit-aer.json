@@ -13,5 +13,5 @@
       "word_count": 378
     }
   ],
-  "usage_description": "This library is used to accelerate quantum circuit simulation with high-performance simulators for Qiskit, allowing developers to run complex quantum algorithms and models. With Aer, developers can simulate realistic noise models in their quantum circuits, enabling more accurate and efficient testing of quantum applications."
+  "usage_description": "This library is used to enable high-performance quantum circuit simulation within Qiskit applications, providing realistic noise models for accurate and efficient simulations. Developers can leverage Aer's high performance capabilities to run complex quantum circuits with reliable and accurate results."
 }

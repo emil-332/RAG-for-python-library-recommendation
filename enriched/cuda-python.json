@@ -14,5 +14,5 @@
       "word_count": 488
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to provide developers with high-performance access to NVIDIA's CUDA platform from within Python, allowing for efficient execution of compute-intensive tasks. By leveraging the various components of CUDA Python, developers can write optimized and productive code that unlocks the full potential of GPU acceleration in their applications."
+  "usage_description": "This library is used to provide a collection of Python subpackages that offer direct access to NVIDIA's CUDA platform, enabling developers to utilize its performance capabilities from within their Python applications. With cuda-python, developers can efficiently integrate CUDA functionality into their projects, streamlining the development process while maintaining high-performance computing requirements."
 }

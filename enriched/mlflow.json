@@ -15,5 +15,5 @@
       "word_count": 461
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the `mlflow` library:\n\nThis library is used to manage and track the entire machine learning lifecycle, including experimentation, model management, and deployment, across various environments such as local machines and cloud infrastructure. With MLflow, developers can automate and standardize their AI/ML workflows, enabling them to deploy models more efficiently and at scale."
+  "usage_description": "This library is used to provide a unified solution for the complete machine learning lifecycle, including tasks such as LLMs, Agents, Deep Learning, and traditional machine learning. With MLflow, developers can run their AI/ML projects anywhere, from local machines to cloud infrastructure, making it easy to deploy and manage models in various environments."
 }

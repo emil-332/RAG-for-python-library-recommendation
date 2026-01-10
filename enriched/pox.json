@@ -13,5 +13,5 @@
       "word_count": 634
     }
   ],
-  "usage_description": "This library is used to enable developers to navigate and manipulate filesystems programmatically, facilitating tasks such as identifying file system roots, retrieving user information, and determining preferred login shells. With pox, developers can automate low-level operating system interactions, making it easier to explore and interact with remote filesystems as if logged in locally."
+  "usage_description": "This library is used to navigate and manipulate filesystems on remote hosts for tasks such as automating build processes. It provides low-level operating system interactions for essential operations like determining file system roots, user names, and login shells."
 }

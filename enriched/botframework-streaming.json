@@ -14,5 +14,5 @@
       "word_count": 308
     }
   ],
-  "usage_description": "Here is a short summary of what a developer can achieve with this library:\n\nThis library is used to create and manage streaming extensions for the Bot Framework, enabling developers to build scalable and efficient bots that can handle large volumes of user interactions. With this library, developers can integrate advanced streaming capabilities into their bot applications using Python."
+  "usage_description": "This library is used to extend the Bot Framework with streaming capabilities, enabling developers to build scalable and efficient conversational AI experiences. With this library, developers can leverage the power of Python to create robust and dynamic chatbots that integrate seamlessly with the Bot Framework."
 }

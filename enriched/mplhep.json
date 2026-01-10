@@ -13,5 +13,5 @@
       "word_count": 582
     }
   ],
-  "usage_description": "Here is a short (2-sentence) summary of what a developer can achieve with this library:\n\nThis library is used to provide customizable and standardized plotting styles for High-Energy Physics (HEP) experiments using Matplotlib. With mplhep, developers can easily create visually consistent plots with predefined experiment labels and styling options."
+  "usage_description": "This library is used to provide customized Matplotlib styles and plotting capabilities for High Energy Physics (HEP) applications, offering a set of default experiment labels that can be easily customized. With mplhep, developers can create publication-quality plots with HEP-specific styling and labeling options."
 }

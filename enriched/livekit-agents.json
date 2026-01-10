@@ -13,5 +13,5 @@
       "word_count": 20
     }
   ],
-  "usage_description": "This library is used to build highly scalable and reliable real-time voice AI agents that can handle complex multimodal interactions. With LiveKit Agents, developers can create sophisticated conversational interfaces that integrate voice capabilities with other modalities, such as video or text input."
+  "usage_description": "This library is used to build real-time voice AI agents with multimodal capabilities for production-grade applications. Developers can utilize it to create complex conversational interfaces that integrate audio, video, and text inputs seamlessly."
 }

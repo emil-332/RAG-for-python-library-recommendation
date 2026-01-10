@@ -15,5 +15,5 @@
       "word_count": 563
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with this library:\n\nThis library is used to compose, configure, and deploy custom deep learning models using a lightweight, type-checked, functional-programming API. With Thinc, developers can seamlessly integrate their favorite libraries such as PyTorch, TensorFlow, or MXNet into their model development workflows."
+  "usage_description": "This library is used to compose, configure, and deploy custom deep learning models using a lightweight, type-checked, and functional-programming API. It offers compatibility with popular frameworks such as PyTorch, TensorFlow, and MXNet for seamless integration and model development."
 }

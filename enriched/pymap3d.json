@@ -13,5 +13,5 @@
       "word_count": 596
     }
   ],
-  "usage_description": "Here is a 2-sentence summary of what a developer can achieve with the pymap3d library:\n\nThis library is used to perform pure Python 3-D geographic coordinate conversions and geodesy, providing a Matlab-like interface for tasks such as transforming between different coordinate systems. By using pymap3d, developers can efficiently convert and manipulate 3D spatial data on massively parallel and embedded systems, with no dependencies beyond the Python language itself."
+  "usage_description": "This library is used to perform pure Python 3-D geographic coordinate conversions and geodesy operations, with a syntax similar to Matlab's Mapping Toolbox. This allows developers to easily convert and manipulate spatial coordinates in their applications without requiring any external dependencies beyond Python itself."
 }
