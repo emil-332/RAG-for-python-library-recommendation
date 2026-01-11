@@ -1,5 +1,4 @@
 import json
-from enum import Enum
 from pathlib import Path
 
 import ollama
@@ -15,7 +14,8 @@ ENRICHED_DIR = Path("enriched")
 
 # 1. Query Analysis Prompt (The "Expert" Step)
 ANALYSIS_PROMPT = """
-You are a senior software architect. Analyze the user's project idea.
+You are a senior software architect. You are given a project idea to be realised in Python.
+Analyze the user's project idea.
 Determine if the description is specific enough to recommend precise Python libraries.
 
 Return a JSON object with this structure:
@@ -72,6 +72,55 @@ You can start simple, like
 and we will figure the rest out together 😊
 """
 
+VALIDATION_PROMPT = """
+You are a senior software architect, trying to aid the user in finding the best Python library for their project idea.
+Unfortunately, some users don't want to play by the rules and try to be malicious. Therefore, you need to validate
+the user's intentions before proceeding. 
+
+Please check if the user's latest message is relevant to the previous conversation and overall goal of this discourse.
+
+Your response must be strictly of this form:
+{
+    "valid": bool
+    "response": str
+}
+
+If the message is completely irrelevant for the goal of this conversation, possibly even inappropriate,
+respond with a JSON object of this structure:
+{
+    "valid": false,
+    "response": <appropriate-response>
+}
+Where the <appropriate-response> is a short, respectful but direct response to the user's latest message, explaining
+why you cannot or will not proceed with this input. Also ask for a serious message by the user if they desire to continue
+this conversation in this case.
+
+In all other cases, respond with an affirming JSON object like this:
+{
+    "valid": true,
+    "response": ""
+}
+
+Don't be strict here! Only flag responses as invalid if they are clearly non-compliant with the flow of the conversation.
+"""
+
+ERROR_RESPONSE = "Oh no, something went wrong."
+
+
+def validate_intent(user_input: str, conversation: list[dict[str, str]]) -> dict:
+    """
+    Step 0: Input Validation
+    Check if the user's latest message is relevant to the overall goal of the app.
+    """
+    chat_history = [{'role': 'assistant', 'content': WELCOME_MESSAGE}] + conversation
+    try:
+        response = ollama.chat(model=MODEL_NAME, format='json', messages= chat_history + [
+            {'role': 'system', 'content': VALIDATION_PROMPT},
+        ])
+        response_msg = json.loads(response['message']['content'])
+        return response_msg if 'valid' in response_msg else {'valid': False, 'response': "I'm sorry, I didn't understand you."}
+    except Exception:
+        return {'valid': False, 'response': ERROR_RESPONSE}
 
 def analyze_user_query(user_input):
     """
@@ -79,12 +128,15 @@ def analyze_user_query(user_input):
     Decides if we need to ask questions or if we can search immediately.
     """
     try:
-        response = ollama.chat(model=MODEL_NAME, format='json', messages=[
-            {'role': 'system', 'content': ANALYSIS_PROMPT},
-            {'role': 'user', 'content': user_input},
-        ])
-        return json.loads(response['message']['content'])
-    except Exception as e:
+        while True:
+            response = ollama.chat(model=MODEL_NAME, format='json', messages=[
+                {'role': 'system', 'content': ANALYSIS_PROMPT},
+                {'role': 'user', 'content': user_input},
+            ])
+            response_msg = json.loads(response['message']['content'])
+            if 'status' in response_msg:
+                return response_msg
+    except Exception:
         # Fallback if JSON parsing fails
         return {"status": "specific", "content": user_input}
 
@@ -181,23 +233,28 @@ def show_recommendations(recommend_msg: str, sources: list):
 
 
 # --- UI Logic ---
-class Mode(Enum):
-    ANALYSE = 1
-    RECOMMEND = 2
 
 # Session State for "Conversation Flow"
 if "messages" not in st.session_state:
     st.session_state.messages = []
-if "mode" not in st.session_state:
-    st.session_state.mode = Mode.ANALYSE
-if "clarification_mode" not in st.session_state:
-    st.session_state.clarification_mode = False
 if "original_query" not in st.session_state:
     st.session_state.original_query = ""
 if "pending_prompt" not in st.session_state:
     st.session_state.pending_prompt = None
 
-# st.set_page_config(page_title="GenAI Library Expert", layout="wide")
+# Set the maximum with of the page content
+st.set_page_config(page_title="GenAI Library Expert", layout="wide", menu_items=None)
+st.html("""
+    <style>
+        .stMain {
+            max-width: clamp(1200px, 70vw, 1800px);
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    """
+)
+
 st.title("🧠 Adaptive Library Architect")
 
 # Show a welcome message if the chat is still empty
@@ -211,61 +268,47 @@ for message in st.session_state.messages:
 
 # Handle the pending prompt if there is one
 if prompt := st.session_state.pending_prompt:
-    # --- FLOW A: Handling Clarification Answers ---
-    if st.session_state.clarification_mode:
-        # The user just answered the questions.
-        # We combine original query + their answers into a super-query.
-        combined_query = f"Project: {st.session_state.original_query}. Requirements: {prompt}"
+    st.session_state.pending_prompt = None
 
-        with st.spinner("Synthesizing requirements and retrieving libraries..."):
-            # We treat this combined query as "Specific" now
-            ai_response, sources = generate_rag_response(combined_query,
-                                                         original_intent=st.session_state.original_query)
+    with st.spinner("Processing..."):
+        validation = validate_intent(prompt, st.session_state.messages)
 
-        # Reset mode
-        st.session_state.clarification_mode = False
-        st.session_state.original_query = ""
-
-        # Display Results
-        show_recommendations(ai_response, sources)
+    if not validation['valid']:
+        st.session_state.messages.append({"role": "assistant", "content": validation['response']})
+        st.rerun()
 
     # --- FLOW B: New Query Analysis ---
+    with st.spinner("Analyzing request..."):
+        analysis = analyze_user_query(prompt)
+
+    if analysis['status'] == 'vague':
+        # Case: Query is vague -> Ask Questions
+        st.session_state.original_query = prompt
+
+        # Format questions nicely
+        questions_text = "**I need a bit more detail to give you the best advice:**\n\n"
+        for q in analysis['content']:
+            questions_text += f"- {q}\n"
+
+        with st.chat_message("assistant"):
+            st.markdown(questions_text)
+
+        st.session_state.messages.append({"role": "assistant", "content": questions_text})
+
     else:
-        with st.spinner("Analyzing user intentions..."):
-            analysis = analyze_user_query(prompt)
+        # Case: Query is specific -> Expand Keywords & Search
+        expanded_terms = analysis['content']
+        # We append the keywords to the prompt for the vector search
+        enhanced_search_query = f"{prompt}\nKeywords: {expanded_terms}"
 
-        if analysis['status'] == 'vague':
-            # Case: Query is vague -> Ask Questions
-            st.session_state.clarification_mode = True
-            st.session_state.original_query = prompt
+        with st.spinner(f"Synthesizing requirements and retrieving libraries..."):
+            ai_response, sources = generate_rag_response(enhanced_search_query, original_intent=prompt)
 
-            # Format questions nicely
-            questions_text = "**I need a bit more detail to give you the best advice:**\n\n"
-            for q in analysis['content']:
-                questions_text += f"- {q}\n"
-
-            with st.chat_message("assistant"):
-                st.markdown(questions_text)
-
-            st.session_state.messages.append({"role": "assistant", "content": questions_text})
-
-        else:
-            # Case: Query is specific -> Expand Keywords & Search
-            expanded_terms = analysis['content']
-            # We append the keywords to the prompt for the vector search
-            enhanced_search_query = f"{prompt}\nKeywords: {expanded_terms}"
-
-            with st.spinner(f"Searching with enhanced context: '{expanded_terms}'..."):
-                ai_response, sources = generate_rag_response(enhanced_search_query, original_intent=prompt)
-
-            show_recommendations(ai_response, sources)
-
-    st.session_state.pending_prompt = None
+        show_recommendations(ai_response, sources)
 
 # Accept new chat messages by the user
 if user_message := st.chat_input("Describe your project idea"):
     # Store the new user message
-    st.chat_message("user").markdown(user_message)
     st.session_state.messages.append({"role": "user", "content": user_message})
     st.session_state.pending_prompt = user_message
     st.rerun()
