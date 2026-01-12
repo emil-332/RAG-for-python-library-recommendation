@@ -319,6 +319,8 @@ if "requirements" not in st.session_state:
     st.session_state.requirements = []
 if "assistant_questions" not in st.session_state:
     st.session_state.assistant_questions = []
+if "clarification_counter" not in st.session_state:
+    st.session_state.clarification_counter = 0
 
 # Set the maximum with of the page content
 st.set_page_config(page_title="GenAI Library Expert", layout="wide", menu_items=None)
@@ -368,13 +370,17 @@ if prompt := st.chat_input("Describe your project idea"):
             if summary:
                 st.session_state.requirements.append(summary)
 
-        # Analyze if the user's requirements conclusive or if you need to ask additional questions
-        with st.spinner("Reviewing requirements..."):
-            analysis = analyze_specificity(st.session_state.requirements)
-
-        st.session_state.assistant_questions = []   # clear questions
+        # Ask at most three times for clarification, otherwise the user will get annoyed
+        if st.session_state.clarification_counter < 3:
+            # Analyze if the user's requirements conclusive or if you need to ask additional questions
+            with st.spinner("Reviewing requirements..."):
+                analysis = analyze_specificity(st.session_state.requirements)
+        else:
+            analysis = {'status': 'specific', 'content': ''}
 
         if analysis['status'] == 'vague': # Case: Query is vague -> Ask Questions
+            st.session_state.clarification_counter += 1
+
             # Format questions nicely
             questions_text = "**I need a bit more detail to give you the best advice:**\n\n"
             questions = analysis['content']
@@ -385,6 +391,9 @@ if prompt := st.chat_input("Describe your project idea"):
             st.chat_message("assistant").markdown(questions_text)
             st.session_state.messages.append({"role": "assistant", "content": questions_text})
         else:
+            st.session_state.clarification_counter = 0
+            st.session_state.assistant_questions = []  # clear questions
+
             # Case: Query is specific -> Expand Keywords & Search
             keywords = analysis['content']
 
@@ -392,3 +401,5 @@ if prompt := st.chat_input("Describe your project idea"):
                 ai_response, sources = generate_rag_response(st.session_state.requirements, keywords=keywords, original_intent=st.session_state.original_query)
 
             show_recommendations(ai_response, sources)
+
+    st.rerun()  # somewhat costly workaround: Without this, some assistant messages appear again in the chat?
