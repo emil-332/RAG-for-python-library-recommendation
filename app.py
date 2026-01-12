@@ -39,14 +39,14 @@ Please check if the user's latest message is relevant to the previous conversati
 Your response must be strictly of this form:
 {
     "valid": bool
-    "response": str
+    "content": str
 }
 
 If the message is completely irrelevant for the goal of this conversation, possibly even inappropriate,
 respond with a JSON object of this structure:
 {
     "valid": false,
-    "response": <appropriate-response>
+    "content": <appropriate-response>
 }
 Where the <appropriate-response> is a short, respectful but direct response to the user's latest message, explaining
 why you cannot or will not proceed with this input. Also ask for a serious message by the user if they desire to continue
@@ -56,11 +56,11 @@ or say thank you first. In short, try to be natural but professional and goal-or
 In all other cases, respond with an affirming JSON object like this:
 {
     "valid": true,
-    "response": ""
+    "content": ""
 }
 
 Don't be strict here! Only flag responses as invalid if they are clearly non-compliant with the assistant's questions
-and helpful guidance within this conversation.
+or don't relate to describing a software project at all. Most user responses should be valid.
 """
 
 SUMMARIZE_PROMPT = """
@@ -86,26 +86,39 @@ Response: web application, REST API, goal: book time slots for vaccinations, LDA
 
 # Query Analysis Prompt (The "Expert" Step)
 ANALYSIS_PROMPT = """
-You are a senior software architect. You are given a project idea to be realised in Python.
-Analyze the user's project idea.
-Determine if the description is specific enough to recommend precise Python libraries.
+You are a senior software architect. You are given a project idea to be realised in Python and must help the user
+choose the most adequate Python libraries for their goals. In an earlier discourse with the user, you have already
+gathered some requirements of the project. Analyze the user's requirements.
 
-Return a JSON object with this structure:
+Determine if the description is specific enough to recommend precise Python libraries. Otherwise, prepare a list
+of 2-3 technical questions that needs to be answered before you can recommend specific libraries.
+
+Return a JSON object of this structure:
 {
     "status": "vague" or "specific",
     "content": [
         // If "vague": Provide 2-3 short, specific technical questions to narrow down the requirements.
-        // If "specific": Provide a string of 5-10 technical keywords to expand the search query.
+        // If "specific": A string of the most important requirements for the libraries selection process.
     ]
 }
 
 Example 1 (Vague):
-Input: "I want to scrape websites."
-Output: {"status": "vague", "content": ["Are the sites static HTML or dynamic (JavaScript)?", "Do you need to bypass captchas?"]}
+Input: "Requirements:
+- build a website"
+Output: {"status": "vague", "content": ["Do you plan to build a static website or a dynamic webpage?", "Who are the users of your website and how many requests per second/minute/day to do you expect?", "Will you need to include payment services?"]}
 
 Example 2 (Specific):
-Input: "I want to scrape React websites using a headless browser."
-Output: {"status": "specific", "content": "selenium playwright pyppeteer dynamic-content headless browser automation javascript-rendering"}
+Input: "Requirements:
+- Build a REST API backend in Python
+- Colourful design for a flower shop
+- Expose CRUD endpoints for user and order management
+- PostgreSQL as order database
+- JWT-based authentication
+- Deploy as a Docker container
+- Expect moderate traffic (~100 requests/sec)"
+Output: {"status": "specific", "content": "REST API backend, CRUD endpoints, PostgreSQL database integration, JWT authentication, Dockerized deployment, moderate concurrency, production-ready framework"}
+
+Don't worry, it's normal to have multiple rounds of refinement with the user before we actually recommend libraries.
 """
 
 # RAG Generation Prompt (The "Recommender" Step)
@@ -142,12 +155,13 @@ def check_compliance(conversation: list[dict[str, str]]) -> dict:
                 {'role': 'system', 'content': VALIDATION_PROMPT},
             ])
             response_msg = json.loads(response['message']['content'])
-            if 'valid' in response_msg:
+            if 'valid' in response_msg and 'content' in response_msg:
                 return response_msg
-    except Exception:
+    except Exception as e:
+        print(f"Error: {e}")
         return {'valid': False, 'response': ERROR_RESPONSE}
 
-def summarize_request(user_input: str, requirements: list[str]):
+def summarize_request(user_input: str, requirements: list[str], questions: list[str] = None):
     """
     Query Expansion.
     Extract the core meaning from the user's request.
@@ -157,31 +171,47 @@ def summarize_request(user_input: str, requirements: list[str]):
             requirements="- " + "\n- ".join(requirements)
         )
 
-        response = ollama.chat(model=MODEL_NAME, format='', messages=[
-            {'role': 'system', 'content': prompt_instance},
-            {'role': 'user', 'content': user_input},
-        ])
+        if questions:
+            # Include the latest questions the assistant asked as additional context
+            assistant_questions = f"**I need a bit more detail to give you the best advice:**\n\n - {"\n- ".join(questions)}"
+
+            response = ollama.chat(model=MODEL_NAME, format='', messages=[
+                {'role': 'system', 'content': prompt_instance},
+                {'role': 'assistant', 'content': assistant_questions},
+                {'role': 'user', 'content': user_input},
+            ])
+        else:
+            response = ollama.chat(model=MODEL_NAME, format='', messages=[
+                {'role': 'system', 'content': prompt_instance},
+                {'role': 'user', 'content': user_input},
+            ])
+
         return response['message']['content'].strip()
     except Exception:
         return ""
 
-def analyze_specificity(user_input):
+def analyze_specificity(project_requirements: list[str]):
     """
     Query Expansion.
     Decides if we need to ask questions or if we can search immediately.
     """
+    requirements_msg: str = f"""
+      These are the requirements we have discussed so far:
+      - {"\n- ".join(project_requirements)}    
+      """
+
     try:
         while True:
             response = ollama.chat(model=MODEL_NAME, format='json', messages=[
                 {'role': 'system', 'content': ANALYSIS_PROMPT},
-                {'role': 'user', 'content': user_input},
+                {'role': 'user', 'content': requirements_msg},
             ])
             response_msg = json.loads(response['message']['content'])
             if 'status' in response_msg:
                 return response_msg
     except Exception:
         # Fallback if JSON parsing fails
-        return {"status": "specific", "content": user_input}
+        return {"status": "specific", "content": requirements_msg}
 
 def load_library_details(library_name):
     """Load enriched data for transparency."""
@@ -204,12 +234,15 @@ def load_library_details(library_name):
     except:
         return None
 
-def generate_rag_response(search_query, original_intent=""):
+def generate_rag_response(project_requirements: list[str], keywords: str, original_intent: str = ""):
     """
     Step 2: Retrieval & Generation.
     Uses the 'search_query' (which might be the expanded keywords) to find docs,
     but answers the 'original_intent' to keep the conversation natural.
     """
+
+    search_query = f"Project requirements: - {"\n- ".join(project_requirements)}\nKeywords: {keywords}"
+
     # 1. Retrieve
     try:
         retrieved_items = retrieve_libraries(search_query, top_x=4)
@@ -281,11 +314,11 @@ def show_recommendations(recommend_msg: str, sources: list):
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "original_query" not in st.session_state:
-    st.session_state.original_query = ""
+    st.session_state.original_query = None
 if "requirements" not in st.session_state:
     st.session_state.requirements = []
-if "pending_prompt" not in st.session_state:
-    st.session_state.pending_prompt = None
+if "assistant_questions" not in st.session_state:
+    st.session_state.assistant_questions = []
 
 # Set the maximum with of the page content
 st.set_page_config(page_title="GenAI Library Expert", layout="wide", menu_items=None)
@@ -324,33 +357,38 @@ if prompt := st.chat_input("Describe your project idea"):
         validation = check_compliance(st.session_state.messages)
 
     if not validation['valid']:
-        st.chat_message("assistant").markdown(validation['response'])
-        st.session_state.messages.append({"role": "assistant", "content": validation['response']})
+        st.chat_message("assistant").markdown(validation['content'])
+        st.session_state.messages.append({"role": "assistant", "content": validation['content']})
     else:
+        if not st.session_state.original_query:
+            st.session_state.original_query = prompt
+
         with st.spinner("Analyzing request..."):
-            summary = summarize_request(prompt, st.session_state.requirements)
+            summary = summarize_request(prompt, st.session_state.requirements, questions=st.session_state.assistant_questions)
             if summary:
                 st.session_state.requirements.append(summary)
 
         # Analyze if the user's requirements conclusive or if you need to ask additional questions
         with st.spinner("Reviewing requirements..."):
-            analysis = analyze_specificity(prompt)
+            analysis = analyze_specificity(st.session_state.requirements)
+
+        st.session_state.assistant_questions = []   # clear questions
 
         if analysis['status'] == 'vague': # Case: Query is vague -> Ask Questions
             # Format questions nicely
             questions_text = "**I need a bit more detail to give you the best advice:**\n\n"
-            for q in analysis['content']:
+            questions = analysis['content']
+            for q in questions:
                 questions_text += f"- {q}\n"
 
+            st.session_state.assistant_questions = questions
             st.chat_message("assistant").markdown(questions_text)
             st.session_state.messages.append({"role": "assistant", "content": questions_text})
         else:
             # Case: Query is specific -> Expand Keywords & Search
-            expanded_terms = analysis['content']
-            # We append the keywords to the prompt for the vector search
-            enhanced_search_query = f"{prompt}\nKeywords: {expanded_terms}"
+            keywords = analysis['content']
 
             with st.spinner(f"Synthesizing requirements and retrieving libraries..."):
-                ai_response, sources = generate_rag_response(enhanced_search_query, original_intent=prompt)
+                ai_response, sources = generate_rag_response(st.session_state.requirements, keywords=keywords, original_intent=st.session_state.original_query)
 
             show_recommendations(ai_response, sources)
