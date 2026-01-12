@@ -60,7 +60,8 @@ In all other cases, respond with an affirming JSON object like this:
 }
 
 Don't be strict here! Only flag responses as invalid if they are clearly non-compliant with the assistant's questions
-or don't relate to describing a software project at all. Most user responses should be valid.
+or don't relate to describing a software project at all. Most user responses should be valid. Do NOT punish short or 
+incomplete answers. Many of our users use a concise way of communicating.
 """
 
 SUMMARIZE_PROMPT = """
@@ -73,8 +74,9 @@ This is the (possibly empty) list of the requirements and keywords you have gath
 Analyze the user's input in the context of the previously established requirements. Summarize the user's statements by
 extracting a list of keywords or short sentences that accurately describe the new requirements gathered. DO NOT invent
 new requirements by simply guessing or asking questions - instead only paraphrase what the user said.
-Your response must only consist of the extracted list of requirements. Note that your list might be empty or very short
-if the user only provided very little new information.
+Your response must only consist of the extracted list of new requirements, no additional fluff. It's ok if you repeat
+previous requirements. Note that your list might be empty or very short if the user only provided
+very little new information.
 
 ===
 Example:
@@ -117,8 +119,6 @@ Input: "Requirements:
 - Deploy as a Docker container
 - Expect moderate traffic (~100 requests/sec)"
 Output: {"status": "specific", "content": "REST API backend, CRUD endpoints, PostgreSQL database integration, JWT authentication, Dockerized deployment, moderate concurrency, production-ready framework"}
-
-Don't worry, it's normal to have multiple rounds of refinement with the user before we actually recommend libraries.
 """
 
 # RAG Generation Prompt (The "Recommender" Step)
@@ -245,15 +245,19 @@ def generate_rag_response(project_requirements: list[str], keywords: str, origin
 
     # 1. Retrieve
     try:
-        retrieved_items = retrieve_libraries(search_query, top_x=4)
+        retrieved_items = retrieve_libraries(search_query, top_x=7)
     except Exception as e:
         return f"Error connecting to Vector DB: {str(e)}", []
+
+    # Take the first 4 non-duplicate libraries (sometimes, we get the same libraries multiple times)
+    seen = set()
+    filtered_items = [item for item in retrieved_items if item["library"] not in seen and not seen.add(item["library"])][:4]
 
     # 2. Build Context
     context_str = ""
     final_results = []
     
-    for item in retrieved_items:
+    for item in filtered_items:
         details = load_library_details(item['library'])
         if details:
             item.update(details)
@@ -305,9 +309,6 @@ def show_recommendations(recommend_msg: str, sources: list):
                     with tab2:
                         st.markdown(s['full_readme'])
 
-    st.session_state.messages.append({"role": "assistant", "content": recommend_msg})
-
-
 # --- UI Logic ---
 
 # Session State for "Conversation Flow"
@@ -345,8 +346,11 @@ if len(st.session_state.messages) == 0:
 
 # Display Chat History
 for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+    if "sources" in message:
+        show_recommendations(message["content"], message["sources"])
+    else:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
 
 # Handle the pending prompt if there is one
 if prompt := st.chat_input("Describe your project idea"):
@@ -401,5 +405,6 @@ if prompt := st.chat_input("Describe your project idea"):
                 ai_response, sources = generate_rag_response(st.session_state.requirements, keywords=keywords, original_intent=st.session_state.original_query)
 
             show_recommendations(ai_response, sources)
+            st.session_state.messages.append({"role": "assistant", "content": ai_response, "sources": sources})
 
     st.rerun()  # somewhat costly workaround: Without this, some assistant messages appear again in the chat?
