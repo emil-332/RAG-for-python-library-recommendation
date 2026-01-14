@@ -1,0 +1,12 @@
+[project]
+name = "rag-for-python-library-recommendation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "ollama>=0.6.1",
+    "sentence-transformers>=5.2.0",
+    "streamlit>=1.52.2",
+]

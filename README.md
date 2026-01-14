@@ -1,4 +1,13 @@
-# Enriched PyPI Dataset
+# Python Package Recommender
+
+## Running the Webapp
+This project uses Streamlit as a framework and uv as a package manager.
+To start the webapp, run:
+```sh
+uv run streamlit run app.py
+```
+
+## Enriching PyPI Dataset
 
 Each JSON file corresponds to one PyPI package.
 
