@@ -358,53 +358,54 @@ if prompt := st.chat_input("Describe your project idea"):
     st.chat_message("user").markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    # First, check if the user message is relevant to the overall goal of the conversation.
-    with st.spinner("Processing..."):
+    with st.status("Processing...", expanded=False) as status:
+        # First, check if the user message is relevant to the overall goal of the conversation.
         validation = check_compliance(st.session_state.messages)
 
-    if not validation['valid']:
-        st.chat_message("assistant").markdown(validation['content'])
-        st.session_state.messages.append({"role": "assistant", "content": validation['content']})
-    else:
-        if not st.session_state.original_query:
-            st.session_state.original_query = prompt
+        if not validation['valid']:
+            st.chat_message("assistant").markdown(validation['content'])
+            st.session_state.messages.append({"role": "assistant", "content": validation['content']})
+        else:
+            if not st.session_state.original_query:
+                st.session_state.original_query = prompt
 
-        with st.spinner("Analyzing request..."):
+            status.update(label="Analyzing request...")
             summary = summarize_request(prompt, st.session_state.requirements, questions=st.session_state.assistant_questions)
             if summary:
                 st.session_state.requirements.append(summary)
 
-        # Ask at most three times for clarification, otherwise the user will get annoyed
-        if st.session_state.clarification_counter < 3:
-            # Analyze if the user's requirements conclusive or if you need to ask additional questions
-            with st.spinner("Reviewing requirements..."):
+            # Ask at most three times for clarification, otherwise the user will get annoyed
+            if st.session_state.clarification_counter < 3:
+                # Analyze if the user's requirements conclusive or if you need to ask additional questions
+                status.update(label="Reviewing requirements...")
                 analysis = analyze_specificity(st.session_state.requirements)
-        else:
-            analysis = {'status': 'specific', 'content': ''}
+            else:
+                analysis = {'status': 'specific', 'content': ''}
 
-        if analysis['status'] == 'vague': # Case: Query is vague -> Ask Questions
-            st.session_state.clarification_counter += 1
+            if analysis['status'] == 'vague': # Case: Query is vague -> Ask Questions
+                st.session_state.clarification_counter += 1
 
-            # Format questions nicely
-            questions_text = "**I need a bit more detail to give you the best advice:**\n\n"
-            questions = analysis['content']
-            for q in questions:
-                questions_text += f"- {q}\n"
+                # Format questions nicely
+                questions_text = "**I need a bit more detail to give you the best advice:**\n\n"
+                questions = analysis['content']
+                for q in questions:
+                    questions_text += f"- {q}\n"
 
-            st.session_state.assistant_questions = questions
-            st.chat_message("assistant").markdown(questions_text)
-            st.session_state.messages.append({"role": "assistant", "content": questions_text})
-        else:
-            st.session_state.clarification_counter = 0
-            st.session_state.assistant_questions = []  # clear questions
+                st.session_state.assistant_questions = questions
+                st.chat_message("assistant").markdown(questions_text)
+                st.session_state.messages.append({"role": "assistant", "content": questions_text})
+            else:
+                st.session_state.clarification_counter = 0
+                st.session_state.assistant_questions = []  # clear questions
 
-            # Case: Query is specific -> Expand Keywords & Search
-            keywords = analysis['content']
+                # Case: Query is specific -> Expand Keywords & Search
+                keywords = analysis['content']
 
-            with st.spinner(f"Synthesizing requirements and retrieving libraries..."):
+                status.update(label=f"Synthesizing requirements and retrieving libraries...")
                 ai_response, sources = generate_rag_response(st.session_state.requirements, keywords=keywords, original_intent=st.session_state.original_query)
 
-            show_recommendations(ai_response, sources)
-            st.session_state.messages.append({"role": "assistant", "content": ai_response, "sources": sources})
+                show_recommendations(ai_response, sources)
+                st.session_state.messages.append({"role": "assistant", "content": ai_response, "sources": sources})
 
-    st.rerun()  # somewhat costly workaround: Without this, some assistant messages appear again in the chat?
+        status.update(label="Done", state="complete")
+        st.rerun()  # somewhat costly workaround: Without this, some assistant messages appear again in the chat?
