@@ -14,17 +14,17 @@ ENRICHED_DIR = Path("enriched")
 WELCOME_MESSAGE = """
 👋 **Welcome!**
 
-I'm your **Adaptive Library Architect**.
-
 Tell me what you want to build in Python — whether it's a quick script,
 a production system, or just an idea you're exploring.
 
 You can start simple, like
-- *"I want to build a REST API"*
+- *"I want to visualize voting results on a map of Austria"*
 - *"I want to train a machine learning model"*
 - *"I need to scrape some data"*
 
 and we will figure the rest out together 😊
+
+_Please note that my expertise lies within data science applications._
 """
 ERROR_RESPONSE = "Oh no, something went wrong."
 
