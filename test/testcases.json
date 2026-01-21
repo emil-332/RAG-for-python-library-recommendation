@@ -1,0 +1,79 @@
+{
+  "test_cases": [
+    {
+      "initial_prompt": "I want to do heavy computations on my data, possibly something like the usual pandas dataframes but more performant.",
+      "expected_library": "polars",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "I want to create a sankey diagram for my monthly income and expenses.",
+      "expected_library": "mplfinance",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "I have an Excel sheet with messy customer names. I want to read it, fix the capitalization, and save it as a CSV file.",
+      "expected_library": "pandas",
+      "hit_at": 4
+    },
+    {
+      "initial_prompt": "I want to create interactive visualizations of some company-internal data.",
+      "expected_library": "plotly",
+      "hit_at": 2
+    },
+    {
+      "initial_prompt": "I want to visualize voting results of a national vote on a map of Austria.",
+      "expected_library": "cartopy",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "I'd like to build a CLI tool to calculate roots of polynomials.",
+      "expected_library": "sympy",
+      "hit_at": 3
+    },
+    {
+      "initial_prompt": "I want to process some SVG images consisting of simple polygons.",
+      "expected_library": "shapely",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "I want to use some graph-drawing algorithms to visualize networks.",
+      "expected_library": "networkx",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "I want to fine tune an open weights model for autocompletion in my writing style.",
+      "expected_library": "tensorflow-text",
+      "hit_at": 2
+    },
+    {
+      "initial_prompt": "I want to create an interactive web dashboard that lets users explore and filter a dataset without me having to write a lot of frontend code",
+      "expected_library": "panel",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "I want to create a semantic search engine that finds the most similar documents using vector embeddings.",
+      "expected_library": "faiss-cpu",
+      "hit_at": 2
+    },
+    {
+      "initial_prompt": "I want to automatically tune hyperparameters of a neural network to maximize validation accuracy.",
+      "expected_library": "optuna",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "Build a geospatial indexing system that aggregates ride-sharing demand into hexagonal grid cells.",
+      "expected_library": "h3",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "I want to analyze large parquet datasets locally by running fast SQL queries directly on files without a database server.",
+      "expected_library": "duckdb",
+      "hit_at": 1
+    },
+    {
+      "initial_prompt": "I'd like to use my Nvidia GPU to crunch some numbers (linear algebra).",
+      "expected_library": "cupy-cuda12x",
+      "hit_at": 1
+    }
+  ]
+}
