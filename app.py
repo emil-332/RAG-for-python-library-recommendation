@@ -34,7 +34,7 @@ You are a senior software architect, trying to aid the user in finding the best 
 Unfortunately, some users don't always play by the rules or try to be malicious. Therefore, you need to validate
 the user's intentions before proceeding. 
 
-Please check if the user's latest message is relevant to the previous conversation and overall goal of this discourse.
+Please check if the user's latest message is relevant to the previous conversation or overall goal of this discourse.
 
 Your response must be strictly of this form:
 {
@@ -59,9 +59,9 @@ In all other cases, respond with an affirming JSON object like this:
     "content": ""
 }
 
-Don't be strict here! Only flag responses as invalid if they are clearly non-compliant with the assistant's questions
-or don't relate to describing a software project at all. Most user responses should be valid. Do NOT punish short or 
-incomplete answers. Many of our users use a concise way of communicating.
+Don't be strict here! Only flag responses as invalid if they are clearly non-compliant or don't relate to describing
+a software project at all. Most user responses are be valid. Do NOT punish short or incomplete answers.
+Many of our users use a concise way of communicating and that is totally fine. 
 """
 
 SUMMARIZE_PROMPT = """
