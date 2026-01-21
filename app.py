@@ -93,13 +93,13 @@ choose the most adequate Python libraries for their goals. In an earlier discour
 gathered some requirements of the project. Analyze the user's requirements.
 
 Determine if the description is specific enough to recommend precise Python libraries. Otherwise, prepare a list
-of 2-3 technical questions that needs to be answered before you can recommend specific libraries.
+of one or two technical questions that needs to be answered before you can recommend specific libraries.
 
 Return a JSON object of this structure:
 {
     "status": "vague" or "specific",
     "content": [
-        // If "vague": Provide 2-3 short, specific technical questions to narrow down the requirements.
+        // If "vague": Provide one or two short, specific technical questions to narrow down the requirements.
         // If "specific": A string of the most important requirements for the libraries selection process.
     ]
 }
@@ -107,7 +107,7 @@ Return a JSON object of this structure:
 Example 1 (Vague):
 Input: "Requirements:
 - build a website"
-Output: {"status": "vague", "content": ["Do you plan to build a static website or a dynamic webpage?", "Who are the users of your website and how many requests per second/minute/day to do you expect?", "Will you need to include payment services?"]}
+Output: {"status": "vague", "content": ["Do you plan to build a static website or a dynamic webpage?", "Will you need to include payment services?"]}
 
 Example 2 (Specific):
 Input: "Requirements:
